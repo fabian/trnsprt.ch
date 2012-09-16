@@ -27,7 +27,7 @@ $app->register(new TwigServiceProvider(), array(
 
 $app->register(new Silex\Provider\UrlGeneratorServiceProvider());
 
-$app['buzz'] = new Buzz\Browser();
+$app['buzz'] = new Buzz\Browser(new Buzz\Client\Curl());
 
 $app->get('/', function () use ($app) {
 
