@@ -1,0 +1,428 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+
+    <title>
+        {% if connections %}
+            {{ from }} – {{ to }}
+        {% else %}
+            Transport
+        {% endif %}
+    </title>
+
+    <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+
+    <link rel="stylesheet" href="static/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="static/bootstrap/css/bootstrap-responsive.min.css" />
+    <link rel="stylesheet" href="static/css/layout.css" />
+
+    <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/themes/base/jquery-ui.css" />
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="static/js/moment.min.js"></script>
+    <style>
+        h1 {
+            font-size: 5em;
+        }
+
+        .station input {
+            width: 92%;
+        }
+
+        .later {
+            text-align: right;
+        }
+
+        .reverse {
+            text-align: center;
+        }
+
+        .row-fluid + .row-fluid {
+            padding-top: 3px;
+        }
+
+        .date,
+        .apply {
+            padding-top: 5px;
+        }
+
+        .date input {
+            width: 92%;
+        }
+
+        .apply input {
+            float: left;
+        }
+
+        .apply a {
+            display: block;
+            float: left;
+            padding: 6px 10px;
+        }
+
+        input.submit {
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 0;
+            width: 1px;
+            height: 1px;
+            visibility: hidden;
+        }
+
+        .table tbody + tbody {
+            border-top: 0;
+        }
+
+        .table tbody tr:hover td {
+            background-color: inherit;
+        }
+
+        .table th {
+            font-weight: normal;
+        }
+
+        .table tr.connection {
+            cursor: pointer;
+        }
+
+        .table tr.section {
+            background-color: #f5f5f5;
+            cursor: default;
+        }
+
+        .pager {
+            display: none;
+        }
+
+        @media (max-width: 767px) {
+            body {
+                padding-top: 20px;
+                padding-bottom: 30px;
+            }
+
+            form {
+                margin-bottom: 8px;
+            }
+
+            .date input {
+                height: 26px;
+                padding: 0;
+                border-color: #bbb;
+                font-size: 13px;
+            }
+
+            .date input:focus {
+                border-color: #1a81d2;
+            }
+
+            .row-fluid .fluid {
+                float: left;
+                margin-left: 12px;
+                width: 48%;
+            }
+
+            .row-fluid .fluid.earlier,
+            .row-fluid .fluid.later {
+                width: 24%;
+            }
+
+            .row-fluid .fluid.reverse {
+                width: 42%;
+            }
+        }
+    </style>
+    <script>
+        $(function () {
+
+            if (navigator.geolocation) {
+
+                if (!$('input[name=from]').val()) {
+
+                    $('input[name=from]').attr('placeholder', 'Locating...');
+
+                    var i = 0;
+                    var interval = setInterval(function () {
+                        i = (i + 1) % 4;
+                        var message = 'Locating';
+                        for (var j = 0; j < i; j++) {
+                            message += '.';
+                        }
+                        $('input[name=from]').attr('placeholder', message);
+                    }, 400);
+
+                    // get location for from
+                    var watch = navigator.geolocation.watchPosition(function (position) {
+
+                        if (position.coords.accuracy < 100) {
+
+                            // stop locating
+                            navigator.geolocation.clearWatch(watch);
+
+                            var lat = position.coords.latitude;
+                            var lng = position.coords.longitude;
+
+                            $.get('http://transport.opendata.ch/v1/locations', {x: lat, y: lng}, function(data) {
+
+                                clearInterval(interval);
+                                $('input[name=from]').attr('placeholder', 'From');
+
+                                $(data.stations).each(function (i, station) {
+
+                                    if (!$('input[name=from]').val()) {
+                                        $('input[name=from]').val(station.name);
+                                    }
+
+                                    return false;
+                                });
+                            });
+                        }
+    
+                    }, function(error) {
+                        // ignore
+                    }, {
+                        enableHighAccuracy:true,
+                        maximumAge: 10000,
+                        timeout: 30000
+                    });
+                }
+            }
+
+            function reset() {
+                $('table.connections tr.connection').show();
+                $('table.connections tr.section').hide();
+            }
+
+            $('table.connections tr.connection').bind('click', function (e) {
+
+                reset();
+
+                var $this = $(this);
+                $this.hide();
+                $this.nextAll('tr.section').show();
+
+                if ('replaceState' in window.history) {
+                    history.replaceState({}, '', '?' + $('.pager').serialize() + '&c=' + $this.data('c'));
+                }
+            });
+
+            $('.station input').bind('focus', function () {
+                var that = this;
+                setTimeout(function () {
+                    that.setSelectionRange(0, 9999);
+                }, 10);
+            });
+        });
+    </script>
+</head>
+
+<body>
+
+<div class="container">
+    <div class="page-header hidden-phone">
+        <h1><a href="../">trnsprt.ch</a> <small>Swiss public transport API</small></h1>
+    </div>
+
+    <div class="row-fluid">
+        <div class="span5">
+
+            <form method="get" action="">
+                <div class="row-fluid">
+                    <div class="span5 fluid station">
+                        <input type="text" name="from" value="{{ from }}" placeholder="From" autocapitalize="on" />
+                        {% if stationsFrom %}
+                            <p>
+                                Did you mean:
+                                {% for station in stationsFrom %}
+                                    <a href="{{ path('home', {'from': station, 'to': to, 'datetime': datetime}) }}">{{ station }}</a>
+                                    {%- if not loop.first -%}
+                                        ,
+                                    {%- endif %}
+                                {% endfor %}
+                            </p>
+                        {% endif %}
+                    </div>
+                    <div class="span5 fluid station">
+                        <input type="text" name="to" value="{{ to }}" placeholder="To" autocapitalize="on" autofocus />
+                        {% if stationsTo %}
+                            <p>
+                                Did you mean:
+                                {% for station in stationsTo %}
+                                    <a href="{{ path('home', {'from': from, 'to': station, 'datetime': datetime}) }}">{{ station }}</a>
+                                    {%- if not loop.first -%}
+                                        ,
+                                    {%- endif %}
+                                {% endfor %}
+                            </p>
+                        {% endif %}
+                    </div>
+                </div>
+                <div class="row-fluid">
+                    <div class="span5 fluid date">
+                        <input type="datetime-local" name="datetime" value="{% if datetime %}{{ datetime|date('Y-m-d H:i') }}{% endif %}" placeholder="Date and time" step="300" />
+                    </div>
+                    <div class="span5 fluid apply">
+                        <input type="submit" class="btn" value="Search" />
+                        <a href="{{ path('home') }}">Clear</a>
+                    </div>
+                </div>
+            </form>
+        
+        </div>
+        <div class="span7">
+
+            {% if connections %}
+                <table class="table connections">
+                    <colgroup>
+                        <col width="20%">
+                        <col width="57%">
+                        <col width="23%">
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <th>Time</th>
+                            <th>Journey</th>
+                            <th>
+                                <span class="visible-phone">Pl.</span>
+                                <span class="hidden-phone">Platform</span>
+                            </th>
+                        </tr>
+                    </thead>
+                    {% for connection in connections %}
+                        <tbody>
+                            <tr class="connection"{% if loop.index == c %} style="display: none;"{% endif %} data-c="{{ loop.index }}">
+                                <td>
+                                    {{ connection.from.departure|date("H:i") }}
+                                    {% if connection.from.delay %}
+                                        <span style="color: #a20d0d;">+{{connection.from.delay }}</span>
+                                    {% endif %}
+                                    <br/>
+                                    {{ connection.to.departure|date("H:i") }}
+                                    {% if connection.to.delay %}
+                                        <span style="color: #a20d0d;">+{{connection.to.delay }}</span>
+                                    {% endif %}
+                                </td>
+                                <td>
+                                    {{ connection.duration|slice(4, 4) }}′<br/>
+                                    <span class="muted">
+                                        {{ connection.products|join(", ") }}
+                                    </span>
+                                </td>
+                                <td>
+                                    {% if connection.from.prognosis.platform %}
+                                        <span style="color: #a20d0d;">{{ connection.from.prognosis.platform }}</span>
+                                    {% else %}
+                                        {{ connection.from.platform }}
+                                    {% endif %}
+                                    <br/>
+                                    {% if connection.capacity2nd > 0 %}
+                                        <span class="muted">
+                                            {%- for i in [0, 1, 2] -%}
+                                                {%- if i < connection.capacity2nd -%}
+                                                    ●
+                                                {%- else -%}
+                                                    ○
+                                                {%- endif -%}
+                                            {%- endfor -%}
+                                        </span>
+                                    {% endif %}
+                                </td>
+                            </tr>
+                            {% for section in connection.sections %}
+                                <tr class="section"{% if loop.index != c %} style="display: none;"{% endif %}>
+                                    <td rowspan="2">
+                                        {{ section.departure.departure|date("H:i") }}
+                                        {% if section.departure.delay %}
+                                            <span style="color: #a20d0d;">+{{ section.departure.delay }}</span>
+                                        {% endif %}
+                                    </td>
+                                    <td>
+                                        {{ section.departure.station.name }}
+                                    </td>
+                                    <td>
+                                        {% if section.departure.prognosis.platform %}
+                                            <span style="color: #a20d0d;">{{ section.departure.prognosis.platform }}</span>
+                                        {% else %}
+                                            {{ section.departure.platform }}
+                                        {% endif %}
+                                    </td>
+                                </tr>
+                                <tr class="section"{% if loop.index != c %} style="display: none;"{% endif %}>
+                                    <td style="border-top: 0; padding: 4px 8px;">
+                                        <span class="muted">
+                                            {% if section.journey %}
+                                                {{ section.journey.name }}
+                                            {% else %}
+                                                Walk
+                                            {% endif %}
+                                        </span>
+                                    </td>
+                                    <td style="border-top: 0; padding: 4px 8px;">
+                                        <span class="muted">
+                                            {% if section.journey and section.journey.capacity2nd %}
+                                                {%- for i in [0, 1, 2] -%}
+                                                    {%- if i < section.journey.capacity2nd -%}
+                                                        ●
+                                                    {%- else -%}
+                                                        ○
+                                                    {%- endif -%}
+                                                {%- endfor -%}
+                                            {% endif %}
+                                        </span>
+                                    </td>
+                                </tr>
+                                <tr class="section"{% if loop.index != c %} style="display: none;"{% endif %}>
+                                    <td style="border-top: 0;">
+                                        {{ section.arrival.arrival|date("H:i") }}
+                                        {% if section.arrival.delay %}
+                                            <span style="color: #a20d0d;">+{{ section.arrival.delay }}</span>
+                                        {% endif %}
+                                    </td>
+                                    <td style="border-top: 0;">
+                                        {{ section.arrival.station.name }}
+                                    </td>
+                                    <td style="border-top: 0;">
+                                        {% if section.arrival.prognosis.platform %}
+                                            <span style="color: #a20d0d;">{{ section.arrival.prognosis.platform }}</span>
+                                        {% else %}
+                                            {{ section.arrival.platform }}
+                                        {% endif %}
+                                    </td>
+                                </tr>
+                            {% endfor %}
+                        </tbody>
+                    {% endfor %}
+                </table>
+
+                {% if not datetime %}
+                    {% set datetime = ""|date('Y-m-d H:i') %}
+                {% endif %}
+                <form class="pager">
+                    <input type="hidden" name="from" value="{{ from }}" />
+                    <input type="hidden" name="to" value="{{ to }}" />
+                    <input type="hidden" name="datetime" value="{{ datetime }}" />
+                    <input type="hidden" name="page" value="{{ page }}" />
+                </form>
+                <div class="row-fluid">
+                    <div class="span4 fluid earlier">
+                        <a href="{{ path('home', {'from': from, 'to': to, 'datetime': datetime, 'page': page - 1}) }}">Earlier</a>
+                    </div>
+                    <div class="span4 fluid reverse">
+                        <a href="{{ path('home', {'from': to, 'to': from}) }}">Opposite direction</a>
+                    </div>
+                    <div class="span4 fluid later">
+                        <a href="{{ path('home', {'from': from, 'to': to, 'datetime': datetime, 'page': page + 1}) }}">Later</a>
+                    </div>
+                </div>
+            {% endif %}
+        </div>
+    </div>
+    <hr />
+    <p class="muted">trnsprt.ch – Powered by <a href="http://transport.opendata.ch/">Transport API</a>.</p>
+</div>
+
+</body>
+</html>

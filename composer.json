@@ -1,0 +1,10 @@
+{
+    "require": {
+        "OpendataCH/Transport": "dev-master",
+        "silex/silex": "1.0.*",
+        "kriswallsmith/buzz": "0.6",
+        "twig/twig": "1.*",
+        "symfony/twig-bridge": "2.*"
+    },
+    "minimum-stability": "dev"
+}
