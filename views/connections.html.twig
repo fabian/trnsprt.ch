@@ -223,7 +223,7 @@
 
 <div class="container">
     <div class="page-header hidden-phone">
-        <h1><a href="../">trnsprt.ch</a> <small>Swiss public transport API</small></h1>
+        <h1><a href="../">trnsprt.ch</a> <small>Swiss public transport</small></h1>
     </div>
 
     <div class="row-fluid">
@@ -300,7 +300,7 @@
                                         <span style="color: #a20d0d;">+{{connection.from.delay }}</span>
                                     {% endif %}
                                     <br/>
-                                    {{ connection.to.departure|date("H:i") }}
+                                    {{ connection.to.arrival|date("H:i") }}
                                     {% if connection.to.delay %}
                                         <span style="color: #a20d0d;">+{{connection.to.delay }}</span>
                                     {% endif %}
