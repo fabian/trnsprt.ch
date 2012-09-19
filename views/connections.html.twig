@@ -332,7 +332,7 @@
                                 </td>
                             </tr>
                             {% for section in connection.sections %}
-                                <tr class="section"{% if loop.index != c %} style="display: none;"{% endif %}>
+                                <tr class="section"{% if loop.parent.loop.index != c %} style="display: none;"{% endif %}>
                                     <td rowspan="2">
                                         {{ section.departure.departure|date("H:i") }}
                                         {% if section.departure.delay %}
@@ -350,7 +350,7 @@
                                         {% endif %}
                                     </td>
                                 </tr>
-                                <tr class="section"{% if loop.index != c %} style="display: none;"{% endif %}>
+                                <tr class="section"{% if loop.parent.loop.index != c %} style="display: none;"{% endif %}>
                                     <td style="border-top: 0; padding: 4px 8px;">
                                         <span class="muted">
                                             {% if section.journey %}
@@ -374,7 +374,7 @@
                                         </span>
                                     </td>
                                 </tr>
-                                <tr class="section"{% if loop.index != c %} style="display: none;"{% endif %}>
+                                <tr class="section"{% if loop.parent.loop.index != c %} style="display: none;"{% endif %}>
                                     <td style="border-top: 0;">
                                         {{ section.arrival.arrival|date("H:i") }}
                                         {% if section.arrival.delay %}
