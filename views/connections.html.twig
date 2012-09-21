@@ -362,7 +362,7 @@
                                     </td>
                                     <td style="border-top: 0; padding: 4px 8px;">
                                         <span class="muted">
-                                            {% if section.journey and section.journey.capacity2nd %}
+                                            {% if section.journey and section.journey.capacity2nd > 0 %}
                                                 {%- for i in [0, 1, 2] -%}
                                                     {%- if i < section.journey.capacity2nd -%}
                                                         ●
