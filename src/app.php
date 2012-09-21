@@ -3,7 +3,9 @@
 require_once __DIR__ . '/../vendor/autoload.php';
 use Silex\Application;
 
+use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
+use Symfony\Component\HttpFoundation\RedirectResponse;
 use Symfony\Component\HttpKernel\Exception\HttpException;
 
 use Igorw\Trashbin\Storage;
@@ -30,18 +32,22 @@ $app->register(new Silex\Provider\UrlGeneratorServiceProvider());
 $app['buzz'] = new Buzz\Browser(new Buzz\Client\Curl());
 
 $app->get('/', function () use ($app) {
+    return $app->redirect($app['url_generator']->generate('connections'));
+});
 
-    $query = $app['request']->query->all();
+$app->get('/connections', function (Request $request) use ($app) {
+
+    $query = $request->query->all();
 
     $url = 'http://transport.opendata.ch/v1/connections?' . http_build_query($query);
     $response = json_decode($app['buzz']->get($url)->getContent());
 
-    $from = $app['request']->query->get('from');
+    $from = $request->query->get('from');
     if ($response->from) {
         $from = $response->from->name;
     }
 
-    $to = $app['request']->query->get('from');
+    $to = $request->query->get('from');
     if ($response->to) {
         $to = $response->to->name;
     }
@@ -68,9 +74,9 @@ $app->get('/', function () use ($app) {
         }
     }
 
-    $datetime = $app['request']->query->get('datetime');
-    $page = $app['request']->query->get('page', 0);
-    $c = $app['request']->query->get('c');
+    $datetime = $request->query->get('datetime');
+    $page = $request->query->get('page', 0);
+    $c = $request->query->get('c');
     $connections = $response->connections;
 
     return $app['twig']->render('connections.html.twig', array(
@@ -84,6 +90,6 @@ $app->get('/', function () use ($app) {
         'connections' => $connections,
     ));
 })
-->bind('home');
+->bind('connections');
 
 return $app;
