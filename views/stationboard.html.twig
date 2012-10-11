@@ -1,0 +1,79 @@
+{% extends "base.html.twig" %}
+
+{% block content %}
+        <div class="span5">
+
+            <form method="get" action="">
+                <div class="row-fluid">
+                    <div class="span5 fluid station">
+                        <input type="text" name="station" value="{{ station }}" placeholder="Station" autocapitalize="on" />
+                    </div>
+                    <div class="span5 fluid apply">
+                        <input type="submit" class="btn" value="Search" />
+                        <a href="{{ path('stationboard') }}">Clear</a>
+                    </div>
+                </div>
+            </form>
+        
+        </div>
+        <div class="span7">
+
+            {% if stationboard %}
+                <table class="table connections">
+                    <colgroup>
+                        <col width="20%">
+                        <col width="57%">
+                        <col width="23%">
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <th>Time</th>
+                            <th>To</th>
+                            <th>
+                                <span class="visible-phone">Pl.</span>
+                                <span class="hidden-phone">Platform</span>
+                            </th>
+                        </tr>
+                    </thead>
+                    {% for journey in stationboard %}
+                    <tbody>
+                        <tr>
+                            <td>
+                                {{ journey.stop.departure|date("H:i") }}
+                                {% if journey.stop.delay %}
+                                    <span style="color: #a20d0d;">+{{journey.stop.delay }}</span>
+                                {% endif %}
+                            </td>
+                            <td>
+                                {{ journey.to }}
+                                <br/>
+                                <span class="muted">
+                                    {{ journey.name }}
+                                </span>
+                            </td>
+                            <td>
+                                {% if journey.stop.prognosis.platform %}
+                                    <span style="color: #a20d0d;">{{ journey.stop.prognosis.platform }}</span>
+                                {% else %}
+                                    {{ journey.stop.platform }}
+                                {% endif %}
+                                <br/>
+                                {% if journey.stop.prognosis.capacity2nd > 0 %}
+                                    <span class="muted" title="Capacity 2nd class">
+                                        {%- for i in [0, 1, 2] -%}
+                                            {%- if i < journey.stop.prognosis.capacity2nd -%}
+                                                ●
+                                            {%- else -%}
+                                                ○
+                                            {%- endif -%}
+                                        {%- endfor -%}
+                                    </span>
+                                {% endif %}
+                            </td>
+                        </tr>
+                    </tbody>
+                    {% endfor %}
+                </table>
+            {% endif %}
+        </div>        
+{% endblock %}

@@ -92,4 +92,29 @@ $app->get('/c', function (Request $request) use ($app) {
 })
 ->bind('connections');
 
+$app->get('/s', function (Request $request) use ($app) {
+
+    $query = $request->query->all();
+
+    $url = 'http://transport.opendata.ch/v1/stationboard?' . http_build_query($query);
+    $response = json_decode($app['buzz']->get($url)->getContent());
+
+    $station = $request->query->get('station');
+    if ($response->station) {
+        $station = $response->station->name;
+    }
+
+    $datetime = $request->query->get('datetime');
+    $page = $request->query->get('page', 0);
+    $c = $request->query->get('c');
+    $stationboard = $response->stationboard;
+
+    return $app['twig']->render('stationboard.html.twig', array(
+        'station' => $station,
+        'datetime' => $datetime,
+        'stationboard' => $stationboard,
+    ));
+})
+->bind('stationboard');
+
 return $app;
