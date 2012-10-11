@@ -35,7 +35,7 @@ $app->get('/', function () use ($app) {
     return $app->redirect($app['url_generator']->generate('connections'));
 });
 
-$app->get('/connections', function (Request $request) use ($app) {
+$app->get('/c', function (Request $request) use ($app) {
 
     $query = $request->query->all();
 
