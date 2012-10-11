@@ -1,5 +1,13 @@
 {% extends "base.html.twig" %}
 
+{% block title %}
+{% if stationboard %}
+    {{ station }}
+{% else %}
+    Transport
+{% endif %}
+{% endblock %}
+
 {% block content %}
         <div class="span5">
 
