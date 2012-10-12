@@ -82,3 +82,117 @@ li {
     color: #bfbfbf;
 }
 
+h1 {
+    font-size: 5em;
+}
+
+.station input {
+    width: 92%;
+}
+
+.later {
+    text-align: right;
+}
+
+.reverse {
+    text-align: center;
+}
+
+.row-fluid + .row-fluid {
+    padding-top: 3px;
+}
+
+.date input {
+    width: 92%;
+}
+
+.apply input {
+    float: left;
+}
+
+.apply a {
+    display: block;
+    float: left;
+    padding: 6px 10px;
+}
+
+input.submit {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    width: 1px;
+    height: 1px;
+    visibility: hidden;
+}
+
+.table tbody + tbody {
+    border-top: 0;
+}
+
+.table tbody tr:hover td {
+    background-color: inherit;
+}
+
+.table th {
+    font-weight: normal;
+}
+
+.table tr.connection {
+    cursor: pointer;
+}
+
+.table tr.section {
+    background-color: #f5f5f5;
+    cursor: default;
+}
+
+.table tr.section a {
+    color: #383A3D;
+}
+
+.pager {
+    display: none;
+}
+
+@media (max-width: 767px) {
+    body {
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+
+    form {
+        margin-bottom: 8px;
+    }
+
+    .date input {
+        height: 26px;
+        padding: 0;
+        border-color: #bbb;
+        font-size: 13px;
+    }
+
+    .date input:focus {
+        border-color: #1a81d2;
+    }
+
+    .row-fluid .fluid {
+        float: left;
+        margin-left: 12px;
+        width: 48%;
+    }
+
+    .row-fluid .fluid.earlier,
+    .row-fluid .fluid.later {
+        width: 24%;
+    }
+
+    .row-fluid .fluid.reverse {
+        width: 42%;
+    }
+
+    .footer {
+        padding-top: 40px;
+    }
+}
+
