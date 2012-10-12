@@ -65,6 +65,10 @@
                 }
             }
 
+            if (!$('input[name=to]').val()) {
+                $('input[name=to]').focus();
+            }
+
             function reset() {
                 $('table.connections tr.connection').show();
                 $('table.connections tr.section').hide();
@@ -113,7 +117,7 @@
                         {% endif %}
                     </div>
                     <div class="span5 fluid station">
-                        <input type="text" name="to" value="{{ to }}" placeholder="To" autocapitalize="on" autofocus />
+                        <input type="text" name="to" value="{{ to }}" placeholder="To" autocapitalize="on" />
                         {% if stationsTo %}
                             <p>
                                 Did you mean:
