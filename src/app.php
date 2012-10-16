@@ -1,12 +1,14 @@
 <?php
 
 require_once __DIR__ . '/../vendor/autoload.php';
+
 use Silex\Application;
 
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpFoundation\RedirectResponse;
 use Symfony\Component\HttpKernel\Exception\HttpException;
+use Symfony\Component\HttpKernel\HttpKernelInterface;
 
 use Igorw\Trashbin\Storage;
 use Igorw\Trashbin\Validator;
@@ -46,7 +48,8 @@ $gotoConnections = function ($from = '', $to = '', $at = '') use ($app) {
                 'to' => $to,
                 'datetime' => $at
             )
-        ))
+        )),
+        HttpKernelInterface::SUB_REQUEST
     );
 };
 
