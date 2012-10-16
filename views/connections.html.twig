@@ -54,7 +54,7 @@
                                 });
                             });
                         }
-    
+
                     }, function(error) {
                         // ignore
                     }, {
@@ -92,6 +92,19 @@
                 setTimeout(function () {
                     that.setSelectionRange(0, 9999);
                 }, 10);
+            });
+
+            $('form').submit(function (e) {
+                var from = $('input[name=from]').val(),
+                    to = $('input[name=to]').val(),
+                    datetime = $('input[name=datetime]').val(),
+                    url =
+                        '/to/' +  to +
+                        (from ? '/from/' + from : '') +
+                        (datetime ? '/' + datetime : '');
+
+                e.preventDefault();
+                location.replace(url);
             });
         });
     </script>
@@ -136,12 +149,12 @@
                         <input type="datetime-local" name="datetime" value="{% if datetime %}{{ datetime|date('Y-m-d H:i') }}{% endif %}" placeholder="Date and time (optional)" step="300" />
                     </div>
                     <div class="span5 fluid apply">
-                        <input type="submit" class="btn" value="Search" />
+                        <input type="submit" class="btn" value="Search"/>
                         <a href="{{ path('connections') }}">Clear</a>
                     </div>
                 </div>
             </form>
-        
+
         </div>
         <div class="span7">
 
@@ -293,5 +306,5 @@
                     </div>
                 </div>
             {% endif %}
-        </div>        
+        </div>
 {% endblock %}
