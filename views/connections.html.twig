@@ -48,13 +48,17 @@
 
                                     if (!$('input[name=from]').val()) {
                                         $('input[name=from]').val(station.name);
+
+                                        if ($('input[name=to]').val()) {
+                                            $('form').submit();
+                                        }
                                     }
 
                                     return false;
                                 });
                             });
                         }
-    
+
                     }, function(error) {
                         // ignore
                     }, {
@@ -83,7 +87,16 @@
                 $this.nextAll('tr.section').show();
 
                 if ('replaceState' in window.history) {
-                    history.replaceState({}, '', '?' + $('.pager').serialize() + '&c=' + $this.data('c'));
+                    history.replaceState(
+                        {},
+                        '',
+                        '{{ path('connections', {
+                            'from': from,
+                            'to': to,
+                            'at': datetime,
+                            'page': page
+                         })}}' + '&c=' + $this.data('c')
+                    )
                 }
             });
 
@@ -92,6 +105,19 @@
                 setTimeout(function () {
                     that.setSelectionRange(0, 9999);
                 }, 10);
+            });
+
+            $('form').submit(function (e) {
+                var from = $('input[name=from]').val(),
+                    to = $('input[name=to]').val(),
+                    datetime = $('input[name=datetime]').val(),
+                    url =
+                        '/to/' +  to +
+                        (from ? '/from/' + from : '') +
+                        (datetime ? '/' + datetime : '');
+
+                e.preventDefault();
+                location.replace(url);
             });
         });
     </script>
@@ -136,12 +162,12 @@
                         <input type="datetime-local" name="datetime" value="{% if datetime %}{{ datetime|date('Y-m-d H:i') }}{% endif %}" placeholder="Date and time (optional)" step="300" />
                     </div>
                     <div class="span5 fluid apply">
-                        <input type="submit" class="btn" value="Search" />
+                        <input type="submit" class="btn" value="Search"/>
                         <a href="{{ path('connections') }}">Clear</a>
                     </div>
                 </div>
             </form>
-        
+
         </div>
         <div class="span7">
 
@@ -275,23 +301,18 @@
                 {% if not datetime %}
                     {% set datetime = ""|date('Y-m-d H:i') %}
                 {% endif %}
-                <form class="pager">
-                    <input type="hidden" name="from" value="{{ from }}" />
-                    <input type="hidden" name="to" value="{{ to }}" />
-                    <input type="hidden" name="datetime" value="{{ datetime }}" />
-                    <input type="hidden" name="page" value="{{ page }}" />
-                </form>
+
                 <div class="row-fluid">
                     <div class="span4 fluid earlier">
-                        <a href="{{ path('connections', {'from': from, 'to': to, 'datetime': datetime, 'page': page - 1}) }}">Earlier</a>
+                        <a href="{{ path('connections', {'from': from, 'to': to, 'at': datetime, 'page': page - 1}) }}">Earlier</a>
                     </div>
                     <div class="span4 fluid reverse">
-                        <a href="{{ path('connections', {'from': to, 'to': from}) }}">Opposite direction</a>
+                        <a href="{{ path('connections', {'from': to, 'to': from, 'at': datetime}) }}">Opposite direction</a>
                     </div>
                     <div class="span4 fluid later">
-                        <a href="{{ path('connections', {'from': from, 'to': to, 'datetime': datetime, 'page': page + 1}) }}">Later</a>
+                        <a href="{{ path('connections', {'from': from, 'to': to, 'at': datetime, 'page': page + 1}) }}">Later</a>
                     </div>
                 </div>
             {% endif %}
-        </div>        
+        </div>
 {% endblock %}

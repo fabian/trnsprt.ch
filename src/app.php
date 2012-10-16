@@ -17,7 +17,6 @@ use Silex\Provider\UrlGeneratorServiceProvider;
 
 use Symfony\Component\Finder\Finder;
 
-
 $app = new Application();
 
 $app['debug'] = $_SERVER['REMOTE_ADDR'] === '127.0.0.1' || $_SERVER['REMOTE_ADDR'] === '::1';
@@ -31,9 +30,49 @@ $app->register(new Silex\Provider\UrlGeneratorServiceProvider());
 
 $app['buzz'] = new Buzz\Browser(new Buzz\Client\Curl());
 
-$app->get('/', function () use ($app) {
-    return $app->redirect($app['url_generator']->generate('connections'));
+// enable the following URL variations:
+// * /from/Basel/to/Zurich
+// * /from/Basel/to/Zurich/tomorrow
+// * /to/Basel/from/Zurich
+// * /to/Basel/from/Zurich/tomorrow
+// * /to/Zurich
+// * /to/Zurich/tomorrow
+$gotoConnections = function ($from, $to, $at, Request $request) use ($app) {
+    return $app->handle(
+        Request::create($app['url_generator']->generate(
+            '_connections',
+            array(
+                'from' => $from,
+                'to' => $to,
+                'datetime' => $at,
+                'c' =>  $request->query->get('c'),
+                'page' => $request->query->get('page')
+            )
+        ))
+    );
+};
+
+$app->get('/', function (Request $request) use ($gotoConnections) {
+    return $gotoConnections('', '', '', $request);
 });
+
+$app->get('/to/{to}/from/{from}/{at}', function ($to = '', $from = '', $at = '', Request $request) use ($gotoConnections) {
+    return $gotoConnections($from, $to, $at, $request);
+})
+->value('to', '')
+->value('from', '')
+->value('at', '')
+->bind('connections');
+
+$app->get('/from/{from}/to/{to}/{at}', function ($to, $from, $at, Request $request) use ($gotoConnections) {
+    return $gotoConnections($from, $to, $at, $request);
+})
+->value('at', '');
+
+$app->get('/to/{to}/{at}', function ($to, $at, Request $request) use ($gotoConnections) {
+    return $gotoConnections('', $to, $at, $request);
+})
+->value('at', '');
 
 $app->get('/c', function (Request $request) use ($app) {
 
@@ -51,7 +90,7 @@ $app->get('/c', function (Request $request) use ($app) {
     if ($response->to) {
         $to = $response->to->name;
     }
-    
+
     $stationsFrom = array();
     if (isset($response->stations->from[0])) {
         if ($response->stations->from[0]->score < 101) {
@@ -90,7 +129,7 @@ $app->get('/c', function (Request $request) use ($app) {
         'connections' => $connections,
     ));
 })
-->bind('connections');
+->bind('_connections');
 
 $app->get('/s', function (Request $request) use ($app) {
 
