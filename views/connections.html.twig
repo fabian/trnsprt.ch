@@ -48,6 +48,10 @@
 
                                     if (!$('input[name=from]').val()) {
                                         $('input[name=from]').val(station.name);
+
+                                        if ($('input[name=to]').val()) {
+                                            $('form').submit();
+                                        }
                                     }
 
                                     return false;
