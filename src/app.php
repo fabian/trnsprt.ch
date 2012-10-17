@@ -57,7 +57,8 @@ $gotoConnections = function ($from, $to, $at, Request $request) use ($app) {
 
 $app->get('/', function (Request $request) use ($gotoConnections) {
     return $gotoConnections('', '', '', $request);
-});
+})
+->bind('home');
 
 $app->get('/to/{to}/from/{from}/{at}', function ($to = '', $from = '', $at = '', Request $request) use ($gotoConnections) {
     return $gotoConnections($from, $to, $at, $request);

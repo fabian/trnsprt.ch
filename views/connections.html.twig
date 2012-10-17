@@ -134,7 +134,7 @@
                             <p>
                                 Did you mean:
                                 {% for station in stationsFrom %}
-                                    <a href="{{ path('connections', {'from': station, 'to': to, 'datetime': datetime}) }}">{{ station }}</a>
+                                    <a href="{{ path('connections', {'from': station, 'to': to, 'via': datetime}) }}">{{ station }}</a>
                                     {%- if not loop.first -%}
                                         ,
                                     {%- endif %}
@@ -148,7 +148,7 @@
                             <p>
                                 Did you mean:
                                 {% for station in stationsTo %}
-                                    <a href="{{ path('connections', {'from': from, 'to': station, 'datetime': datetime}) }}">{{ station }}</a>
+                                    <a href="{{ path('connections', {'from': from, 'to': station, 'via': datetime}) }}">{{ station }}</a>
                                     {%- if not loop.first -%}
                                         ,
                                     {%- endif %}
@@ -163,7 +163,7 @@
                     </div>
                     <div class="span5 fluid apply">
                         <input type="submit" class="btn" value="Search"/>
-                        <a href="{{ path('connections') }}">Clear</a>
+                        <a href="{{ path('home') }}">Clear</a>
                     </div>
                 </div>
             </form>
