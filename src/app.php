@@ -39,36 +39,41 @@ $app['buzz'] = new Buzz\Browser(new Buzz\Client\Curl());
 // * /to/Basel/from/Zurich/tomorrow
 // * /to/Zurich
 // * /to/Zurich/tomorrow
-$gotoConnections = function ($from = '', $to = '', $at = '') use ($app) {
+$gotoConnections = function ($from, $to, $at, Request $request) use ($app) {
     return $app->handle(
         Request::create($app['url_generator']->generate(
-            'connections',
+            '_connections',
             array(
                 'from' => $from,
                 'to' => $to,
-                'datetime' => $at
+                'datetime' => $at,
+                'c' =>  $request->query->get('c'),
+                'page' => $request->query->get('page')
             )
         )),
         HttpKernelInterface::SUB_REQUEST
     );
 };
 
-$app->get('/', function () use ($gotoConnections) {
-    return $gotoConnections();
+$app->get('/', function (Request $request) use ($gotoConnections) {
+    return $gotoConnections('', '', '', $request);
 });
 
-$app->get('/to/{to}/from/{from}/{at}', function ($to, $from, $at) use ($gotoConnections) {
-    return $gotoConnections($from, $to, $at);
+$app->get('/to/{to}/from/{from}/{at}', function ($to = '', $from = '', $at = '', Request $request) use ($gotoConnections) {
+    return $gotoConnections($from, $to, $at, $request);
+})
+->value('to', '')
+->value('from', '')
+->value('at', '')
+->bind('connections');
+
+$app->get('/from/{from}/to/{to}/{at}', function ($to, $from, $at, Request $request) use ($gotoConnections) {
+    return $gotoConnections($from, $to, $at, $request);
 })
 ->value('at', '');
 
-$app->get('/from/{from}/to/{to}/{at}', function ($to, $from, $at) use ($gotoConnections) {
-    return $gotoConnections($from, $to, $at);
-})
-->value('at', '');
-
-$app->get('/to/{to}/{at}', function ($to, $at) use ($gotoConnections) {
-    return $gotoConnections('', $to, $at);
+$app->get('/to/{to}/{at}', function ($to, $at, Request $request) use ($gotoConnections) {
+    return $gotoConnections('', $to, $at, $request);
 })
 ->value('at', '');
 
@@ -127,7 +132,7 @@ $app->get('/c', function (Request $request) use ($app) {
         'connections' => $connections,
     ));
 })
-->bind('connections');
+->bind('_connections');
 
 $app->get('/s', function (Request $request) use ($app) {
 
