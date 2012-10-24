@@ -117,8 +117,8 @@ $app->get('/c', function (Request $request) use ($app) {
         }
     }
 
-    $datetime = $request->query->get('datetime');
-    $page = $request->query->get('page', 0);
+    $datetime = $request->query->get('datetime') ?: date('c');
+    $page = $request->query->get('page') ?: 0;
     $c = $request->query->get('c');
     $connections = $response->connections;
 
