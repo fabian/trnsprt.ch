@@ -159,7 +159,7 @@
                 </div>
                 <div class="row-fluid">
                     <div class="span5 fluid date">
-                        <input type="datetime-local" name="datetime" value="{% if datetime %}{{ datetime|date('Y-m-d H:i') }}{% endif %}" placeholder="Date and time (optional)" step="300" />
+                        <input type="datetime-local" name="datetime" value="{% if datetime %}{{ datetime|date('Y-m-d\\TH:i') }}{% endif %}" placeholder="Date and time (optional)" step="300" />
                     </div>
                     <div class="span5 fluid apply">
                         <input type="submit" class="btn" value="Search"/>

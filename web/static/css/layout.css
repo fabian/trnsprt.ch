@@ -193,7 +193,7 @@ input.submit {
         border-color: #bbb;
         font-size: 13px;
     }
-    
+
     .date input:focus {
         border-color: #1a81d2;
     }
