@@ -91,8 +91,8 @@
                         {},
                         '',
                         '{{ path('connections', {
-                            'from': from,
-                            'to': to,
+                            'from': from|url_encode(),
+                            'to': to|url_encode(),
                             'at': datetime,
                             'page': page
                          })}}' + '&c=' + $this.data('c')
@@ -112,8 +112,8 @@
                     to = $('input[name=to]').val(),
                     datetime = $('input[name=datetime]').val(),
                     url =
-                        '/to/' +  to +
-                        (from ? '/from/' + from : '') +
+                        '/to/' +  encodeURIComponent(encodeURIComponent(to)) +
+                        (from ? '/from/' + encodeURIComponent(encodeURIComponent(from)) : '') +
                         (datetime ? '/' + datetime : '');
 
                 e.preventDefault();
@@ -134,7 +134,7 @@
                             <p>
                                 Did you mean:
                                 {% for station in stationsFrom %}
-                                    <a href="{{ path('connections', {'from': station, 'to': to, 'at': datetime}) }}">{{ station }}</a>
+                                    <a href="{{ path('connections', {'from': station|url_encode(), 'to': to|url_encode(), 'at': datetime}) }}">{{ station }}</a>
                                     {%- if not loop.first -%}
                                         ,
                                     {%- endif %}
@@ -148,7 +148,7 @@
                             <p>
                                 Did you mean:
                                 {% for station in stationsTo %}
-                                    <a href="{{ path('connections', {'from': from, 'to': station, 'at': datetime}) }}">{{ station }}</a>
+                                    <a href="{{ path('connections', {'from': from|url_encode(), 'to': station|url_encode(), 'at': datetime}) }}">{{ station }}</a>
                                     {%- if not loop.first -%}
                                         ,
                                     {%- endif %}
@@ -205,7 +205,7 @@
                                 <td>
                                     {{ connection.duration|slice(4, 4) }}′<br/>
                                     <span class="muted">
-                                        {{ connection.products|join(", ") }}
+                                        {{ connection.products|join(", ") }} …
                                     </span>
                                 </td>
                                 <td>
@@ -237,7 +237,7 @@
                                         {% endif %}
                                     </td>
                                     <td>
-                                        <a href="{{ path('stationboard', {'station': section.departure.station.name, 'datetime': section.departure.departure|date("Y-m-d H:i") }) }}">
+                                        <a href="{{ path('stationboard', {'station': section.departure.station.name|url_encode(), 'datetime': section.departure.departure|date("Y-m-d H:i") }) }}">
                                             {{ section.departure.station.name }}
                                         </a>
                                     </td>
@@ -281,7 +281,7 @@
                                         {% endif %}
                                     </td>
                                     <td style="border-top: 0;">
-                                        <a href="{{ path('stationboard', {'station': section.arrival.station.name, 'datetime': section.arrival.arrival|date("Y-m-d H:i")}) }}">
+                                        <a href="{{ path('stationboard', {'station': section.arrival.station.name|url_encode(), 'datetime': section.arrival.arrival|date("Y-m-d H:i")}) }}">
                                             {{ section.arrival.station.name }}
                                         </a>
                                     </td>
@@ -304,13 +304,13 @@
 
                 <div class="row-fluid">
                     <div class="span4 fluid earlier">
-                        <a href="{{ path('connections', {'from': from, 'to': to, 'at': datetime, 'page': page - 1}) }}">Earlier</a>
+                        <a href="{{ path('connections', {'from': from|url_encode(), 'to': to|url_encode(), 'at': datetime, 'page': page - 1}) }}">Earlier</a>
                     </div>
                     <div class="span4 fluid reverse">
-                        <a href="{{ path('connections', {'from': to, 'to': from, 'at': datetime}) }}">Opposite direction</a>
+                        <a href="{{ path('connections', {'from': to|url_encode(), 'to': from|url_encode(), 'at': datetime}) }}">Opposite direction</a>
                     </div>
                     <div class="span4 fluid later">
-                        <a href="{{ path('connections', {'from': from, 'to': to, 'at': datetime, 'page': page + 1}) }}">Later</a>
+                        <a href="{{ path('connections', {'from': from|url_encode(), 'to': to|url_encode(), 'at': datetime, 'page': page + 1}) }}">Later</a>
                     </div>
                 </div>
             {% endif %}
