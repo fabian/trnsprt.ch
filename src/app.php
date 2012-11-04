@@ -66,11 +66,15 @@ $app->get('/to/{to}/from/{from}/{at}', function ($to = '', $from = '', $at = '',
 ->value('to', '')
 ->value('from', '')
 ->value('at', '')
+->assert('to', '.+')
+->assert('from', '.+')
 ->bind('connections');
 
 $app->get('/from/{from}/to/{to}/{at}', function ($to, $from, $at, Request $request) use ($gotoConnections) {
     return $gotoConnections($from, $to, $at, $request);
 })
+->assert('to', '.+')
+->assert('from', '.+')
 ->value('at', '');
 
 $app->get('/to/{to}/{at}', function ($to, $at, Request $request) use ($gotoConnections) {
