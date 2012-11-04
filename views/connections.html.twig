@@ -135,7 +135,7 @@
                                 Did you mean:
                                 {% for station in stationsFrom %}
                                     <a href="{{ path('connections', {'from': station|url_encode(), 'to': to|url_encode(), 'at': datetime}) }}">{{ station }}</a>
-                                    {%- if not loop.first -%}
+                                    {%- if not loop.last -%}
                                         ,
                                     {%- endif %}
                                 {% endfor %}
@@ -149,7 +149,7 @@
                                 Did you mean:
                                 {% for station in stationsTo %}
                                     <a href="{{ path('connections', {'from': from|url_encode(), 'to': station|url_encode(), 'at': datetime}) }}">{{ station }}</a>
-                                    {%- if not loop.first -%}
+                                    {%- if not loop.last -%}
                                         ,
                                     {%- endif %}
                                 {% endfor %}
