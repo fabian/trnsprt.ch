@@ -73,6 +73,26 @@
                 $('input[name=to]').focus();
             }
 
+            // datetime for anyone else than iPhone
+            if (navigator.userAgent.match(/iPhone/i) == null) {
+
+                var datetime = $('input[name=datetime]');
+                datetime.hide();
+                datetime.prop('type', 'text');
+
+                var date = $('<input type="text" class="date" name="date" placeholder="Date (optional)" />');
+                datetime.after(date);
+                date.val(datetime.val().substring(0, 10));
+
+                var time = $('<input type="text" class="time" name="time" placeholder="Time" />');
+                date.after(time);
+                time.val(datetime.val().substring(11, 16));
+
+                $('input[name=date], input[name=time]').bind('change', function() {
+                    datetime.val(date.val() + ' ' + time.val());
+                });
+            }
+
             function reset() {
                 $('table.connections tr.connection').show();
                 $('table.connections tr.section').hide();

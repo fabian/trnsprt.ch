@@ -106,6 +106,15 @@ h1 {
     width: 92%;
 }
 
+.date input.date {
+    width: 53%;
+    margin-right: 12px;
+}
+
+.date input.time {
+    width: 25%;
+}
+
 .apply input {
     float: left;
 }
