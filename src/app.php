@@ -60,31 +60,55 @@ $app->get('/', function (Request $request) use ($gotoConnections) {
 })
 ->bind('home');
 
-$app->get('/to/{to}/from/{from}/{at}', function ($to = '', $from = '', $at = '', Request $request) use ($gotoConnections) {
+$app->get('/to/{to}/from/{from}/at/{at}', function ($to = '', $from = '', $at = '', Request $request) use ($gotoConnections) {
     return $gotoConnections($from, $to, $at, $request);
 })
-->value('to', '')
-->value('from', '')
-->value('at', '')
-->assert('to', '[^/]+')
-->assert('from', '[^/]+')
+->assert('to', '.+')
+->assert('from', '.+')
 ->bind('connections');
 
-$app->get('/from/{from}/to/{to}/{at}', function ($to, $from, $at, Request $request) use ($gotoConnections) {
+$app->get('/to/{to}/from/{from}', function ($to, $from, Request $request) use ($gotoConnections) {
+    return $gotoConnections($from, $to, '', $request);
+})
+->assert('to', '.+')
+->assert('from', '.+');
+
+$app->get('/from/{from}/to/{to}/at/{at}', function ($to, $from, $at, Request $request) use ($gotoConnections) {
     return $gotoConnections($from, $to, $at, $request);
 })
-->assert('to', '[^/]+')
-->assert('from', '[^/]+')
-->value('at', '');
+->assert('to', '.+')
+->assert('from', '.+');
 
-$app->get('/to/{to}/{at}', function ($to, $at, Request $request) use ($gotoConnections) {
+$app->get('/from/{from}/to/{to}', function ($to, $from, Request $request) use ($gotoConnections) {
+    return $gotoConnections($from, $to, '', $request);
+})
+->assert('to', '.+')
+->assert('from', '.+');
+
+$app->get('/to/{to}/at/{at}', function ($to, $at, Request $request) use ($gotoConnections) {
     return $gotoConnections('', $to, $at, $request);
 })
-->value('at', '');
+->assert('to', '.+');
+
+$app->get('/to/{to}', function ($to, Request $request) use ($gotoConnections) {
+    return $gotoConnections('', $to, '', $request);
+})
+->assert('to', '.+');
+
+$app->get('/from/{from}/at/{at}', function ($from, $at, Request $request) use ($gotoConnections) {
+    return $gotoConnections($from, '', $at, $request);
+})
+->assert('from', '.+');
+
+$app->get('/from/{from}', function ($from, Request $request) use ($gotoConnections) {
+    return $gotoConnections($from, '', '', $request);
+})
+->assert('from', '.+');
 
 $app->get('/c', function (Request $request) use ($app) {
 
     $query = $request->query->all();
+    //var_dump($query);
 
     $url = 'http://transport.opendata.ch/v1/connections?' . http_build_query($query);
     $response = json_decode($app['buzz']->get($url)->getContent());
@@ -94,7 +118,7 @@ $app->get('/c', function (Request $request) use ($app) {
         $from = $response->from->name;
     }
 
-    $to = $request->query->get('from');
+    $to = $request->query->get('to');
     if ($response->to) {
         $to = $response->to->name;
     }
