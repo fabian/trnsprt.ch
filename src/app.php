@@ -9,6 +9,7 @@ use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpFoundation\RedirectResponse;
 use Symfony\Component\HttpKernel\Exception\HttpException;
 use Symfony\Component\HttpKernel\HttpKernelInterface;
+use Symfony\Component\HttpKernel\Debug\ErrorHandler;
 
 use Igorw\Trashbin\Storage;
 use Igorw\Trashbin\Validator;
@@ -18,6 +19,9 @@ use Silex\Provider\TwigServiceProvider;
 use Silex\Provider\UrlGeneratorServiceProvider;
 
 use Symfony\Component\Finder\Finder;
+
+
+ErrorHandler::register();
 
 $app = new Application();
 
