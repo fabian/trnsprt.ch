@@ -257,9 +257,13 @@
                                         {% endif %}
                                     </td>
                                     <td>
-                                        <a href="{{ path('stationboard', {'station': section.departure.station.name, 'datetime': section.departure.departure|date("Y-m-d H:i") }) }}">
-                                            {{ section.departure.station.name }}
-                                        </a>
+                                        {% if section.departure.location.id is defined %}
+                                            <a href="{{ path('stationboard', {'station': section.departure.location.name, 'datetime': section.departure.departure|date("Y-m-d H:i") }) }}">
+                                                {{ section.departure.location.name }}
+                                            </a>
+                                        {% else %}
+                                            {{ section.departure.location.name }}
+                                        {% endif %}
                                     </td>
                                     <td>
                                         {% if section.departure.prognosis.platform %}
@@ -301,9 +305,13 @@
                                         {% endif %}
                                     </td>
                                     <td style="border-top: 0;">
-                                        <a href="{{ path('stationboard', {'station': section.arrival.station.name, 'datetime': section.arrival.arrival|date("Y-m-d H:i")}) }}">
-                                            {{ section.arrival.station.name }}
-                                        </a>
+                                        {% if section.arrival.location.id is defined %}
+                                            <a href="{{ path('stationboard', {'station': section.arrival.location.name, 'datetime': section.arrival.arrival|date("Y-m-d H:i")}) }}">
+                                                {{ section.arrival.location.name }}
+                                            </a>
+                                        {% else %}
+                                            {{ section.arrival.location.name }}
+                                        {% endif %}
                                     </td>
                                     <td style="border-top: 0;">
                                         {% if section.arrival.prognosis.platform %}
