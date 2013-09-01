@@ -4,7 +4,7 @@
 {% if connections %}
     {{ from }} – {{ to }}
 {% else %}
-    Transport
+    Swiss Public Transport
 {% endif %}
 {% endblock %}
 
@@ -144,7 +144,7 @@
 {% endblock %}
 
 {% block content %}
-        <div class="span5">
+        <div class="span5 form-query">
 
             <form method="get" action="">
                 <div class="row-fluid">
@@ -346,6 +346,9 @@
                         <a href="{{ path('connections', {'from': from, 'to': to, 'at': datetime, 'page': page + 1}) }}">Later</a>
                     </div>
                 </div>
+            {% else %}
+                <p>Fill out the form to search for a connection with public transport.</p>
+                <p>Share the found connection by copying the web address into any message.<p/>
             {% endif %}
         </div>
 {% endblock %}
