@@ -146,15 +146,19 @@
                 items: 6,
                 source: function (query, process) {
                     return $.get('http://transport.opendata.ch/v1/locations', {query: query, type: 'station'}, function(data) {
-                        if (data.stations.length > 1) {
-                            process($.map(data.stations, function(station) {
-                                return station.name;
-                            }));
+                        if (data.stations.length == 1 && data.stations[0].name == query) {
+                            return;
                         }
+                        process($.map(data.stations, function(station) {
+                            return station.name;
+                        }));
                     }, 'json');
                 },
                 highlighter: function(item) {
                     return item;
+                },
+                matcher: function () {
+                    return true;
                 }
             });
         });
