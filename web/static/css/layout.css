@@ -209,8 +209,8 @@ input.submit {
     }
     
     ul.typeahead {
-        max-width: 135px;
-        min-width: 135px;
+        width: 281px;
+        left: 20px !important;
         overflow: hidden;
     }
 }
