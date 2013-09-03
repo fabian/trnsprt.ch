@@ -9,6 +9,7 @@
 {% endblock %}
 
 {% block head %}
+    <script src="/static/bootstrap/js/bootstrap.min.js"></script>
     <script>
         $(function () {
 
@@ -139,6 +140,22 @@
                 e.preventDefault();
                 location.replace(url);
             });
+            
+            $('.station input').typeahead({
+                minLength: 2,
+                source: function (query, process) {
+                    return $.get('http://transport.opendata.ch/v1/locations', {query: query, type: 'station'}, function(data) {
+                        if (data.stations.length > 1) {
+                            process($.map(data.stations, function(station) {
+                                return station.name;
+                            }));
+                        }
+                    }, 'json');
+                },
+                highlighter: function(item) {
+                    return item;
+                }
+            });
         });
     </script>
 {% endblock %}
@@ -149,7 +166,7 @@
             <form method="get" action="">
                 <div class="row-fluid">
                     <div class="span5 fluid station">
-                        <input type="text" name="from" value="{{ from }}" placeholder="From" autocapitalize="on" />
+                        <input type="text" name="from" value="{{ from }}" placeholder="From" autocomplete="off" autocapitalize="on" />
                         {% if stationsFrom %}
                             <p>
                                 Did you mean:
@@ -163,7 +180,7 @@
                         {% endif %}
                     </div>
                     <div class="span5 fluid station">
-                        <input type="text" name="to" value="{{ to }}" placeholder="To" autocapitalize="on" />
+                        <input type="text" name="to" value="{{ to }}" placeholder="To" autocomplete="off" autocapitalize="on" />
                         {% if stationsTo %}
                             <p>
                                 Did you mean:

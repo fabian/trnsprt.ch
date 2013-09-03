@@ -207,6 +207,12 @@ input.submit {
         box-sizing: content-box !important;
         border-bottom: 1px solid #ddd;
     }
+    
+    ul.typeahead {
+        max-width: 135px;
+        min-width: 135px;
+        overflow: hidden;
+    }
 }
 
 @media all and (max-device-width: 480px) and (orientation:portrait), all and (max-device-width: 480px) and (orientation:landscape) {
