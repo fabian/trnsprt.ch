@@ -143,6 +143,7 @@
             
             $('.station input').typeahead({
                 minLength: 2,
+                items: 6,
                 source: function (query, process) {
                     return $.get('http://transport.opendata.ch/v1/locations', {query: query, type: 'station'}, function(data) {
                         if (data.stations.length > 1) {
