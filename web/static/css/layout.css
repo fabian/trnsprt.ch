@@ -167,6 +167,12 @@ input.submit {
     display: none;
 }
 
+#stationboard-map {
+    width: 90%;
+    height: 600px;
+    margin-bottom: 10px;
+}
+
 @media (max-width: 767px) {
     body {
         padding-top: 20px;
@@ -208,10 +214,9 @@ input.submit {
         border-bottom: 1px solid #ddd;
     }
     
-    ul.typeahead {
-        width: 281px;
-        left: 20px !important;
-        overflow: hidden;
+    #stationboard-map {
+        width: 100%;
+        height: 130px;
     }
 }
 
@@ -226,5 +231,11 @@ input.submit {
 
     .date input:focus {
         border-color: #1a81d2;
+    }
+
+    ul.typeahead {
+        width: 281px;
+        left: 20px !important;
+        overflow: hidden;
     }
 }

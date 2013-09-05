@@ -175,8 +175,10 @@ $app->get('/s', function (Request $request) use ($app) {
     $response = json_decode($app['buzz']->get($url)->getContent());
 
     $station = $request->query->get('station');
+    $coordinates = null;
     if ($response->station) {
         $station = $response->station->name;
+        $coordinates = $response->station->coordinate;
     }
 
     $datetime = $request->query->get('datetime');
@@ -188,6 +190,7 @@ $app->get('/s', function (Request $request) use ($app) {
         'station' => $station,
         'datetime' => $datetime,
         'stationboard' => $stationboard,
+        'coordinates' => $coordinates,
     ));
 })
 ->bind('stationboard');

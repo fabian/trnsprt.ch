@@ -8,6 +8,14 @@
 {% endif %}
 {% endblock %}
 
+{% block head %}
+<link href='//api.tiles.mapbox.com/mapbox.js/v1.3.1/mapbox.css' rel='stylesheet' />
+<!--[if lte IE 8]>
+<link href='//api.tiles.mapbox.com/mapbox.js/v1.3.1/mapbox.ie.css' rel='stylesheet' />
+<![endif]-->
+<script src='//api.tiles.mapbox.com/mapbox.js/v1.3.1/mapbox.js'></script>
+{% endblock %}
+
 {% block content %}
         <div class="span5">
 
@@ -22,6 +30,27 @@
                     </div>
                 </div>
             </form>
+        
+            {% if coordinates %}
+                <div id="stationboard-map"></div>
+                <script type='text/javascript'>
+                    var map = L.mapbox.map('stationboard-map', 'equivalence.map-ju0tzt0i')
+                        .setView([{{ coordinates.y }}, {{ coordinates.x }}], 14);
+
+                    var geoJson = [{
+                        type: 'Feature',
+                        geometry: {
+                            type: 'Point',
+                            coordinates: [{{ coordinates.x }}, {{ coordinates.y }}]
+                        },
+                        properties: {
+                            'title': '{{ station }}',
+                            'marker-color': '#AF1E3A'
+                        }
+                    }];
+                    map.markerLayer.setGeoJSON(geoJson);
+                </script>
+              {% endif %}
         
         </div>
         <div class="span7">
