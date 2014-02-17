@@ -99,6 +99,7 @@
                 $('table.connections tr.section').hide();
             }
 
+            {% if connections %}
             $('table.connections tr.connection').bind('click', function (e) {
 
                 reset();
@@ -120,6 +121,7 @@
                     )
                 }
             });
+            {% endif %}
 
             $('.station input').bind('focus', function () {
                 var that = this;
