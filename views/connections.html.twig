@@ -47,13 +47,7 @@
 
                                 $(data.stations).each(function (i, station) {
 
-                                    if (!$('input[name=from]').val()) {
-                                        $('input[name=from]').val(station.name);
-
-                                        if ($('input[name=to]').val()) {
-                                            $('form').submit();
-                                        }
-                                    }
+                                    $('input[name=from]').attr('placeholder', station.name);
 
                                     return false;
                                 });
@@ -132,7 +126,13 @@
 
             $('form').submit(function (e) {
                 var from = $('input[name=from]').val(),
-                    to = $('input[name=to]').val(),
+                    placeholder = $('input[name=from]').attr('placeholder');
+
+                if (!from && placeholder != 'From' && placeholder.substring(0, 8) != 'Locating') {
+                    from = placeholder;
+                }
+
+                var to = $('input[name=to]').val(),
                     datetime = $('input[name=datetime]').val(),
                     url =
                         '/to/' +  to +
