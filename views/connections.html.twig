@@ -40,7 +40,7 @@
                             var lat = position.coords.latitude;
                             var lng = position.coords.longitude;
 
-                            $.get('http://api.trnsprt.ch/v1/locations', {x: lat, y: lng}, function(data) {
+                            $.get('http://transport.opendata.ch/v1/locations', {x: lat, y: lng}, function(data) {
 
                                 clearInterval(interval);
                                 $('input[name=from]').attr('placeholder', 'From');
@@ -147,7 +147,7 @@
                 minLength: 2,
                 items: 6,
                 source: function (query, process) {
-                    return $.get('http://api.trnsprt.ch/v1/locations', {query: query, type: 'station'}, function(data) {
+                    return $.get('http://transport.opendata.ch/v1/locations', {query: query, type: 'station'}, function(data) {
                         if (data.stations.length == 1 && data.stations[0].name == query) {
                             return;
                         }
