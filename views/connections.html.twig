@@ -108,7 +108,7 @@
                                     </span>
                                 </td>
                                 <td>
-                                    {% if connection.from.prognosis.platform %}
+                                    {% if connection.from.prognosis.platform and connection.from.prognosis.platform != connection.from.platform %}
                                         <span style="color: #a20d0d;">{{ connection.from.prognosis.platform }}</span>
                                     {% else %}
                                         {{ connection.from.platform }}
@@ -145,7 +145,7 @@
                                         {% endif %}
                                     </td>
                                     <td>
-                                        {% if section.departure.prognosis.platform %}
+                                        {% if section.departure.prognosis.platform and section.departure.prognosis.platform != section.departure.platform %}
                                             <span style="color: #a20d0d;">{{ section.departure.prognosis.platform }}</span>
                                         {% else %}
                                             {{ section.departure.platform }}
@@ -193,7 +193,7 @@
                                         {% endif %}
                                     </td>
                                     <td style="border-top: 0;">
-                                        {% if section.arrival.prognosis.platform %}
+                                        {% if section.arrival.prognosis.platform and section.arrival.prognosis.platform != section.arrival.platform %}
                                             <span style="color: #a20d0d;">{{ section.arrival.prognosis.platform }}</span>
                                         {% else %}
                                             {{ section.arrival.platform }}
