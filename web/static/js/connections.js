@@ -17,36 +17,33 @@ $(function () {
             }, 400);
 
             // get location for from
-            var watch = navigator.geolocation.watchPosition(function (position) {
+            navigator.geolocation.getCurrentPosition(function (position) {
 
-                if (position.coords.accuracy < 100) {
+                var lat = position.coords.latitude;
+                var lng = position.coords.longitude;
 
-                    // stop locating
-                    navigator.geolocation.clearWatch(watch);
+                $.get('http://transport.opendata.ch/v1/locations', {x: lat, y: lng}, function(data) {
 
-                    var lat = position.coords.latitude;
-                    var lng = position.coords.longitude;
+                    clearInterval(interval);
+                    $('input[name=from]').attr('placeholder', 'From');
 
-                    $.get('http://transport.opendata.ch/v1/locations', {x: lat, y: lng}, function(data) {
+                    $(data.stations).each(function (i, station) {
 
-                        clearInterval(interval);
-                        $('input[name=from]').attr('placeholder', 'From');
+                        $('input[name=from]').attr('placeholder', station.name);
 
-                        $(data.stations).each(function (i, station) {
-
-                            $('input[name=from]').attr('placeholder', station.name);
-
-                            return false;
-                        });
+                        return false;
                     });
-                }
+                });
 
             }, function(error) {
-                // ignore
+
+                clearInterval(interval);
+                $('input[name=from]').attr('placeholder', 'From');
+
             }, {
                 enableHighAccuracy:true,
-                maximumAge: 10000,
-                timeout: 30000
+                timeout: 10000,
+                maximumAge: 0
             });
         }
     }
