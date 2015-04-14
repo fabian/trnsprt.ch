@@ -35,13 +35,13 @@
                 <div id="stationboard-map"></div>
                 <script type='text/javascript'>
                     var map = L.mapbox.map('stationboard-map', 'equivalence.map-ju0tzt0i')
-                        .setView([{{ coordinates.y }}, {{ coordinates.x }}], 14);
+                        .setView([{{ coordinates.x }}, {{ coordinates.y }}], 14);
 
                     var geoJson = [{
                         type: 'Feature',
                         geometry: {
                             type: 'Point',
-                            coordinates: [{{ coordinates.x }}, {{ coordinates.y }}]
+                            coordinates: [{{ coordinates.y }}, {{ coordinates.x }}]
                         },
                         properties: {
                             'title': '{{ station }}',
