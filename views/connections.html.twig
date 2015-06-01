@@ -102,7 +102,7 @@
                                     {% endif %}
                                 </td>
                                 <td>
-                                    {{ connection.duration|slice(4, 4) }}′<br/>
+                                    {{ connection.duration|slice(3, 1)|trim("0") }}{{ connection.duration|slice(4, 4) }}′<br/>
                                     <span class="muted">
                                         {{ connection.products|join(", ") }}
                                     </span>
@@ -203,7 +203,7 @@
                             {% endfor %}
                             <tr class="section"{% if loop.index != c %} style="display: none;"{% endif %}>
                                 <td>&nbsp;</td>
-                                <td>{{ connection.duration|slice(4, 4) }}′</td>
+                                <td>{{ connection.duration|slice(3, 1)|trim("0") }}{{ connection.duration|slice(4, 4) }}′</td>
                                 <td>&nbsp;</td>
                             </tr>
                         </tbody>
