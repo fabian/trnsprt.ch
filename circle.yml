@@ -1,0 +1,9 @@
+---
+machine:
+  php:
+    version: 5.5
+deployment:
+  production:
+    branch: master
+    commands:
+      - ssh farnswor@farnsworth.ch 'cd /home/farnswor/public_html/trnsprt.ch && git pull --rebase --stat && php -d allow_url_fopen=on -d disable_functions=exec composer.phar install && chmod -R u+rwX,go+rX,go-w .'
