@@ -2,6 +2,9 @@
 machine:
   php:
     version: 5.5.21
+test:
+  override:
+    - echo $CIRCLE_SHA1
 deployment:
   production:
     branch: master
