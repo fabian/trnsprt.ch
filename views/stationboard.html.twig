@@ -17,20 +17,25 @@
 {% endblock %}
 
 {% block content %}
-        <div class="span5">
+    <div class="row">
+        <div class="col-sm-5">
 
             <form method="get" action="">
-                <div class="row-fluid">
-                    <div class="span5 fluid station">
-                        <input type="text" name="station" value="{{ station }}" placeholder="Station" autocapitalize="on" />
+                <div class="row">
+                    <div class="col-sm-6 station">
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="station" value="{{ station }}" placeholder="Station" autocapitalize="on" />
+                        </div>
                     </div>
-                    <div class="span5 fluid apply">
-                        <input type="submit" class="btn" value="Search" />
-                        <a href="{{ path('stationboard') }}">Clear</a>
+                    <div class="col-sm-6 apply">
+                        <div class="form-group">
+                            <input type="submit" class="btn btn-default" value="Search" />
+                            <a class="btn btn-link" href="{{ path('stationboard') }}">Clear</a>
+                        </div>
                     </div>
                 </div>
             </form>
-        
+
             {% if coordinates %}
                 <div id="stationboard-map"></div>
                 <script type='text/javascript'>
@@ -51,9 +56,9 @@
                     map.markerLayer.setGeoJSON(geoJson);
                 </script>
               {% endif %}
-        
+
         </div>
-        <div class="span7">
+        <div class="col-sm-7">
 
             {% if stationboard %}
                 <table class="table connections">
@@ -67,8 +72,8 @@
                             <th>Time</th>
                             <th>To</th>
                             <th>
-                                <span class="visible-phone">Pl.</span>
-                                <span class="hidden-phone">Platform</span>
+                                <span class="visible-xs-inline">Pl.</span>
+                                <span class="hidden-xs">Platform</span>
                             </th>
                         </tr>
                     </thead>
@@ -84,7 +89,7 @@
                             <td>
                                 {{ journey.to }}
                                 <br/>
-                                <span class="muted">
+                                <span class="text-muted">
                                     {{ journey.name }}
                                 </span>
                             </td>
@@ -96,15 +101,15 @@
                                 {% endif %}
                                 <br/>
                                 {% if journey.stop.prognosis.capacity2nd > 0 %}
-                                    <span class="muted" title="Expected occupancy 2nd class">
+                                    <small title="Expected occupancy 2nd class">
                                         {%- for i in [0, 1, 2] -%}
                                             {%- if i < journey.stop.prognosis.capacity2nd -%}
-                                                ●
+                                                <span class="glyphicon glyphicon-user text-muted"></span>
                                             {%- else -%}
-                                                ○
+                                                <span class="glyphicon glyphicon-user text-disabled"></span>
                                             {%- endif -%}
                                         {%- endfor -%}
-                                    </span>
+                                    </small>
                                 {% endif %}
                             </td>
                         </tr>
@@ -112,5 +117,6 @@
                     {% endfor %}
                 </table>
             {% endif %}
-        </div>        
+        </div>
+    </div>
 {% endblock %}

@@ -24,15 +24,18 @@ $(function () {
 
                 $.get('http://transport.opendata.ch/v1/locations', {x: lat, y: lng}, function(data) {
 
-                    clearInterval(interval);
-                    $('input[name=from]').attr('placeholder', 'From');
-
                     $(data.stations).each(function (i, station) {
 
                         $('input[name=from]').attr('placeholder', station.name);
 
                         return false;
                     });
+
+                }).always(function() {
+
+                    clearInterval(interval);
+                    $('input[name=from]').attr('placeholder', 'From');
+
                 });
 
             }, function(error) {
@@ -52,25 +55,18 @@ $(function () {
         $('input[name=to]').focus();
     }
 
-    // datetime for anyone else than iPhone
-    if (navigator.userAgent.match(/iPhone/i) == null) {
-
-        var datetime = $('input[name=datetime]');
-        datetime.hide();
-        datetime.prop('type', 'text');
-
-        var date = $('<input type="text" class="date" name="date" placeholder="Date (optional)" tabindex="3" />');
-        datetime.after(date);
-        date.val(datetime.val().substring(0, 10));
-
-        var time = $('<input type="text" class="time" name="time" placeholder="Time" tabindex="4" />');
-        date.after(time);
-        time.val(datetime.val().substring(11, 16));
-
-        $('input[name=date], input[name=time]').bind('change', function() {
-            datetime.val(date.val() + ' ' + time.val());
-        });
-    }
+    $('input[name=datetime]').datetimepicker({
+        format: 'YYYY-MM-DD HH:mm',
+        extraFormats: [
+            'DD.MM.YY',
+            'DD.MM.YY HH:mm',
+            'DD.MM.YY HH.mm',
+            'DD.MM.YYYY',
+            'DD.MM.YYYY HH:mm',
+            'DD.MM.YYYY HH.mm'
+        ],
+        sideBySide: true
+    });
 
     function reset() {
         $('table.connections tr.connection').show();
@@ -119,12 +115,16 @@ $(function () {
         e.preventDefault();
         location.replace(url);
     });
-    
+
+    var stationRequest;
     $('.station input').typeahead({
         minLength: 2,
         items: 6,
         source: function (query, process) {
-            return $.get('http://transport.opendata.ch/v1/locations', {query: query, type: 'station'}, function(data) {
+            if (stationRequest) {
+                stationRequest.abort();
+            }
+            stationRequest = $.get('http://transport.opendata.ch/v1/locations', {query: query, type: 'station'}, function(data) {
                 if (data.stations.length == 1 && data.stations[0].name == query) {
                     return;
                 }

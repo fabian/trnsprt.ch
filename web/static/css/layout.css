@@ -3,31 +3,14 @@ body {
 }
 
 header {
-    padding-bottom: 20px;
-    border-bottom: 1px dotted #999;
-    position: relative;
-}
-
-header .sign-in {
-    position: absolute;
-    top: 15px;
-    right: 0;
-}
-
-.wrapper {
-    width: 600px;
-    margin: 0 auto;
-    padding-bottom: 80px;
-}
-
-.container {
-    padding-bottom: 20px;
-}
-
-.page-header {
-    margin-top: 0;
-    padding-bottom: 0;
     border-bottom: 5px solid #911A31;
+    background-color: #AF1E3A;
+    padding: 32px 0 6px 0;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 3em;
 }
 
 h1,
@@ -36,106 +19,15 @@ h3 {
     font-weight: normal;
 }
 
-h1 {
-    margin: 0;
-    padding: 50px 0 20px 20px;
-    font-size: 3em;
-    line-height: 1;
-    background-color: #AF1E3A;
-}
-
 h1 a,
-h1 a:hover {
+h1 a:hover,
+h1 a:focus {
     color: #efefef;
     text-decoration: none;
 }
 
-h1 .second {
-    color: #383a3d;
-    position: relative;
-    left: -20px;
-}
-
-h2 {
-    margin: 40px 0 20px 0;
-}
-
-h2 small {
-    line-height: 1;
-}
-
-ol {
-    margin-top: 20px;
-}
-
-li {
-    color: #383a3d;
-}
-
-.tabs {
-    margin-top: 20px;
-}
-
-.tabs .active > a,
-.tabs .active > a:hover {
-    color: #383a3d;
-}
-
-.description code {
-    background: #ececec;
-}
-
-.count {
-    color: #bfbfbf;
-}
-
-.station input {
-    width: 92%;
-}
-
-.later {
-    text-align: right;
-}
-
-.reverse {
-    text-align: center;
-}
-
-.row-fluid + .row-fluid {
-    padding-top: 3px;
-}
-
-.date input {
-    width: 92%;
-}
-
-.date input.date {
-    width: 53%;
-    margin-right: 12px;
-}
-
-.date input.time {
-    width: 25%;
-}
-
-.apply input {
-    float: left;
-}
-
-.apply a {
-    display: block;
-    float: left;
-    padding: 6px 10px;
-}
-
-input.submit {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 0;
-    width: 1px;
-    height: 1px;
-    visibility: hidden;
+.text-disabled {
+    color: #ddd;
 }
 
 .table tbody + tbody {
@@ -163,10 +55,6 @@ input.submit {
     color: #383A3D;
 }
 
-.pager {
-    display: none;
-}
-
 #stationboard-map {
     width: 90%;
     height: 600px;
@@ -175,7 +63,6 @@ input.submit {
 
 @media (max-width: 767px) {
     body {
-        padding-top: 20px;
         padding-bottom: 30px;
     }
 
@@ -187,33 +74,17 @@ input.submit {
         margin-top: 30px;
     }
 
-    .row-fluid .fluid {
-        float: left;
-        margin-left: 12px;
-        width: 47%;
-    }
-
-    .row-fluid .fluid.earlier,
-    .row-fluid .fluid.later {
-        width: 24%;
-    }
-
-    .row-fluid .fluid.reverse {
-        width: 42%;
-    }
-
     div.footer {
         padding-top: 5px;
     }
 
     .form-query {
         background-color: #efefef;
-        margin: -20px 0 5px -30px !important;
-        padding: 20px 20px 0 30px;
-        box-sizing: content-box !important;
+        padding-top: 20px;
+        padding-bottom: 5px;
         border-bottom: 1px solid #ddd;
     }
-    
+
     #stationboard-map {
         width: 100%;
         height: 130px;

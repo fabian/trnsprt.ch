@@ -168,10 +168,16 @@ $app->get('/c', function (Request $request) use ($app) {
         }
     }
 
-    $datetime = $request->query->get('datetime') ?: date('c');
+    $datetime = $request->query->get('datetime');
     $page = $request->query->get('page') ?: 0;
     $c = $request->query->get('c');
     $connections = $response->connections;
+
+    if ($connections) {
+        if (!$datetime) {
+            $datetime = date('Y-m-d H:i');
+        }
+    }
 
     return $app['twig']->render('connections.html.twig', array(
         'from' => $from,

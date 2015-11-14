@@ -1,2 +1,3 @@
-cache/
-vendor/
+/cache/
+/vendor/
+/web/components/

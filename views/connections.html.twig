@@ -9,10 +9,14 @@
 {% endblock %}
 
 {% block head %}
-    <script src="/static/bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/components/bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min.css" />
+    <script src="/components/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/components/bootstrap-3-typeahead/bootstrap3-typeahead.min.js"></script>
+    <script src="/components/moment/min/moment.min.js"></script>
+    <script src="/components/bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js"></script>
     <script src="/static/js/connections.js"></script>
     <script>
-    
+
     var TRNSPRT_CONNECTIONS_URL = '{% if connections %}{{ path('connections', {
        'from': from,
        'to': to,
@@ -23,52 +27,57 @@
 {% endblock %}
 
 {% block content %}
-        <div class="span5 form-query">
+    <div class="row">
+        <div class="col-sm-5 form-query">
 
             <form method="get" action="">
-                <div class="row-fluid">
-                    <div class="span5 fluid station">
-                        <input type="text" name="from" value="{{ from }}" placeholder="From" tabindex="1" autocomplete="off" autocapitalize="on" />
-                        {% if stationsFrom %}
-                            <p>
-                                Did you mean:
-                                {% for station in stationsFrom %}
-                                    <a href="{{ path('connections', {'from': station, 'to': to, 'at': datetime}) }}">{{ station }}</a>
-                                    {%- if not loop.last -%}
-                                        ,
-                                    {%- endif %}
-                                {% endfor %}
-                            </p>
-                        {% endif %}
+                <div class="row">
+                    <div class="col-xs-6 station">
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="from" value="{{ from }}" placeholder="From" tabindex="1" autocomplete="off" autocapitalize="on" />
+                            {% if stationsFrom %}
+                                <p>
+                                    Did you mean:
+                                    {% for station in stationsFrom %}
+                                        <a href="{{ path('connections', {'from': station, 'to': to, 'at': datetime}) }}">{{ station }}</a>
+                                        {%- if not loop.last -%}
+                                            ,
+                                        {%- endif %}
+                                    {% endfor %}
+                                </p>
+                            {% endif %}
+                        </div>
                     </div>
-                    <div class="span5 fluid station">
-                        <input type="text" name="to" value="{{ to }}" placeholder="To" tabindex="2" autocomplete="off" autocapitalize="on" />
-                        {% if stationsTo %}
-                            <p>
-                                Did you mean:
-                                {% for station in stationsTo %}
-                                    <a href="{{ path('connections', {'from': from, 'to': station, 'at': datetime}) }}">{{ station }}</a>
-                                    {%- if not loop.last -%}
-                                        ,
-                                    {%- endif %}
-                                {% endfor %}
-                            </p>
-                        {% endif %}
+                    <div class="col-xs-6 station">
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="to" value="{{ to }}" placeholder="To" tabindex="2" autocomplete="off" autocapitalize="on" />
+                            {% if stationsTo %}
+                                <p>
+                                    Did you mean:
+                                    {% for station in stationsTo %}
+                                        <a href="{{ path('connections', {'from': from, 'to': station, 'at': datetime}) }}">{{ station }}</a>
+                                        {%- if not loop.last -%}
+                                            ,
+                                        {%- endif %}
+                                    {% endfor %}
+                                </p>
+                            {% endif %}
+                        </div>
                     </div>
                 </div>
-                <div class="row-fluid">
-                    <div class="span5 fluid date">
-                        <input type="datetime-local" name="datetime" value="{% if datetime %}{{ datetime|date('Y-m-d\\TH:i') }}{% endif %}" placeholder="Date and time (optional)" tabindex="3" step="300" />
+                <div class="row">
+                    <div class="col-xs-6 date">
+                        <input type="text" class="form-control" name="datetime" value="{% if datetime %}{{ datetime|date('Y-m-d H:i') }}{% endif %}" placeholder="Date and time (optional)" tabindex="3" />
                     </div>
-                    <div class="span5 fluid apply">
-                        <input type="submit" class="btn" value="Search" tabindex="5" />
-                        <a href="{{ path('home') }}" tabindex="6">Clear</a>
+                    <div class="col-xs-6 apply">
+                        <input type="submit" class="btn btn-primary" value="Search" tabindex="5" />
+                        <a class="btn btn-link" href="{{ path('home') }}" tabindex="6">Clear</a>
                     </div>
                 </div>
             </form>
 
         </div>
-        <div class="span7">
+        <div class="col-sm-7">
 
             {% if connections %}
                 <table class="table connections">
@@ -82,8 +91,8 @@
                             <th>Time</th>
                             <th>Journey</th>
                             <th>
-                                <span class="visible-phone">Pl.</span>
-                                <span class="hidden-phone">Platform</span>
+                                <span class="visible-xs-inline">Pl.</span>
+                                <span class="hidden-xs">Platform</span>
                             </th>
                         </tr>
                     </thead>
@@ -106,7 +115,7 @@
                                         {{ connection.duration|slice(0, 2)|trim("0") }}d
                                     {% endif %}
                                     {{ connection.duration|slice(3, 1)|trim("0") }}{{ connection.duration|slice(4, 4) }}′<br/>
-                                    <span class="muted">
+                                    <span class="text-muted">
                                         {{ connection.products|join(", ") }}
                                     </span>
                                 </td>
@@ -118,15 +127,15 @@
                                     {% endif %}
                                     <br/>
                                     {% if connection.capacity2nd > 0 %}
-                                        <span class="muted" title="Expected occupancy 2nd class">
+                                        <small title="Expected occupancy 2nd class">
                                             {%- for i in [0, 1, 2] -%}
                                                 {%- if i < connection.capacity2nd -%}
-                                                    ●
+                                                    <span class="glyphicon glyphicon-user text-muted"></span>
                                                 {%- else -%}
-                                                    ○
+                                                    <span class="glyphicon glyphicon-user text-disabled"></span>
                                                 {%- endif -%}
                                             {%- endfor -%}
-                                        </span>
+                                        </small>
                                     {% endif %}
                                 </td>
                             </tr>
@@ -157,7 +166,7 @@
                                 </tr>
                                 <tr class="section"{% if loop.parent.loop.index != c %} style="display: none;"{% endif %}>
                                     <td style="border-top: 0; padding: 4px 8px;">
-                                        <span class="muted">
+                                        <span class="text-muted">
                                             {% if section.journey %}
                                                 {{ section.journey.name }}
                                             {% else %}
@@ -166,17 +175,17 @@
                                         </span>
                                     </td>
                                     <td style="border-top: 0; padding: 4px 8px;">
-                                        <span class="muted" title="Expected occupancy 2nd class">
+                                        <small title="Expected occupancy 2nd class">
                                             {% if section.journey and section.journey.capacity2nd > 0 %}
                                                 {%- for i in [0, 1, 2] -%}
                                                     {%- if i < section.journey.capacity2nd -%}
-                                                        ●
+                                                        <span class="glyphicon glyphicon-user text-muted"></span>
                                                     {%- else -%}
-                                                        ○
+                                                        <span class="glyphicon glyphicon-user text-disabled"></span>
                                                     {%- endif -%}
                                                 {%- endfor -%}
                                             {% endif %}
-                                        </span>
+                                        </small>
                                     </td>
                                 </tr>
                                 <tr class="section"{% if loop.parent.loop.index != c %} style="display: none;"{% endif %}>
@@ -218,18 +227,14 @@
                     {% endfor %}
                 </table>
 
-                {% if not datetime %}
-                    {% set datetime = ""|date('Y-m-d H:i') %}
-                {% endif %}
-
-                <div class="row-fluid">
-                    <div class="span4 fluid earlier">
+                <div class="row">
+                    <div class="col-xs-3">
                         <a href="{{ path('connections', {'from': from, 'to': to, 'at': datetime, 'page': page - 1}) }}" tabindex="8">Earlier</a>
                     </div>
-                    <div class="span4 fluid reverse">
+                    <div class="col-xs-6 text-center">
                         <a href="{{ path('connections', {'from': to, 'to': from, 'at': datetime}) }}" tabindex="7">Opposite direction</a>
                     </div>
-                    <div class="span4 fluid later">
+                    <div class="col-xs-3 text-right">
                         <a href="{{ path('connections', {'from': from, 'to': to, 'at': datetime, 'page': page + 1}) }}" tabindex="9">Later</a>
                     </div>
                 </div>
@@ -238,4 +243,5 @@
                 <p>Share the found connection by copying the web address into any message.<p/>
             {% endif %}
         </div>
+    </div>
 {% endblock %}
