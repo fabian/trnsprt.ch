@@ -36,6 +36,25 @@ $app->register(new Silex\Provider\UrlGeneratorServiceProvider());
 
 $app['client'] = new GuzzleHttp\Client();
 
+$app->error(function (\GuzzleHttp\Exception\ServerException $e, $code) use ($app) {
+
+    return $app['twig']->render('error_api.html.twig', array(
+        'exception' => $e,
+        'response' => $e->getResponse(),
+    ));
+});
+
+$app->error(function (\Exception $e, $code) use ($app) {
+
+    if ($app['debug']) {
+        return;
+    }
+
+    return $app['twig']->render('error.html.twig', array(
+        'exception' => $e,
+    ));
+});
+
 // enable the following URL variations:
 // * /from/Basel/to/Zurich
 // * /from/Basel/to/Zurich/tomorrow

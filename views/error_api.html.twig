@@ -1,0 +1,15 @@
+{% extends "base.html.twig" %}
+
+{% block title %}Error{% endblock %}
+
+{% block content %}
+
+<p>There was an error connecting to the Transport API. Please try again later.</p>
+<br/>
+<p class="muted">
+    {{ response.statusCode }} {{ response.reasonPhrase }}<br/>
+    {{ response.body }}
+</p>
+<br/>
+
+{% endblock %}
