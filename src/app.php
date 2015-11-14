@@ -34,7 +34,7 @@ $app->register(new TwigServiceProvider(), array(
 
 $app->register(new Silex\Provider\UrlGeneratorServiceProvider());
 
-$app['buzz'] = new Buzz\Browser(new Buzz\Client\Curl());
+$app['client'] = new GuzzleHttp\Client();
 
 // enable the following URL variations:
 // * /from/Basel/to/Zurich
@@ -114,7 +114,8 @@ $app->get('/c', function (Request $request) use ($app) {
     $query = $request->query->all();
 
     $url = 'http://transport.opendata.ch/v1/connections?' . http_build_query($query);
-    $response = json_decode($app['buzz']->get($url)->getContent());
+    $response = $app['client']->request('GET', $url);
+    $response = json_decode($response->getBody());
 
     $from = $request->query->get('from');
     if ($response->from) {
