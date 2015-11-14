@@ -112,7 +112,6 @@ $app->get('/from/{from}', function ($from, Request $request) use ($gotoConnectio
 $app->get('/c', function (Request $request) use ($app) {
 
     $query = $request->query->all();
-    //var_dump($query);
 
     $url = 'http://transport.opendata.ch/v1/connections?' . http_build_query($query);
     $response = json_decode($app['buzz']->get($url)->getContent());
