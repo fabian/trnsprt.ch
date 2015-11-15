@@ -197,7 +197,9 @@ $app->get('/s', function (Request $request) use ($app) {
     $query = $request->query->all();
 
     $url = 'http://transport.opendata.ch/v1/stationboard?' . http_build_query($query);
-    $response = json_decode($app['buzz']->get($url)->getContent());
+    $response = $app['client']->request('GET', $url);
+    $response = json_decode($response->getBody());
+
 
     $station = $request->query->get('station');
     $coordinates = null;
