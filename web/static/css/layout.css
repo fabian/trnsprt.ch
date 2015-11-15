@@ -90,23 +90,3 @@ h1 a:focus {
         height: 130px;
     }
 }
-
-@media all and (max-device-width: 480px) and (orientation:portrait), all and (max-device-width: 480px) and (orientation:landscape) {
-
-    .date input {
-        height: 26px;
-        padding: 0;
-        border-color: #bbb;
-        font-size: 13px;
-    }
-
-    .date input:focus {
-        border-color: #1a81d2;
-    }
-
-    ul.typeahead {
-        width: 281px;
-        left: 20px !important;
-        overflow: hidden;
-    }
-}
