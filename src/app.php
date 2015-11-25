@@ -25,7 +25,9 @@ ErrorHandler::register();
 
 $app = new Application();
 
-$app['debug'] = $_SERVER['REMOTE_ADDR'] === '127.0.0.1' || $_SERVER['REMOTE_ADDR'] === '::1';
+if (isset($_SERVER['REMOTE_ADDR'])) {
+    $app['debug'] = $_SERVER['REMOTE_ADDR'] === '127.0.0.1' || $_SERVER['REMOTE_ADDR'] === '::1';
+}
 
 $app->register(new TwigServiceProvider(), array(
     'twig.path' => __DIR__.'/../views',
