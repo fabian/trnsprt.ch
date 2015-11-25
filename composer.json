@@ -9,6 +9,11 @@
         "bassjobsen/bootstrap-3-typeahead": "~3.1",
         "eonasdan/bootstrap-datetimepicker": "~4.17"
     },
+    "require-dev": {
+        "phpunit/phpunit": "~4.8",
+        "symfony/browser-kit": "^2.7",
+        "symfony/css-selector": "^2.7"
+    },
     "config": {
         "component-dir": "web/components"
     }
