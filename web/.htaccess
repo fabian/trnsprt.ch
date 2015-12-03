@@ -9,3 +9,8 @@
 
 Order allow,deny
 Allow from all
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^trnsprt\.ch [NC]
+RewriteCond %{HTTPS} =off
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [QSA,L,R=301]
