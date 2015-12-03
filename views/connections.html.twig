@@ -67,7 +67,7 @@
                 </div>
                 <div class="row">
                     <div class="col-xs-6 date">
-                        <input type="text" class="form-control" name="datetime" value="{% if datetime %}{{ datetime|date('Y-m-d H:i') }}{% endif %}" placeholder="Date and time (optional)" tabindex="3" />
+                        <input type="text" class="form-control" name="datetime" value="{% if datetime %}{{ datetime|date('Y-m-d\\TH:i') }}{% endif %}" placeholder="Date and time (optional)" tabindex="3" />
                     </div>
                     <div class="col-xs-6 apply">
                         <input type="submit" class="btn btn-primary" value="Search" tabindex="5" />
