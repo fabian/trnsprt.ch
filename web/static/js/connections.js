@@ -55,18 +55,22 @@ $(function () {
         $('input[name=to]').focus();
     }
 
-    $('input[name=datetime]').datetimepicker({
-        format: 'YYYY-MM-DD HH:mm',
-        extraFormats: [
-            'DD.MM.YY',
-            'DD.MM.YY HH:mm',
-            'DD.MM.YY HH.mm',
-            'DD.MM.YYYY',
-            'DD.MM.YYYY HH:mm',
-            'DD.MM.YYYY HH.mm'
-        ],
-        sideBySide: true
-    });
+    if (screen.width > 480) {
+        $('input[name=datetime]').datetimepicker({
+            format: 'YYYY-MM-DD HH:mm',
+            extraFormats: [
+                'DD.MM.YY',
+                'DD.MM.YY HH:mm',
+                'DD.MM.YY HH.mm',
+                'DD.MM.YYYY',
+                'DD.MM.YYYY HH:mm',
+                'DD.MM.YYYY HH.mm'
+            ],
+            sideBySide: true
+        });
+    } else {
+        $('input[name=datetime]').attr('type', 'datetime-local');
+    }
 
     function reset() {
         $('table.connections tr.connection').show();
