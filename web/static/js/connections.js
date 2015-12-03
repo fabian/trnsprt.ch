@@ -34,7 +34,6 @@ $(function () {
                 }).always(function() {
 
                     clearInterval(interval);
-                    $('input[name=from]').attr('placeholder', 'From');
 
                 });
 
