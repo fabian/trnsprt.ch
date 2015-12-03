@@ -22,7 +22,7 @@ $(function () {
                 var lat = position.coords.latitude;
                 var lng = position.coords.longitude;
 
-                $.get('http://transport.opendata.ch/v1/locations', {x: lat, y: lng}, function(data) {
+                $.get('https://transport.opendata.ch/v1/locations', {x: lat, y: lng}, function(data) {
 
                     $(data.stations).each(function (i, station) {
 
@@ -124,7 +124,7 @@ $(function () {
             if (stationRequest) {
                 stationRequest.abort();
             }
-            stationRequest = $.get('http://transport.opendata.ch/v1/locations', {query: query, type: 'station'}, function(data) {
+            stationRequest = $.get('https://transport.opendata.ch/v1/locations', {query: query, type: 'station'}, function(data) {
                 if (data.stations.length == 1 && data.stations[0].name == query) {
                     return;
                 }
