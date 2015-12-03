@@ -16,6 +16,13 @@ $(function () {
                 $('input[name=from]').attr('placeholder', message);
             }, 400);
 
+            var resetInterval = function () {
+
+                clearInterval(interval);
+                $('input[name=from]').attr('placeholder', 'From');
+
+            };
+
             // get location for from
             navigator.geolocation.getCurrentPosition(function (position) {
 
@@ -26,21 +33,21 @@ $(function () {
 
                     $(data.stations).each(function (i, station) {
 
+                        clearInterval(interval);
                         $('input[name=from]').attr('placeholder', station.name);
 
                         return false;
                     });
 
-                }).always(function() {
+                }).fail(function() {
 
-                    clearInterval(interval);
+                    resetInterval();
 
                 });
 
             }, function(error) {
 
-                clearInterval(interval);
-                $('input[name=from]').attr('placeholder', 'From');
+                resetInterval();
 
             }, {
                 enableHighAccuracy:true,
