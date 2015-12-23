@@ -92,7 +92,7 @@
                                 </span>
                             </td>
                             <td>
-                                {% if journey.stop.prognosis.platform %}
+                                {% if journey.stop.prognosis.platform and journey.stop.prognosis.platform != journey.stop.platform %}
                                     <span style="color: #a20d0d;">{{ journey.stop.prognosis.platform }}</span>
                                 {% else %}
                                     {{ journey.stop.platform }}
