@@ -9,6 +9,7 @@ class ConntextionTest extends WebTestCase
         $app = require __DIR__.'/../src/app.php';
         $app['debug'] = true;
         unset($app['exception_handler']);
+
         return $app;
     }
 

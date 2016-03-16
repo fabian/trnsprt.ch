@@ -1,25 +1,13 @@
 <?php
 
-require_once __DIR__ . '/../vendor/autoload.php';
+require_once __DIR__.'/../vendor/autoload.php';
 
 use Silex\Application;
-
+use Silex\Provider\TwigServiceProvider;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
-use Symfony\Component\HttpFoundation\RedirectResponse;
-use Symfony\Component\HttpKernel\Exception\HttpException;
-use Symfony\Component\HttpKernel\HttpKernelInterface;
 use Symfony\Component\HttpKernel\Debug\ErrorHandler;
-
-use Igorw\Trashbin\Storage;
-use Igorw\Trashbin\Validator;
-use Igorw\Trashbin\Parser;
-
-use Silex\Provider\TwigServiceProvider;
-use Silex\Provider\UrlGeneratorServiceProvider;
-
-use Symfony\Component\Finder\Finder;
-
+use Symfony\Component\HttpKernel\HttpKernelInterface;
 
 ErrorHandler::register();
 
@@ -29,10 +17,10 @@ if (isset($_SERVER['REMOTE_ADDR'])) {
     $app['debug'] = $_SERVER['REMOTE_ADDR'] === '127.0.0.1' || $_SERVER['REMOTE_ADDR'] === '::1';
 }
 
-$app->register(new TwigServiceProvider(), array(
-    'twig.path' => __DIR__.'/../views',
-    'twig.options' => array('cache' => __DIR__.'/../cache/twig', 'debug' => true),
-));
+$app->register(new TwigServiceProvider(), [
+    'twig.path'    => __DIR__.'/../views',
+    'twig.options' => ['cache' => __DIR__.'/../cache/twig', 'debug' => true],
+]);
 
 $app->register(new Silex\Provider\UrlGeneratorServiceProvider());
 
@@ -40,10 +28,10 @@ $app['client'] = new GuzzleHttp\Client();
 
 $app->error(function (\GuzzleHttp\Exception\ServerException $e, $code) use ($app) {
 
-    return $app['twig']->render('error_api.html.twig', array(
+    return $app['twig']->render('error_api.html.twig', [
         'exception' => $e,
-        'response' => $e->getResponse(),
-    ));
+        'response'  => $e->getResponse(),
+    ]);
 });
 
 $app->error(function (\Exception $e, $code) use ($app) {
@@ -52,9 +40,9 @@ $app->error(function (\Exception $e, $code) use ($app) {
         return;
     }
 
-    return $app['twig']->render('error.html.twig', array(
+    return $app['twig']->render('error.html.twig', [
         'exception' => $e,
-    ));
+    ]);
 });
 
 // enable the following URL variations:
@@ -68,13 +56,13 @@ $gotoConnections = function ($from, $to, $at, Request $request) use ($app) {
     return $app->handle(
         Request::create($app['url_generator']->generate(
             '_connections',
-            array(
-                'from' => $from,
-                'to' => $to,
+            [
+                'from'     => $from,
+                'to'       => $to,
                 'datetime' => $at,
-                'c' =>  $request->query->get('c'),
-                'page' => $request->query->get('page')
-            )
+                'c'        => $request->query->get('c'),
+                'page'     => $request->query->get('page'),
+            ]
         )),
         HttpKernelInterface::SUB_REQUEST
     );
@@ -85,7 +73,7 @@ $app->get('/', function (Request $request) use ($gotoConnections) {
 })
 ->bind('home');
 
-$app->get('/to/{to}/from/{from}/at/{at}', function ($to = '', $from = '', $at = '', Request $request) use ($gotoConnections) {
+$app->get('/to/{to}/from/{from}/at/{at}', function ($to, $from, $at, Request $request) use ($gotoConnections) {
     return $gotoConnections($from, $to, $at, $request);
 })
 ->assert('to', '.+')
@@ -134,7 +122,7 @@ $app->get('/c', function (Request $request) use ($app) {
 
     $query = $request->query->all();
 
-    $url = 'https://transport.opendata.ch/v1/connections?' . http_build_query($query);
+    $url = 'https://transport.opendata.ch/v1/connections?'.http_build_query($query);
     $response = $app['client']->request('GET', $url);
     $response = json_decode($response->getBody());
 
@@ -148,7 +136,7 @@ $app->get('/c', function (Request $request) use ($app) {
         $to = $response->to->name;
     }
 
-    $stationsFrom = array();
+    $stationsFrom = [];
     if (isset($response->stations->from[0])) {
         if ($response->stations->from[0]->score < 101) {
             foreach (array_slice($response->stations->from, 1, 3) as $station) {
@@ -159,7 +147,7 @@ $app->get('/c', function (Request $request) use ($app) {
         }
     }
 
-    $stationsTo = array();
+    $stationsTo = [];
     if (isset($response->stations->to[0])) {
         if ($response->stations->to[0]->score < 101) {
             foreach (array_slice($response->stations->to, 1, 3) as $station) {
@@ -181,16 +169,16 @@ $app->get('/c', function (Request $request) use ($app) {
         }
     }
 
-    return $app['twig']->render('connections.html.twig', array(
-        'from' => $from,
-        'to' => $to,
-        'datetime' => $datetime,
-        'page' => $page,
-        'c' => $c,
+    return $app['twig']->render('connections.html.twig', [
+        'from'         => $from,
+        'to'           => $to,
+        'datetime'     => $datetime,
+        'page'         => $page,
+        'c'            => $c,
         'stationsFrom' => $stationsFrom,
-        'stationsTo' => $stationsTo,
-        'connections' => $connections,
-    ));
+        'stationsTo'   => $stationsTo,
+        'connections'  => $connections,
+    ]);
 })
 ->bind('_connections');
 
@@ -198,10 +186,9 @@ $app->get('/s', function (Request $request) use ($app) {
 
     $query = $request->query->all();
 
-    $url = 'https://transport.opendata.ch/v1/stationboard?' . http_build_query($query);
+    $url = 'https://transport.opendata.ch/v1/stationboard?'.http_build_query($query);
     $response = $app['client']->request('GET', $url);
     $response = json_decode($response->getBody());
-
 
     $station = $request->query->get('station');
     $coordinates = null;
@@ -215,12 +202,12 @@ $app->get('/s', function (Request $request) use ($app) {
     $c = $request->query->get('c');
     $stationboard = $response->stationboard;
 
-    return $app['twig']->render('stationboard.html.twig', array(
-        'station' => $station,
-        'datetime' => $datetime,
+    return $app['twig']->render('stationboard.html.twig', [
+        'station'      => $station,
+        'datetime'     => $datetime,
         'stationboard' => $stationboard,
-        'coordinates' => $coordinates,
-    ));
+        'coordinates'  => $coordinates,
+    ]);
 })
 ->bind('stationboard');
 
