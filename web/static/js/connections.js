@@ -72,7 +72,13 @@ $(function () {
                 'DD.MM.YYYY HH:mm',
                 'DD.MM.YYYY HH.mm'
             ],
+            useCurrent: false,
             sideBySide: true
+        }).on('dp.show', function () {
+            // https://github.com/Eonasdan/bootstrap-datetimepicker/issues/1311
+            if ($(this).data('DateTimePicker').date() === null) {
+                $(this).data('DateTimePicker').date(moment());
+            }
         });
     } else {
         $('input[name=datetime]').attr('type', 'datetime-local');
