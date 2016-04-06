@@ -4,9 +4,9 @@ require_once __DIR__.'/../vendor/autoload.php';
 
 use Silex\Application;
 use Silex\Provider\TwigServiceProvider;
+use Symfony\Component\Debug\ErrorHandler;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
-use Symfony\Component\HttpKernel\Debug\ErrorHandler;
 use Symfony\Component\HttpKernel\HttpKernelInterface;
 
 ErrorHandler::register();
