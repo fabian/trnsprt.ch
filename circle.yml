@@ -5,9 +5,6 @@ machine:
 dependencies:
   cache_directories:
     - ~/.composer/cache
-test:
-  override:
-    - vendor/bin/phpunit --log-junit $CIRCLE_TEST_REPORTS/junit.xml
 deployment:
   production:
     branch: master
