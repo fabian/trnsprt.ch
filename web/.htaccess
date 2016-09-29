@@ -9,6 +9,3 @@
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^ index.php [L]
 </IfModule>
-
-Order allow,deny
-Allow from all
