@@ -26,6 +26,23 @@ $app->register(new Silex\Provider\UrlGeneratorServiceProvider());
 
 $app['client'] = new GuzzleHttp\Client();
 
+$app['agency_colors'] = $app->share(function () {
+    return require __DIR__.'/agency-colors.php';
+});
+
+$app['get_agency_color'] = $app->protect(function ($operator, $category, $number) use ($app) {
+
+    $agencyColors = $app['agency_colors'];
+
+    if (isset($agencyColors[$operator][$category][$number]) && $agencyColors[$operator][$category][$number]['bg']) {
+        return $agencyColors[$operator][$category][$number];
+    }
+
+    if (isset($agencyColors[$operator][$category]['ALL_LINES'])) {
+        return $agencyColors[$operator][$category]['ALL_LINES'];
+    }
+});
+
 $app->error(function (\GuzzleHttp\Exception\ServerException $e, $code) use ($app) {
 
     return $app['twig']->render('error_api.html.twig', [
@@ -167,6 +184,19 @@ $app->get('/c', function (Request $request) use ($app) {
         if (!$datetime) {
             $datetime = date('Y-m-d H:i');
         }
+
+        foreach($connections as $connection) {
+            foreach($connection->sections as $section) {
+                if (is_object($section->journey)) {
+                    $journey = $section->journey;
+                    $color = $app['get_agency_color']($journey->operator, $journey->category, $journey->number);
+                    if ($color) {
+                        $journey->bg = $color['bg'];
+                        $journey->fg = $color['fg'];
+                    }
+                }
+            }
+        }
     }
 
     return $app['twig']->render('connections.html.twig', [
@@ -201,6 +231,14 @@ $app->get('/s', function (Request $request) use ($app) {
     $page = $request->query->get('page', 0);
     $c = $request->query->get('c');
     $stationboard = $response->stationboard;
+
+    foreach ($stationboard as $journey) {
+        $color = $app['get_agency_color']($journey->operator, $journey->category, $journey->number);
+        if ($color) {
+            $journey->bg = $color['bg'];
+            $journey->fg = $color['fg'];
+        }
+    }
 
     return $app['twig']->render('stationboard.html.twig', [
         'station'      => $station,

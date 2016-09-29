@@ -115,9 +115,13 @@
                                         {{ connection.duration|slice(0, 2)|trim("0") }}d
                                     {% endif %}
                                     {{ connection.duration|slice(3, 1)|trim("0") }}{{ connection.duration|slice(4, 4) }}′<br/>
-                                    <span class="text-muted">
-                                        {{ connection.products|join(", ") }}
-                                    </span>
+                                    {% for section in connection.sections %}
+                                        {% if section.journey -%}
+                                            <span class="journey-line" style="background-color: {{ section.journey.bg|default('#ddd') }}; color: {{ section.journey.fg|default('#555') }};">
+                                                {{- section.journey.category -}}
+                                            </span>
+                                        {%- endif %}
+                                    {% endfor %}
                                 </td>
                                 <td>
                                     {% if connection.from.prognosis.platform and connection.from.prognosis.platform != connection.from.platform %}
@@ -166,12 +170,13 @@
                                 </tr>
                                 <tr class="section"{% if loop.parent.loop.index != c %} style="display: none;"{% endif %}>
                                     <td style="border-top: 0; padding: 4px 8px;">
-                                        <span class="text-muted">
-                                            {% if section.journey %}
-                                                {{ section.journey.name }}
-                                            {% else %}
+                                        <span class="journey-line" style="background-color: {{ section.journey.bg|default('#ddd') }}; color: {{ section.journey.fg|default('#555') }};">
+                                            {%- if section.journey -%}
+                                                {{- section.journey.category }}
+                                                {{ section.journey.number -}}
+                                            {%- else -%}
                                                 Walk
-                                            {% endif %}
+                                            {%- endif -%}
                                         </span>
                                     </td>
                                     <td style="border-top: 0; padding: 4px 8px;">

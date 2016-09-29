@@ -87,8 +87,9 @@
                             <td>
                                 {{ journey.to }}
                                 <br/>
-                                <span class="text-muted">
-                                    {{ journey.name }}
+                                <span class="journey-line" style="background-color: {{ journey.bg|default('#ddd') }}; color: {{ journey.fg|default('#555') }};">
+                                    {{- journey.category }}
+                                    {{ journey.number -}}
                                 </span>
                             </td>
                             <td>

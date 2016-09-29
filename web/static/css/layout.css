@@ -30,6 +30,14 @@ h1 a:focus {
     color: #ddd;
 }
 
+.journey-line {
+    padding: 0.2em 0.4em;
+    font-size: 80%;
+    line-height: 1;
+    white-space: nowrap;
+    vertical-align: baseline;
+}
+
 .table tbody + tbody {
     border-top: 0;
 }
