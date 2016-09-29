@@ -4,6 +4,7 @@
         "guzzlehttp/guzzle": "~6.0",
         "twig/twig": "~1.0",
         "symfony/twig-bridge": "~3.0",
+        "symfony/yaml": "~3.0",
         "robloach/component-installer": "~0.2",
         "components/bootstrap": "~3.3",
         "bassjobsen/bootstrap-3-typeahead": "~3.1",
