@@ -17,4 +17,4 @@ foreach ($yaml['agency'] as $agency) {
 
 $export = var_export($agencies, true);
 
-file_put_contents(__DIR__ . '/src/agency-colors.php', "<?php\nreturn $export;\n");
+file_put_contents(__DIR__.'/src/agency-colors.php', "<?php\nreturn $export;\n");

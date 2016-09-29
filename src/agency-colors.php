@@ -1,15301 +1,11842 @@
 <?php
-return array (
-  'AAGL' => 
-  array (
-    'NFB' => 
-    array (
-      70 => 
-      array (
+
+return  [
+  'AAGL' => [
+    'NFB' => [
+      70 => [
         'bg' => '',
         'fg' => '',
-      ),
-      71 => 
-      array (
+      ],
+      71 => [
         'bg' => '',
         'fg' => '',
-      ),
-      72 => 
-      array (
+      ],
+      72 => [
         'bg' => '',
         'fg' => '',
-      ),
-      75 => 
-      array (
+      ],
+      75 => [
         'bg' => '',
         'fg' => '',
-      ),
-      76 => 
-      array (
+      ],
+      76 => [
         'bg' => '',
         'fg' => '',
-      ),
-      78 => 
-      array (
+      ],
+      78 => [
         'bg' => '',
         'fg' => '',
-      ),
-      80 => 
-      array (
+      ],
+      80 => [
         'bg' => '',
         'fg' => '',
-      ),
-      81 => 
-      array (
+      ],
+      81 => [
         'bg' => '',
         'fg' => '',
-      ),
-      82 => 
-      array (
+      ],
+      82 => [
         'bg' => '',
         'fg' => '',
-      ),
-      83 => 
-      array (
+      ],
+      83 => [
         'bg' => '',
         'fg' => '',
-      ),
-      'N28' => 
-      array (
+      ],
+      'N28' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N50' => 
-      array (
+      ],
+      'N50' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N51' => 
-      array (
+      ],
+      'N51' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N52' => 
-      array (
+      ],
+      'N52' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N53' => 
-      array (
+      ],
+      'N53' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-    ),
-  ),
-  'AAGR' => 
-  array (
-    'NFB' => 
-    array (
-      13 => 
-      array (
+      ],
+    ],
+  ],
+  'AAGR' => [
+    'NFB' => [
+      13 => [
         'bg' => '#800000',
         'fg' => '#ffffff',
-      ),
-      42 => 
-      array (
+      ],
+      42 => [
         'bg' => '#ffff00',
         'fg' => '#000000',
-      ),
-      43 => 
-      array (
+      ],
+      43 => [
         'bg' => '#008000',
         'fg' => '#ffffff',
-      ),
-      44 => 
-      array (
+      ],
+      44 => [
         'bg' => '#00ccff',
         'fg' => '#ffffff',
-      ),
-      45 => 
-      array (
+      ],
+      45 => [
         'bg' => '#feca0a',
         'fg' => '#000000',
-      ),
-      50 => 
-      array (
+      ],
+      50 => [
         'bg' => '#969696',
         'fg' => '#ffffff',
-      ),
-      51 => 
-      array (
+      ],
+      51 => [
         'bg' => '#ccff99',
         'fg' => '#000000',
-      ),
-      52 => 
-      array (
+      ],
+      52 => [
         'bg' => '#0066cc',
         'fg' => '#ffffff',
-      ),
-      53 => 
-      array (
+      ],
+      53 => [
         'bg' => '#800080',
         'fg' => '#ffffff',
-      ),
-      54 => 
-      array (
+      ],
+      54 => [
         'bg' => '#00cc00',
         'fg' => '#ffffff',
-      ),
-      '41/54' => 
-      array (
+      ],
+      '41/54' => [
         'bg' => '',
         'fg' => '',
-      ),
-      'N12' => 
-      array (
+      ],
+      'N12' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-    ),
-  ),
-  'AAGS' => 
-  array (
-    'KB' => 
-    array (
-      5 => 
-      array (
+      ],
+    ],
+  ],
+  'AAGS' => [
+    'KB' => [
+      5 => [
         'bg' => '',
         'fg' => '',
-      ),
-      6 => 
-      array (
+      ],
+      6 => [
         'bg' => '',
         'fg' => '',
-      ),
-      9 => 
-      array (
+      ],
+      9 => [
         'bg' => '',
         'fg' => '',
-      ),
-      30 => 
-      array (
+      ],
+      30 => [
         'bg' => '',
         'fg' => '',
-      ),
-      31 => 
-      array (
+      ],
+      31 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-    'NFB' => 
-    array (
-      1 => 
-      array (
+      ],
+    ],
+    'NFB' => [
+      1 => [
         'bg' => '',
         'fg' => '',
-      ),
-      2 => 
-      array (
+      ],
+      2 => [
         'bg' => '',
         'fg' => '',
-      ),
-      3 => 
-      array (
+      ],
+      3 => [
         'bg' => '',
         'fg' => '',
-      ),
-      4 => 
-      array (
+      ],
+      4 => [
         'bg' => '',
         'fg' => '',
-      ),
-      7 => 
-      array (
+      ],
+      7 => [
         'bg' => '',
         'fg' => '',
-      ),
-      20 => 
-      array (
+      ],
+      20 => [
         'bg' => '',
         'fg' => '',
-      ),
-      23 => 
-      array (
+      ],
+      23 => [
         'bg' => '',
         'fg' => '',
-      ),
-      27 => 
-      array (
+      ],
+      27 => [
         'bg' => '',
         'fg' => '',
-      ),
-      28 => 
-      array (
+      ],
+      28 => [
         'bg' => '',
         'fg' => '',
-      ),
-      29 => 
-      array (
+      ],
+      29 => [
         'bg' => '',
         'fg' => '',
-      ),
-      110 => 
-      array (
+      ],
+      110 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'AAGU' => 
-  array (
-    'NFB' => 
-    array (
-      401 => 
-      array (
+      ],
+    ],
+  ],
+  'AAGU' => [
+    'NFB' => [
+      401 => [
         'bg' => '',
         'fg' => '',
-      ),
-      402 => 
-      array (
+      ],
+      402 => [
         'bg' => '',
         'fg' => '',
-      ),
-      403 => 
-      array (
+      ],
+      403 => [
         'bg' => '',
         'fg' => '',
-      ),
-      404 => 
-      array (
+      ],
+      404 => [
         'bg' => '',
         'fg' => '',
-      ),
-      406 => 
-      array (
+      ],
+      406 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'AB Auto' => 
-  array (
-    'BUS' => 
-    array (
-      190 => 
-      array (
+      ],
+    ],
+  ],
+  'AB Auto' => [
+    'BUS' => [
+      190 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'AB-ab' => 
-  array (
-    'D' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'AB-ab' => [
+    'D' => [
+      'ALL_LINES' => [
         'bg' => '#ed232a',
         'fg' => '#ffffff',
-      ),
-    ),
-    'S' => 
-    array (
-      15 => 
-      array (
+      ],
+    ],
+    'S' => [
+      15 => [
         'bg' => '',
         'fg' => '',
-      ),
-      21 => 
-      array (
+      ],
+      21 => [
         'bg' => '',
         'fg' => '',
-      ),
-      22 => 
-      array (
+      ],
+      22 => [
         'bg' => '',
         'fg' => '',
-      ),
-      23 => 
-      array (
+      ],
+      23 => [
         'bg' => '',
         'fg' => '',
-      ),
-      24 => 
-      array (
+      ],
+      24 => [
         'bg' => '',
         'fg' => '',
-      ),
-      25 => 
-      array (
+      ],
+      25 => [
         'bg' => '',
         'fg' => '',
-      ),
-      26 => 
-      array (
+      ],
+      26 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-    'SN' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'SN' => [
+      'ALL_LINES' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-    ),
-  ),
-  'AB-tb' => 
-  array (
-    'BUS' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'AB-tb' => [
+    'BUS' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'ABB' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'ABB' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-    'GB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'GB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'ABl' => 
-  array (
-    'BUS' => 
-    array (
-      131 => 
-      array (
+      ],
+    ],
+  ],
+  'ABl' => [
+    'BUS' => [
+      131 => [
         'bg' => '',
         'fg' => '',
-      ),
-      135 => 
-      array (
+      ],
+      135 => [
         'bg' => '',
         'fg' => '',
-      ),
-      136 => 
-      array (
+      ],
+      136 => [
         'bg' => '',
         'fg' => '',
-      ),
-      '135a' => 
-      array (
+      ],
+      '135a' => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-    'KB' => 
-    array (
-      133 => 
-      array (
+      ],
+    ],
+    'KB' => [
+      133 => [
         'bg' => '',
         'fg' => '',
-      ),
-      134 => 
-      array (
+      ],
+      134 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-    'NFB' => 
-    array (
-      131 => 
-      array (
+      ],
+    ],
+    'NFB' => [
+      131 => [
         'bg' => '',
         'fg' => '',
-      ),
-      132 => 
-      array (
+      ],
+      132 => [
         'bg' => '',
         'fg' => '',
-      ),
-      135 => 
-      array (
+      ],
+      135 => [
         'bg' => '',
         'fg' => '',
-      ),
-      '135a' => 
-      array (
+      ],
+      '135a' => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'AFA' => 
-  array (
-    'BUS' => 
-    array (
-      28 => 
-      array (
+      ],
+    ],
+  ],
+  'AFA' => [
+    'BUS' => [
+      28 => [
         'bg' => '',
         'fg' => '',
-      ),
-      35 => 
-      array (
+      ],
+      35 => [
         'bg' => '',
         'fg' => '',
-      ),
-      36 => 
-      array (
+      ],
+      36 => [
         'bg' => '',
         'fg' => '',
-      ),
-      37 => 
-      array (
+      ],
+      37 => [
         'bg' => '',
         'fg' => '',
-      ),
-      230 => 
-      array (
+      ],
+      230 => [
         'bg' => '',
         'fg' => '',
-      ),
-      232 => 
-      array (
+      ],
+      232 => [
         'bg' => '',
         'fg' => '',
-      ),
-      241 => 
-      array (
+      ],
+      241 => [
         'bg' => '',
         'fg' => '',
-      ),
-      242 => 
-      array (
+      ],
+      242 => [
         'bg' => '',
         'fg' => '',
-      ),
-      281 => 
-      array (
+      ],
+      281 => [
         'bg' => '',
         'fg' => '',
-      ),
-      282 => 
-      array (
+      ],
+      282 => [
         'bg' => '',
         'fg' => '',
-      ),
-      283 => 
-      array (
+      ],
+      283 => [
         'bg' => '',
         'fg' => '',
-      ),
-      284 => 
-      array (
+      ],
+      284 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'AGS' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'AGS' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'ALEX' => 
-  array (
-    'BUS' => 
-    array (
-      641 => 
-      array (
+      ],
+    ],
+  ],
+  'ALEX' => [
+    'BUS' => [
+      641 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'AMG' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'AMG' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'AMSA' => 
-  array (
-    'NFB' => 
-    array (
-      1 => 
-      array (
+      ],
+    ],
+  ],
+  'AMSA' => [
+    'NFB' => [
+      1 => [
         'bg' => '',
         'fg' => '',
-      ),
-      2 => 
-      array (
+      ],
+      2 => [
         'bg' => '',
         'fg' => '',
-      ),
-      3 => 
-      array (
+      ],
+      3 => [
         'bg' => '',
         'fg' => '',
-      ),
-      5 => 
-      array (
+      ],
+      5 => [
         'bg' => '',
         'fg' => '',
-      ),
-      7 => 
-      array (
+      ],
+      7 => [
         'bg' => '',
         'fg' => '',
-      ),
-      8 => 
-      array (
+      ],
+      8 => [
         'bg' => '',
         'fg' => '',
-      ),
-      511 => 
-      array (
+      ],
+      511 => [
         'bg' => '',
         'fg' => '',
-      ),
-      512 => 
-      array (
+      ],
+      512 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'AOT' => 
-  array (
-    'BUS' => 
-    array (
-      940 => 
-      array (
+      ],
+    ],
+  ],
+  'AOT' => [
+    'BUS' => [
+      940 => [
         'bg' => '',
         'fg' => '',
-      ),
-      941 => 
-      array (
+      ],
+      941 => [
         'bg' => '',
         'fg' => '',
-      ),
-      942 => 
-      array (
+      ],
+      942 => [
         'bg' => '',
         'fg' => '',
-      ),
-      943 => 
-      array (
+      ],
+      943 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-    'KB' => 
-    array (
-      943 => 
-      array (
+      ],
+    ],
+    'KB' => [
+      943 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'ARAG' => 
-  array (
-    'BUS' => 
-    array (
-      66 => 
-      array (
+      ],
+    ],
+  ],
+  'ARAG' => [
+    'BUS' => [
+      66 => [
         'bg' => '#f8a624',
         'fg' => '#ffffff',
-      ),
-    ),
-    'NFB' => 
-    array (
-      60 => 
-      array (
+      ],
+    ],
+    'NFB' => [
+      60 => [
         'bg' => '#48bbba',
         'fg' => '#ffffff',
-      ),
-      61 => 
-      array (
+      ],
+      61 => [
         'bg' => '#e5030e',
         'fg' => '#ffffff',
-      ),
-      62 => 
-      array (
+      ],
+      62 => [
         'bg' => '#019fe4',
         'fg' => '#ffffff',
-      ),
-      63 => 
-      array (
+      ],
+      63 => [
         'bg' => '#009640',
         'fg' => '#ffffff',
-      ),
-      64 => 
-      array (
+      ],
+      64 => [
         'bg' => '#302769',
         'fg' => '#ffffff',
-      ),
-      65 => 
-      array (
+      ],
+      65 => [
         'bg' => '#c6aad2',
         'fg' => '#ffffff',
-      ),
-      272 => 
-      array (
+      ],
+      272 => [
         'bg' => '',
         'fg' => '',
-      ),
-      'N11' => 
-      array (
+      ],
+      'N11' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-    ),
-  ),
-  'ARBAG' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'ARBAG' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-    'GB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'GB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-    'SL' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'SL' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'ARL' => 
-  array (
-    'BUS' => 
-    array (
-      60 => 
-      array (
+      ],
+    ],
+  ],
+  'ARL' => [
+    'BUS' => [
+      60 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-    'NFB' => 
-    array (
-      441 => 
-      array (
+      ],
+    ],
+    'NFB' => [
+      441 => [
         'bg' => '',
         'fg' => '',
-      ),
-      461 => 
-      array (
+      ],
+      461 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'AS' => 
-  array (
-    'BUS' => 
-    array (
-      541 => 
-      array (
+      ],
+    ],
+  ],
+  'AS' => [
+    'BUS' => [
+      541 => [
         'bg' => '',
         'fg' => '',
-      ),
-      542 => 
-      array (
+      ],
+      542 => [
         'bg' => '',
         'fg' => '',
-      ),
-      543 => 
-      array (
+      ],
+      543 => [
         'bg' => '',
         'fg' => '',
-      ),
-      544 => 
-      array (
+      ],
+      544 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'ASGS' => 
-  array (
-    'BUS' => 
-    array (
-      411 => 
-      array (
+      ],
+    ],
+  ],
+  'ASGS' => [
+    'BUS' => [
+      411 => [
         'bg' => '',
         'fg' => '',
-      ),
-      413 => 
-      array (
+      ],
+      413 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'ASM Auto' => 
-  array (
-    'KB' => 
-    array (
-      51 => 
-      array (
+      ],
+    ],
+  ],
+  'ASM Auto' => [
+    'KB' => [
+      51 => [
         'bg' => '',
         'fg' => '',
-      ),
-      54 => 
-      array (
+      ],
+      54 => [
         'bg' => '',
         'fg' => '',
-      ),
-      58 => 
-      array (
+      ],
+      58 => [
         'bg' => '',
         'fg' => '',
-      ),
-      63 => 
-      array (
+      ],
+      63 => [
         'bg' => '',
         'fg' => '',
-      ),
-      64 => 
-      array (
+      ],
+      64 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-    'NFB' => 
-    array (
-      51 => 
-      array (
+      ],
+    ],
+    'NFB' => [
+      51 => [
         'bg' => '',
         'fg' => '',
-      ),
-      52 => 
-      array (
+      ],
+      52 => [
         'bg' => '',
         'fg' => '',
-      ),
-      54 => 
-      array (
+      ],
+      54 => [
         'bg' => '',
         'fg' => '',
-      ),
-      58 => 
-      array (
+      ],
+      58 => [
         'bg' => '',
         'fg' => '',
-      ),
-      63 => 
-      array (
+      ],
+      63 => [
         'bg' => '',
         'fg' => '',
-      ),
-      64 => 
-      array (
+      ],
+      64 => [
         'bg' => '',
         'fg' => '',
-      ),
-      72 => 
-      array (
+      ],
+      72 => [
         'bg' => '',
         'fg' => '',
-      ),
-      73 => 
-      array (
+      ],
+      73 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'ASM-bti' => 
-  array (
-    'R' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'ASM-bti' => [
+    'R' => [
+      'ALL_LINES' => [
         'bg' => '#003399',
         'fg' => '#ffffff',
-      ),
-    ),
-  ),
-  'ASM-ltb' => 
-  array (
-    'FUN' => 
-    array (
-      2016 => 
-      array (
+      ],
+    ],
+  ],
+  'ASM-ltb' => [
+    'FUN' => [
+      2016 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'ASM-rvo' => 
-  array (
-    'R' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'ASM-rvo' => [
+    'R' => [
+      'ALL_LINES' => [
         'bg' => '#003399',
         'fg' => '#ffffff',
-      ),
-    ),
-  ),
-  'AUT' => 
-  array (
-    'BUS' => 
-    array (
-      421 => 
-      array (
+      ],
+    ],
+  ],
+  'AUT' => [
+    'BUS' => [
+      421 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'AVJ' => 
-  array (
-    'BUS' => 
-    array (
-      690 => 
-      array (
+      ],
+    ],
+  ],
+  'AVJ' => [
+    'BUS' => [
+      690 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'AWA' => 
-  array (
-    'BUS' => 
-    array (
-      650 => 
-      array (
+      ],
+    ],
+  ],
+  'AWA' => [
+    'BUS' => [
+      650 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'AeS' => 
-  array (
-    'BAT' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'AeS' => [
+    'BAT' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'BA' => 
-  array (
-    'GB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'BA' => [
+    'GB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-    'SL' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'SL' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'BA-bgh' => 
-  array (
-    'NFB' => 
-    array (
-      233 => 
-      array (
+      ],
+    ],
+  ],
+  'BA-bgh' => [
+    'NFB' => [
+      233 => [
         'bg' => '',
         'fg' => '',
-      ),
-      234 => 
-      array (
+      ],
+      234 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'BAB' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'BAB' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-    'GB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'GB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-    'SL' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'SL' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'BALA' => 
-  array (
-    'KB' => 
-    array (
-      107 => 
-      array (
+      ],
+    ],
+  ],
+  'BALA' => [
+    'KB' => [
+      107 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'BBA' => 
-  array (
-    'NFB' => 
-    array (
-      1 => 
-      array (
+      ],
+    ],
+  ],
+  'BBA' => [
+    'NFB' => [
+      1 => [
         'bg' => '#ee1d23',
         'fg' => '#ffffff',
-      ),
-      2 => 
-      array (
+      ],
+      2 => [
         'bg' => '#23b24b',
         'fg' => '#ffffff',
-      ),
-      3 => 
-      array (
+      ],
+      3 => [
         'bg' => '#015aaa',
         'fg' => '#ffffff',
-      ),
-      4 => 
-      array (
+      ],
+      4 => [
         'bg' => '#802990',
         'fg' => '#ffffff',
-      ),
-      5 => 
-      array (
+      ],
+      5 => [
         'bg' => '#feca0a',
         'fg' => '#ffffff',
-      ),
-      6 => 
-      array (
+      ],
+      6 => [
         'bg' => '#f48232',
         'fg' => '#ffffff',
-      ),
-      7 => 
-      array (
+      ],
+      7 => [
         'bg' => '#c5168c',
         'fg' => '#ffffff',
-      ),
-      'N21' => 
-      array (
+      ],
+      'N21' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N23' => 
-      array (
+      ],
+      'N23' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N24' => 
-      array (
+      ],
+      'N24' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N25' => 
-      array (
+      ],
+      'N25' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-    ),
-  ),
-  'BBD' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'BBD' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'BBE' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'BBE' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-    'GB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'GB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'BBMAG-sm' => 
-  array (
-    'SL' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'BBMAG-sm' => [
+    'SL' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'BBO' => 
-  array (
-    'BUS' => 
-    array (
-      624 => 
-      array (
+      ],
+    ],
+  ],
+  'BBO' => [
+    'BUS' => [
+      624 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'BBWAG' => 
-  array (
-    'SL' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'BBWAG' => [
+    'SL' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'BC-cmBC' => 
-  array (
-    'D' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'BC-cmBC' => [
+    'D' => [
+      'ALL_LINES' => [
         'bg' => '#ed232a',
         'fg' => '#ffffff',
-      ),
-    ),
-    'R' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'R' => [
+      'ALL_LINES' => [
         'bg' => '#003399',
         'fg' => '#ffffff',
-      ),
-    ),
-  ),
-  'BCD' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'BCD' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-    'GB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'GB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'BDGAG' => 
-  array (
-    'GB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'BDGAG' => [
+    'GB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-    'SL' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'SL' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'BDWM-bd' => 
-  array (
-    'NFB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'BDWM-bd' => [
+    'NFB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-    'RE' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'RE' => [
+      'ALL_LINES' => [
         'bg' => '#ed232a',
         'fg' => '#ffffff',
-      ),
-    ),
-    'S' => 
-    array (
-      17 => 
-      array (
+      ],
+    ],
+    'S' => [
+      17 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-    'SN' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'SN' => [
+      'ALL_LINES' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-    ),
-  ),
-  'BDWM/Aut' => 
-  array (
-    'NFB' => 
-    array (
-      340 => 
-      array (
+      ],
+    ],
+  ],
+  'BDWM/Aut' => [
+    'NFB' => [
+      340 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'BEAG' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'BEAG' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'BEST-lbd' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'BEST-lbd' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'BEST-lcl' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'BEST-lcl' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'BEST-lcs' => 
-  array (
-    'GB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'BEST-lcs' => [
+    'GB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'BEST-mmb' => 
-  array (
-    'FUN' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'BEST-mmb' => [
+    'FUN' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'BEST-smb' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'BEST-smb' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-    'FUN' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'FUN' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'BEST-sms' => 
-  array (
-    'SL' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'BEST-sms' => [
+    'SL' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'BET' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'BET' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-    'FUN' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'FUN' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-    'GB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'GB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-    'SL' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'SL' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'BFL' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'BFL' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-    'GB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'GB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-    'SL' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'SL' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'BGB' => 
-  array (
-    'KB' => 
-    array (
-      591 => 
-      array (
+      ],
+    ],
+  ],
+  'BGB' => [
+    'KB' => [
+      591 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'BGF' => 
-  array (
-    'GB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'BGF' => [
+    'GB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'BGR' => 
-  array (
-    'GB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'BGR' => [
+    'GB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'BGST' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'BGST' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'BGU' => 
-  array (
-    'BUS' => 
-    array (
-      21 => 
-      array (
+      ],
+    ],
+  ],
+  'BGU' => [
+    'BUS' => [
+      21 => [
         'bg' => '',
         'fg' => '',
-      ),
-      22 => 
-      array (
+      ],
+      22 => [
         'bg' => '',
         'fg' => '',
-      ),
-      23 => 
-      array (
+      ],
+      23 => [
         'bg' => '',
         'fg' => '',
-      ),
-      24 => 
-      array (
+      ],
+      24 => [
         'bg' => '',
         'fg' => '',
-      ),
-      25 => 
-      array (
+      ],
+      25 => [
         'bg' => '',
         'fg' => '',
-      ),
-      26 => 
-      array (
+      ],
+      26 => [
         'bg' => '',
         'fg' => '',
-      ),
-      29 => 
-      array (
+      ],
+      29 => [
         'bg' => '',
         'fg' => '',
-      ),
-      30 => 
-      array (
+      ],
+      30 => [
         'bg' => '',
         'fg' => '',
-      ),
-      31 => 
-      array (
+      ],
+      31 => [
         'bg' => '',
         'fg' => '',
-      ),
-      32 => 
-      array (
+      ],
+      32 => [
         'bg' => '',
         'fg' => '',
-      ),
-      33 => 
-      array (
+      ],
+      33 => [
         'bg' => '',
         'fg' => '',
-      ),
-      34 => 
-      array (
+      ],
+      34 => [
         'bg' => '',
         'fg' => '',
-      ),
-      38 => 
-      array (
+      ],
+      38 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-    'KB' => 
-    array (
-      27 => 
-      array (
+      ],
+    ],
+    'KB' => [
+      27 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-    'NFB' => 
-    array (
-      25 => 
-      array (
+      ],
+    ],
+    'NFB' => [
+      25 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'BHAG' => 
-  array (
-    'GB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'BHAG' => [
+    'GB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'BHY-lws' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'BHY-lws' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'BHY-sost' => 
-  array (
-    'SL' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'BHY-sost' => [
+    'SL' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'BHY-ssks' => 
-  array (
-    'SL' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'BHY-ssks' => [
+    'SL' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'BHY-sssp' => 
-  array (
-    'SL' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'BHY-sssp' => [
+    'SL' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'BKG' => 
-  array (
-    'BUS' => 
-    array (
-      240 => 
-      array (
+      ],
+    ],
+  ],
+  'BKG' => [
+    'BUS' => [
+      240 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'BLAG' => 
-  array (
-    'BUS' => 
-    array (
-      271 => 
-      array (
+      ],
+    ],
+  ],
+  'BLAG' => [
+    'BUS' => [
+      271 => [
         'bg' => '',
         'fg' => '',
-      ),
-      281 => 
-      array (
+      ],
+      281 => [
         'bg' => '',
         'fg' => '',
-      ),
-      284 => 
-      array (
+      ],
+      284 => [
         'bg' => '',
         'fg' => '',
-      ),
-      285 => 
-      array (
+      ],
+      285 => [
         'bg' => '',
         'fg' => '',
-      ),
-      286 => 
-      array (
+      ],
+      286 => [
         'bg' => '',
         'fg' => '',
-      ),
-      320 => 
-      array (
+      ],
+      320 => [
         'bg' => '',
         'fg' => '',
-      ),
-      461 => 
-      array (
+      ],
+      461 => [
         'bg' => '',
         'fg' => '',
-      ),
-      462 => 
-      array (
+      ],
+      462 => [
         'bg' => '',
         'fg' => '',
-      ),
-      463 => 
-      array (
+      ],
+      463 => [
         'bg' => '',
         'fg' => '',
-      ),
-      465 => 
-      array (
+      ],
+      465 => [
         'bg' => '',
         'fg' => '',
-      ),
-      466 => 
-      array (
+      ],
+      466 => [
         'bg' => '',
         'fg' => '',
-      ),
-      467 => 
-      array (
+      ],
+      467 => [
         'bg' => '',
         'fg' => '',
-      ),
-      468 => 
-      array (
+      ],
+      468 => [
         'bg' => '',
         'fg' => '',
-      ),
-      471 => 
-      array (
+      ],
+      471 => [
         'bg' => '',
         'fg' => '',
-      ),
-      481 => 
-      array (
+      ],
+      481 => [
         'bg' => '',
         'fg' => '',
-      ),
-      482 => 
-      array (
+      ],
+      482 => [
         'bg' => '',
         'fg' => '',
-      ),
-      483 => 
-      array (
+      ],
+      483 => [
         'bg' => '',
         'fg' => '',
-      ),
-      491 => 
-      array (
+      ],
+      491 => [
         'bg' => '',
         'fg' => '',
-      ),
-      493 => 
-      array (
+      ],
+      493 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-    'TX' => 
-    array (
-      284 => 
-      array (
+      ],
+    ],
+    'TX' => [
+      284 => [
         'bg' => '',
         'fg' => '',
-      ),
-      468 => 
-      array (
+      ],
+      468 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'BLM' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'BLM' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-    'R' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'R' => [
+      'ALL_LINES' => [
         'bg' => '#003399',
         'fg' => '#ffffff',
-      ),
-    ),
-  ),
-  'BLS BusF' => 
-  array (
-    'BUS' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'BLS BusF' => [
+    'BUS' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'BLS-bls' => 
-  array (
-    'EXT' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'BLS-bls' => [
+    'EXT' => [
+      'ALL_LINES' => [
         'bg' => '#ed232a',
         'fg' => '#ffffff',
-      ),
-    ),
-    'R' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'R' => [
+      'ALL_LINES' => [
         'bg' => '#003399',
         'fg' => '#ffffff',
-      ),
-    ),
-    'RE' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'RE' => [
+      'ALL_LINES' => [
         'bg' => '#ed232a',
         'fg' => '#ffffff',
-      ),
-    ),
-    'S' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'S' => [
+      'ALL_LINES' => [
         'bg' => '#003399',
         'fg' => '#ffffff',
-      ),
-      1 => 
-      array (
+      ],
+      1 => [
         'bg' => '',
         'fg' => '',
-      ),
-      2 => 
-      array (
+      ],
+      2 => [
         'bg' => '',
         'fg' => '',
-      ),
-      3 => 
-      array (
+      ],
+      3 => [
         'bg' => '',
         'fg' => '',
-      ),
-      4 => 
-      array (
+      ],
+      4 => [
         'bg' => '',
         'fg' => '',
-      ),
-      5 => 
-      array (
+      ],
+      5 => [
         'bg' => '',
         'fg' => '',
-      ),
-      6 => 
-      array (
+      ],
+      6 => [
         'bg' => '',
         'fg' => '',
-      ),
-      7 => 
-      array (
+      ],
+      7 => [
         'bg' => '',
         'fg' => '',
-      ),
-      31 => 
-      array (
+      ],
+      31 => [
         'bg' => '',
         'fg' => '',
-      ),
-      44 => 
-      array (
+      ],
+      44 => [
         'bg' => '',
         'fg' => '',
-      ),
-      51 => 
-      array (
+      ],
+      51 => [
         'bg' => '',
         'fg' => '',
-      ),
-      52 => 
-      array (
+      ],
+      52 => [
         'bg' => '',
         'fg' => '',
-      ),
-      61 => 
-      array (
+      ],
+      61 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'BLS-brs' => 
-  array (
-    'BAT' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'BLS-brs' => [
+    'BAT' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-    'BAV' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'BAV' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'BLS-ths' => 
-  array (
-    'BAT' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'BLS-ths' => [
+    'BAT' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-    'BAV' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'BAV' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-    'BUS' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'BUS' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'BLT' => 
-  array (
-    'NFB' => 
-    array (
-      11 => 
-      array (
+      ],
+    ],
+  ],
+  'BLT' => [
+    'NFB' => [
+      11 => [
         'bg' => '#ee1d23',
         'fg' => '#ffffff',
-      ),
-    ),
-    'T' => 
-    array (
-      10 => 
-      array (
+      ],
+    ],
+    'T' => [
+      10 => [
         'bg' => '#feca0a',
         'fg' => '#000000',
-      ),
-      11 => 
-      array (
+      ],
+      11 => [
         'bg' => '#ee1d23',
         'fg' => '#ffffff',
-      ),
-      17 => 
-      array (
+      ],
+      17 => [
         'bg' => '#00aeef',
         'fg' => '#ffffff',
-      ),
-      'E11' => 
-      array (
+      ],
+      'E11' => [
         'bg' => '#ee1d23',
         'fg' => '#ffffff',
-      ),
-      'N10' => 
-      array (
+      ],
+      'N10' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N11' => 
-      array (
+      ],
+      'N11' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-    ),
-  ),
-  'BLT Auto' => 
-  array (
-    'KB' => 
-    array (
-      37 => 
-      array (
+      ],
+    ],
+  ],
+  'BLT Auto' => [
+    'KB' => [
+      37 => [
         'bg' => '',
         'fg' => '',
-      ),
-      58 => 
-      array (
+      ],
+      58 => [
         'bg' => '',
         'fg' => '',
-      ),
-      59 => 
-      array (
+      ],
+      59 => [
         'bg' => '',
         'fg' => '',
-      ),
-      109 => 
-      array (
+      ],
+      109 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-    'NFB' => 
-    array (
-      37 => 
-      array (
+      ],
+    ],
+    'NFB' => [
+      37 => [
         'bg' => '',
         'fg' => '',
-      ),
-      47 => 
-      array (
+      ],
+      47 => [
         'bg' => '',
         'fg' => '',
-      ),
-      60 => 
-      array (
+      ],
+      60 => [
         'bg' => '',
         'fg' => '',
-      ),
-      61 => 
-      array (
+      ],
+      61 => [
         'bg' => '',
         'fg' => '',
-      ),
-      62 => 
-      array (
+      ],
+      62 => [
         'bg' => '',
         'fg' => '',
-      ),
-      63 => 
-      array (
+      ],
+      63 => [
         'bg' => '',
         'fg' => '',
-      ),
-      64 => 
-      array (
+      ],
+      64 => [
         'bg' => '',
         'fg' => '',
-      ),
-      65 => 
-      array (
+      ],
+      65 => [
         'bg' => '',
         'fg' => '',
-      ),
-      66 => 
-      array (
+      ],
+      66 => [
         'bg' => '',
         'fg' => '',
-      ),
-      91 => 
-      array (
+      ],
+      91 => [
         'bg' => '',
         'fg' => '',
-      ),
-      92 => 
-      array (
+      ],
+      92 => [
         'bg' => '',
         'fg' => '',
-      ),
-      93 => 
-      array (
+      ],
+      93 => [
         'bg' => '',
         'fg' => '',
-      ),
-      105 => 
-      array (
+      ],
+      105 => [
         'bg' => '',
         'fg' => '',
-      ),
-      106 => 
-      array (
+      ],
+      106 => [
         'bg' => '',
         'fg' => '',
-      ),
-      107 => 
-      array (
+      ],
+      107 => [
         'bg' => '',
         'fg' => '',
-      ),
-      108 => 
-      array (
+      ],
+      108 => [
         'bg' => '',
         'fg' => '',
-      ),
-      'N23' => 
-      array (
+      ],
+      'N23' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N26' => 
-      array (
+      ],
+      'N26' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N27' => 
-      array (
+      ],
+      'N27' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N60' => 
-      array (
+      ],
+      'N60' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-    ),
-    'TX' => 
-    array (
-      106 => 
-      array (
+      ],
+    ],
+    'TX' => [
+      106 => [
         'bg' => '',
         'fg' => '',
-      ),
-      'N55' => 
-      array (
+      ],
+      'N55' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N61' => 
-      array (
+      ],
+      'N61' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-    ),
-  ),
-  'BLWE' => 
-  array (
-    'BUS' => 
-    array (
-      770 => 
-      array (
+      ],
+    ],
+  ],
+  'BLWE' => [
+    'BUS' => [
+      770 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'BMH' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'BMH' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-    'GB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'GB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'BNP' => 
-  array (
-    'BUS' => 
-    array (
-      801 => 
-      array (
+      ],
+    ],
+  ],
+  'BNP' => [
+    'BUS' => [
+      801 => [
         'bg' => '',
         'fg' => '',
-      ),
-      802 => 
-      array (
+      ],
+      802 => [
         'bg' => '',
         'fg' => '',
-      ),
-      803 => 
-      array (
+      ],
+      803 => [
         'bg' => '',
         'fg' => '',
-      ),
-      804 => 
-      array (
+      ],
+      804 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'BO-swas' => 
-  array (
-    'SL' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'BO-swas' => [
+    'SL' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'BOB' => 
-  array (
-    'BUS' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'BOB' => [
+    'BUS' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-    'R' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'R' => [
+      'ALL_LINES' => [
         'bg' => '#003399',
         'fg' => '#ffffff',
-      ),
-    ),
-  ),
-  'BOB-spb' => 
-  array (
-    'R' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'BOB-spb' => [
+    'R' => [
+      'ALL_LINES' => [
         'bg' => '#003399',
         'fg' => '#ffffff',
-      ),
-    ),
-  ),
-  'BOG' => 
-  array (
-    'BUS' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'BOG' => [
+    'BUS' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'BOGG' => 
-  array (
-    'NFB' => 
-    array (
-      23 => 
-      array (
+      ],
+    ],
+  ],
+  'BOGG' => [
+    'NFB' => [
+      23 => [
         'bg' => '',
         'fg' => '',
-      ),
-      501 => 
-      array (
+      ],
+      501 => [
         'bg' => '#e2001a',
         'fg' => '#ffffff',
-      ),
-      502 => 
-      array (
+      ],
+      502 => [
         'bg' => '#97bf0d',
         'fg' => '#000000',
-      ),
-      503 => 
-      array (
+      ],
+      503 => [
         'bg' => '#dd7602',
         'fg' => '#ffffff',
-      ),
-      504 => 
-      array (
+      ],
+      504 => [
         'bg' => '',
         'fg' => '',
-      ),
-      505 => 
-      array (
+      ],
+      505 => [
         'bg' => '#0e7f26',
         'fg' => '#ffffff',
-      ),
-      506 => 
-      array (
+      ],
+      506 => [
         'bg' => '#81197f',
         'fg' => '#ffffff',
-      ),
-      511 => 
-      array (
+      ],
+      511 => [
         'bg' => '#ffdd00',
         'fg' => '#ffffff',
-      ),
-      512 => 
-      array (
+      ],
+      512 => [
         'bg' => '#004494',
         'fg' => '#ffffff',
-      ),
-      513 => 
-      array (
+      ],
+      513 => [
         'bg' => '#e899b2',
         'fg' => '#ffffff',
-      ),
-      517 => 
-      array (
+      ],
+      517 => [
         'bg' => '#b18ebc',
         'fg' => '#ffffff',
-      ),
-      555 => 
-      array (
+      ],
+      555 => [
         'bg' => '#963f1b',
         'fg' => '#ffffff',
-      ),
-      571 => 
-      array (
+      ],
+      571 => [
         'bg' => '#d4007a',
         'fg' => '#ffffff',
-      ),
-      572 => 
-      array (
+      ],
+      572 => [
         'bg' => '#009ee0',
         'fg' => '#ffffff',
-      ),
-      'N55' => 
-      array (
+      ],
+      'N55' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N57' => 
-      array (
+      ],
+      'N57' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-    ),
-  ),
-  'BOS/rtb' => 
-  array (
-    'BUS' => 
-    array (
-      138 => 
-      array (
+      ],
+    ],
+  ],
+  'BOS/rtb' => [
+    'BUS' => [
+      138 => [
         'bg' => '',
         'fg' => '',
-      ),
-      300 => 
-      array (
+      ],
+      300 => [
         'bg' => '',
         'fg' => '',
-      ),
-      301 => 
-      array (
+      ],
+      301 => [
         'bg' => '',
         'fg' => '',
-      ),
-      302 => 
-      array (
+      ],
+      302 => [
         'bg' => '',
         'fg' => '',
-      ),
-      303 => 
-      array (
+      ],
+      303 => [
         'bg' => '',
         'fg' => '',
-      ),
-      304 => 
-      array (
+      ],
+      304 => [
         'bg' => '',
         'fg' => '',
-      ),
-      305 => 
-      array (
+      ],
+      305 => [
         'bg' => '',
         'fg' => '',
-      ),
-      331 => 
-      array (
+      ],
+      331 => [
         'bg' => '',
         'fg' => '',
-      ),
-      332 => 
-      array (
+      ],
+      332 => [
         'bg' => '',
         'fg' => '',
-      ),
-      333 => 
-      array (
+      ],
+      333 => [
         'bg' => '',
         'fg' => '',
-      ),
-      334 => 
-      array (
+      ],
+      334 => [
         'bg' => '',
         'fg' => '',
-      ),
-      351 => 
-      array (
+      ],
+      351 => [
         'bg' => '',
         'fg' => '',
-      ),
-      400 => 
-      array (
+      ],
+      400 => [
         'bg' => '',
         'fg' => '',
-      ),
-      403 => 
-      array (
+      ],
+      403 => [
         'bg' => '',
         'fg' => '',
-      ),
-      410 => 
-      array (
+      ],
+      410 => [
         'bg' => '',
         'fg' => '',
-      ),
-      411 => 
-      array (
+      ],
+      411 => [
         'bg' => '',
         'fg' => '',
-      ),
-      412 => 
-      array (
+      ],
+      412 => [
         'bg' => '',
         'fg' => '',
-      ),
-      420 => 
-      array (
+      ],
+      420 => [
         'bg' => '',
         'fg' => '',
-      ),
-      429 => 
-      array (
+      ],
+      429 => [
         'bg' => '',
         'fg' => '',
-      ),
-      430 => 
-      array (
+      ],
+      430 => [
         'bg' => '',
         'fg' => '',
-      ),
-      432 => 
-      array (
+      ],
+      432 => [
         'bg' => '',
         'fg' => '',
-      ),
-      433 => 
-      array (
+      ],
+      433 => [
         'bg' => '',
         'fg' => '',
-      ),
-      442 => 
-      array (
+      ],
+      442 => [
         'bg' => '',
         'fg' => '',
-      ),
-      443 => 
-      array (
+      ],
+      443 => [
         'bg' => '',
         'fg' => '',
-      ),
-      444 => 
-      array (
+      ],
+      444 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-    'KB' => 
-    array (
-      300 => 
-      array (
+      ],
+    ],
+    'KB' => [
+      300 => [
         'bg' => '',
         'fg' => '',
-      ),
-      301 => 
-      array (
+      ],
+      301 => [
         'bg' => '',
         'fg' => '',
-      ),
-      302 => 
-      array (
+      ],
+      302 => [
         'bg' => '',
         'fg' => '',
-      ),
-      303 => 
-      array (
+      ],
+      303 => [
         'bg' => '',
         'fg' => '',
-      ),
-      305 => 
-      array (
+      ],
+      305 => [
         'bg' => '',
         'fg' => '',
-      ),
-      331 => 
-      array (
+      ],
+      331 => [
         'bg' => '',
         'fg' => '',
-      ),
-      332 => 
-      array (
+      ],
+      332 => [
         'bg' => '',
         'fg' => '',
-      ),
-      333 => 
-      array (
+      ],
+      333 => [
         'bg' => '',
         'fg' => '',
-      ),
-      351 => 
-      array (
+      ],
+      351 => [
         'bg' => '',
         'fg' => '',
-      ),
-      400 => 
-      array (
+      ],
+      400 => [
         'bg' => '',
         'fg' => '',
-      ),
-      401 => 
-      array (
+      ],
+      401 => [
         'bg' => '',
         'fg' => '',
-      ),
-      410 => 
-      array (
+      ],
+      410 => [
         'bg' => '',
         'fg' => '',
-      ),
-      411 => 
-      array (
+      ],
+      411 => [
         'bg' => '',
         'fg' => '',
-      ),
-      420 => 
-      array (
+      ],
+      420 => [
         'bg' => '',
         'fg' => '',
-      ),
-      429 => 
-      array (
+      ],
+      429 => [
         'bg' => '',
         'fg' => '',
-      ),
-      430 => 
-      array (
+      ],
+      430 => [
         'bg' => '',
         'fg' => '',
-      ),
-      432 => 
-      array (
+      ],
+      432 => [
         'bg' => '',
         'fg' => '',
-      ),
-      433 => 
-      array (
+      ],
+      433 => [
         'bg' => '',
         'fg' => '',
-      ),
-      442 => 
-      array (
+      ],
+      442 => [
         'bg' => '',
         'fg' => '',
-      ),
-      444 => 
-      array (
+      ],
+      444 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-    'NFB' => 
-    array (
-      300 => 
-      array (
+      ],
+    ],
+    'NFB' => [
+      300 => [
         'bg' => '',
         'fg' => '',
-      ),
-      301 => 
-      array (
+      ],
+      301 => [
         'bg' => '',
         'fg' => '',
-      ),
-      303 => 
-      array (
+      ],
+      303 => [
         'bg' => '',
         'fg' => '',
-      ),
-      400 => 
-      array (
+      ],
+      400 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-    'TX' => 
-    array (
-      300 => 
-      array (
+      ],
+    ],
+    'TX' => [
+      300 => [
         'bg' => '',
         'fg' => '',
-      ),
-      302 => 
-      array (
+      ],
+      302 => [
         'bg' => '',
         'fg' => '',
-      ),
-      303 => 
-      array (
+      ],
+      303 => [
         'bg' => '',
         'fg' => '',
-      ),
-      351 => 
-      array (
+      ],
+      351 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'BOS/wimo' => 
-  array (
-    'NFB' => 
-    array (
-      701 => 
-      array (
+      ],
+    ],
+  ],
+  'BOS/wimo' => [
+    'NFB' => [
+      701 => [
         'bg' => '',
         'fg' => '',
-      ),
-      702 => 
-      array (
+      ],
+      702 => [
         'bg' => '',
         'fg' => '',
-      ),
-      703 => 
-      array (
+      ],
+      703 => [
         'bg' => '',
         'fg' => '',
-      ),
-      704 => 
-      array (
+      ],
+      704 => [
         'bg' => '',
         'fg' => '',
-      ),
-      705 => 
-      array (
+      ],
+      705 => [
         'bg' => '',
         'fg' => '',
-      ),
-      706 => 
-      array (
+      ],
+      706 => [
         'bg' => '',
         'fg' => '',
-      ),
-      722 => 
-      array (
+      ],
+      722 => [
         'bg' => '',
         'fg' => '',
-      ),
-      732 => 
-      array (
+      ],
+      732 => [
         'bg' => '',
         'fg' => '',
-      ),
-      733 => 
-      array (
+      ],
+      733 => [
         'bg' => '',
         'fg' => '',
-      ),
-      734 => 
-      array (
+      ],
+      734 => [
         'bg' => '',
         'fg' => '',
-      ),
-      735 => 
-      array (
+      ],
+      735 => [
         'bg' => '',
         'fg' => '',
-      ),
-      737 => 
-      array (
+      ],
+      737 => [
         'bg' => '',
         'fg' => '',
-      ),
-      738 => 
-      array (
+      ],
+      738 => [
         'bg' => '',
         'fg' => '',
-      ),
-      761 => 
-      array (
+      ],
+      761 => [
         'bg' => '',
         'fg' => '',
-      ),
-      'N33' => 
-      array (
+      ],
+      'N33' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-    ),
-    'TX' => 
-    array (
-      701 => 
-      array (
+      ],
+    ],
+    'TX' => [
+      701 => [
         'bg' => '',
         'fg' => '',
-      ),
-      702 => 
-      array (
+      ],
+      702 => [
         'bg' => '',
         'fg' => '',
-      ),
-      703 => 
-      array (
+      ],
+      703 => [
         'bg' => '',
         'fg' => '',
-      ),
-      704 => 
-      array (
+      ],
+      704 => [
         'bg' => '',
         'fg' => '',
-      ),
-      705 => 
-      array (
+      ],
+      705 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'BPB' => 
-  array (
-    'KB' => 
-    array (
-      125 => 
-      array (
+      ],
+    ],
+  ],
+  'BPB' => [
+    'KB' => [
+      125 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'BPG' => 
-  array (
-    'BAT' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'BPG' => [
+    'BAT' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'BPM-svcs' => 
-  array (
-    'SL' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'BPM-svcs' => [
+    'SL' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'BPM-svh' => 
-  array (
-    'SL' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'BPM-svh' => [
+    'SL' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'BRB' => 
-  array (
-    'R' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'BRB' => [
+    'R' => [
+      'ALL_LINES' => [
         'bg' => '#003399',
         'fg' => '#ffffff',
-      ),
-    ),
-  ),
-  'BRER' => 
-  array (
-    'NFB' => 
-    array (
-      622 => 
-      array (
+      ],
+    ],
+  ],
+  'BRER' => [
+    'NFB' => [
+      622 => [
         'bg' => '',
         'fg' => '',
-      ),
-      623 => 
-      array (
+      ],
+      623 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'BRSB' => 
-  array (
-    'FUN' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'BRSB' => [
+    'FUN' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'BS' => 
-  array (
-    'BUS' => 
-    array (
-      401 => 
-      array (
+      ],
+    ],
+  ],
+  'BS' => [
+    'BUS' => [
+      401 => [
         'bg' => '',
         'fg' => '',
-      ),
-      402 => 
-      array (
+      ],
+      402 => [
         'bg' => '',
         'fg' => '',
-      ),
-      403 => 
-      array (
+      ],
+      403 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'BSAG' => 
-  array (
-    'GB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'BSAG' => [
+    'GB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'BSB Fähr' => 
-  array (
-    'BAT' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'BSB Fähr' => [
+    'BAT' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'BSG' => 
-  array (
-    'BAT' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'BSG' => [
+    'BAT' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'BSU' => 
-  array (
-    'KB' => 
-    array (
-      7 => 
-      array (
+      ],
+    ],
+  ],
+  'BSU' => [
+    'KB' => [
+      7 => [
         'bg' => '#832018',
         'fg' => '#ffffff',
-      ),
-      16 => 
-      array (
+      ],
+      16 => [
         'bg' => '#b62270',
         'fg' => '#ffffff',
-      ),
-    ),
-    'NFB' => 
-    array (
-      1 => 
-      array (
+      ],
+    ],
+    'NFB' => [
+      1 => [
         'bg' => '#231f20',
         'fg' => '#ffffff',
-      ),
-      2 => 
-      array (
+      ],
+      2 => [
         'bg' => '#ee1d23',
         'fg' => '#ffffff',
-      ),
-      3 => 
-      array (
+      ],
+      3 => [
         'bg' => '#26358f',
         'fg' => '#ffffff',
-      ),
-      4 => 
-      array (
+      ],
+      4 => [
         'bg' => '#f58220',
         'fg' => '#ffffff',
-      ),
-      5 => 
-      array (
+      ],
+      5 => [
         'bg' => '#0bae62',
         'fg' => '#ffffff',
-      ),
-      6 => 
-      array (
+      ],
+      6 => [
         'bg' => '#bed630',
         'fg' => '#000000',
-      ),
-      7 => 
-      array (
+      ],
+      7 => [
         'bg' => '#832018',
         'fg' => '#ffffff',
-      ),
-      9 => 
-      array (
+      ],
+      9 => [
         'bg' => '#d957a0',
         'fg' => '#ffffff',
-      ),
-      16 => 
-      array (
+      ],
+      16 => [
         'bg' => '#b62270',
         'fg' => '#ffffff',
-      ),
-    ),
-  ),
-  'BVB' => 
-  array (
-    'NFB' => 
-    array (
-      30 => 
-      array (
+      ],
+    ],
+  ],
+  'BVB' => [
+    'NFB' => [
+      30 => [
         'bg' => '',
         'fg' => '',
-      ),
-      31 => 
-      array (
+      ],
+      31 => [
         'bg' => '',
         'fg' => '',
-      ),
-      32 => 
-      array (
+      ],
+      32 => [
         'bg' => '',
         'fg' => '',
-      ),
-      33 => 
-      array (
+      ],
+      33 => [
         'bg' => '',
         'fg' => '',
-      ),
-      34 => 
-      array (
+      ],
+      34 => [
         'bg' => '',
         'fg' => '',
-      ),
-      35 => 
-      array (
+      ],
+      35 => [
         'bg' => '',
         'fg' => '',
-      ),
-      36 => 
-      array (
+      ],
+      36 => [
         'bg' => '',
         'fg' => '',
-      ),
-      38 => 
-      array (
+      ],
+      38 => [
         'bg' => '',
         'fg' => '',
-      ),
-      39 => 
-      array (
+      ],
+      39 => [
         'bg' => '',
         'fg' => '',
-      ),
-      42 => 
-      array (
+      ],
+      42 => [
         'bg' => '',
         'fg' => '',
-      ),
-      45 => 
-      array (
+      ],
+      45 => [
         'bg' => '',
         'fg' => '',
-      ),
-      48 => 
-      array (
+      ],
+      48 => [
         'bg' => '',
         'fg' => '',
-      ),
-      50 => 
-      array (
+      ],
+      50 => [
         'bg' => '',
         'fg' => '',
-      ),
-      'N20' => 
-      array (
+      ],
+      'N20' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N21' => 
-      array (
+      ],
+      'N21' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N22' => 
-      array (
+      ],
+      'N22' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-    ),
-    'NFT' => 
-    array (
-      1 => 
-      array (
+      ],
+    ],
+    'NFT' => [
+      1 => [
         'bg' => '#835237',
         'fg' => '#ffffff',
-      ),
-      2 => 
-      array (
+      ],
+      2 => [
         'bg' => '#a68351',
         'fg' => '#ffffff',
-      ),
-      3 => 
-      array (
+      ],
+      3 => [
         'bg' => '#324ea1',
         'fg' => '#ffffff',
-      ),
-      6 => 
-      array (
+      ],
+      6 => [
         'bg' => '#0072bc',
         'fg' => '#ffffff',
-      ),
-      8 => 
-      array (
+      ],
+      8 => [
         'bg' => '#f171ab',
         'fg' => '#000000',
-      ),
-      14 => 
-      array (
+      ],
+      14 => [
         'bg' => '#f58220',
         'fg' => '#000000',
-      ),
-      15 => 
-      array (
+      ],
+      15 => [
         'bg' => '#00a54f',
         'fg' => '#ffffff',
-      ),
-      16 => 
-      array (
+      ],
+      16 => [
         'bg' => '#a6ce39',
         'fg' => '#000000',
-      ),
-      21 => 
-      array (
+      ],
+      21 => [
         'bg' => '#00ae9d',
         'fg' => '#ffffff',
-      ),
-    ),
-  ),
-  'BüBu' => 
-  array (
-    'BUS' => 
-    array (
-      469 => 
-      array (
+      ],
+    ],
+  ],
+  'BüBu' => [
+    'BUS' => [
+      469 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'CBV' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'CBV' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'CGN' => 
-  array (
-    'BAT' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'CGN' => [
+    'BAT' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-    'BAV' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'BAV' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'CIT' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'CIT' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'CJ' => 
-  array (
-    'R' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'CJ' => [
+    'R' => [
+      'ALL_LINES' => [
         'bg' => '#003399',
         'fg' => '#ffffff',
-      ),
-    ),
-  ),
-  'CJ Auto' => 
-  array (
-    'BUS' => 
-    array (
-      121 => 
-      array (
+      ],
+    ],
+  ],
+  'CJ Auto' => [
+    'BUS' => [
+      121 => [
         'bg' => '',
         'fg' => '',
-      ),
-      123 => 
-      array (
+      ],
+      123 => [
         'bg' => '',
         'fg' => '',
-      ),
-      131 => 
-      array (
+      ],
+      131 => [
         'bg' => '',
         'fg' => '',
-      ),
-      132 => 
-      array (
+      ],
+      132 => [
         'bg' => '',
         'fg' => '',
-      ),
-      133 => 
-      array (
+      ],
+      133 => [
         'bg' => '',
         'fg' => '',
-      ),
-      134 => 
-      array (
+      ],
+      134 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-    'NB' => 
-    array (
-      'N20' => 
-      array (
+      ],
+    ],
+    'NB' => [
+      'N20' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N21' => 
-      array (
+      ],
+      'N21' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N22' => 
-      array (
+      ],
+      'N22' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-    ),
-  ),
-  'CMA' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'CMA' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-    'GB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'GB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'DBZ' => 
-  array (
-    'FUN' => 
-    array (
-      25 => 
-      array (
+      ],
+    ],
+  ],
+  'DBZ' => [
+    'FUN' => [
+      25 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'DFB' => 
-  array (
-    'R' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'DFB' => [
+    'R' => [
+      'ALL_LINES' => [
         'bg' => '#003399',
         'fg' => '#ffffff',
-      ),
-    ),
-  ),
-  'DIH' => 
-  array (
-    'FUN' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'DIH' => [
+    'FUN' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'DKB-bbbj' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'DKB-bbbj' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'DKB-dpb' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'DKB-dpb' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-    'FUN' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'FUN' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'DKB-lkp' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'DKB-lkp' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'DMB' => 
-  array (
-    'FUN' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'DMB' => [
+    'FUN' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'DVZO' => 
-  array (
-    'R' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'DVZO' => [
+    'R' => [
+      'ALL_LINES' => [
         'bg' => '#003399',
         'fg' => '#ffffff',
-      ),
-    ),
-  ),
-  'EB' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'EB' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'EBS' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'EBS' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'EBZ' => 
-  array (
-    'BUS' => 
-    array (
-      571 => 
-      array (
+      ],
+    ],
+  ],
+  'EBZ' => [
+    'BUS' => [
+      571 => [
         'bg' => '',
         'fg' => '',
-      ),
-      572 => 
-      array (
+      ],
+      572 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'EMAG' => 
-  array (
-    'BAT' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'EMAG' => [
+    'BAT' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'EWZ-pa' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'EWZ-pa' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'Extrabus' => 
-  array (
-    'BUS' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'Extrabus' => [
+    'BUS' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-    'KB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'KB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-    'NFB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'NFB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-    'ICB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'ICB' => [
+      'ALL_LINES' => [
         'bg' => '#ed232a',
         'fg' => '#ffffff',
-      ),
-    ),
-  ),
-  'FART' => 
-  array (
-    'D' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'FART' => [
+    'D' => [
+      'ALL_LINES' => [
         'bg' => '#ed232a',
         'fg' => '#ffffff',
-      ),
-    ),
-    'R' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'R' => [
+      'ALL_LINES' => [
         'bg' => '#003399',
         'fg' => '#ffffff',
-      ),
-    ),
-  ),
-  'FART Aut' => 
-  array (
-    'BUS' => 
-    array (
-      2 => 
-      array (
+      ],
+    ],
+  ],
+  'FART Aut' => [
+    'BUS' => [
+      2 => [
         'bg' => '',
         'fg' => '',
-      ),
-      312 => 
-      array (
+      ],
+      312 => [
         'bg' => '',
         'fg' => '',
-      ),
-      314 => 
-      array (
+      ],
+      314 => [
         'bg' => '',
         'fg' => '',
-      ),
-      316 => 
-      array (
+      ],
+      316 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-    'KB' => 
-    array (
-      5 => 
-      array (
+      ],
+    ],
+    'KB' => [
+      5 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-    'NFB' => 
-    array (
-      1 => 
-      array (
+      ],
+    ],
+    'NFB' => [
+      1 => [
         'bg' => '',
         'fg' => '',
-      ),
-      7 => 
-      array (
+      ],
+      7 => [
         'bg' => '',
         'fg' => '',
-      ),
-      8 => 
-      array (
+      ],
+      8 => [
         'bg' => '',
         'fg' => '',
-      ),
-      315 => 
-      array (
+      ],
+      315 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'FART-kli' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'FART-kli' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'FART-klv' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'FART-klv' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'FB' => 
-  array (
-    'S' => 
-    array (
-      18 => 
-      array (
+      ],
+    ],
+  ],
+  'FB' => [
+    'S' => [
+      18 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-    'SN' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'SN' => [
+      'ALL_LINES' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-    ),
-  ),
-  'FCK' => 
-  array (
-    'BUS' => 
-    array (
-      79 => 
-      array (
+      ],
+    ],
+  ],
+  'FCK' => [
+    'BUS' => [
+      79 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'FE' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'FE' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'FHM' => 
-  array (
-    'FAE' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'FHM' => [
+    'FAE' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'FLC' => 
-  array (
-    'FUN' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'FLC' => [
+    'FUN' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-    'SL' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'SL' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'FLMS' => 
-  array (
-    'FUN' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'FLMS' => [
+    'FUN' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'FLP' => 
-  array (
-    'S' => 
-    array (
-      60 => 
-      array (
+      ],
+    ],
+  ],
+  'FLP' => [
+    'S' => [
+      60 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'FMB' => 
-  array (
-    'FUN' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'FMB' => [
+    'FUN' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'FML' => 
-  array (
-    'GB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'FML' => [
+    'GB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'FPR' => 
-  array (
-    'FUN' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'FPR' => [
+    'FUN' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'FS Domo' => 
-  array (
-    'BUS' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'FS Domo' => [
+    'BUS' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'FSCR' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'FSCR' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'FUN' => 
-  array (
-    'FUN' => 
-    array (
-      2010 => 
-      array (
+      ],
+    ],
+  ],
+  'FUN' => [
+    'FUN' => [
+      2010 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'FWS' => 
-  array (
-    'BAT' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'FWS' => [
+    'BAT' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'G3AG' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'G3AG' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'GB' => 
-  array (
-    'FUN' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'GB' => [
+    'FUN' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'GGB' => 
-  array (
-    'R' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'GGB' => [
+    'R' => [
+      'ALL_LINES' => [
         'bg' => '#003399',
         'fg' => '#ffffff',
-      ),
-    ),
-  ),
-  'GGM' => 
-  array (
-    'GB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'GGM' => [
+    'GB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'GHU' => 
-  array (
-    'BUS' => 
-    array (
-      492 => 
-      array (
+      ],
+    ],
+  ],
+  'GHU' => [
+    'BUS' => [
+      492 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'GKO' => 
-  array (
-    'GB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'GKO' => [
+    'GB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'GLIS' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'GLIS' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'GLNM' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'GLNM' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'GSUR' => 
-  array (
-    'BUS' => 
-    array (
-      188 => 
-      array (
+      ],
+    ],
+  ],
+  'GSUR' => [
+    'BUS' => [
+      188 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'HB' => 
-  array (
-    'FUN' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'HB' => [
+    'FUN' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'HKDS' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'HKDS' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'ITRT' => 
-  array (
-    'GB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'ITRT' => [
+    'GB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'JB' => 
-  array (
-    'R' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'JB' => [
+    'R' => [
+      'ALL_LINES' => [
         'bg' => '#003399',
         'fg' => '#ffffff',
-      ),
-    ),
-  ),
-  'KB-Ausla' => 
-  array (
-    'EXT' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'KB-Ausla' => [
+    'EXT' => [
+      'ALL_LINES' => [
         'bg' => '#ed232a',
         'fg' => '#ffffff',
-      ),
-    ),
-    'IC' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'IC' => [
+      'ALL_LINES' => [
         'bg' => '#ed232a',
         'fg' => '#ffffff',
-      ),
-    ),
-  ),
-  'KBS' => 
-  array (
-    'SL' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'KBS' => [
+    'SL' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'KLSB' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'KLSB' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'KMB-bkm' => 
-  array (
-    'GB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'KMB-bkm' => [
+    'GB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'KSB' => 
-  array (
-    'FUN' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'KSB' => [
+    'FUN' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'KWS' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'KWS' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'Kröbu' => 
-  array (
-    'BUS' => 
-    array (
-      287 => 
-      array (
+      ],
+    ],
+  ],
+  'Kröbu' => [
+    'BUS' => [
+      287 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-    'TX' => 
-    array (
-      287 => 
-      array (
+      ],
+    ],
+    'TX' => [
+      287 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'LAA' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'LAA' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'LABAG' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'LABAG' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'LABB' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'LABB' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-    'GB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'GB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-    'SL' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'SL' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'LB' => 
-  array (
-    'GB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'LB' => [
+    'GB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'LBB' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'LBB' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-    'GB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'GB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-    'SL' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'SL' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'LBER' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'LBER' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'LBH' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'LBH' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'LCPN' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'LCPN' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'LDN' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'LDN' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'LDW' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'LDW' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'LEB' => 
-  array (
-    'D' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'LEB' => [
+    'D' => [
+      'ALL_LINES' => [
         'bg' => '#ed232a',
         'fg' => '#ffffff',
-      ),
-    ),
-    'R' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'R' => [
+      'ALL_LINES' => [
         'bg' => '#003399',
         'fg' => '#ffffff',
-      ),
-    ),
-  ),
-  'LEE' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'LEE' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'LEE Bus' => 
-  array (
-    'BUS' => 
-    array (
-      231 => 
-      array (
+      ],
+    ],
+  ],
+  'LEE Bus' => [
+    'BUS' => [
+      231 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'LEF' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'LEF' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'LESt' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'LESt' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'LFB' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'LFB' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'LFCh' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'LFCh' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'LFE' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'LFE' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'LFüB' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'LFüB' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'LGGI' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'LGGI' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'LGH' => 
-  array (
-    'GB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'LGH' => [
+    'GB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'LGIA' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'LGIA' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'LGJ' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'LGJ' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'LGP' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'LGP' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'LHA' => 
-  array (
-    'GB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'LHA' => [
+    'GB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'LHB' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'LHB' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-    'GB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'GB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'LHB-ssps' => 
-  array (
-    'SL' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'LHB-ssps' => [
+    'SL' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'LIV' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'LIV' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'LJK' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'LJK' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'LKE' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'LKE' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'LKM' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'LKM' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'LKR' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'LKR' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'LKS' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'LKS' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'LKüS' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'LKüS' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'LLAT' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'LLAT' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-    'GB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'GB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'LLB' => 
-  array (
-    'BUS' => 
-    array (
-      461 => 
-      array (
+      ],
+    ],
+  ],
+  'LLB' => [
+    'BUS' => [
+      461 => [
         'bg' => '',
         'fg' => '',
-      ),
-      471 => 
-      array (
+      ],
+      471 => [
         'bg' => '',
         'fg' => '',
-      ),
-      472 => 
-      array (
+      ],
+      472 => [
         'bg' => '',
         'fg' => '',
-      ),
-      473 => 
-      array (
+      ],
+      473 => [
         'bg' => '',
         'fg' => '',
-      ),
-      474 => 
-      array (
+      ],
+      474 => [
         'bg' => '',
         'fg' => '',
-      ),
-      475 => 
-      array (
+      ],
+      475 => [
         'bg' => '',
         'fg' => '',
-      ),
-      476 => 
-      array (
+      ],
+      476 => [
         'bg' => '',
         'fg' => '',
-      ),
-      482 => 
-      array (
+      ],
+      482 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-    'NFB' => 
-    array (
-      481 => 
-      array (
+      ],
+    ],
+    'NFB' => [
+      481 => [
         'bg' => '',
         'fg' => '',
-      ),
-      483 => 
-      array (
+      ],
+      483 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'LLG' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'LLG' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'LMM' => 
-  array (
-    'GB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'LMM' => [
+    'GB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'LMS' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'LMS' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'LMW' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'LMW' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'LNE' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'LNE' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'LNM' => 
-  array (
-    'BAT' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'LNM' => [
+    'BAT' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'LORB' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'LORB' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'LRE' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'LRE' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'LRF' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'LRF' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'LRR' => 
-  array (
-    'GB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'LRR' => [
+    'GB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'LRU' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'LRU' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'LRW' => 
-  array (
-    'GB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'LRW' => [
+    'GB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'LS' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'LS' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'LSBR' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'LSBR' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'LSC' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'LSC' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'LSF' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'LSF' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-    'FUN' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'FUN' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-    'GB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'GB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-    'SL' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'SL' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'LSG' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'LSG' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'LSH' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'LSH' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'LSKA' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'LSKA' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'LSMS-lsm' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'LSMS-lsm' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'LSMS-sbm' => 
-  array (
-    'FUN' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'LSMS-sbm' => [
+    'FUN' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'LSS' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'LSS' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'LTUO' => 
-  array (
-    'KB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'LTUO' => [
+    'KB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'LUFAG' => 
-  array (
-    'GB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'LUFAG' => [
+    'GB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'LWE' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'LWE' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'LWM' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'LWM' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'MBC' => 
-  array (
-    'R' => 
-    array (
-      156 => 
-      array (
+      ],
+    ],
+  ],
+  'MBC' => [
+    'R' => [
+      156 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'MBC Auto' => 
-  array (
-    'KB' => 
-    array (
-      743 => 
-      array (
+      ],
+    ],
+  ],
+  'MBC Auto' => [
+    'KB' => [
+      743 => [
         'bg' => '',
         'fg' => '',
-      ),
-      791 => 
-      array (
+      ],
+      791 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-    'NFB' => 
-    array (
-      701 => 
-      array (
+      ],
+    ],
+    'NFB' => [
+      701 => [
         'bg' => '',
         'fg' => '',
-      ),
-      702 => 
-      array (
+      ],
+      702 => [
         'bg' => '',
         'fg' => '',
-      ),
-      703 => 
-      array (
+      ],
+      703 => [
         'bg' => '',
         'fg' => '',
-      ),
-      705 => 
-      array (
+      ],
+      705 => [
         'bg' => '',
         'fg' => '',
-      ),
-      724 => 
-      array (
+      ],
+      724 => [
         'bg' => '',
         'fg' => '',
-      ),
-      726 => 
-      array (
+      ],
+      726 => [
         'bg' => '',
         'fg' => '',
-      ),
-      728 => 
-      array (
+      ],
+      728 => [
         'bg' => '',
         'fg' => '',
-      ),
-      730 => 
-      array (
+      ],
+      730 => [
         'bg' => '',
         'fg' => '',
-      ),
-      733 => 
-      array (
+      ],
+      733 => [
         'bg' => '',
         'fg' => '',
-      ),
-      735 => 
-      array (
+      ],
+      735 => [
         'bg' => '',
         'fg' => '',
-      ),
-      742 => 
-      array (
+      ],
+      742 => [
         'bg' => '',
         'fg' => '',
-      ),
-      750 => 
-      array (
+      ],
+      750 => [
         'bg' => '',
         'fg' => '',
-      ),
-      760 => 
-      array (
+      ],
+      760 => [
         'bg' => '',
         'fg' => '',
-      ),
-      792 => 
-      array (
+      ],
+      792 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'MBC-cg' => 
-  array (
-    'FUN' => 
-    array (
-      2003 => 
-      array (
+      ],
+    ],
+  ],
+  'MBC-cg' => [
+    'FUN' => [
+      2003 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'MBF' => 
-  array (
-    'GB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'MBF' => [
+    'GB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-    'SL' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'SL' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'MGB-bvz' => 
-  array (
-    'R' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'MGB-bvz' => [
+    'R' => [
+      'ALL_LINES' => [
         'bg' => '#003399',
         'fg' => '#ffffff',
-      ),
-    ),
-  ),
-  'MGB-fo' => 
-  array (
-    'BUS' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'MGB-fo' => [
+    'BUS' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-    'EXT' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'EXT' => [
+      'ALL_LINES' => [
         'bg' => '#ed232a',
         'fg' => '#ffffff',
-      ),
-    ),
-    'GEX' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'GEX' => [
+      'ALL_LINES' => [
         'bg' => '#ed232a',
         'fg' => '#ffffff',
-      ),
-    ),
-    'R' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'R' => [
+      'ALL_LINES' => [
         'bg' => '#003399',
         'fg' => '#ffffff',
-      ),
-    ),
-  ),
-  'MIB' => 
-  array (
-    'R' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'MIB' => [
+    'R' => [
+      'ALL_LINES' => [
         'bg' => '#003399',
         'fg' => '#ffffff',
-      ),
-    ),
-  ),
-  'MOB' => 
-  array (
-    'D' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'MOB' => [
+    'D' => [
+      'ALL_LINES' => [
         'bg' => '#ed232a',
         'fg' => '#ffffff',
-      ),
-    ),
-    'R' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'R' => [
+      'ALL_LINES' => [
         'bg' => '#003399',
         'fg' => '#ffffff',
-      ),
-    ),
-  ),
-  'MS' => 
-  array (
-    'FUN' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'MS' => [
+    'FUN' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'MSG' => 
-  array (
-    'FUN' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'MSG' => [
+    'FUN' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'MTB' => 
-  array (
-    'KB' => 
-    array (
-      592 => 
-      array (
+      ],
+    ],
+  ],
+  'MTB' => [
+    'KB' => [
+      592 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'MVR-cev' => 
-  array (
-    'R' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'MVR-cev' => [
+    'R' => [
+      'ALL_LINES' => [
         'bg' => '#003399',
         'fg' => '#ffffff',
-      ),
-    ),
-  ),
-  'MVR-las' => 
-  array (
-    'FUN' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'MVR-las' => [
+    'FUN' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'MVR-mtgn' => 
-  array (
-    'FUN' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'MVR-mtgn' => [
+    'FUN' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-    'R' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'R' => [
+      'ALL_LINES' => [
         'bg' => '#003399',
         'fg' => '#ffffff',
-      ),
-    ),
-  ),
-  'MVR-vcp' => 
-  array (
-    'FUN' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'MVR-vcp' => [
+    'FUN' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'NB' => 
-  array (
-    'FUN' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'NB' => [
+    'FUN' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'NHB-bbb' => 
-  array (
-    'FUN' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'NHB-bbb' => [
+    'FUN' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'NHB-nhb' => 
-  array (
-    'GB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'NHB-nhb' => [
+    'GB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'NLB' => 
-  array (
-    'BAT' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'NLB' => [
+    'BAT' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'NLJ' => 
-  array (
-    'BAT' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'NLJ' => [
+    'BAT' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'NStCM' => 
-  array (
-    'R' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'NStCM' => [
+    'R' => [
+      'ALL_LINES' => [
         'bg' => '#003399',
         'fg' => '#ffffff',
-      ),
-    ),
-  ),
-  'OBSM' => 
-  array (
-    'BUS' => 
-    array (
-      1 => 
-      array (
+      ],
+    ],
+  ],
+  'OBSM' => [
+    'BUS' => [
+      1 => [
         'bg' => '',
         'fg' => '',
-      ),
-      2 => 
-      array (
+      ],
+      2 => [
         'bg' => '',
         'fg' => '',
-      ),
-      3 => 
-      array (
+      ],
+      3 => [
         'bg' => '',
         'fg' => '',
-      ),
-      4 => 
-      array (
+      ],
+      4 => [
         'bg' => '',
         'fg' => '',
-      ),
-      6 => 
-      array (
+      ],
+      6 => [
         'bg' => '',
         'fg' => '',
-      ),
-      7 => 
-      array (
+      ],
+      7 => [
         'bg' => '',
         'fg' => '',
-      ),
-      8 => 
-      array (
+      ],
+      8 => [
         'bg' => '',
         'fg' => '',
-      ),
-      9 => 
-      array (
+      ],
+      9 => [
         'bg' => '',
         'fg' => '',
-      ),
-      'BL' => 
-      array (
+      ],
+      'BL' => [
         'bg' => '',
         'fg' => '',
-      ),
-      'N' => 
-      array (
+      ],
+      'N' => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'OTL' => 
-  array (
-    'BUS' => 
-    array (
-      170 => 
-      array (
+      ],
+    ],
+  ],
+  'OTL' => [
+    'BUS' => [
+      170 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'OUW' => 
-  array (
-    'BUS' => 
-    array (
-      90 => 
-      array (
+      ],
+    ],
+  ],
+  'OUW' => [
+    'BUS' => [
+      90 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'PAC' => 
-  array (
-    'FUN' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'PAC' => [
+    'FUN' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-    'ZUG' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'ZUG' => [
+      'ALL_LINES' => [
         'bg' => '#ed232a',
         'fg' => '#ffffff',
-      ),
-    ),
-  ),
-  'PAG' => 
-  array (
-    'BUS' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'PAG' => [
+    'BUS' => [
+      'ALL_LINES' => [
         'bg' => '#fdd407',
         'fg' => '#000000',
-      ),
-      1 => 
-      array (
+      ],
+      1 => [
         'bg' => '',
         'fg' => '',
-      ),
-      2 => 
-      array (
+      ],
+      2 => [
         'bg' => '',
         'fg' => '',
-      ),
-      3 => 
-      array (
+      ],
+      3 => [
         'bg' => '',
         'fg' => '',
-      ),
-      4 => 
-      array (
+      ],
+      4 => [
         'bg' => '',
         'fg' => '',
-      ),
-      5 => 
-      array (
+      ],
+      5 => [
         'bg' => '',
         'fg' => '',
-      ),
-      11 => 
-      array (
+      ],
+      11 => [
         'bg' => '',
         'fg' => '',
-      ),
-      12 => 
-      array (
+      ],
+      12 => [
         'bg' => '',
         'fg' => '',
-      ),
-      13 => 
-      array (
+      ],
+      13 => [
         'bg' => '',
         'fg' => '',
-      ),
-      14 => 
-      array (
+      ],
+      14 => [
         'bg' => '',
         'fg' => '',
-      ),
-      15 => 
-      array (
+      ],
+      15 => [
         'bg' => '',
         'fg' => '',
-      ),
-      16 => 
-      array (
+      ],
+      16 => [
         'bg' => '',
         'fg' => '',
-      ),
-      17 => 
-      array (
+      ],
+      17 => [
         'bg' => '',
         'fg' => '',
-      ),
-      18 => 
-      array (
+      ],
+      18 => [
         'bg' => '',
         'fg' => '',
-      ),
-      20 => 
-      array (
+      ],
+      20 => [
         'bg' => '',
         'fg' => '',
-      ),
-      '021' => 
-      array (
+      ],
+      '021' => [
         'bg' => '',
         'fg' => '',
-      ),
-      21 => 
-      array (
+      ],
+      21 => [
         'bg' => '',
         'fg' => '',
-      ),
-      '022' => 
-      array (
+      ],
+      '022' => [
         'bg' => '',
         'fg' => '',
-      ),
-      22 => 
-      array (
+      ],
+      22 => [
         'bg' => '',
         'fg' => '',
-      ),
-      23 => 
-      array (
+      ],
+      23 => [
         'bg' => '',
         'fg' => '',
-      ),
-      24 => 
-      array (
+      ],
+      24 => [
         'bg' => '',
         'fg' => '',
-      ),
-      '025' => 
-      array (
+      ],
+      '025' => [
         'bg' => '',
         'fg' => '',
-      ),
-      26 => 
-      array (
+      ],
+      26 => [
         'bg' => '',
         'fg' => '',
-      ),
-      31 => 
-      array (
+      ],
+      31 => [
         'bg' => '',
         'fg' => '',
-      ),
-      32 => 
-      array (
+      ],
+      32 => [
         'bg' => '',
         'fg' => '',
-      ),
-      33 => 
-      array (
+      ],
+      33 => [
         'bg' => '',
         'fg' => '',
-      ),
-      35 => 
-      array (
+      ],
+      35 => [
         'bg' => '',
         'fg' => '',
-      ),
-      40 => 
-      array (
+      ],
+      40 => [
         'bg' => '',
         'fg' => '',
-      ),
-      '041' => 
-      array (
+      ],
+      '041' => [
         'bg' => '',
         'fg' => '',
-      ),
-      '042' => 
-      array (
+      ],
+      '042' => [
         'bg' => '',
         'fg' => '',
-      ),
-      51 => 
-      array (
+      ],
+      51 => [
         'bg' => '',
         'fg' => '',
-      ),
-      52 => 
-      array (
+      ],
+      52 => [
         'bg' => '',
         'fg' => '',
-      ),
-      56 => 
-      array (
+      ],
+      56 => [
         'bg' => '',
         'fg' => '',
-      ),
-      57 => 
-      array (
+      ],
+      57 => [
         'bg' => '',
         'fg' => '',
-      ),
-      61 => 
-      array (
+      ],
+      61 => [
         'bg' => '',
         'fg' => '',
-      ),
-      62 => 
-      array (
+      ],
+      62 => [
         'bg' => '',
         'fg' => '',
-      ),
-      63 => 
-      array (
+      ],
+      63 => [
         'bg' => '',
         'fg' => '',
-      ),
-      '064' => 
-      array (
+      ],
+      '064' => [
         'bg' => '',
         'fg' => '',
-      ),
-      64 => 
-      array (
+      ],
+      64 => [
         'bg' => '',
         'fg' => '',
-      ),
-      '065' => 
-      array (
+      ],
+      '065' => [
         'bg' => '',
         'fg' => '',
-      ),
-      65 => 
-      array (
+      ],
+      65 => [
         'bg' => '',
         'fg' => '',
-      ),
-      66 => 
-      array (
+      ],
+      66 => [
         'bg' => '',
         'fg' => '',
-      ),
-      '066' => 
-      array (
+      ],
+      '066' => [
         'bg' => '',
         'fg' => '',
-      ),
-      67 => 
-      array (
+      ],
+      67 => [
         'bg' => '',
         'fg' => '',
-      ),
-      '067' => 
-      array (
+      ],
+      '067' => [
         'bg' => '',
         'fg' => '',
-      ),
-      68 => 
-      array (
+      ],
+      68 => [
         'bg' => '',
         'fg' => '',
-      ),
-      69 => 
-      array (
+      ],
+      69 => [
         'bg' => '',
         'fg' => '',
-      ),
-      71 => 
-      array (
+      ],
+      71 => [
         'bg' => '',
         'fg' => '',
-      ),
-      72 => 
-      array (
+      ],
+      72 => [
         'bg' => '',
         'fg' => '',
-      ),
-      73 => 
-      array (
+      ],
+      73 => [
         'bg' => '',
         'fg' => '',
-      ),
-      74 => 
-      array (
+      ],
+      74 => [
         'bg' => '',
         'fg' => '',
-      ),
-      75 => 
-      array (
+      ],
+      75 => [
         'bg' => '',
         'fg' => '',
-      ),
-      76 => 
-      array (
+      ],
+      76 => [
         'bg' => '',
         'fg' => '',
-      ),
-      77 => 
-      array (
+      ],
+      77 => [
         'bg' => '',
         'fg' => '',
-      ),
-      78 => 
-      array (
+      ],
+      78 => [
         'bg' => '',
         'fg' => '',
-      ),
-      81 => 
-      array (
+      ],
+      81 => [
         'bg' => '',
         'fg' => '',
-      ),
-      '081' => 
-      array (
+      ],
+      '081' => [
         'bg' => '',
         'fg' => '',
-      ),
-      83 => 
-      array (
+      ],
+      83 => [
         'bg' => '',
         'fg' => '',
-      ),
-      '083' => 
-      array (
+      ],
+      '083' => [
         'bg' => '',
         'fg' => '',
-      ),
-      84 => 
-      array (
+      ],
+      84 => [
         'bg' => '',
         'fg' => '',
-      ),
-      85 => 
-      array (
+      ],
+      85 => [
         'bg' => '',
         'fg' => '',
-      ),
-      86 => 
-      array (
+      ],
+      86 => [
         'bg' => '',
         'fg' => '',
-      ),
-      87 => 
-      array (
+      ],
+      87 => [
         'bg' => '',
         'fg' => '',
-      ),
-      88 => 
-      array (
+      ],
+      88 => [
         'bg' => '',
         'fg' => '',
-      ),
-      89 => 
-      array (
+      ],
+      89 => [
         'bg' => '',
         'fg' => '',
-      ),
-      90 => 
-      array (
+      ],
+      90 => [
         'bg' => '',
         'fg' => '',
-      ),
-      91 => 
-      array (
+      ],
+      91 => [
         'bg' => '',
         'fg' => '',
-      ),
-      92 => 
-      array (
+      ],
+      92 => [
         'bg' => '',
         'fg' => '',
-      ),
-      94 => 
-      array (
+      ],
+      94 => [
         'bg' => '',
         'fg' => '',
-      ),
-      99 => 
-      array (
+      ],
+      99 => [
         'bg' => '',
         'fg' => '',
-      ),
-      100 => 
-      array (
+      ],
+      100 => [
         'bg' => '',
         'fg' => '',
-      ),
-      101 => 
-      array (
+      ],
+      101 => [
         'bg' => '',
         'fg' => '',
-      ),
-      102 => 
-      array (
+      ],
+      102 => [
         'bg' => '',
         'fg' => '',
-      ),
-      103 => 
-      array (
+      ],
+      103 => [
         'bg' => '',
         'fg' => '',
-      ),
-      104 => 
-      array (
+      ],
+      104 => [
         'bg' => '',
         'fg' => '',
-      ),
-      105 => 
-      array (
+      ],
+      105 => [
         'bg' => '',
         'fg' => '',
-      ),
-      106 => 
-      array (
+      ],
+      106 => [
         'bg' => '',
         'fg' => '',
-      ),
-      107 => 
-      array (
+      ],
+      107 => [
         'bg' => '',
         'fg' => '',
-      ),
-      110 => 
-      array (
+      ],
+      110 => [
         'bg' => '',
         'fg' => '',
-      ),
-      111 => 
-      array (
+      ],
+      111 => [
         'bg' => '',
         'fg' => '',
-      ),
-      112 => 
-      array (
+      ],
+      112 => [
         'bg' => '',
         'fg' => '',
-      ),
-      113 => 
-      array (
+      ],
+      113 => [
         'bg' => '',
         'fg' => '',
-      ),
-      114 => 
-      array (
+      ],
+      114 => [
         'bg' => '',
         'fg' => '',
-      ),
-      115 => 
-      array (
+      ],
+      115 => [
         'bg' => '',
         'fg' => '',
-      ),
-      116 => 
-      array (
+      ],
+      116 => [
         'bg' => '',
         'fg' => '',
-      ),
-      117 => 
-      array (
+      ],
+      117 => [
         'bg' => '',
         'fg' => '',
-      ),
-      118 => 
-      array (
+      ],
+      118 => [
         'bg' => '',
         'fg' => '',
-      ),
-      119 => 
-      array (
+      ],
+      119 => [
         'bg' => '',
         'fg' => '',
-      ),
-      121 => 
-      array (
+      ],
+      121 => [
         'bg' => '',
         'fg' => '',
-      ),
-      122 => 
-      array (
+      ],
+      122 => [
         'bg' => '',
         'fg' => '',
-      ),
-      123 => 
-      array (
+      ],
+      123 => [
         'bg' => '',
         'fg' => '',
-      ),
-      124 => 
-      array (
+      ],
+      124 => [
         'bg' => '',
         'fg' => '',
-      ),
-      125 => 
-      array (
+      ],
+      125 => [
         'bg' => '',
         'fg' => '',
-      ),
-      126 => 
-      array (
+      ],
+      126 => [
         'bg' => '',
         'fg' => '',
-      ),
-      127 => 
-      array (
+      ],
+      127 => [
         'bg' => '',
         'fg' => '',
-      ),
-      129 => 
-      array (
+      ],
+      129 => [
         'bg' => '',
         'fg' => '',
-      ),
-      130 => 
-      array (
+      ],
+      130 => [
         'bg' => '',
         'fg' => '',
-      ),
-      131 => 
-      array (
+      ],
+      131 => [
         'bg' => '',
         'fg' => '',
-      ),
-      132 => 
-      array (
+      ],
+      132 => [
         'bg' => '',
         'fg' => '',
-      ),
-      134 => 
-      array (
+      ],
+      134 => [
         'bg' => '',
         'fg' => '',
-      ),
-      135 => 
-      array (
+      ],
+      135 => [
         'bg' => '',
         'fg' => '',
-      ),
-      136 => 
-      array (
+      ],
+      136 => [
         'bg' => '',
         'fg' => '',
-      ),
-      137 => 
-      array (
+      ],
+      137 => [
         'bg' => '',
         'fg' => '',
-      ),
-      139 => 
-      array (
+      ],
+      139 => [
         'bg' => '',
         'fg' => '',
-      ),
-      141 => 
-      array (
+      ],
+      141 => [
         'bg' => '',
         'fg' => '',
-      ),
-      142 => 
-      array (
+      ],
+      142 => [
         'bg' => '',
         'fg' => '',
-      ),
-      143 => 
-      array (
+      ],
+      143 => [
         'bg' => '',
         'fg' => '',
-      ),
-      144 => 
-      array (
+      ],
+      144 => [
         'bg' => '',
         'fg' => '',
-      ),
-      145 => 
-      array (
+      ],
+      145 => [
         'bg' => '',
         'fg' => '',
-      ),
-      147 => 
-      array (
+      ],
+      147 => [
         'bg' => '',
         'fg' => '',
-      ),
-      148 => 
-      array (
+      ],
+      148 => [
         'bg' => '',
         'fg' => '',
-      ),
-      149 => 
-      array (
+      ],
+      149 => [
         'bg' => '',
         'fg' => '',
-      ),
-      151 => 
-      array (
+      ],
+      151 => [
         'bg' => '',
         'fg' => '',
-      ),
-      152 => 
-      array (
+      ],
+      152 => [
         'bg' => '',
         'fg' => '',
-      ),
-      153 => 
-      array (
+      ],
+      153 => [
         'bg' => '',
         'fg' => '',
-      ),
-      161 => 
-      array (
+      ],
+      161 => [
         'bg' => '',
         'fg' => '',
-      ),
-      162 => 
-      array (
+      ],
+      162 => [
         'bg' => '',
         'fg' => '',
-      ),
-      163 => 
-      array (
+      ],
+      163 => [
         'bg' => '',
         'fg' => '',
-      ),
-      164 => 
-      array (
+      ],
+      164 => [
         'bg' => '',
         'fg' => '',
-      ),
-      165 => 
-      array (
+      ],
+      165 => [
         'bg' => '',
         'fg' => '',
-      ),
-      166 => 
-      array (
+      ],
+      166 => [
         'bg' => '',
         'fg' => '',
-      ),
-      167 => 
-      array (
+      ],
+      167 => [
         'bg' => '',
         'fg' => '',
-      ),
-      171 => 
-      array (
+      ],
+      171 => [
         'bg' => '',
         'fg' => '',
-      ),
-      172 => 
-      array (
+      ],
+      172 => [
         'bg' => '',
         'fg' => '',
-      ),
-      173 => 
-      array (
+      ],
+      173 => [
         'bg' => '',
         'fg' => '',
-      ),
-      174 => 
-      array (
+      ],
+      174 => [
         'bg' => '',
         'fg' => '',
-      ),
-      180 => 
-      array (
+      ],
+      180 => [
         'bg' => '',
         'fg' => '',
-      ),
-      181 => 
-      array (
+      ],
+      181 => [
         'bg' => '',
         'fg' => '',
-      ),
-      182 => 
-      array (
+      ],
+      182 => [
         'bg' => '',
         'fg' => '',
-      ),
-      183 => 
-      array (
+      ],
+      183 => [
         'bg' => '',
         'fg' => '',
-      ),
-      184 => 
-      array (
+      ],
+      184 => [
         'bg' => '',
         'fg' => '',
-      ),
-      191 => 
-      array (
+      ],
+      191 => [
         'bg' => '',
         'fg' => '',
-      ),
-      192 => 
-      array (
+      ],
+      192 => [
         'bg' => '',
         'fg' => '',
-      ),
-      193 => 
-      array (
+      ],
+      193 => [
         'bg' => '',
         'fg' => '',
-      ),
-      201 => 
-      array (
+      ],
+      201 => [
         'bg' => '',
         'fg' => '',
-      ),
-      202 => 
-      array (
+      ],
+      202 => [
         'bg' => '',
         'fg' => '',
-      ),
-      203 => 
-      array (
+      ],
+      203 => [
         'bg' => '',
         'fg' => '',
-      ),
-      210 => 
-      array (
+      ],
+      210 => [
         'bg' => '',
         'fg' => '',
-      ),
-      211 => 
-      array (
+      ],
+      211 => [
         'bg' => '',
         'fg' => '',
-      ),
-      212 => 
-      array (
+      ],
+      212 => [
         'bg' => '',
         'fg' => '',
-      ),
-      213 => 
-      array (
+      ],
+      213 => [
         'bg' => '',
         'fg' => '',
-      ),
-      214 => 
-      array (
+      ],
+      214 => [
         'bg' => '',
         'fg' => '',
-      ),
-      215 => 
-      array (
+      ],
+      215 => [
         'bg' => '',
         'fg' => '',
-      ),
-      216 => 
-      array (
+      ],
+      216 => [
         'bg' => '',
         'fg' => '',
-      ),
-      217 => 
-      array (
+      ],
+      217 => [
         'bg' => '',
         'fg' => '',
-      ),
-      220 => 
-      array (
+      ],
+      220 => [
         'bg' => '',
         'fg' => '',
-      ),
-      221 => 
-      array (
+      ],
+      221 => [
         'bg' => '',
         'fg' => '',
-      ),
-      222 => 
-      array (
+      ],
+      222 => [
         'bg' => '',
         'fg' => '',
-      ),
-      223 => 
-      array (
+      ],
+      223 => [
         'bg' => '',
         'fg' => '',
-      ),
-      231 => 
-      array (
+      ],
+      231 => [
         'bg' => '',
         'fg' => '',
-      ),
-      232 => 
-      array (
+      ],
+      232 => [
         'bg' => '',
         'fg' => '',
-      ),
-      233 => 
-      array (
+      ],
+      233 => [
         'bg' => '',
         'fg' => '',
-      ),
-      234 => 
-      array (
+      ],
+      234 => [
         'bg' => '',
         'fg' => '',
-      ),
-      235 => 
-      array (
+      ],
+      235 => [
         'bg' => '',
         'fg' => '',
-      ),
-      237 => 
-      array (
+      ],
+      237 => [
         'bg' => '',
         'fg' => '',
-      ),
-      241 => 
-      array (
+      ],
+      241 => [
         'bg' => '',
         'fg' => '',
-      ),
-      242 => 
-      array (
+      ],
+      242 => [
         'bg' => '',
         'fg' => '',
-      ),
-      251 => 
-      array (
+      ],
+      251 => [
         'bg' => '',
         'fg' => '',
-      ),
-      252 => 
-      array (
+      ],
+      252 => [
         'bg' => '',
         'fg' => '',
-      ),
-      253 => 
-      array (
+      ],
+      253 => [
         'bg' => '',
         'fg' => '',
-      ),
-      254 => 
-      array (
+      ],
+      254 => [
         'bg' => '',
         'fg' => '',
-      ),
-      260 => 
-      array (
+      ],
+      260 => [
         'bg' => '',
         'fg' => '',
-      ),
-      261 => 
-      array (
+      ],
+      261 => [
         'bg' => '',
         'fg' => '',
-      ),
-      271 => 
-      array (
+      ],
+      271 => [
         'bg' => '',
         'fg' => '',
-      ),
-      272 => 
-      array (
+      ],
+      272 => [
         'bg' => '',
         'fg' => '',
-      ),
-      273 => 
-      array (
+      ],
+      273 => [
         'bg' => '',
         'fg' => '',
-      ),
-      281 => 
-      array (
+      ],
+      281 => [
         'bg' => '',
         'fg' => '',
-      ),
-      282 => 
-      array (
+      ],
+      282 => [
         'bg' => '',
         'fg' => '',
-      ),
-      290 => 
-      array (
+      ],
+      290 => [
         'bg' => '',
         'fg' => '',
-      ),
-      310 => 
-      array (
+      ],
+      310 => [
         'bg' => '',
         'fg' => '',
-      ),
-      311 => 
-      array (
+      ],
+      311 => [
         'bg' => '',
         'fg' => '',
-      ),
-      312 => 
-      array (
+      ],
+      312 => [
         'bg' => '',
         'fg' => '',
-      ),
-      313 => 
-      array (
+      ],
+      313 => [
         'bg' => '',
         'fg' => '',
-      ),
-      314 => 
-      array (
+      ],
+      314 => [
         'bg' => '',
         'fg' => '',
-      ),
-      320 => 
-      array (
+      ],
+      320 => [
         'bg' => '',
         'fg' => '',
-      ),
-      321 => 
-      array (
+      ],
+      321 => [
         'bg' => '',
         'fg' => '',
-      ),
-      322 => 
-      array (
+      ],
+      322 => [
         'bg' => '',
         'fg' => '',
-      ),
-      323 => 
-      array (
+      ],
+      323 => [
         'bg' => '',
         'fg' => '',
-      ),
-      324 => 
-      array (
+      ],
+      324 => [
         'bg' => '',
         'fg' => '',
-      ),
-      325 => 
-      array (
+      ],
+      325 => [
         'bg' => '',
         'fg' => '',
-      ),
-      326 => 
-      array (
+      ],
+      326 => [
         'bg' => '',
         'fg' => '',
-      ),
-      328 => 
-      array (
+      ],
+      328 => [
         'bg' => '',
         'fg' => '',
-      ),
-      329 => 
-      array (
+      ],
+      329 => [
         'bg' => '',
         'fg' => '',
-      ),
-      330 => 
-      array (
+      ],
+      330 => [
         'bg' => '',
         'fg' => '',
-      ),
-      331 => 
-      array (
+      ],
+      331 => [
         'bg' => '',
         'fg' => '',
-      ),
-      332 => 
-      array (
+      ],
+      332 => [
         'bg' => '',
         'fg' => '',
-      ),
-      333 => 
-      array (
+      ],
+      333 => [
         'bg' => '',
         'fg' => '',
-      ),
-      334 => 
-      array (
+      ],
+      334 => [
         'bg' => '',
         'fg' => '',
-      ),
-      335 => 
-      array (
+      ],
+      335 => [
         'bg' => '',
         'fg' => '',
-      ),
-      336 => 
-      array (
+      ],
+      336 => [
         'bg' => '',
         'fg' => '',
-      ),
-      338 => 
-      array (
+      ],
+      338 => [
         'bg' => '',
         'fg' => '',
-      ),
-      339 => 
-      array (
+      ],
+      339 => [
         'bg' => '',
         'fg' => '',
-      ),
-      340 => 
-      array (
+      ],
+      340 => [
         'bg' => '',
         'fg' => '',
-      ),
-      341 => 
-      array (
+      ],
+      341 => [
         'bg' => '',
         'fg' => '',
-      ),
-      342 => 
-      array (
+      ],
+      342 => [
         'bg' => '',
         'fg' => '',
-      ),
-      343 => 
-      array (
+      ],
+      343 => [
         'bg' => '',
         'fg' => '',
-      ),
-      344 => 
-      array (
+      ],
+      344 => [
         'bg' => '',
         'fg' => '',
-      ),
-      345 => 
-      array (
+      ],
+      345 => [
         'bg' => '',
         'fg' => '',
-      ),
-      346 => 
-      array (
+      ],
+      346 => [
         'bg' => '',
         'fg' => '',
-      ),
-      349 => 
-      array (
+      ],
+      349 => [
         'bg' => '',
         'fg' => '',
-      ),
-      350 => 
-      array (
+      ],
+      350 => [
         'bg' => '',
         'fg' => '',
-      ),
-      351 => 
-      array (
+      ],
+      351 => [
         'bg' => '',
         'fg' => '',
-      ),
-      352 => 
-      array (
+      ],
+      352 => [
         'bg' => '',
         'fg' => '',
-      ),
-      353 => 
-      array (
+      ],
+      353 => [
         'bg' => '',
         'fg' => '',
-      ),
-      354 => 
-      array (
+      ],
+      354 => [
         'bg' => '',
         'fg' => '',
-      ),
-      355 => 
-      array (
+      ],
+      355 => [
         'bg' => '',
         'fg' => '',
-      ),
-      357 => 
-      array (
+      ],
+      357 => [
         'bg' => '',
         'fg' => '',
-      ),
-      358 => 
-      array (
+      ],
+      358 => [
         'bg' => '',
         'fg' => '',
-      ),
-      360 => 
-      array (
+      ],
+      360 => [
         'bg' => '',
         'fg' => '',
-      ),
-      361 => 
-      array (
+      ],
+      361 => [
         'bg' => '',
         'fg' => '',
-      ),
-      362 => 
-      array (
+      ],
+      362 => [
         'bg' => '',
         'fg' => '',
-      ),
-      363 => 
-      array (
+      ],
+      363 => [
         'bg' => '',
         'fg' => '',
-      ),
-      364 => 
-      array (
+      ],
+      364 => [
         'bg' => '',
         'fg' => '',
-      ),
-      365 => 
-      array (
+      ],
+      365 => [
         'bg' => '',
         'fg' => '',
-      ),
-      366 => 
-      array (
+      ],
+      366 => [
         'bg' => '',
         'fg' => '',
-      ),
-      368 => 
-      array (
+      ],
+      368 => [
         'bg' => '',
         'fg' => '',
-      ),
-      371 => 
-      array (
+      ],
+      371 => [
         'bg' => '',
         'fg' => '',
-      ),
-      372 => 
-      array (
+      ],
+      372 => [
         'bg' => '',
         'fg' => '',
-      ),
-      374 => 
-      array (
+      ],
+      374 => [
         'bg' => '',
         'fg' => '',
-      ),
-      376 => 
-      array (
+      ],
+      376 => [
         'bg' => '',
         'fg' => '',
-      ),
-      379 => 
-      array (
+      ],
+      379 => [
         'bg' => '',
         'fg' => '',
-      ),
-      380 => 
-      array (
+      ],
+      380 => [
         'bg' => '',
         'fg' => '',
-      ),
-      381 => 
-      array (
+      ],
+      381 => [
         'bg' => '',
         'fg' => '',
-      ),
-      382 => 
-      array (
+      ],
+      382 => [
         'bg' => '',
         'fg' => '',
-      ),
-      383 => 
-      array (
+      ],
+      383 => [
         'bg' => '',
         'fg' => '',
-      ),
-      385 => 
-      array (
+      ],
+      385 => [
         'bg' => '',
         'fg' => '',
-      ),
-      386 => 
-      array (
+      ],
+      386 => [
         'bg' => '',
         'fg' => '',
-      ),
-      388 => 
-      array (
+      ],
+      388 => [
         'bg' => '',
         'fg' => '',
-      ),
-      391 => 
-      array (
+      ],
+      391 => [
         'bg' => '',
         'fg' => '',
-      ),
-      392 => 
-      array (
+      ],
+      392 => [
         'bg' => '',
         'fg' => '',
-      ),
-      398 => 
-      array (
+      ],
+      398 => [
         'bg' => '',
         'fg' => '',
-      ),
-      399 => 
-      array (
+      ],
+      399 => [
         'bg' => '',
         'fg' => '',
-      ),
-      401 => 
-      array (
+      ],
+      401 => [
         'bg' => '',
         'fg' => '',
-      ),
-      403 => 
-      array (
+      ],
+      403 => [
         'bg' => '',
         'fg' => '',
-      ),
-      405 => 
-      array (
+      ],
+      405 => [
         'bg' => '',
         'fg' => '',
-      ),
-      407 => 
-      array (
+      ],
+      407 => [
         'bg' => '',
         'fg' => '',
-      ),
-      408 => 
-      array (
+      ],
+      408 => [
         'bg' => '',
         'fg' => '',
-      ),
-      410 => 
-      array (
+      ],
+      410 => [
         'bg' => '',
         'fg' => '',
-      ),
-      411 => 
-      array (
+      ],
+      411 => [
         'bg' => '',
         'fg' => '',
-      ),
-      412 => 
-      array (
+      ],
+      412 => [
         'bg' => '',
         'fg' => '',
-      ),
-      414 => 
-      array (
+      ],
+      414 => [
         'bg' => '',
         'fg' => '',
-      ),
-      415 => 
-      array (
+      ],
+      415 => [
         'bg' => '',
         'fg' => '',
-      ),
-      420 => 
-      array (
+      ],
+      420 => [
         'bg' => '',
         'fg' => '',
-      ),
-      421 => 
-      array (
+      ],
+      421 => [
         'bg' => '',
         'fg' => '',
-      ),
-      4218 => 
-      array (
+      ],
+      4218 => [
         'bg' => '',
         'fg' => '',
-      ),
-      422 => 
-      array (
+      ],
+      422 => [
         'bg' => '',
         'fg' => '',
-      ),
-      423 => 
-      array (
+      ],
+      423 => [
         'bg' => '',
         'fg' => '',
-      ),
-      424 => 
-      array (
+      ],
+      424 => [
         'bg' => '',
         'fg' => '',
-      ),
-      425 => 
-      array (
+      ],
+      425 => [
         'bg' => '',
         'fg' => '',
-      ),
-      426 => 
-      array (
+      ],
+      426 => [
         'bg' => '',
         'fg' => '',
-      ),
-      427 => 
-      array (
+      ],
+      427 => [
         'bg' => '',
         'fg' => '',
-      ),
-      428 => 
-      array (
+      ],
+      428 => [
         'bg' => '',
         'fg' => '',
-      ),
-      429 => 
-      array (
+      ],
+      429 => [
         'bg' => '',
         'fg' => '',
-      ),
-      430 => 
-      array (
+      ],
+      430 => [
         'bg' => '',
         'fg' => '',
-      ),
-      431 => 
-      array (
+      ],
+      431 => [
         'bg' => '',
         'fg' => '',
-      ),
-      432 => 
-      array (
+      ],
+      432 => [
         'bg' => '',
         'fg' => '',
-      ),
-      433 => 
-      array (
+      ],
+      433 => [
         'bg' => '',
         'fg' => '',
-      ),
-      434 => 
-      array (
+      ],
+      434 => [
         'bg' => '',
         'fg' => '',
-      ),
-      435 => 
-      array (
+      ],
+      435 => [
         'bg' => '',
         'fg' => '',
-      ),
-      436 => 
-      array (
+      ],
+      436 => [
         'bg' => '',
         'fg' => '',
-      ),
-      440 => 
-      array (
+      ],
+      440 => [
         'bg' => '',
         'fg' => '',
-      ),
-      441 => 
-      array (
+      ],
+      441 => [
         'bg' => '',
         'fg' => '',
-      ),
-      442 => 
-      array (
+      ],
+      442 => [
         'bg' => '',
         'fg' => '',
-      ),
-      443 => 
-      array (
+      ],
+      443 => [
         'bg' => '',
         'fg' => '',
-      ),
-      444 => 
-      array (
+      ],
+      444 => [
         'bg' => '',
         'fg' => '',
-      ),
-      445 => 
-      array (
+      ],
+      445 => [
         'bg' => '',
         'fg' => '',
-      ),
-      446 => 
-      array (
+      ],
+      446 => [
         'bg' => '',
         'fg' => '',
-      ),
-      447 => 
-      array (
+      ],
+      447 => [
         'bg' => '',
         'fg' => '',
-      ),
-      448 => 
-      array (
+      ],
+      448 => [
         'bg' => '',
         'fg' => '',
-      ),
-      449 => 
-      array (
+      ],
+      449 => [
         'bg' => '',
         'fg' => '',
-      ),
-      450 => 
-      array (
+      ],
+      450 => [
         'bg' => '',
         'fg' => '',
-      ),
-      451 => 
-      array (
+      ],
+      451 => [
         'bg' => '',
         'fg' => '',
-      ),
-      452 => 
-      array (
+      ],
+      452 => [
         'bg' => '',
         'fg' => '',
-      ),
-      453 => 
-      array (
+      ],
+      453 => [
         'bg' => '',
         'fg' => '',
-      ),
-      454 => 
-      array (
+      ],
+      454 => [
         'bg' => '',
         'fg' => '',
-      ),
-      455 => 
-      array (
+      ],
+      455 => [
         'bg' => '',
         'fg' => '',
-      ),
-      456 => 
-      array (
+      ],
+      456 => [
         'bg' => '',
         'fg' => '',
-      ),
-      461 => 
-      array (
+      ],
+      461 => [
         'bg' => '',
         'fg' => '',
-      ),
-      462 => 
-      array (
+      ],
+      462 => [
         'bg' => '',
         'fg' => '',
-      ),
-      471 => 
-      array (
+      ],
+      471 => [
         'bg' => '',
         'fg' => '',
-      ),
-      472 => 
-      array (
+      ],
+      472 => [
         'bg' => '',
         'fg' => '',
-      ),
-      481 => 
-      array (
+      ],
+      481 => [
         'bg' => '',
         'fg' => '',
-      ),
-      482 => 
-      array (
+      ],
+      482 => [
         'bg' => '',
         'fg' => '',
-      ),
-      491 => 
-      array (
+      ],
+      491 => [
         'bg' => '',
         'fg' => '',
-      ),
-      501 => 
-      array (
+      ],
+      501 => [
         'bg' => '',
         'fg' => '',
-      ),
-      502 => 
-      array (
+      ],
+      502 => [
         'bg' => '',
         'fg' => '',
-      ),
-      504 => 
-      array (
+      ],
+      504 => [
         'bg' => '',
         'fg' => '',
-      ),
-      511 => 
-      array (
+      ],
+      511 => [
         'bg' => '',
         'fg' => '',
-      ),
-      512 => 
-      array (
+      ],
+      512 => [
         'bg' => '',
         'fg' => '',
-      ),
-      513 => 
-      array (
+      ],
+      513 => [
         'bg' => '',
         'fg' => '',
-      ),
-      514 => 
-      array (
+      ],
+      514 => [
         'bg' => '',
         'fg' => '',
-      ),
-      515 => 
-      array (
+      ],
+      515 => [
         'bg' => '',
         'fg' => '',
-      ),
-      516 => 
-      array (
+      ],
+      516 => [
         'bg' => '',
         'fg' => '',
-      ),
-      518 => 
-      array (
+      ],
+      518 => [
         'bg' => '',
         'fg' => '',
-      ),
-      521 => 
-      array (
+      ],
+      521 => [
         'bg' => '',
         'fg' => '',
-      ),
-      522 => 
-      array (
+      ],
+      522 => [
         'bg' => '',
         'fg' => '',
-      ),
-      523 => 
-      array (
+      ],
+      523 => [
         'bg' => '',
         'fg' => '',
-      ),
-      524 => 
-      array (
+      ],
+      524 => [
         'bg' => '',
         'fg' => '',
-      ),
-      525 => 
-      array (
+      ],
+      525 => [
         'bg' => '',
         'fg' => '',
-      ),
-      526 => 
-      array (
+      ],
+      526 => [
         'bg' => '',
         'fg' => '',
-      ),
-      527 => 
-      array (
+      ],
+      527 => [
         'bg' => '',
         'fg' => '',
-      ),
-      528 => 
-      array (
+      ],
+      528 => [
         'bg' => '',
         'fg' => '',
-      ),
-      531 => 
-      array (
+      ],
+      531 => [
         'bg' => '',
         'fg' => '',
-      ),
-      532 => 
-      array (
+      ],
+      532 => [
         'bg' => '',
         'fg' => '',
-      ),
-      533 => 
-      array (
+      ],
+      533 => [
         'bg' => '',
         'fg' => '',
-      ),
-      535 => 
-      array (
+      ],
+      535 => [
         'bg' => '',
         'fg' => '',
-      ),
-      538 => 
-      array (
+      ],
+      538 => [
         'bg' => '',
         'fg' => '',
-      ),
-      540 => 
-      array (
+      ],
+      540 => [
         'bg' => '',
         'fg' => '',
-      ),
-      541 => 
-      array (
+      ],
+      541 => [
         'bg' => '',
         'fg' => '',
-      ),
-      547 => 
-      array (
+      ],
+      547 => [
         'bg' => '',
         'fg' => '',
-      ),
-      550 => 
-      array (
+      ],
+      550 => [
         'bg' => '',
         'fg' => '',
-      ),
-      551 => 
-      array (
+      ],
+      551 => [
         'bg' => '',
         'fg' => '',
-      ),
-      552 => 
-      array (
+      ],
+      552 => [
         'bg' => '',
         'fg' => '',
-      ),
-      553 => 
-      array (
+      ],
+      553 => [
         'bg' => '',
         'fg' => '',
-      ),
-      554 => 
-      array (
+      ],
+      554 => [
         'bg' => '',
         'fg' => '',
-      ),
-      560 => 
-      array (
+      ],
+      560 => [
         'bg' => '',
         'fg' => '',
-      ),
-      561 => 
-      array (
+      ],
+      561 => [
         'bg' => '',
         'fg' => '',
-      ),
-      562 => 
-      array (
+      ],
+      562 => [
         'bg' => '',
         'fg' => '',
-      ),
-      565 => 
-      array (
+      ],
+      565 => [
         'bg' => '',
         'fg' => '',
-      ),
-      570 => 
-      array (
+      ],
+      570 => [
         'bg' => '',
         'fg' => '',
-      ),
-      571 => 
-      array (
+      ],
+      571 => [
         'bg' => '',
         'fg' => '',
-      ),
-      572 => 
-      array (
+      ],
+      572 => [
         'bg' => '',
         'fg' => '',
-      ),
-      573 => 
-      array (
+      ],
+      573 => [
         'bg' => '',
         'fg' => '',
-      ),
-      580 => 
-      array (
+      ],
+      580 => [
         'bg' => '',
         'fg' => '',
-      ),
-      581 => 
-      array (
+      ],
+      581 => [
         'bg' => '',
         'fg' => '',
-      ),
-      591 => 
-      array (
+      ],
+      591 => [
         'bg' => '',
         'fg' => '',
-      ),
-      603 => 
-      array (
+      ],
+      603 => [
         'bg' => '',
         'fg' => '',
-      ),
-      611 => 
-      array (
+      ],
+      611 => [
         'bg' => '',
         'fg' => '',
-      ),
-      612 => 
-      array (
+      ],
+      612 => [
         'bg' => '',
         'fg' => '',
-      ),
-      613 => 
-      array (
+      ],
+      613 => [
         'bg' => '',
         'fg' => '',
-      ),
-      614 => 
-      array (
+      ],
+      614 => [
         'bg' => '',
         'fg' => '',
-      ),
-      615 => 
-      array (
+      ],
+      615 => [
         'bg' => '',
         'fg' => '',
-      ),
-      616 => 
-      array (
+      ],
+      616 => [
         'bg' => '',
         'fg' => '',
-      ),
-      620 => 
-      array (
+      ],
+      620 => [
         'bg' => '',
         'fg' => '',
-      ),
-      621 => 
-      array (
+      ],
+      621 => [
         'bg' => '',
         'fg' => '',
-      ),
-      623 => 
-      array (
+      ],
+      623 => [
         'bg' => '',
         'fg' => '',
-      ),
-      624 => 
-      array (
+      ],
+      624 => [
         'bg' => '',
         'fg' => '',
-      ),
-      625 => 
-      array (
+      ],
+      625 => [
         'bg' => '',
         'fg' => '',
-      ),
-      630 => 
-      array (
+      ],
+      630 => [
         'bg' => '',
         'fg' => '',
-      ),
-      631 => 
-      array (
+      ],
+      631 => [
         'bg' => '',
         'fg' => '',
-      ),
-      632 => 
-      array (
+      ],
+      632 => [
         'bg' => '',
         'fg' => '',
-      ),
-      633 => 
-      array (
+      ],
+      633 => [
         'bg' => '',
         'fg' => '',
-      ),
-      634 => 
-      array (
+      ],
+      634 => [
         'bg' => '',
         'fg' => '',
-      ),
-      635 => 
-      array (
+      ],
+      635 => [
         'bg' => '',
         'fg' => '',
-      ),
-      640 => 
-      array (
+      ],
+      640 => [
         'bg' => '',
         'fg' => '',
-      ),
-      650 => 
-      array (
+      ],
+      650 => [
         'bg' => '',
         'fg' => '',
-      ),
-      651 => 
-      array (
+      ],
+      651 => [
         'bg' => '',
         'fg' => '',
-      ),
-      652 => 
-      array (
+      ],
+      652 => [
         'bg' => '',
         'fg' => '',
-      ),
-      653 => 
-      array (
+      ],
+      653 => [
         'bg' => '',
         'fg' => '',
-      ),
-      655 => 
-      array (
+      ],
+      655 => [
         'bg' => '',
         'fg' => '',
-      ),
-      660 => 
-      array (
+      ],
+      660 => [
         'bg' => '',
         'fg' => '',
-      ),
-      661 => 
-      array (
+      ],
+      661 => [
         'bg' => '',
         'fg' => '',
-      ),
-      662 => 
-      array (
+      ],
+      662 => [
         'bg' => '',
         'fg' => '',
-      ),
-      665 => 
-      array (
+      ],
+      665 => [
         'bg' => '',
         'fg' => '',
-      ),
-      670 => 
-      array (
+      ],
+      670 => [
         'bg' => '',
         'fg' => '',
-      ),
-      675 => 
-      array (
+      ],
+      675 => [
         'bg' => '',
         'fg' => '',
-      ),
-      680 => 
-      array (
+      ],
+      680 => [
         'bg' => '',
         'fg' => '',
-      ),
-      681 => 
-      array (
+      ],
+      681 => [
         'bg' => '',
         'fg' => '',
-      ),
-      683 => 
-      array (
+      ],
+      683 => [
         'bg' => '',
         'fg' => '',
-      ),
-      684 => 
-      array (
+      ],
+      684 => [
         'bg' => '',
         'fg' => '',
-      ),
-      685 => 
-      array (
+      ],
+      685 => [
         'bg' => '',
         'fg' => '',
-      ),
-      686 => 
-      array (
+      ],
+      686 => [
         'bg' => '',
         'fg' => '',
-      ),
-      701 => 
-      array (
+      ],
+      701 => [
         'bg' => '',
         'fg' => '',
-      ),
-      702 => 
-      array (
+      ],
+      702 => [
         'bg' => '',
         'fg' => '',
-      ),
-      703 => 
-      array (
+      ],
+      703 => [
         'bg' => '',
         'fg' => '',
-      ),
-      705 => 
-      array (
+      ],
+      705 => [
         'bg' => '',
         'fg' => '',
-      ),
-      711 => 
-      array (
+      ],
+      711 => [
         'bg' => '',
         'fg' => '',
-      ),
-      712 => 
-      array (
+      ],
+      712 => [
         'bg' => '',
         'fg' => '',
-      ),
-      720 => 
-      array (
+      ],
+      720 => [
         'bg' => '',
         'fg' => '',
-      ),
-      721 => 
-      array (
+      ],
+      721 => [
         'bg' => '',
         'fg' => '',
-      ),
-      722 => 
-      array (
+      ],
+      722 => [
         'bg' => '',
         'fg' => '',
-      ),
-      725 => 
-      array (
+      ],
+      725 => [
         'bg' => '',
         'fg' => '',
-      ),
-      765 => 
-      array (
+      ],
+      765 => [
         'bg' => '',
         'fg' => '',
-      ),
-      781 => 
-      array (
+      ],
+      781 => [
         'bg' => '',
         'fg' => '',
-      ),
-      782 => 
-      array (
+      ],
+      782 => [
         'bg' => '',
         'fg' => '',
-      ),
-      791 => 
-      array (
+      ],
+      791 => [
         'bg' => '',
         'fg' => '',
-      ),
-      792 => 
-      array (
+      ],
+      792 => [
         'bg' => '',
         'fg' => '',
-      ),
-      793 => 
-      array (
+      ],
+      793 => [
         'bg' => '',
         'fg' => '',
-      ),
-      794 => 
-      array (
+      ],
+      794 => [
         'bg' => '',
         'fg' => '',
-      ),
-      795 => 
-      array (
+      ],
+      795 => [
         'bg' => '',
         'fg' => '',
-      ),
-      811 => 
-      array (
+      ],
+      811 => [
         'bg' => '',
         'fg' => '',
-      ),
-      815 => 
-      array (
+      ],
+      815 => [
         'bg' => '',
         'fg' => '',
-      ),
-      819 => 
-      array (
+      ],
+      819 => [
         'bg' => '',
         'fg' => '',
-      ),
-      820 => 
-      array (
+      ],
+      820 => [
         'bg' => '',
         'fg' => '',
-      ),
-      821 => 
-      array (
+      ],
+      821 => [
         'bg' => '',
         'fg' => '',
-      ),
-      825 => 
-      array (
+      ],
+      825 => [
         'bg' => '',
         'fg' => '',
-      ),
-      830 => 
-      array (
+      ],
+      830 => [
         'bg' => '',
         'fg' => '',
-      ),
-      831 => 
-      array (
+      ],
+      831 => [
         'bg' => '',
         'fg' => '',
-      ),
-      832 => 
-      array (
+      ],
+      832 => [
         'bg' => '',
         'fg' => '',
-      ),
-      835 => 
-      array (
+      ],
+      835 => [
         'bg' => '',
         'fg' => '',
-      ),
-      836 => 
-      array (
+      ],
+      836 => [
         'bg' => '',
         'fg' => '',
-      ),
-      840 => 
-      array (
+      ],
+      840 => [
         'bg' => '',
         'fg' => '',
-      ),
-      841 => 
-      array (
+      ],
+      841 => [
         'bg' => '',
         'fg' => '',
-      ),
-      846 => 
-      array (
+      ],
+      846 => [
         'bg' => '',
         'fg' => '',
-      ),
-      851 => 
-      array (
+      ],
+      851 => [
         'bg' => '',
         'fg' => '',
-      ),
-      882 => 
-      array (
+      ],
+      882 => [
         'bg' => '',
         'fg' => '',
-      ),
-      885 => 
-      array (
+      ],
+      885 => [
         'bg' => '',
         'fg' => '',
-      ),
-      886 => 
-      array (
+      ],
+      886 => [
         'bg' => '',
         'fg' => '',
-      ),
-      901 => 
-      array (
+      ],
+      901 => [
         'bg' => '',
         'fg' => '',
-      ),
-      907 => 
-      array (
+      ],
+      907 => [
         'bg' => '',
         'fg' => '',
-      ),
-      913 => 
-      array (
+      ],
+      913 => [
         'bg' => '',
         'fg' => '',
-      ),
-      921 => 
-      array (
+      ],
+      921 => [
         'bg' => '',
         'fg' => '',
-      ),
-      923 => 
-      array (
+      ],
+      923 => [
         'bg' => '',
         'fg' => '',
-      ),
-      925 => 
-      array (
+      ],
+      925 => [
         'bg' => '',
         'fg' => '',
-      ),
-      931 => 
-      array (
+      ],
+      931 => [
         'bg' => '',
         'fg' => '',
-      ),
-      941 => 
-      array (
+      ],
+      941 => [
         'bg' => '',
         'fg' => '',
-      ),
-      992 => 
-      array (
+      ],
+      992 => [
         'bg' => '',
         'fg' => '',
-      ),
-      '12E' => 
-      array (
+      ],
+      '12E' => [
         'bg' => '',
         'fg' => '',
-      ),
-      '301 BS1' => 
-      array (
+      ],
+      '301 BS1' => [
         'bg' => '',
         'fg' => '',
-      ),
-      '302 BS2' => 
-      array (
+      ],
+      '302 BS2' => [
         'bg' => '',
         'fg' => '',
-      ),
-      '303 BS3' => 
-      array (
+      ],
+      '303 BS3' => [
         'bg' => '',
         'fg' => '',
-      ),
-      '304 BS4' => 
-      array (
+      ],
+      '304 BS4' => [
         'bg' => '',
         'fg' => '',
-      ),
-      '305 BS5' => 
-      array (
+      ],
+      '305 BS5' => [
         'bg' => '',
         'fg' => '',
-      ),
-      '306 BS6' => 
-      array (
+      ],
+      '306 BS6' => [
         'bg' => '',
         'fg' => '',
-      ),
-      '36E' => 
-      array (
+      ],
+      '36E' => [
         'bg' => '',
         'fg' => '',
-      ),
-      'N1' => 
-      array (
+      ],
+      'N1' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N2' => 
-      array (
+      ],
+      'N2' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N3' => 
-      array (
+      ],
+      'N3' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N30' => 
-      array (
+      ],
+      'N30' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N4' => 
-      array (
+      ],
+      'N4' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N40' => 
-      array (
+      ],
+      'N40' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N41' => 
-      array (
+      ],
+      'N41' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N42' => 
-      array (
+      ],
+      'N42' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N43' => 
-      array (
+      ],
+      'N43' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N44' => 
-      array (
+      ],
+      'N44' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N53' => 
-      array (
+      ],
+      'N53' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N54' => 
-      array (
+      ],
+      'N54' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N56' => 
-      array (
+      ],
+      'N56' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N59' => 
-      array (
+      ],
+      'N59' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N6' => 
-      array (
+      ],
+      'N6' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N61' => 
-      array (
+      ],
+      'N61' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N63' => 
-      array (
+      ],
+      'N63' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N64' => 
-      array (
+      ],
+      'N64' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N65' => 
-      array (
+      ],
+      'N65' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N69' => 
-      array (
+      ],
+      'N69' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N7' => 
-      array (
+      ],
+      'N7' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N70' => 
-      array (
+      ],
+      'N70' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N71' => 
-      array (
+      ],
+      'N71' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N72' => 
-      array (
+      ],
+      'N72' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N73' => 
-      array (
+      ],
+      'N73' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N8' => 
-      array (
+      ],
+      'N8' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N89' => 
-      array (
+      ],
+      'N89' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N92' => 
-      array (
+      ],
+      'N92' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N95' => 
-      array (
+      ],
+      'N95' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N96' => 
-      array (
+      ],
+      'N96' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N97' => 
-      array (
+      ],
+      'N97' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'Navette' => 
-      array (
+      ],
+      'Navette' => [
         'bg' => '',
         'fg' => '',
-      ),
-      'OW1' => 
-      array (
+      ],
+      'OW1' => [
         'bg' => '',
         'fg' => '',
-      ),
-      'OW3' => 
-      array (
+      ],
+      'OW3' => [
         'bg' => '',
         'fg' => '',
-      ),
-      'OW4' => 
-      array (
+      ],
+      'OW4' => [
         'bg' => '',
         'fg' => '',
-      ),
-      'OW5' => 
-      array (
+      ],
+      'OW5' => [
         'bg' => '',
         'fg' => '',
-      ),
-      'OW8' => 
-      array (
+      ],
+      'OW8' => [
         'bg' => '',
         'fg' => '',
-      ),
-      'OW9' => 
-      array (
+      ],
+      'OW9' => [
         'bg' => '',
         'fg' => '',
-      ),
-      'ZB1' => 
-      array (
+      ],
+      'ZB1' => [
         'bg' => '',
         'fg' => '',
-      ),
-      'ZB2' => 
-      array (
+      ],
+      'ZB2' => [
         'bg' => '',
         'fg' => '',
-      ),
-      'ZB3' => 
-      array (
+      ],
+      'ZB3' => [
         'bg' => '',
         'fg' => '',
-      ),
-      'ZB4' => 
-      array (
+      ],
+      'ZB4' => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-    'KB' => 
-    array (
-      193 => 
-      array (
+      ],
+    ],
+    'KB' => [
+      193 => [
         'bg' => '',
         'fg' => '',
-      ),
-      228 => 
-      array (
+      ],
+      228 => [
         'bg' => '',
         'fg' => '',
-      ),
-      555 => 
-      array (
+      ],
+      555 => [
         'bg' => '',
         'fg' => '',
-      ),
-      809 => 
-      array (
+      ],
+      809 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-    'NB' => 
-    array (
-      'N1' => 
-      array (
+      ],
+    ],
+    'NB' => [
+      'N1' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N2' => 
-      array (
+      ],
+      'N2' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N3' => 
-      array (
+      ],
+      'N3' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N4' => 
-      array (
+      ],
+      'N4' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N5' => 
-      array (
+      ],
+      'N5' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-    ),
-    'NFB' => 
-    array (
-      70 => 
-      array (
+      ],
+    ],
+    'NFB' => [
+      70 => [
         'bg' => '',
         'fg' => '',
-      ),
-      120 => 
-      array (
+      ],
+      120 => [
         'bg' => '',
         'fg' => '',
-      ),
-      121 => 
-      array (
+      ],
+      121 => [
         'bg' => '',
         'fg' => '',
-      ),
-      132 => 
-      array (
+      ],
+      132 => [
         'bg' => '',
         'fg' => '',
-      ),
-      133 => 
-      array (
+      ],
+      133 => [
         'bg' => '',
         'fg' => '',
-      ),
-      150 => 
-      array (
+      ],
+      150 => [
         'bg' => '',
         'fg' => '',
-      ),
-      154 => 
-      array (
+      ],
+      154 => [
         'bg' => '',
         'fg' => '',
-      ),
-      155 => 
-      array (
+      ],
+      155 => [
         'bg' => '',
         'fg' => '',
-      ),
-      157 => 
-      array (
+      ],
+      157 => [
         'bg' => '',
         'fg' => '',
-      ),
-      160 => 
-      array (
+      ],
+      160 => [
         'bg' => '',
         'fg' => '',
-      ),
-      170 => 
-      array (
+      ],
+      170 => [
         'bg' => '',
         'fg' => '',
-      ),
-      175 => 
-      array (
+      ],
+      175 => [
         'bg' => '',
         'fg' => '',
-      ),
-      176 => 
-      array (
+      ],
+      176 => [
         'bg' => '',
         'fg' => '',
-      ),
-      180 => 
-      array (
+      ],
+      180 => [
         'bg' => '',
         'fg' => '',
-      ),
-      181 => 
-      array (
+      ],
+      181 => [
         'bg' => '',
         'fg' => '',
-      ),
-      182 => 
-      array (
+      ],
+      182 => [
         'bg' => '',
         'fg' => '',
-      ),
-      183 => 
-      array (
+      ],
+      183 => [
         'bg' => '',
         'fg' => '',
-      ),
-      184 => 
-      array (
+      ],
+      184 => [
         'bg' => '',
         'fg' => '',
-      ),
-      185 => 
-      array (
+      ],
+      185 => [
         'bg' => '',
         'fg' => '',
-      ),
-      188 => 
-      array (
+      ],
+      188 => [
         'bg' => '',
         'fg' => '',
-      ),
-      189 => 
-      array (
+      ],
+      189 => [
         'bg' => '',
         'fg' => '',
-      ),
-      190 => 
-      array (
+      ],
+      190 => [
         'bg' => '',
         'fg' => '',
-      ),
-      191 => 
-      array (
+      ],
+      191 => [
         'bg' => '',
         'fg' => '',
-      ),
-      192 => 
-      array (
+      ],
+      192 => [
         'bg' => '',
         'fg' => '',
-      ),
-      195 => 
-      array (
+      ],
+      195 => [
         'bg' => '',
         'fg' => '',
-      ),
-      200 => 
-      array (
+      ],
+      200 => [
         'bg' => '',
         'fg' => '',
-      ),
-      201 => 
-      array (
+      ],
+      201 => [
         'bg' => '',
         'fg' => '',
-      ),
-      202 => 
-      array (
+      ],
+      202 => [
         'bg' => '',
         'fg' => '',
-      ),
-      203 => 
-      array (
+      ],
+      203 => [
         'bg' => '',
         'fg' => '',
-      ),
-      205 => 
-      array (
+      ],
+      205 => [
         'bg' => '',
         'fg' => '',
-      ),
-      206 => 
-      array (
+      ],
+      206 => [
         'bg' => '',
         'fg' => '',
-      ),
-      210 => 
-      array (
+      ],
+      210 => [
         'bg' => '',
         'fg' => '',
-      ),
-      211 => 
-      array (
+      ],
+      211 => [
         'bg' => '',
         'fg' => '',
-      ),
-      212 => 
-      array (
+      ],
+      212 => [
         'bg' => '',
         'fg' => '',
-      ),
-      213 => 
-      array (
+      ],
+      213 => [
         'bg' => '',
         'fg' => '',
-      ),
-      215 => 
-      array (
+      ],
+      215 => [
         'bg' => '',
         'fg' => '',
-      ),
-      220 => 
-      array (
+      ],
+      220 => [
         'bg' => '',
         'fg' => '',
-      ),
-      221 => 
-      array (
+      ],
+      221 => [
         'bg' => '',
         'fg' => '',
-      ),
-      222 => 
-      array (
+      ],
+      222 => [
         'bg' => '',
         'fg' => '',
-      ),
-      223 => 
-      array (
+      ],
+      223 => [
         'bg' => '',
         'fg' => '',
-      ),
-      224 => 
-      array (
+      ],
+      224 => [
         'bg' => '',
         'fg' => '',
-      ),
-      225 => 
-      array (
+      ],
+      225 => [
         'bg' => '',
         'fg' => '',
-      ),
-      226 => 
-      array (
+      ],
+      226 => [
         'bg' => '',
         'fg' => '',
-      ),
-      227 => 
-      array (
+      ],
+      227 => [
         'bg' => '',
         'fg' => '',
-      ),
-      228 => 
-      array (
+      ],
+      228 => [
         'bg' => '',
         'fg' => '',
-      ),
-      229 => 
-      array (
+      ],
+      229 => [
         'bg' => '',
         'fg' => '',
-      ),
-      230 => 
-      array (
+      ],
+      230 => [
         'bg' => '',
         'fg' => '',
-      ),
-      232 => 
-      array (
+      ],
+      232 => [
         'bg' => '',
         'fg' => '',
-      ),
-      235 => 
-      array (
+      ],
+      235 => [
         'bg' => '',
         'fg' => '',
-      ),
-      240 => 
-      array (
+      ],
+      240 => [
         'bg' => '',
         'fg' => '',
-      ),
-      241 => 
-      array (
+      ],
+      241 => [
         'bg' => '',
         'fg' => '',
-      ),
-      242 => 
-      array (
+      ],
+      242 => [
         'bg' => '',
         'fg' => '',
-      ),
-      245 => 
-      array (
+      ],
+      245 => [
         'bg' => '',
         'fg' => '',
-      ),
-      280 => 
-      array (
+      ],
+      280 => [
         'bg' => '',
         'fg' => '',
-      ),
-      440 => 
-      array (
+      ],
+      440 => [
         'bg' => '',
         'fg' => '',
-      ),
-      441 => 
-      array (
+      ],
+      441 => [
         'bg' => '',
         'fg' => '',
-      ),
-      501 => 
-      array (
+      ],
+      501 => [
         'bg' => '',
         'fg' => '',
-      ),
-      503 => 
-      array (
+      ],
+      503 => [
         'bg' => '',
         'fg' => '',
-      ),
-      504 => 
-      array (
+      ],
+      504 => [
         'bg' => '',
         'fg' => '',
-      ),
-      510 => 
-      array (
+      ],
+      510 => [
         'bg' => '',
         'fg' => '',
-      ),
-      515 => 
-      array (
+      ],
+      515 => [
         'bg' => '',
         'fg' => '',
-      ),
-      520 => 
-      array (
+      ],
+      520 => [
         'bg' => '',
         'fg' => '',
-      ),
-      521 => 
-      array (
+      ],
+      521 => [
         'bg' => '',
         'fg' => '',
-      ),
-      522 => 
-      array (
+      ],
+      522 => [
         'bg' => '',
         'fg' => '',
-      ),
-      523 => 
-      array (
+      ],
+      523 => [
         'bg' => '',
         'fg' => '',
-      ),
-      524 => 
-      array (
+      ],
+      524 => [
         'bg' => '',
         'fg' => '',
-      ),
-      525 => 
-      array (
+      ],
+      525 => [
         'bg' => '',
         'fg' => '',
-      ),
-      530 => 
-      array (
+      ],
+      530 => [
         'bg' => '',
         'fg' => '',
-      ),
-      531 => 
-      array (
+      ],
+      531 => [
         'bg' => '',
         'fg' => '',
-      ),
-      535 => 
-      array (
+      ],
+      535 => [
         'bg' => '',
         'fg' => '',
-      ),
-      540 => 
-      array (
+      ],
+      540 => [
         'bg' => '',
         'fg' => '',
-      ),
-      542 => 
-      array (
+      ],
+      542 => [
         'bg' => '',
         'fg' => '',
-      ),
-      543 => 
-      array (
+      ],
+      543 => [
         'bg' => '',
         'fg' => '',
-      ),
-      545 => 
-      array (
+      ],
+      545 => [
         'bg' => '',
         'fg' => '',
-      ),
-      546 => 
-      array (
+      ],
+      546 => [
         'bg' => '',
         'fg' => '',
-      ),
-      551 => 
-      array (
+      ],
+      551 => [
         'bg' => '',
         'fg' => '',
-      ),
-      553 => 
-      array (
+      ],
+      553 => [
         'bg' => '',
         'fg' => '',
-      ),
-      554 => 
-      array (
+      ],
+      554 => [
         'bg' => '',
         'fg' => '',
-      ),
-      555 => 
-      array (
+      ],
+      555 => [
         'bg' => '',
         'fg' => '',
-      ),
-      556 => 
-      array (
+      ],
+      556 => [
         'bg' => '',
         'fg' => '',
-      ),
-      560 => 
-      array (
+      ],
+      560 => [
         'bg' => '',
         'fg' => '',
-      ),
-      561 => 
-      array (
+      ],
+      561 => [
         'bg' => '',
         'fg' => '',
-      ),
-      562 => 
-      array (
+      ],
+      562 => [
         'bg' => '',
         'fg' => '',
-      ),
-      563 => 
-      array (
+      ],
+      563 => [
         'bg' => '',
         'fg' => '',
-      ),
-      605 => 
-      array (
+      ],
+      605 => [
         'bg' => '',
         'fg' => '',
-      ),
-      612 => 
-      array (
+      ],
+      612 => [
         'bg' => '',
         'fg' => '',
-      ),
-      615 => 
-      array (
+      ],
+      615 => [
         'bg' => '',
         'fg' => '',
-      ),
-      628 => 
-      array (
+      ],
+      628 => [
         'bg' => '',
         'fg' => '',
-      ),
-      630 => 
-      array (
+      ],
+      630 => [
         'bg' => '',
         'fg' => '',
-      ),
-      632 => 
-      array (
+      ],
+      632 => [
         'bg' => '',
         'fg' => '',
-      ),
-      633 => 
-      array (
+      ],
+      633 => [
         'bg' => '',
         'fg' => '',
-      ),
-      634 => 
-      array (
+      ],
+      634 => [
         'bg' => '',
         'fg' => '',
-      ),
-      635 => 
-      array (
+      ],
+      635 => [
         'bg' => '',
         'fg' => '',
-      ),
-      665 => 
-      array (
+      ],
+      665 => [
         'bg' => '',
         'fg' => '',
-      ),
-      670 => 
-      array (
+      ],
+      670 => [
         'bg' => '',
         'fg' => '',
-      ),
-      675 => 
-      array (
+      ],
+      675 => [
         'bg' => '',
         'fg' => '',
-      ),
-      676 => 
-      array (
+      ],
+      676 => [
         'bg' => '',
         'fg' => '',
-      ),
-      677 => 
-      array (
+      ],
+      677 => [
         'bg' => '',
         'fg' => '',
-      ),
-      680 => 
-      array (
+      ],
+      680 => [
         'bg' => '',
         'fg' => '',
-      ),
-      725 => 
-      array (
+      ],
+      725 => [
         'bg' => '',
         'fg' => '',
-      ),
-      726 => 
-      array (
+      ],
+      726 => [
         'bg' => '',
         'fg' => '',
-      ),
-      727 => 
-      array (
+      ],
+      727 => [
         'bg' => '',
         'fg' => '',
-      ),
-      728 => 
-      array (
+      ],
+      728 => [
         'bg' => '',
         'fg' => '',
-      ),
-      730 => 
-      array (
+      ],
+      730 => [
         'bg' => '',
         'fg' => '',
-      ),
-      740 => 
-      array (
+      ],
+      740 => [
         'bg' => '',
         'fg' => '',
-      ),
-      741 => 
-      array (
+      ],
+      741 => [
         'bg' => '',
         'fg' => '',
-      ),
-      745 => 
-      array (
+      ],
+      745 => [
         'bg' => '',
         'fg' => '',
-      ),
-      750 => 
-      array (
+      ],
+      750 => [
         'bg' => '',
         'fg' => '',
-      ),
-      751 => 
-      array (
+      ],
+      751 => [
         'bg' => '',
         'fg' => '',
-      ),
-      765 => 
-      array (
+      ],
+      765 => [
         'bg' => '',
         'fg' => '',
-      ),
-      766 => 
-      array (
+      ],
+      766 => [
         'bg' => '',
         'fg' => '',
-      ),
-      767 => 
-      array (
+      ],
+      767 => [
         'bg' => '',
         'fg' => '',
-      ),
-      768 => 
-      array (
+      ],
+      768 => [
         'bg' => '',
         'fg' => '',
-      ),
-      771 => 
-      array (
+      ],
+      771 => [
         'bg' => '',
         'fg' => '',
-      ),
-      772 => 
-      array (
+      ],
+      772 => [
         'bg' => '',
         'fg' => '',
-      ),
-      780 => 
-      array (
+      ],
+      780 => [
         'bg' => '',
         'fg' => '',
-      ),
-      790 => 
-      array (
+      ],
+      790 => [
         'bg' => '',
         'fg' => '',
-      ),
-      791 => 
-      array (
+      ],
+      791 => [
         'bg' => '',
         'fg' => '',
-      ),
-      792 => 
-      array (
+      ],
+      792 => [
         'bg' => '',
         'fg' => '',
-      ),
-      805 => 
-      array (
+      ],
+      805 => [
         'bg' => '',
         'fg' => '',
-      ),
-      806 => 
-      array (
+      ],
+      806 => [
         'bg' => '',
         'fg' => '',
-      ),
-      807 => 
-      array (
+      ],
+      807 => [
         'bg' => '',
         'fg' => '',
-      ),
-      822 => 
-      array (
+      ],
+      822 => [
         'bg' => '',
         'fg' => '',
-      ),
-      823 => 
-      array (
+      ],
+      823 => [
         'bg' => '',
         'fg' => '',
-      ),
-      825 => 
-      array (
+      ],
+      825 => [
         'bg' => '',
         'fg' => '',
-      ),
-      826 => 
-      array (
+      ],
+      826 => [
         'bg' => '',
         'fg' => '',
-      ),
-      827 => 
-      array (
+      ],
+      827 => [
         'bg' => '',
         'fg' => '',
-      ),
-      828 => 
-      array (
+      ],
+      828 => [
         'bg' => '',
         'fg' => '',
-      ),
-      829 => 
-      array (
+      ],
+      829 => [
         'bg' => '',
         'fg' => '',
-      ),
-      830 => 
-      array (
+      ],
+      830 => [
         'bg' => '',
         'fg' => '',
-      ),
-      831 => 
-      array (
+      ],
+      831 => [
         'bg' => '',
         'fg' => '',
-      ),
-      832 => 
-      array (
+      ],
+      832 => [
         'bg' => '',
         'fg' => '',
-      ),
-      833 => 
-      array (
+      ],
+      833 => [
         'bg' => '',
         'fg' => '',
-      ),
-      834 => 
-      array (
+      ],
+      834 => [
         'bg' => '',
         'fg' => '',
-      ),
-      835 => 
-      array (
+      ],
+      835 => [
         'bg' => '',
         'fg' => '',
-      ),
-      836 => 
-      array (
+      ],
+      836 => [
         'bg' => '',
         'fg' => '',
-      ),
-      837 => 
-      array (
+      ],
+      837 => [
         'bg' => '',
         'fg' => '',
-      ),
-      838 => 
-      array (
+      ],
+      838 => [
         'bg' => '',
         'fg' => '',
-      ),
-      847 => 
-      array (
+      ],
+      847 => [
         'bg' => '',
         'fg' => '',
-      ),
-      859 => 
-      array (
+      ],
+      859 => [
         'bg' => '',
         'fg' => '',
-      ),
-      892 => 
-      array (
+      ],
+      892 => [
         'bg' => '',
         'fg' => '',
-      ),
-      893 => 
-      array (
+      ],
+      893 => [
         'bg' => '',
         'fg' => '',
-      ),
-      908 => 
-      array (
+      ],
+      908 => [
         'bg' => '',
         'fg' => '',
-      ),
-      920 => 
-      array (
+      ],
+      920 => [
         'bg' => '',
         'fg' => '',
-      ),
-      921 => 
-      array (
+      ],
+      921 => [
         'bg' => '',
         'fg' => '',
-      ),
-      922 => 
-      array (
+      ],
+      922 => [
         'bg' => '',
         'fg' => '',
-      ),
-      923 => 
-      array (
+      ],
+      923 => [
         'bg' => '',
         'fg' => '',
-      ),
-      924 => 
-      array (
+      ],
+      924 => [
         'bg' => '',
         'fg' => '',
-      ),
-      925 => 
-      array (
+      ],
+      925 => [
         'bg' => '',
         'fg' => '',
-      ),
-      931 => 
-      array (
+      ],
+      931 => [
         'bg' => '',
         'fg' => '',
-      ),
-      932 => 
-      array (
+      ],
+      932 => [
         'bg' => '',
         'fg' => '',
-      ),
-      933 => 
-      array (
+      ],
+      933 => [
         'bg' => '',
         'fg' => '',
-      ),
-      934 => 
-      array (
+      ],
+      934 => [
         'bg' => '',
         'fg' => '',
-      ),
-      944 => 
-      array (
+      ],
+      944 => [
         'bg' => '',
         'fg' => '',
-      ),
-      950 => 
-      array (
+      ],
+      950 => [
         'bg' => '',
         'fg' => '',
-      ),
-      'E' => 
-      array (
+      ],
+      'E' => [
         'bg' => '',
         'fg' => '',
-      ),
-      'N22' => 
-      array (
+      ],
+      'N22' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N23' => 
-      array (
+      ],
+      'N23' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N24' => 
-      array (
+      ],
+      'N24' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N26' => 
-      array (
+      ],
+      'N26' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N27' => 
-      array (
+      ],
+      'N27' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N51' => 
-      array (
+      ],
+      'N51' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N52' => 
-      array (
+      ],
+      'N52' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N53' => 
-      array (
+      ],
+      'N53' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N54' => 
-      array (
+      ],
+      'N54' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N60' => 
-      array (
+      ],
+      'N60' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N64' => 
-      array (
+      ],
+      'N64' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N68' => 
-      array (
+      ],
+      'N68' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-    ),
-    'TX' => 
-    array (
-      101 => 
-      array (
+      ],
+    ],
+    'TX' => [
+      101 => [
         'bg' => '',
         'fg' => '',
-      ),
-      106 => 
-      array (
+      ],
+      106 => [
         'bg' => '',
         'fg' => '',
-      ),
-      142 => 
-      array (
+      ],
+      142 => [
         'bg' => '',
         'fg' => '',
-      ),
-      171 => 
-      array (
+      ],
+      171 => [
         'bg' => '',
         'fg' => '',
-      ),
-      341 => 
-      array (
+      ],
+      341 => [
         'bg' => '',
         'fg' => '',
-      ),
-      345 => 
-      array (
+      ],
+      345 => [
         'bg' => '',
         'fg' => '',
-      ),
-      357 => 
-      array (
+      ],
+      357 => [
         'bg' => '',
         'fg' => '',
-      ),
-      'OW 1' => 
-      array (
+      ],
+      'OW 1' => [
         'bg' => '',
         'fg' => '',
-      ),
-      'OW 3' => 
-      array (
+      ],
+      'OW 3' => [
         'bg' => '',
         'fg' => '',
-      ),
-      'OW 4' => 
-      array (
+      ],
+      'OW 4' => [
         'bg' => '',
         'fg' => '',
-      ),
-      'OW 5' => 
-      array (
+      ],
+      'OW 5' => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-    'LB' => 
-    array (
-      'LAF' => 
-      array (
+      ],
+    ],
+    'LB' => [
+      'LAF' => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'PAGT' => 
-  array (
-    'SL' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'PAGT' => [
+    'SL' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'PB' => 
-  array (
-    'R' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'PB' => [
+    'R' => [
+      'ALL_LINES' => [
         'bg' => '#003399',
         'fg' => '#ffffff',
-      ),
-    ),
-  ),
-  'PB Fpl' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'PB Fpl' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-    'GB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'GB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'PBF-stp' => 
-  array (
-    'GB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'PBF-stp' => [
+    'GB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-    'SL' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'SL' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'PBZ' => 
-  array (
-    'FUN' => 
-    array (
-      24 => 
-      array (
+      ],
+    ],
+  ],
+  'PBZ' => [
+    'FUN' => [
+      24 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'PIZAG' => 
-  array (
-    'GB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'PIZAG' => [
+    'GB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-    'SL' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'SL' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'PRH' => 
-  array (
-    'KB' => 
-    array (
-      494 => 
-      array (
+      ],
+    ],
+  ],
+  'PRH' => [
+    'KB' => [
+      494 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'PSFS' => 
-  array (
-    'GB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'PSFS' => [
+    'GB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-    'SL' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'SL' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'PSR' => 
-  array (
-    'SL' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'PSR' => [
+    'SL' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'RA' => 
-  array (
-    'BUS' => 
-    array (
-      491 => 
-      array (
+      ],
+    ],
+  ],
+  'RA' => [
+    'BUS' => [
+      491 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-    'R' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'R' => [
+      'ALL_LINES' => [
         'bg' => '#003399',
         'fg' => '#ffffff',
-      ),
-    ),
-  ),
-  'RA     F' => 
-  array (
-    'R' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'RA     F' => [
+    'R' => [
+      'ALL_LINES' => [
         'bg' => '#003399',
         'fg' => '#ffffff',
-      ),
-    ),
-  ),
-  'RB' => 
-  array (
-    'R' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'RB' => [
+    'R' => [
+      'ALL_LINES' => [
         'bg' => '#003399',
         'fg' => '#ffffff',
-      ),
-    ),
-  ),
-  'RB Fpl' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'RB Fpl' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'RBL' => 
-  array (
-    'NFB' => 
-    array (
-      380 => 
-      array (
+      ],
+    ],
+  ],
+  'RBL' => [
+    'NFB' => [
+      380 => [
         'bg' => '',
         'fg' => '',
-      ),
-      381 => 
-      array (
+      ],
+      381 => [
         'bg' => '',
         'fg' => '',
-      ),
-      382 => 
-      array (
+      ],
+      382 => [
         'bg' => '',
         'fg' => '',
-      ),
-      389 => 
-      array (
+      ],
+      389 => [
         'bg' => '',
         'fg' => '',
-      ),
-      390 => 
-      array (
+      ],
+      390 => [
         'bg' => '',
         'fg' => '',
-      ),
-      391 => 
-      array (
+      ],
+      391 => [
         'bg' => '',
         'fg' => '',
-      ),
-      392 => 
-      array (
+      ],
+      392 => [
         'bg' => '',
         'fg' => '',
-      ),
-      393 => 
-      array (
+      ],
+      393 => [
         'bg' => '',
         'fg' => '',
-      ),
-      394 => 
-      array (
+      ],
+      394 => [
         'bg' => '',
         'fg' => '',
-      ),
-      395 => 
-      array (
+      ],
+      395 => [
         'bg' => '',
         'fg' => '',
-      ),
-      396 => 
-      array (
+      ],
+      396 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'RBS' => 
-  array (
-    'RE' => 
-    array (
-      8 => 
-      array (
+      ],
+    ],
+  ],
+  'RBS' => [
+    'RE' => [
+      8 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-    'S' => 
-    array (
-      7 => 
-      array (
+      ],
+    ],
+    'S' => [
+      7 => [
         'bg' => '',
         'fg' => '',
-      ),
-      8 => 
-      array (
+      ],
+      8 => [
         'bg' => '',
         'fg' => '',
-      ),
-      9 => 
-      array (
+      ],
+      9 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'RBS Auto' => 
-  array (
-    'NFB' => 
-    array (
-      8 => 
-      array (
+      ],
+    ],
+  ],
+  'RBS Auto' => [
+    'NFB' => [
+      8 => [
         'bg' => '',
         'fg' => '',
-      ),
-      33 => 
-      array (
+      ],
+      33 => [
         'bg' => '',
         'fg' => '',
-      ),
-      34 => 
-      array (
+      ],
+      34 => [
         'bg' => '',
         'fg' => '',
-      ),
-      36 => 
-      array (
+      ],
+      36 => [
         'bg' => '',
         'fg' => '',
-      ),
-      38 => 
-      array (
+      ],
+      38 => [
         'bg' => '',
         'fg' => '',
-      ),
-      40 => 
-      array (
+      ],
+      40 => [
         'bg' => '',
         'fg' => '',
-      ),
-      41 => 
-      array (
+      ],
+      41 => [
         'bg' => '',
         'fg' => '',
-      ),
-      43 => 
-      array (
+      ],
+      43 => [
         'bg' => '',
         'fg' => '',
-      ),
-      44 => 
-      array (
+      ],
+      44 => [
         'bg' => '',
         'fg' => '',
-      ),
-      46 => 
-      array (
+      ],
+      46 => [
         'bg' => '',
         'fg' => '',
-      ),
-      47 => 
-      array (
+      ],
+      47 => [
         'bg' => '',
         'fg' => '',
-      ),
-      48 => 
-      array (
+      ],
+      48 => [
         'bg' => '',
         'fg' => '',
-      ),
-      362 => 
-      array (
+      ],
+      362 => [
         'bg' => '',
         'fg' => '',
-      ),
-      363 => 
-      array (
+      ],
+      363 => [
         'bg' => '',
         'fg' => '',
-      ),
-      364 => 
-      array (
+      ],
+      364 => [
         'bg' => '',
         'fg' => '',
-      ),
-      367 => 
-      array (
+      ],
+      367 => [
         'bg' => '',
         'fg' => '',
-      ),
-      368 => 
-      array (
+      ],
+      368 => [
         'bg' => '',
         'fg' => '',
-      ),
-      871 => 
-      array (
+      ],
+      871 => [
         'bg' => '',
         'fg' => '',
-      ),
-      881 => 
-      array (
+      ],
+      881 => [
         'bg' => '',
         'fg' => '',
-      ),
-      883 => 
-      array (
+      ],
+      883 => [
         'bg' => '',
         'fg' => '',
-      ),
-      884 => 
-      array (
+      ],
+      884 => [
         'bg' => '',
         'fg' => '',
-      ),
-      898 => 
-      array (
+      ],
+      898 => [
         'bg' => '',
         'fg' => '',
-      ),
-      'BE S8' => 
-      array (
+      ],
+      'BE S8' => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'REGO' => 
-  array (
-    'NFB' => 
-    array (
-      151 => 
-      array (
+      ],
+    ],
+  ],
+  'REGO' => [
+    'NFB' => [
+      151 => [
         'bg' => '',
         'fg' => '',
-      ),
-      152 => 
-      array (
+      ],
+      152 => [
         'bg' => '',
         'fg' => '',
-      ),
-      155 => 
-      array (
+      ],
+      155 => [
         'bg' => '',
         'fg' => '',
-      ),
-      156 => 
-      array (
+      ],
+      156 => [
         'bg' => '',
         'fg' => '',
-      ),
-      158 => 
-      array (
+      ],
+      158 => [
         'bg' => '',
         'fg' => '',
-      ),
-      159 => 
-      array (
+      ],
+      159 => [
         'bg' => '',
         'fg' => '',
-      ),
-      729 => 
-      array (
+      ],
+      729 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'RFB' => 
-  array (
-    'FUN' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'RFB' => [
+    'FUN' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'RMA-tapm' => 
-  array (
-    'GB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'RMA-tapm' => [
+    'GB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'RMGZ' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'RMGZ' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-    'GB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'GB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'RVBW' => 
-  array (
-    'NFB' => 
-    array (
-      1 => 
-      array (
+      ],
+    ],
+  ],
+  'RVBW' => [
+    'NFB' => [
+      1 => [
         'bg' => '',
         'fg' => '',
-      ),
-      2 => 
-      array (
+      ],
+      2 => [
         'bg' => '',
         'fg' => '',
-      ),
-      3 => 
-      array (
+      ],
+      3 => [
         'bg' => '',
         'fg' => '',
-      ),
-      4 => 
-      array (
+      ],
+      4 => [
         'bg' => '',
         'fg' => '',
-      ),
-      5 => 
-      array (
+      ],
+      5 => [
         'bg' => '',
         'fg' => '',
-      ),
-      6 => 
-      array (
+      ],
+      6 => [
         'bg' => '',
         'fg' => '',
-      ),
-      7 => 
-      array (
+      ],
+      7 => [
         'bg' => '',
         'fg' => '',
-      ),
-      8 => 
-      array (
+      ],
+      8 => [
         'bg' => '',
         'fg' => '',
-      ),
-      9 => 
-      array (
+      ],
+      9 => [
         'bg' => '',
         'fg' => '',
-      ),
-      10 => 
-      array (
+      ],
+      10 => [
         'bg' => '',
         'fg' => '',
-      ),
-      11 => 
-      array (
+      ],
+      11 => [
         'bg' => '',
         'fg' => '',
-      ),
-      12 => 
-      array (
+      ],
+      12 => [
         'bg' => '',
         'fg' => '',
-      ),
-      'N33' => 
-      array (
+      ],
+      'N33' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N35' => 
-      array (
+      ],
+      'N35' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N36' => 
-      array (
+      ],
+      'N36' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N37' => 
-      array (
+      ],
+      'N37' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-    ),
-  ),
-  'RVSH' => 
-  array (
-    'KB' => 
-    array (
-      22 => 
-      array (
+      ],
+    ],
+  ],
+  'RVSH' => [
+    'KB' => [
+      22 => [
         'bg' => '#bec2c5',
         'fg' => '#000000',
-      ),
-      23 => 
-      array (
+      ],
+      23 => [
         'bg' => '#13b27b',
         'fg' => '#ffffff',
-      ),
-      28 => 
-      array (
+      ],
+      28 => [
         'bg' => '#5d479d',
         'fg' => '#ffffff',
-      ),
-    ),
-    'NFB' => 
-    array (
-      21 => 
-      array (
+      ],
+    ],
+    'NFB' => [
+      21 => [
         'bg' => '#cf1f3b',
         'fg' => '#ffffff',
-      ),
-      22 => 
-      array (
+      ],
+      22 => [
         'bg' => '#bec2c5',
         'fg' => '#000000',
-      ),
-      23 => 
-      array (
+      ],
+      23 => [
         'bg' => '#13b27b',
         'fg' => '#ffffff',
-      ),
-      24 => 
-      array (
+      ],
+      24 => [
         'bg' => '#d05da4',
         'fg' => '#ffffff',
-      ),
-      25 => 
-      array (
+      ],
+      25 => [
         'bg' => '#f58220',
         'fg' => '#ffffff',
-      ),
-      26 => 
-      array (
+      ],
+      26 => [
         'bg' => '#0089ae',
         'fg' => '#ffffff',
-      ),
-      27 => 
-      array (
+      ],
+      27 => [
         'bg' => '#0d673d',
         'fg' => '#ffffff',
-      ),
-      'N76' => 
-      array (
+      ],
+      'N76' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N77' => 
-      array (
+      ],
+      'N77' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-    ),
-    'TX' => 
-    array (
-      26 => 
-      array (
+      ],
+    ],
+    'TX' => [
+      26 => [
         'bg' => '#0089ae',
         'fg' => '#ffffff',
-      ),
-      28 => 
-      array (
+      ],
+      28 => [
         'bg' => '#5d479d',
         'fg' => '#ffffff',
-      ),
-    ),
-  ),
-  'RhB' => 
-  array (
-    'ATZ' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'RhB' => [
+    'ATZ' => [
+      'ALL_LINES' => [
         'bg' => '#ed232a',
         'fg' => '#ffffff',
-      ),
-    ),
-    'BUS' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'BUS' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-    'BEX' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'BEX' => [
+      'ALL_LINES' => [
         'bg' => '#ed232a',
         'fg' => '#ffffff',
-      ),
-    ),
-    'EXT' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'EXT' => [
+      'ALL_LINES' => [
         'bg' => '#ed232a',
         'fg' => '#ffffff',
-      ),
-    ),
-    'GEX' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'GEX' => [
+      'ALL_LINES' => [
         'bg' => '#ed232a',
         'fg' => '#ffffff',
-      ),
-    ),
-    'R' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'R' => [
+      'ALL_LINES' => [
         'bg' => '#003399',
         'fg' => '#ffffff',
-      ),
-    ),
-    'RE' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'RE' => [
+      'ALL_LINES' => [
         'bg' => '#ed232a',
         'fg' => '#ffffff',
-      ),
-    ),
-    'S' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'S' => [
+      'ALL_LINES' => [
         'bg' => '#003399',
         'fg' => '#ffffff',
-      ),
-      1 => 
-      array (
+      ],
+      1 => [
         'bg' => '',
         'fg' => '',
-      ),
-      2 => 
-      array (
+      ],
+      2 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'RhB Auto' => 
-  array (
-    'BUS' => 
-    array (
-      5950 => 
-      array (
+      ],
+    ],
+  ],
+  'RhB Auto' => [
+    'BUS' => [
+      5950 => [
         'bg' => '',
         'fg' => '',
-      ),
-      5951 => 
-      array (
+      ],
+      5951 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'SB' => 
-  array (
-    'SL' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'SB' => [
+    'SL' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'SBA' => 
-  array (
-    'SL' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'SBA' => [
+    'SL' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'SBAD' => 
-  array (
-    'SL' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'SBAD' => [
+    'SL' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'SBB' => 
-  array (
-    'ATZ' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'SBB' => [
+    'ATZ' => [
+      'ALL_LINES' => [
         'bg' => '#ed232a',
         'fg' => '#ffffff',
-      ),
-    ),
-    'CNL' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'CNL' => [
+      'ALL_LINES' => [
         'bg' => '#ed232a',
         'fg' => '#ffffff',
-      ),
-    ),
-    'EC' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'EC' => [
+      'ALL_LINES' => [
         'bg' => '#ed232a',
         'fg' => '#ffffff',
-      ),
-    ),
-    'EN' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'EN' => [
+      'ALL_LINES' => [
         'bg' => '#ed232a',
         'fg' => '#ffffff',
-      ),
-    ),
-    'EXT' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'EXT' => [
+      'ALL_LINES' => [
         'bg' => '#ed232a',
         'fg' => '#ffffff',
-      ),
-    ),
-    'IC' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'IC' => [
+      'ALL_LINES' => [
         'bg' => '#ed232a',
         'fg' => '#ffffff',
-      ),
-    ),
-    'ICE' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'ICE' => [
+      'ALL_LINES' => [
         'bg' => '#ed232a',
         'fg' => '#ffffff',
-      ),
-    ),
-    'ICN' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'ICN' => [
+      'ALL_LINES' => [
         'bg' => '#ed232a',
         'fg' => '#ffffff',
-      ),
-    ),
-    'IR' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'IR' => [
+      'ALL_LINES' => [
         'bg' => '#ed232a',
         'fg' => '#ffffff',
-      ),
-    ),
-    'R' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'R' => [
+      'ALL_LINES' => [
         'bg' => '#003399',
         'fg' => '#ffffff',
-      ),
-    ),
-    'RE' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'RE' => [
+      'ALL_LINES' => [
         'bg' => '#ed232a',
         'fg' => '#ffffff',
-      ),
-    ),
-    'RJ' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'RJ' => [
+      'ALL_LINES' => [
         'bg' => '#ed232a',
         'fg' => '#ffffff',
-      ),
-    ),
-    'S' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'S' => [
+      'ALL_LINES' => [
         'bg' => '#003399',
         'fg' => '#ffffff',
-      ),
-      5 => 
-      array (
+      ],
+      5 => [
         'bg' => '',
         'fg' => '',
-      ),
-      6 => 
-      array (
+      ],
+      6 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-    'SN' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'SN' => [
+      'ALL_LINES' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      1 => 
-      array (
+      ],
+      1 => [
         'bg' => '',
         'fg' => '',
-      ),
-      5 => 
-      array (
+      ],
+      5 => [
         'bg' => '',
         'fg' => '',
-      ),
-      6 => 
-      array (
+      ],
+      6 => [
         'bg' => '',
         'fg' => '',
-      ),
-      7 => 
-      array (
+      ],
+      7 => [
         'bg' => '',
         'fg' => '',
-      ),
-      8 => 
-      array (
+      ],
+      8 => [
         'bg' => '',
         'fg' => '',
-      ),
-      9 => 
-      array (
+      ],
+      9 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-    'TE2' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'TE2' => [
+      'ALL_LINES' => [
         'bg' => '#ed232a',
         'fg' => '#ffffff',
-      ),
-    ),
-    'TER' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'TER' => [
+      'ALL_LINES' => [
         'bg' => '#ed232a',
         'fg' => '#ffffff',
-      ),
-    ),
-    'TGV' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'TGV' => [
+      'ALL_LINES' => [
         'bg' => '#ed232a',
         'fg' => '#ffffff',
-      ),
-    ),
-    'RB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'RB' => [
+      'ALL_LINES' => [
         'bg' => '#ed232a',
         'fg' => '#ffffff',
-      ),
-    ),
-  ),
-  'SBB Auto' => 
-  array (
-    'BUS' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'SBB Auto' => [
+    'BUS' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-      736 => 
-      array (
+      ],
+      736 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'SBB Bus' => 
-  array (
-    'NFB' => 
-    array (
-      1 => 
-      array (
+      ],
+    ],
+  ],
+  'SBB Bus' => [
+    'NFB' => [
+      1 => [
         'bg' => '',
         'fg' => '',
-      ),
-      3 => 
-      array (
+      ],
+      3 => [
         'bg' => '',
         'fg' => '',
-      ),
-      4 => 
-      array (
+      ],
+      4 => [
         'bg' => '',
         'fg' => '',
-      ),
-      5 => 
-      array (
+      ],
+      5 => [
         'bg' => '',
         'fg' => '',
-      ),
-      6 => 
-      array (
+      ],
+      6 => [
         'bg' => '',
         'fg' => '',
-      ),
-      8 => 
-      array (
+      ],
+      8 => [
         'bg' => '',
         'fg' => '',
-      ),
-      9 => 
-      array (
+      ],
+      9 => [
         'bg' => '',
         'fg' => '',
-      ),
-      11 => 
-      array (
+      ],
+      11 => [
         'bg' => '',
         'fg' => '',
-      ),
-      13 => 
-      array (
+      ],
+      13 => [
         'bg' => '',
         'fg' => '',
-      ),
-      'N60' => 
-      array (
+      ],
+      'N60' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-    ),
-    'TX' => 
-    array (
-      6 => 
-      array (
+      ],
+    ],
+    'TX' => [
+      6 => [
         'bg' => '',
         'fg' => '',
-      ),
-      8 => 
-      array (
+      ],
+      8 => [
         'bg' => '',
         'fg' => '',
-      ),
-      13 => 
-      array (
+      ],
+      13 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'SBB GmbH' => 
-  array (
-    'S' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'SBB GmbH' => [
+    'S' => [
+      'ALL_LINES' => [
         'bg' => '#003399',
         'fg' => '#ffffff',
-      ),
-      6 => 
-      array (
+      ],
+      6 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'SBC' => 
-  array (
-    'NFB' => 
-    array (
-      1 => 
-      array (
+      ],
+    ],
+  ],
+  'SBC' => [
+    'NFB' => [
+      1 => [
         'bg' => '#00ab66',
         'fg' => '#ffffff',
-      ),
-      2 => 
-      array (
+      ],
+      2 => [
         'bg' => '#ffdc01',
         'fg' => '#000000',
-      ),
-      4 => 
-      array (
+      ],
+      4 => [
         'bg' => '#006bb6',
         'fg' => '#ffffff',
-      ),
-      6 => 
-      array (
+      ],
+      6 => [
         'bg' => '#10abca',
         'fg' => '#ffffff',
-      ),
-      9 => 
-      array (
+      ],
+      9 => [
         'bg' => '#b07807',
         'fg' => '#ffffff',
-      ),
-      'N' => 
-      array (
+      ],
+      'N' => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'SBE' => 
-  array (
-    'GB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'SBE' => [
+    'GB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'SBF' => 
-  array (
-    'NFB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'SBF' => [
+    'NFB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-      1 => 
-      array (
+      ],
+      1 => [
         'bg' => '',
         'fg' => '',
-      ),
-      2 => 
-      array (
+      ],
+      2 => [
         'bg' => '',
         'fg' => '',
-      ),
-      3 => 
-      array (
+      ],
+      3 => [
         'bg' => '',
         'fg' => '',
-      ),
-      4 => 
-      array (
+      ],
+      4 => [
         'bg' => '',
         'fg' => '',
-      ),
-      5 => 
-      array (
+      ],
+      5 => [
         'bg' => '',
         'fg' => '',
-      ),
-      21 => 
-      array (
+      ],
+      21 => [
         'bg' => '',
         'fg' => '',
-      ),
-      23 => 
-      array (
+      ],
+      23 => [
         'bg' => '',
         'fg' => '',
-      ),
-      31 => 
-      array (
+      ],
+      31 => [
         'bg' => '',
         'fg' => '',
-      ),
-      41 => 
-      array (
+      ],
+      41 => [
         'bg' => '',
         'fg' => '',
-      ),
-      'NT' => 
-      array (
+      ],
+      'NT' => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'SBG' => 
-  array (
-    'NFB' => 
-    array (
-      33 => 
-      array (
+      ],
+    ],
+  ],
+  'SBG' => [
+    'NFB' => [
+      33 => [
         'bg' => '',
         'fg' => '',
-      ),
-      7312 => 
-      array (
+      ],
+      7312 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'SBGG' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'SBGG' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'SBP' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'SBP' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'SBR' => 
-  array (
-    'SL' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'SBR' => [
+    'SL' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'SBS' => 
-  array (
-    'BAT' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'SBS' => [
+    'BAT' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'SBU' => 
-  array (
-    'SL' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'SBU' => [
+    'SL' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'SBW' => 
-  array (
-    'NB' => 
-    array (
-      'N59' => 
-      array (
+      ],
+    ],
+  ],
+  'SBW' => [
+    'NB' => [
+      'N59' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N61' => 
-      array (
+      ],
+      'N61' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N65' => 
-      array (
+      ],
+      'N65' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N66' => 
-      array (
+      ],
+      'N66' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N67' => 
-      array (
+      ],
+      'N67' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-    ),
-    'NFB' => 
-    array (
-      1 => 
-      array (
+      ],
+    ],
+    'NFB' => [
+      1 => [
         'bg' => '#231f20',
         'fg' => '#ffffff',
-      ),
-      2 => 
-      array (
+      ],
+      2 => [
         'bg' => '#ee1d23',
         'fg' => '#ffffff',
-      ),
-      3 => 
-      array (
+      ],
+      3 => [
         'bg' => '#23b24b',
         'fg' => '#ffffff',
-      ),
-      4 => 
-      array (
+      ],
+      4 => [
         'bg' => '#fcb814',
         'fg' => '#000000',
-      ),
-      5 => 
-      array (
+      ],
+      5 => [
         'bg' => '#0072bc',
         'fg' => '#ffffff',
-      ),
-      7 => 
-      array (
+      ],
+      7 => [
         'bg' => '#3f979f',
         'fg' => '#ffffff',
-      ),
-      9 => 
-      array (
+      ],
+      9 => [
         'bg' => '#ee9b53',
         'fg' => '#ffffff',
-      ),
-      10 => 
-      array (
+      ],
+      10 => [
         'bg' => '#1a5692',
         'fg' => '#ffffff',
-      ),
-      11 => 
-      array (
+      ],
+      11 => [
         'bg' => '#ed3896',
         'fg' => '#ffffff',
-      ),
-      12 => 
-      array (
+      ],
+      12 => [
         'bg' => '#815732',
         'fg' => '#ffffff',
-      ),
-      14 => 
-      array (
+      ],
+      14 => [
         'bg' => '#f0e43d',
         'fg' => '#000000',
-      ),
-      610 => 
-      array (
+      ],
+      610 => [
         'bg' => '#aad5f1',
         'fg' => '#000000',
-      ),
-      611 => 
-      array (
+      ],
+      611 => [
         'bg' => '#73bde9',
         'fg' => '#000000',
-      ),
-      660 => 
-      array (
+      ],
+      660 => [
         'bg' => '#73bde9',
         'fg' => '#000000',
-      ),
-      667 => 
-      array (
+      ],
+      667 => [
         'bg' => '#aad5f1',
         'fg' => '#000000',
-      ),
-      674 => 
-      array (
+      ],
+      674 => [
         'bg' => '#aad5f1',
         'fg' => '#000000',
-      ),
-      '2E' => 
-      array (
+      ],
+      '2E' => [
         'bg' => '#ee1d23',
         'fg' => '#ffffff',
-      ),
-    ),
-  ),
-  'SDS-dsb' => 
-  array (
-    'FUN' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'SDS-dsb' => [
+    'FUN' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'SFE' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'SFE' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'SFM' => 
-  array (
-    'SL' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'SFM' => [
+    'SL' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'SGES' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'SGES' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'SGG' => 
-  array (
-    'BAT' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'SGG' => [
+    'BAT' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'SGH' => 
-  array (
-    'BAT' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'SGH' => [
+    'BAT' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'SGV' => 
-  array (
-    'BAT' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'SGV' => [
+    'BAT' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-    'BAV' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'BAV' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'SGZ' => 
-  array (
-    'BAT' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'SGZ' => [
+    'BAT' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'SHAG' => 
-  array (
-    'GB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'SHAG' => [
+    'GB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-    'SL' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'SL' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'SK' => 
-  array (
-    'SL' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'SK' => [
+    'SL' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'SKR' => 
-  array (
-    'SL' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'SKR' => [
+    'SL' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'SKRa' => 
-  array (
-    'SL' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'SKRa' => [
+    'SL' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'SMC' => 
-  array (
-    'BUS' => 
-    array (
-      421 => 
-      array (
+      ],
+    ],
+  ],
+  'SMC' => [
+    'BUS' => [
+      421 => [
         'bg' => '',
         'fg' => '',
-      ),
-      422 => 
-      array (
+      ],
+      422 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-    'FUN' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'FUN' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'SMF-ldb' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'SMF-ldb' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'SMF-lsm' => 
-  array (
-    'BUS' => 
-    array (
-      349 => 
-      array (
+      ],
+    ],
+  ],
+  'SMF-lsm' => [
+    'BUS' => [
+      349 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'SMF-lsmF' => 
-  array (
-    'GB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'SMF-lsmF' => [
+    'GB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'SMGN' => 
-  array (
-    'BAT' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'SMGN' => [
+    'BAT' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'SMtS' => 
-  array (
-    'FUN' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'SMtS' => [
+    'FUN' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'SNL' => 
-  array (
-    'BAT' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'SNL' => [
+    'BAT' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'SNL Auto' => 
-  array (
-    'KB' => 
-    array (
-      490 => 
-      array (
+      ],
+    ],
+  ],
+  'SNL Auto' => [
+    'KB' => [
+      490 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-    'NFB' => 
-    array (
-      439 => 
-      array (
+      ],
+    ],
+    'NFB' => [
+      439 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'SOB-sob' => 
-  array (
-    'EXT' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'SOB-sob' => [
+    'EXT' => [
+      'ALL_LINES' => [
         'bg' => '#ed232a',
         'fg' => '#ffffff',
-      ),
-    ),
-    'S' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'S' => [
+      'ALL_LINES' => [
         'bg' => '#003399',
         'fg' => '#ffffff',
-      ),
-      4 => 
-      array (
+      ],
+      4 => [
         'bg' => '',
         'fg' => '',
-      ),
-      13 => 
-      array (
+      ],
+      13 => [
         'bg' => '',
         'fg' => '',
-      ),
-      27 => 
-      array (
+      ],
+      27 => [
         'bg' => '',
         'fg' => '',
-      ),
-      31 => 
-      array (
+      ],
+      31 => [
         'bg' => '',
         'fg' => '',
-      ),
-      32 => 
-      array (
+      ],
+      32 => [
         'bg' => '',
         'fg' => '',
-      ),
-      40 => 
-      array (
+      ],
+      40 => [
         'bg' => '',
         'fg' => '',
-      ),
-      81 => 
-      array (
+      ],
+      81 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-    'SN' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'SN' => [
+      'ALL_LINES' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-    ),
-    'VAE' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'VAE' => [
+      'ALL_LINES' => [
         'bg' => '#ed232a',
         'fg' => '#ffffff',
-      ),
-    ),
-  ),
-  'SPBR' => 
-  array (
-    'GB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'SPBR' => [
+    'GB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-    'SL' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'SL' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'SPL' => 
-  array (
-    'SL' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'SPL' => [
+    'SL' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'SRI' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'SRI' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'SRR' => 
-  array (
-    'GB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'SRR' => [
+    'GB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'SS' => 
-  array (
-    'BAT' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'SS' => [
+    'BAT' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'SSA' => 
-  array (
-    'SL' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'SSA' => [
+    'SL' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'SSM' => 
-  array (
-    'BUS' => 
-    array (
-      519 => 
-      array (
+      ],
+    ],
+  ],
+  'SSM' => [
+    'BUS' => [
+      519 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'STI' => 
-  array (
-    'KB' => 
-    array (
-      22 => 
-      array (
+      ],
+    ],
+  ],
+  'STI' => [
+    'KB' => [
+      22 => [
         'bg' => '#eebb82',
         'fg' => '#ffffff',
-      ),
-    ),
-    'NFB' => 
-    array (
-      1 => 
-      array (
+      ],
+    ],
+    'NFB' => [
+      1 => [
         'bg' => '#c32323',
         'fg' => '#ffffff',
-      ),
-      2 => 
-      array (
+      ],
+      2 => [
         'bg' => '#383174',
         'fg' => '#ffffff',
-      ),
-      3 => 
-      array (
+      ],
+      3 => [
         'bg' => '#8d5e44',
         'fg' => '#ffffff',
-      ),
-      4 => 
-      array (
+      ],
+      4 => [
         'bg' => '#249547',
         'fg' => '#ffffff',
-      ),
-      5 => 
-      array (
+      ],
+      5 => [
         'bg' => '#019891',
         'fg' => '#ffffff',
-      ),
-      6 => 
-      array (
+      ],
+      6 => [
         'bg' => '#b50071',
         'fg' => '#ffffff',
-      ),
-      21 => 
-      array (
+      ],
+      21 => [
         'bg' => '#64b1db',
         'fg' => '#ffffff',
-      ),
-      24 => 
-      array (
+      ],
+      24 => [
         'bg' => '#d88dba',
         'fg' => '#ffffff',
-      ),
-      25 => 
-      array (
+      ],
+      25 => [
         'bg' => '#582522',
         'fg' => '#ffffff',
-      ),
-      31 => 
-      array (
+      ],
+      31 => [
         'bg' => '#934b94',
         'fg' => '#ffffff',
-      ),
-      32 => 
-      array (
+      ],
+      32 => [
         'bg' => '#b6ca45',
         'fg' => '#ffffff',
-      ),
-      33 => 
-      array (
+      ],
+      33 => [
         'bg' => '#dd9889',
         'fg' => '#ffffff',
-      ),
-      41 => 
-      array (
+      ],
+      41 => [
         'bg' => '#779fb9',
         'fg' => '#ffffff',
-      ),
-      42 => 
-      array (
+      ],
+      42 => [
         'bg' => '#a29f3f',
         'fg' => '#ffffff',
-      ),
-      43 => 
-      array (
+      ],
+      43 => [
         'bg' => '#f1cb28',
         'fg' => '#ffffff',
-      ),
-      44 => 
-      array (
+      ],
+      44 => [
         'bg' => '#6e0a62',
         'fg' => '#ffffff',
-      ),
-      50 => 
-      array (
+      ],
+      50 => [
         'bg' => '#a199c8',
         'fg' => '#ffffff',
-      ),
-      51 => 
-      array (
+      ],
+      51 => [
         'bg' => '#dc9016',
         'fg' => '#ffffff',
-      ),
-      53 => 
-      array (
+      ],
+      53 => [
         'bg' => '#85beab',
         'fg' => '#ffffff',
-      ),
-      55 => 
-      array (
+      ],
+      55 => [
         'bg' => '#73ad3d',
         'fg' => '#ffffff',
-      ),
-      'M13' => 
-      array (
+      ],
+      'M13' => [
         'bg' => '#a1d33f',
         'fg' => '#ffffff',
-      ),
-      'M15' => 
-      array (
+      ],
+      'M15' => [
         'bg' => '#8ab5ae',
         'fg' => '#ffffff',
-      ),
-      'M23' => 
-      array (
+      ],
+      'M23' => [
         'bg' => '#e88838',
         'fg' => '#ffffff',
-      ),
-      'M24' => 
-      array (
+      ],
+      'M24' => [
         'bg' => '#efe416',
         'fg' => '#000000',
-      ),
-      'M25' => 
-      array (
+      ],
+      'M25' => [
         'bg' => '#f29dbb',
         'fg' => '#ffffff',
-      ),
-      'M27' => 
-      array (
+      ],
+      'M27' => [
         'bg' => '#1f7c47',
         'fg' => '#ffffff',
-      ),
-      'M28' => 
-      array (
+      ],
+      'M28' => [
         'bg' => '#b18ab7',
         'fg' => '#ffffff',
-      ),
-    ),
-  ),
-  'SUTU' => 
-  array (
-    'BUS' => 
-    array (
-      475 => 
-      array (
+      ],
+    ],
+  ],
+  'SUTU' => [
+    'BUS' => [
+      475 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'SVB Auto' => 
-  array (
-    'NFB' => 
-    array (
-      10 => 
-      array (
+      ],
+    ],
+  ],
+  'SVB Auto' => [
+    'NFB' => [
+      10 => [
         'bg' => '#00a54f',
         'fg' => '#ffffff',
-      ),
-      11 => 
-      array (
+      ],
+      11 => [
         'bg' => '#15c0f2',
         'fg' => '#ffffff',
-      ),
-      12 => 
-      array (
+      ],
+      12 => [
         'bg' => '#f7931d',
         'fg' => '#ffffff',
-      ),
-      16 => 
-      array (
+      ],
+      16 => [
         'bg' => '#ee1d23',
         'fg' => '#ffffff',
-      ),
-      17 => 
-      array (
+      ],
+      17 => [
         'bg' => '#fff101',
         'fg' => '#000000',
-      ),
-      19 => 
-      array (
+      ],
+      19 => [
         'bg' => '#00aeef',
         'fg' => '#ffffff',
-      ),
-      20 => 
-      array (
+      ],
+      20 => [
         'bg' => '#71bf44',
         'fg' => '#ffffff',
-      ),
-      21 => 
-      array (
+      ],
+      21 => [
         'bg' => '#ffffff',
         'fg' => '#000000',
-      ),
-      26 => 
-      array (
+      ],
+      26 => [
         'bg' => '#00a54f',
         'fg' => '#ffffff',
-      ),
-      27 => 
-      array (
+      ],
+      27 => [
         'bg' => '#ffffff',
         'fg' => '#000000',
-      ),
-      28 => 
-      array (
+      ],
+      28 => [
         'bg' => '#a8a9ad',
         'fg' => '#ffffff',
-      ),
-      29 => 
-      array (
+      ],
+      29 => [
         'bg' => '#8781bd',
         'fg' => '#ffffff',
-      ),
-      30 => 
-      array (
+      ],
+      30 => [
         'bg' => '#b8b6d2',
         'fg' => '#ffffff',
-      ),
-      31 => 
-      array (
+      ],
+      31 => [
         'bg' => '#a6ce39',
         'fg' => '#ffffff',
-      ),
-      32 => 
-      array (
+      ],
+      32 => [
         'bg' => '#a38354',
         'fg' => '#ffffff',
-      ),
-      160 => 
-      array (
+      ],
+      160 => [
         'bg' => '#4cb848',
         'fg' => '#ffffff',
-      ),
-      331 => 
-      array (
+      ],
+      331 => [
         'bg' => '#b7282e',
         'fg' => '#ffffff',
-      ),
-      332 => 
-      array (
+      ],
+      332 => [
         'bg' => '#ee1d23',
         'fg' => '#ffffff',
-      ),
-      334 => 
-      array (
+      ],
+      334 => [
         'bg' => '#73bde9',
         'fg' => '#ffffff',
-      ),
-      'M1' => 
-      array (
+      ],
+      'M1' => [
         'bg' => '',
         'fg' => '',
-      ),
-      'M10' => 
-      array (
+      ],
+      'M10' => [
         'bg' => '',
         'fg' => '',
-      ),
-      'M11' => 
-      array (
+      ],
+      'M11' => [
         'bg' => '',
         'fg' => '',
-      ),
-      'M12' => 
-      array (
+      ],
+      'M12' => [
         'bg' => '',
         'fg' => '',
-      ),
-      'M14' => 
-      array (
+      ],
+      'M14' => [
         'bg' => '',
         'fg' => '',
-      ),
-      'M16' => 
-      array (
+      ],
+      'M16' => [
         'bg' => '',
         'fg' => '',
-      ),
-      'M17' => 
-      array (
+      ],
+      'M17' => [
         'bg' => '',
         'fg' => '',
-      ),
-      'M18' => 
-      array (
+      ],
+      'M18' => [
         'bg' => '',
         'fg' => '',
-      ),
-      'M2' => 
-      array (
+      ],
+      'M2' => [
         'bg' => '',
         'fg' => '',
-      ),
-      'M20' => 
-      array (
+      ],
+      'M20' => [
         'bg' => '',
         'fg' => '',
-      ),
-      'M3' => 
-      array (
+      ],
+      'M3' => [
         'bg' => '',
         'fg' => '',
-      ),
-      'M30' => 
-      array (
+      ],
+      'M30' => [
         'bg' => '',
         'fg' => '',
-      ),
-      'M31' => 
-      array (
+      ],
+      'M31' => [
         'bg' => '',
         'fg' => '',
-      ),
-      'M32' => 
-      array (
+      ],
+      'M32' => [
         'bg' => '',
         'fg' => '',
-      ),
-      'M33' => 
-      array (
+      ],
+      'M33' => [
         'bg' => '',
         'fg' => '',
-      ),
-      'M34' => 
-      array (
+      ],
+      'M34' => [
         'bg' => '',
         'fg' => '',
-      ),
-      'M4' => 
-      array (
+      ],
+      'M4' => [
         'bg' => '',
         'fg' => '',
-      ),
-      'M41' => 
-      array (
+      ],
+      'M41' => [
         'bg' => '',
         'fg' => '',
-      ),
-      'M42' => 
-      array (
+      ],
+      'M42' => [
         'bg' => '',
         'fg' => '',
-      ),
-      'M45' => 
-      array (
+      ],
+      'M45' => [
         'bg' => '',
         'fg' => '',
-      ),
-      'M5' => 
-      array (
+      ],
+      'M5' => [
         'bg' => '',
         'fg' => '',
-      ),
-      'M51' => 
-      array (
+      ],
+      'M51' => [
         'bg' => '',
         'fg' => '',
-      ),
-      'M52' => 
-      array (
+      ],
+      'M52' => [
         'bg' => '',
         'fg' => '',
-      ),
-      'M53' => 
-      array (
+      ],
+      'M53' => [
         'bg' => '',
         'fg' => '',
-      ),
-      'M54' => 
-      array (
+      ],
+      'M54' => [
         'bg' => '',
         'fg' => '',
-      ),
-      'M55' => 
-      array (
+      ],
+      'M55' => [
         'bg' => '',
         'fg' => '',
-      ),
-      'M6' => 
-      array (
+      ],
+      'M6' => [
         'bg' => '',
         'fg' => '',
-      ),
-      'M7' => 
-      array (
+      ],
+      'M7' => [
         'bg' => '',
         'fg' => '',
-      ),
-      'M8' => 
-      array (
+      ],
+      'M8' => [
         'bg' => '',
         'fg' => '',
-      ),
-      'M88' => 
-      array (
+      ],
+      'M88' => [
         'bg' => '',
         'fg' => '',
-      ),
-      'M9' => 
-      array (
+      ],
+      'M9' => [
         'bg' => '',
         'fg' => '',
-      ),
-      'M91' => 
-      array (
+      ],
+      'M91' => [
         'bg' => '',
         'fg' => '',
-      ),
-      'M92' => 
-      array (
+      ],
+      'M92' => [
         'bg' => '',
         'fg' => '',
-      ),
-      'M93' => 
-      array (
+      ],
+      'M93' => [
         'bg' => '',
         'fg' => '',
-      ),
-      'M97' => 
-      array (
+      ],
+      'M97' => [
         'bg' => '',
         'fg' => '',
-      ),
-      'M98' => 
-      array (
+      ],
+      'M98' => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-    'NFO' => 
-    array (
-      11 => 
-      array (
+      ],
+    ],
+    'NFO' => [
+      11 => [
         'bg' => '#15c0f2',
         'fg' => '#ffffff',
-      ),
-      12 => 
-      array (
+      ],
+      12 => [
         'bg' => '#f7931d',
         'fg' => '#ffffff',
-      ),
-      20 => 
-      array (
+      ],
+      20 => [
         'bg' => '#71bf44',
         'fg' => '#ffffff',
-      ),
-    ),
-    'NFT' => 
-    array (
-      3 => 
-      array (
+      ],
+    ],
+    'NFT' => [
+      3 => [
         'bg' => '#ffffff',
         'fg' => '#231f20',
-      ),
-      6 => 
-      array (
+      ],
+      6 => [
         'bg' => '#0089cf',
         'fg' => '#ffffff',
-      ),
-      7 => 
-      array (
+      ],
+      7 => [
         'bg' => '#ee1d23',
         'fg' => '#ffffff',
-      ),
-      8 => 
-      array (
+      ],
+      8 => [
         'bg' => '#f171ab',
         'fg' => '#ffffff',
-      ),
-      9 => 
-      array (
+      ],
+      9 => [
         'bg' => '#fec210',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'SVG' => 
-  array (
-    'SL' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'SVG' => [
+    'SL' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'SVGa' => 
-  array (
-    'GB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'SVGa' => [
+    'GB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'SW' => 
-  array (
-    'BAT' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'SW' => [
+    'BAT' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'SWAG' => 
-  array (
-    'GB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'SWAG' => [
+    'GB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'SWG' => 
-  array (
-    'GB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'SWG' => [
+    'GB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'SZU' => 
-  array (
-    'R' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'SZU' => [
+    'R' => [
+      'ALL_LINES' => [
         'bg' => '#003399',
         'fg' => '#ffffff',
-      ),
-    ),
-    'S' => 
-    array (
-      4 => 
-      array (
+      ],
+    ],
+    'S' => [
+      4 => [
         'bg' => '#003399',
         'fg' => '#ffffff',
-      ),
-      10 => 
-      array (
+      ],
+      10 => [
         'bg' => '#003399',
         'fg' => '#ffffff',
-      ),
-    ),
-    'SN' => 
-    array (
-      4 => 
-      array (
+      ],
+    ],
+    'SN' => [
+      4 => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-    ),
-  ),
-  'SZU Auto' => 
-  array (
-    'KB' => 
-    array (
-      137 => 
-      array (
+      ],
+    ],
+  ],
+  'SZU Auto' => [
+    'KB' => [
+      137 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-    'NB' => 
-    array (
-      'N27' => 
-      array (
+      ],
+    ],
+    'NB' => [
+      'N27' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-    ),
-    'NFB' => 
-    array (
-      121 => 
-      array (
+      ],
+    ],
+    'NFB' => [
+      121 => [
         'bg' => '',
         'fg' => '',
-      ),
-      122 => 
-      array (
+      ],
+      122 => [
         'bg' => '',
         'fg' => '',
-      ),
-      123 => 
-      array (
+      ],
+      123 => [
         'bg' => '',
         'fg' => '',
-      ),
-      125 => 
-      array (
+      ],
+      125 => [
         'bg' => '',
         'fg' => '',
-      ),
-      126 => 
-      array (
+      ],
+      126 => [
         'bg' => '',
         'fg' => '',
-      ),
-      127 => 
-      array (
+      ],
+      127 => [
         'bg' => '',
         'fg' => '',
-      ),
-      128 => 
-      array (
+      ],
+      128 => [
         'bg' => '',
         'fg' => '',
-      ),
-      129 => 
-      array (
+      ],
+      129 => [
         'bg' => '',
         'fg' => '',
-      ),
-      131 => 
-      array (
+      ],
+      131 => [
         'bg' => '',
         'fg' => '',
-      ),
-      132 => 
-      array (
+      ],
+      132 => [
         'bg' => '',
         'fg' => '',
-      ),
-      133 => 
-      array (
+      ],
+      133 => [
         'bg' => '',
         'fg' => '',
-      ),
-      134 => 
-      array (
+      ],
+      134 => [
         'bg' => '',
         'fg' => '',
-      ),
-      136 => 
-      array (
+      ],
+      136 => [
         'bg' => '',
         'fg' => '',
-      ),
-      140 => 
-      array (
+      ],
+      140 => [
         'bg' => '',
         'fg' => '',
-      ),
-      142 => 
-      array (
+      ],
+      142 => [
         'bg' => '',
         'fg' => '',
-      ),
-      145 => 
-      array (
+      ],
+      145 => [
         'bg' => '',
         'fg' => '',
-      ),
-      151 => 
-      array (
+      ],
+      151 => [
         'bg' => '',
         'fg' => '',
-      ),
-      152 => 
-      array (
+      ],
+      152 => [
         'bg' => '',
         'fg' => '',
-      ),
-      153 => 
-      array (
+      ],
+      153 => [
         'bg' => '',
         'fg' => '',
-      ),
-      156 => 
-      array (
+      ],
+      156 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'StSS' => 
-  array (
-    'FUN' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'StSS' => [
+    'FUN' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'SthB' => 
-  array (
-    'FUN' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'SthB' => [
+    'FUN' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'StoB' => 
-  array (
-    'SL' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'StoB' => [
+    'SL' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'TBBU' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'TBBU' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-    'FUN' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'FUN' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-    'GB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'GB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'TBR' => 
-  array (
-    'SL' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'TBR' => [
+    'SL' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'TCLB' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'TCLB' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'TCP' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'TCP' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'TCP-tps' => 
-  array (
-    'SL' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'TCP-tps' => [
+    'SL' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'TCV' => 
-  array (
-    'GB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'TCV' => [
+    'GB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'TD' => 
-  array (
-    'GB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'TD' => [
+    'GB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'TDCA' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'TDCA' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'TDN' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'TDN' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-    'GB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'GB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-    'SL' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'SL' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'THURBO' => 
-  array (
-    'RE' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'THURBO' => [
+    'RE' => [
+      'ALL_LINES' => [
         'bg' => '#ed232a',
         'fg' => '#ffffff',
-      ),
-    ),
-    'S' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'S' => [
+      'ALL_LINES' => [
         'bg' => '#003399',
         'fg' => '#ffffff',
-      ),
-      1 => 
-      array (
+      ],
+      1 => [
         'bg' => '',
         'fg' => '',
-      ),
-      2 => 
-      array (
+      ],
+      2 => [
         'bg' => '',
         'fg' => '',
-      ),
-      3 => 
-      array (
+      ],
+      3 => [
         'bg' => '',
         'fg' => '',
-      ),
-      5 => 
-      array (
+      ],
+      5 => [
         'bg' => '',
         'fg' => '',
-      ),
-      7 => 
-      array (
+      ],
+      7 => [
         'bg' => '',
         'fg' => '',
-      ),
-      8 => 
-      array (
+      ],
+      8 => [
         'bg' => '',
         'fg' => '',
-      ),
-      9 => 
-      array (
+      ],
+      9 => [
         'bg' => '',
         'fg' => '',
-      ),
-      10 => 
-      array (
+      ],
+      10 => [
         'bg' => '',
         'fg' => '',
-      ),
-      11 => 
-      array (
+      ],
+      11 => [
         'bg' => '',
         'fg' => '',
-      ),
-      12 => 
-      array (
+      ],
+      12 => [
         'bg' => '',
         'fg' => '',
-      ),
-      14 => 
-      array (
+      ],
+      14 => [
         'bg' => '',
         'fg' => '',
-      ),
-      22 => 
-      array (
+      ],
+      22 => [
         'bg' => '',
         'fg' => '',
-      ),
-      26 => 
-      array (
+      ],
+      26 => [
         'bg' => '',
         'fg' => '',
-      ),
-      29 => 
-      array (
+      ],
+      29 => [
         'bg' => '',
         'fg' => '',
-      ),
-      30 => 
-      array (
+      ],
+      30 => [
         'bg' => '',
         'fg' => '',
-      ),
-      33 => 
-      array (
+      ],
+      33 => [
         'bg' => '',
         'fg' => '',
-      ),
-      35 => 
-      array (
+      ],
+      35 => [
         'bg' => '',
         'fg' => '',
-      ),
-      41 => 
-      array (
+      ],
+      41 => [
         'bg' => '',
         'fg' => '',
-      ),
-      55 => 
-      array (
+      ],
+      55 => [
         'bg' => '',
         'fg' => '',
-      ),
-      81 => 
-      array (
+      ],
+      81 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-    'SN' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'SN' => [
+      'ALL_LINES' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      3 => 
-      array (
+      ],
+      3 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'TILO' => 
-  array (
-    'BUS' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'TILO' => [
+    'BUS' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-    'S' => 
-    array (
-      11 => 
-      array (
+      ],
+    ],
+    'S' => [
+      11 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'TL' => 
-  array (
-    'BUS' => 
-    array (
-      1 => 
-      array (
+      ],
+    ],
+  ],
+  'TL' => [
+    'BUS' => [
+      1 => [
         'bg' => '#ee1d23',
         'fg' => '#ffffff',
-      ),
-      2 => 
-      array (
+      ],
+      2 => [
         'bg' => '#fff101',
         'fg' => '#000000',
-      ),
-      3 => 
-      array (
+      ],
+      3 => [
         'bg' => '#939598',
         'fg' => '#000000',
-      ),
-      4 => 
-      array (
+      ],
+      4 => [
         'bg' => '#c5d9e4',
         'fg' => '#ffffff',
-      ),
-      6 => 
-      array (
+      ],
+      6 => [
         'bg' => '#00aeef',
         'fg' => '#ffffff',
-      ),
-      7 => 
-      array (
+      ],
+      7 => [
         'bg' => '#2e3092',
         'fg' => '#ffffff',
-      ),
-      8 => 
-      array (
+      ],
+      8 => [
         'bg' => '#8e52a1',
         'fg' => '#ffffff',
-      ),
-      9 => 
-      array (
+      ],
+      9 => [
         'bg' => '#ed0277',
         'fg' => '#ffffff',
-      ),
-      12 => 
-      array (
+      ],
+      12 => [
         'bg' => '#8c9b7b',
         'fg' => '#ffffff',
-      ),
-      13 => 
-      array (
+      ],
+      13 => [
         'bg' => '#fcb814',
         'fg' => '#000000',
-      ),
-      16 => 
-      array (
+      ],
+      16 => [
         'bg' => '#bdb202',
         'fg' => '#ffffff',
-      ),
-      17 => 
-      array (
+      ],
+      17 => [
         'bg' => '#acd589',
         'fg' => '#ffffff',
-      ),
-      18 => 
-      array (
+      ],
+      18 => [
         'bg' => '#6bcff6',
         'fg' => '#ffffff',
-      ),
-      21 => 
-      array (
+      ],
+      21 => [
         'bg' => '#8e52a1',
         'fg' => '#ffffff',
-      ),
-      22 => 
-      array (
+      ],
+      22 => [
         'bg' => '#cb572b',
         'fg' => '#ffffff',
-      ),
-      23 => 
-      array (
+      ],
+      23 => [
         'bg' => '#d0a233',
         'fg' => '#000000',
-      ),
-      25 => 
-      array (
+      ],
+      25 => [
         'bg' => '#adc4e5',
         'fg' => '#ffffff',
-      ),
-      31 => 
-      array (
+      ],
+      31 => [
         'bg' => '#c5d9e4',
         'fg' => '#ffffff',
-      ),
-      32 => 
-      array (
+      ],
+      32 => [
         'bg' => '#9c85bd',
         'fg' => '#ffffff',
-      ),
-      33 => 
-      array (
+      ],
+      33 => [
         'bg' => '#4b7520',
         'fg' => '#ffffff',
-      ),
-      36 => 
-      array (
+      ],
+      36 => [
         'bg' => '#9bb4bd',
         'fg' => '#ffffff',
-      ),
-      38 => 
-      array (
+      ],
+      38 => [
         'bg' => '#ba8632',
         'fg' => '#ffffff',
-      ),
-      41 => 
-      array (
+      ],
+      41 => [
         'bg' => '#b41e8d',
         'fg' => '#ffffff',
-      ),
-      42 => 
-      array (
+      ],
+      42 => [
         'bg' => '#ffdc01',
         'fg' => '#000000',
-      ),
-      45 => 
-      array (
+      ],
+      45 => [
         'bg' => '#008c93',
         'fg' => '#ffffff',
-      ),
-      46 => 
-      array (
+      ],
+      46 => [
         'bg' => '#b39c02',
         'fg' => '#ffffff',
-      ),
-      47 => 
-      array (
+      ],
+      47 => [
         'bg' => '#fece7a',
         'fg' => '#000000',
-      ),
-      48 => 
-      array (
+      ],
+      48 => [
         'bg' => '#7e9ed2',
         'fg' => '#ffffff',
-      ),
-      49 => 
-      array (
+      ],
+      49 => [
         'bg' => '#c092c2',
         'fg' => '#ffffff',
-      ),
-      54 => 
-      array (
+      ],
+      54 => [
         'bg' => '#b86749',
         'fg' => '#ffffff',
-      ),
-      56 => 
-      array (
+      ],
+      56 => [
         'bg' => '#f8a87e',
         'fg' => '#ffffff',
-      ),
-      60 => 
-      array (
+      ],
+      60 => [
         'bg' => '#cfe4ae',
         'fg' => '#000000',
-      ),
-      62 => 
-      array (
+      ],
+      62 => [
         'bg' => '#e670a3',
         'fg' => '#ffffff',
-      ),
-      64 => 
-      array (
+      ],
+      64 => [
         'bg' => '#c0333b',
         'fg' => '#ffffff',
-      ),
-      65 => 
-      array (
+      ],
+      65 => [
         'bg' => '#fcb814',
         'fg' => '#000000',
-      ),
-      67 => 
-      array (
+      ],
+      67 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-    'KB' => 
-    array (
-      68 => 
-      array (
+      ],
+    ],
+    'KB' => [
+      68 => [
         'bg' => '#5e5da9',
         'fg' => '#ffffff',
-      ),
-      69 => 
-      array (
+      ],
+      69 => [
         'bg' => '#5e5da9',
         'fg' => '#ffffff',
-      ),
-    ),
-    'M' => 
-    array (
-      1 => 
-      array (
+      ],
+    ],
+    'M' => [
+      1 => [
         'bg' => '#fffffe',
         'fg' => '#004082',
-      ),
-      2 => 
-      array (
+      ],
+      2 => [
         'bg' => '#fffffe',
         'fg' => '#004082',
-      ),
-    ),
-  ),
-  'TLFC' => 
-  array (
-    'SL' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'TLFC' => [
+    'SL' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'TLLM' => 
-  array (
-    'SL' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'TLLM' => [
+    'SL' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'TLML' => 
-  array (
-    'GB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'TLML' => [
+    'GB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'TM' => 
-  array (
-    'SL' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'TM' => [
+    'SL' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'TMR Auto' => 
-  array (
-    'BUS' => 
-    array (
-      211 => 
-      array (
+      ],
+    ],
+  ],
+  'TMR Auto' => [
+    'BUS' => [
+      211 => [
         'bg' => '',
         'fg' => '',
-      ),
-      225 => 
-      array (
+      ],
+      225 => [
         'bg' => '',
         'fg' => '',
-      ),
-      230 => 
-      array (
+      ],
+      230 => [
         'bg' => '',
         'fg' => '',
-      ),
-      241 => 
-      array (
+      ],
+      241 => [
         'bg' => '',
         'fg' => '',
-      ),
-      271 => 
-      array (
+      ],
+      271 => [
         'bg' => '',
         'fg' => '',
-      ),
-      272 => 
-      array (
+      ],
+      272 => [
         'bg' => '',
         'fg' => '',
-      ),
-      273 => 
-      array (
+      ],
+      273 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'TMR-mc' => 
-  array (
-    'R' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'TMR-mc' => [
+    'R' => [
+      'ALL_LINES' => [
         'bg' => '#003399',
         'fg' => '#ffffff',
-      ),
-    ),
-  ),
-  'TMSA' => 
-  array (
-    'GB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'TMSA' => [
+    'GB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'TOJ' => 
-  array (
-    'SL' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'TOJ' => [
+    'SL' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'TPC-al' => 
-  array (
-    'R' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'TPC-al' => [
+    'R' => [
+      'ALL_LINES' => [
         'bg' => '#003399',
         'fg' => '#ffffff',
-      ),
-    ),
-  ),
-  'TPC-aomc' => 
-  array (
-    'R' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'TPC-aomc' => [
+    'R' => [
+      'ALL_LINES' => [
         'bg' => '#003399',
         'fg' => '#ffffff',
-      ),
-    ),
-  ),
-  'TPC-asd' => 
-  array (
-    'R' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'TPC-asd' => [
+    'R' => [
+      'ALL_LINES' => [
         'bg' => '#003399',
         'fg' => '#ffffff',
-      ),
-    ),
-  ),
-  'TPC-bvb' => 
-  array (
-    'R' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'TPC-bvb' => [
+    'R' => [
+      'ALL_LINES' => [
         'bg' => '#003399',
         'fg' => '#ffffff',
-      ),
-    ),
-  ),
-  'TPC/Auao' => 
-  array (
-    'BUS' => 
-    array (
-      61 => 
-      array (
+      ],
+    ],
+  ],
+  'TPC/Auao' => [
+    'BUS' => [
+      61 => [
         'bg' => '',
         'fg' => '',
-      ),
-      62 => 
-      array (
+      ],
+      62 => [
         'bg' => '',
         'fg' => '',
-      ),
-      63 => 
-      array (
+      ],
+      63 => [
         'bg' => '',
         'fg' => '',
-      ),
-      81 => 
-      array (
+      ],
+      81 => [
         'bg' => '',
         'fg' => '',
-      ),
-      82 => 
-      array (
+      ],
+      82 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'TPC/Autb' => 
-  array (
-    'BUS' => 
-    array (
-      111 => 
-      array (
+      ],
+    ],
+  ],
+  'TPC/Autb' => [
+    'BUS' => [
+      111 => [
         'bg' => '',
         'fg' => '',
-      ),
-      140 => 
-      array (
+      ],
+      140 => [
         'bg' => '',
         'fg' => '',
-      ),
-      144 => 
-      array (
+      ],
+      144 => [
         'bg' => '',
         'fg' => '',
-      ),
-      161 => 
-      array (
+      ],
+      161 => [
         'bg' => '',
         'fg' => '',
-      ),
-      162 => 
-      array (
+      ],
+      162 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'TPF' => 
-  array (
-    'EXT' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'TPF' => [
+    'EXT' => [
+      'ALL_LINES' => [
         'bg' => '#ed232a',
         'fg' => '#ffffff',
-      ),
-    ),
-    'R' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'R' => [
+      'ALL_LINES' => [
         'bg' => '#003399',
         'fg' => '#ffffff',
-      ),
-    ),
-    'RE' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'RE' => [
+      'ALL_LINES' => [
         'bg' => '#ed232a',
         'fg' => '#ffffff',
-      ),
-    ),
-    'S' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'S' => [
+      'ALL_LINES' => [
         'bg' => '#003399',
         'fg' => '#ffffff',
-      ),
-      20 => 
-      array (
+      ],
+      20 => [
         'bg' => '',
         'fg' => '',
-      ),
-      21 => 
-      array (
+      ],
+      21 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'TPF    F' => 
-  array (
-    'S' => 
-    array (
-      50 => 
-      array (
+      ],
+    ],
+  ],
+  'TPF    F' => [
+    'S' => [
+      50 => [
         'bg' => '',
         'fg' => '',
-      ),
-      51 => 
-      array (
+      ],
+      51 => [
         'bg' => '',
         'fg' => '',
-      ),
-      52 => 
-      array (
+      ],
+      52 => [
         'bg' => '',
         'fg' => '',
-      ),
-      60 => 
-      array (
+      ],
+      60 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'TPF Auto' => 
-  array (
-    'KB' => 
-    array (
-      233 => 
-      array (
+      ],
+    ],
+  ],
+  'TPF Auto' => [
+    'KB' => [
+      233 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-    'NFB' => 
-    array (
-      1 => 
-      array (
+      ],
+    ],
+    'NFB' => [
+      1 => [
         'bg' => '#64982f',
         'fg' => '#ffffff',
-      ),
-      2 => 
-      array (
+      ],
+      2 => [
         'bg' => '#ef4b44',
         'fg' => '#ffffff',
-      ),
-      3 => 
-      array (
+      ],
+      3 => [
         'bg' => '#fed702',
         'fg' => '#000000',
-      ),
-      4 => 
-      array (
+      ],
+      4 => [
         'bg' => '#f7951f',
         'fg' => '#ffffff',
-      ),
-      5 => 
-      array (
+      ],
+      5 => [
         'bg' => '#0093d0',
         'fg' => '#fed702',
-      ),
-      6 => 
-      array (
+      ],
+      6 => [
         'bg' => '#543695',
         'fg' => '#ffffff',
-      ),
-      7 => 
-      array (
+      ],
+      7 => [
         'bg' => '#934312',
         'fg' => '#ffffff',
-      ),
-      8 => 
-      array (
+      ],
+      8 => [
         'bg' => '#ea4498',
         'fg' => '#000000',
-      ),
-      9 => 
-      array (
+      ],
+      9 => [
         'bg' => '#a54499',
         'fg' => '#ffffff',
-      ),
-      11 => 
-      array (
+      ],
+      11 => [
         'bg' => '#00b294',
         'fg' => '#ffffff',
-      ),
-      120 => 
-      array (
+      ],
+      120 => [
         'bg' => '',
         'fg' => '',
-      ),
-      123 => 
-      array (
+      ],
+      123 => [
         'bg' => '',
         'fg' => '',
-      ),
-      124 => 
-      array (
+      ],
+      124 => [
         'bg' => '',
         'fg' => '',
-      ),
-      125 => 
-      array (
+      ],
+      125 => [
         'bg' => '',
         'fg' => '',
-      ),
-      127 => 
-      array (
+      ],
+      127 => [
         'bg' => '',
         'fg' => '',
-      ),
-      129 => 
-      array (
+      ],
+      129 => [
         'bg' => '',
         'fg' => '',
-      ),
-      130 => 
-      array (
+      ],
+      130 => [
         'bg' => '',
         'fg' => '',
-      ),
-      141 => 
-      array (
+      ],
+      141 => [
         'bg' => '',
         'fg' => '',
-      ),
-      142 => 
-      array (
+      ],
+      142 => [
         'bg' => '',
         'fg' => '',
-      ),
-      143 => 
-      array (
+      ],
+      143 => [
         'bg' => '',
         'fg' => '',
-      ),
-      181 => 
-      array (
+      ],
+      181 => [
         'bg' => '',
         'fg' => '',
-      ),
-      182 => 
-      array (
+      ],
+      182 => [
         'bg' => '',
         'fg' => '',
-      ),
-      201 => 
-      array (
+      ],
+      201 => [
         'bg' => '',
         'fg' => '',
-      ),
-      202 => 
-      array (
+      ],
+      202 => [
         'bg' => '',
         'fg' => '',
-      ),
-      203 => 
-      array (
+      ],
+      203 => [
         'bg' => '',
         'fg' => '',
-      ),
-      231 => 
-      array (
+      ],
+      231 => [
         'bg' => '',
         'fg' => '',
-      ),
-      233 => 
-      array (
+      ],
+      233 => [
         'bg' => '',
         'fg' => '',
-      ),
-      234 => 
-      array (
+      ],
+      234 => [
         'bg' => '',
         'fg' => '',
-      ),
-      235 => 
-      array (
+      ],
+      235 => [
         'bg' => '',
         'fg' => '',
-      ),
-      236 => 
-      array (
+      ],
+      236 => [
         'bg' => '',
         'fg' => '',
-      ),
-      245 => 
-      array (
+      ],
+      245 => [
         'bg' => '',
         'fg' => '',
-      ),
-      254 => 
-      array (
+      ],
+      254 => [
         'bg' => '',
         'fg' => '',
-      ),
-      260 => 
-      array (
+      ],
+      260 => [
         'bg' => '',
         'fg' => '',
-      ),
-      262 => 
-      array (
+      ],
+      262 => [
         'bg' => '',
         'fg' => '',
-      ),
-      263 => 
-      array (
+      ],
+      263 => [
         'bg' => '',
         'fg' => '',
-      ),
-      264 => 
-      array (
+      ],
+      264 => [
         'bg' => '',
         'fg' => '',
-      ),
-      266 => 
-      array (
+      ],
+      266 => [
         'bg' => '',
         'fg' => '',
-      ),
-      280 => 
-      array (
+      ],
+      280 => [
         'bg' => '',
         'fg' => '',
-      ),
-      281 => 
-      array (
+      ],
+      281 => [
         'bg' => '',
         'fg' => '',
-      ),
-      336 => 
-      array (
+      ],
+      336 => [
         'bg' => '',
         'fg' => '',
-      ),
-      337 => 
-      array (
+      ],
+      337 => [
         'bg' => '',
         'fg' => '',
-      ),
-      339 => 
-      array (
+      ],
+      339 => [
         'bg' => '',
         'fg' => '',
-      ),
-      340 => 
-      array (
+      ],
+      340 => [
         'bg' => '',
         'fg' => '',
-      ),
-      361 => 
-      array (
+      ],
+      361 => [
         'bg' => '',
         'fg' => '',
-      ),
-      362 => 
-      array (
+      ],
+      362 => [
         'bg' => '',
         'fg' => '',
-      ),
-      430 => 
-      array (
+      ],
+      430 => [
         'bg' => '',
         'fg' => '',
-      ),
-      470 => 
-      array (
+      ],
+      470 => [
         'bg' => '',
         'fg' => '',
-      ),
-      471 => 
-      array (
+      ],
+      471 => [
         'bg' => '',
         'fg' => '',
-      ),
-      472 => 
-      array (
+      ],
+      472 => [
         'bg' => '',
         'fg' => '',
-      ),
-      473 => 
-      array (
+      ],
+      473 => [
         'bg' => '',
         'fg' => '',
-      ),
-      475 => 
-      array (
+      ],
+      475 => [
         'bg' => '',
         'fg' => '',
-      ),
-      476 => 
-      array (
+      ],
+      476 => [
         'bg' => '',
         'fg' => '',
-      ),
-      479 => 
-      array (
+      ],
+      479 => [
         'bg' => '',
         'fg' => '',
-      ),
-      481 => 
-      array (
+      ],
+      481 => [
         'bg' => '',
         'fg' => '',
-      ),
-      492 => 
-      array (
+      ],
+      492 => [
         'bg' => '',
         'fg' => '',
-      ),
-      520 => 
-      array (
+      ],
+      520 => [
         'bg' => '',
         'fg' => '',
-      ),
-      530 => 
-      array (
+      ],
+      530 => [
         'bg' => '',
         'fg' => '',
-      ),
-      543 => 
-      array (
+      ],
+      543 => [
         'bg' => '',
         'fg' => '',
-      ),
-      544 => 
-      array (
+      ],
+      544 => [
         'bg' => '',
         'fg' => '',
-      ),
-      545 => 
-      array (
+      ],
+      545 => [
         'bg' => '',
         'fg' => '',
-      ),
-      546 => 
-      array (
+      ],
+      546 => [
         'bg' => '',
         'fg' => '',
-      ),
-      548 => 
-      array (
+      ],
+      548 => [
         'bg' => '',
         'fg' => '',
-      ),
-      549 => 
-      array (
+      ],
+      549 => [
         'bg' => '',
         'fg' => '',
-      ),
-      550 => 
-      array (
+      ],
+      550 => [
         'bg' => '',
         'fg' => '',
-      ),
-      551 => 
-      array (
+      ],
+      551 => [
         'bg' => '',
         'fg' => '',
-      ),
-      552 => 
-      array (
+      ],
+      552 => [
         'bg' => '',
         'fg' => '',
-      ),
-      553 => 
-      array (
+      ],
+      553 => [
         'bg' => '',
         'fg' => '',
-      ),
-      554 => 
-      array (
+      ],
+      554 => [
         'bg' => '',
         'fg' => '',
-      ),
-      555 => 
-      array (
+      ],
+      555 => [
         'bg' => '',
         'fg' => '',
-      ),
-      556 => 
-      array (
+      ],
+      556 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-    'NFO' => 
-    array (
-      1 => 
-      array (
+      ],
+    ],
+    'NFO' => [
+      1 => [
         'bg' => '#64982f',
         'fg' => '#ffffff',
-      ),
-      2 => 
-      array (
+      ],
+      2 => [
         'bg' => '#ef4b44',
         'fg' => '#ffffff',
-      ),
-      3 => 
-      array (
+      ],
+      3 => [
         'bg' => '#fed702',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'TPF-nstp' => 
-  array (
-    'FUN' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'TPF-nstp' => [
+    'FUN' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'TPG' => 
-  array (
-    'BUS' => 
-    array (
-      32 => 
-      array (
+      ],
+    ],
+  ],
+  'TPG' => [
+    'BUS' => [
+      32 => [
         'bg' => '#666666',
         'fg' => '#ffffff',
-      ),
-      43 => 
-      array (
+      ],
+      43 => [
         'bg' => '#99CCCC',
         'fg' => '#000000',
-      ),
-      53 => 
-      array (
+      ],
+      53 => [
         'bg' => '#99CCCC',
         'fg' => '#000000',
-      ),
-      'B' => 
-      array (
+      ],
+      'B' => [
         'bg' => '#FF6600',
         'fg' => '#ffffff',
-      ),
-      'D' => 
-      array (
+      ],
+      'D' => [
         'bg' => '#FF9999',
         'fg' => '#000000',
-      ),
-      'W' => 
-      array (
+      ],
+      'W' => [
         'bg' => '#003399',
         'fg' => '#ffffff',
-      ),
-    ),
-    'KB' => 
-    array (
-      35 => 
-      array (
+      ],
+    ],
+    'KB' => [
+      35 => [
         'bg' => '#666666',
         'fg' => '#ffffff',
-      ),
-      36 => 
-      array (
+      ],
+      36 => [
         'bg' => '#666666',
         'fg' => '#ffffff',
-      ),
-      47 => 
-      array (
+      ],
+      47 => [
         'bg' => '#009999',
         'fg' => '#ffffff',
-      ),
-      54 => 
-      array (
+      ],
+      54 => [
         'bg' => '#009999',
         'fg' => '#ffffff',
-      ),
-      'T' => 
-      array (
+      ],
+      'T' => [
         'bg' => '#FF9999',
         'fg' => '#000000',
-      ),
-    ),
-    'NFB' => 
-    array (
-      1 => 
-      array (
+      ],
+    ],
+    'NFB' => [
+      1 => [
         'bg' => '#5A338B',
         'fg' => '#ffffff',
-      ),
-      4 => 
-      array (
+      ],
+      4 => [
         'bg' => '#E3000B',
         'fg' => '#ffffff',
-      ),
-      5 => 
-      array (
+      ],
+      5 => [
         'bg' => '#00A7E3',
         'fg' => '#ffffff',
-      ),
-      8 => 
-      array (
+      ],
+      8 => [
         'bg' => '#993333',
         'fg' => '#ffffff',
-      ),
-      9 => 
-      array (
+      ],
+      9 => [
         'bg' => '#CC0033',
         'fg' => '#ffffff',
-      ),
-      11 => 
-      array (
+      ],
+      11 => [
         'bg' => '#9683EC',
         'fg' => '#ffffff',
-      ),
-      14 => 
-      array (
+      ],
+      14 => [
         'bg' => '#4D2A9B',
         'fg' => '#ffffff',
-      ),
-      21 => 
-      array (
+      ],
+      21 => [
         'bg' => '#663333',
         'fg' => '#ffffff',
-      ),
-      22 => 
-      array (
+      ],
+      22 => [
         'bg' => '#663399',
         'fg' => '#ffffff',
-      ),
-      23 => 
-      array (
+      ],
+      23 => [
         'bg' => '#CC3399',
         'fg' => '#ffffff',
-      ),
-      25 => 
-      array (
+      ],
+      25 => [
         'bg' => '#996600',
         'fg' => '#ffffff',
-      ),
-      28 => 
-      array (
+      ],
+      28 => [
         'bg' => '#FFCC00',
         'fg' => '#000000',
-      ),
-      31 => 
-      array (
+      ],
+      31 => [
         'bg' => '#009999',
         'fg' => '#ffffff',
-      ),
-      32 => 
-      array (
+      ],
+      32 => [
         'bg' => '#666666',
         'fg' => '#ffffff',
-      ),
-      33 => 
-      array (
+      ],
+      33 => [
         'bg' => '#009999',
         'fg' => '#ffffff',
-      ),
-      34 => 
-      array (
+      ],
+      34 => [
         'bg' => '#99CCCC',
         'fg' => '#000000',
-      ),
-      41 => 
-      array (
+      ],
+      41 => [
         'bg' => '#009999',
         'fg' => '#ffffff',
-      ),
-      42 => 
-      array (
+      ],
+      42 => [
         'bg' => '#99CCCC',
         'fg' => '#000000',
-      ),
-      44 => 
-      array (
+      ],
+      44 => [
         'bg' => '#009999',
         'fg' => '#ffffff',
-      ),
-      45 => 
-      array (
+      ],
+      45 => [
         'bg' => '#99CCCC',
         'fg' => '#000000',
-      ),
-      46 => 
-      array (
+      ],
+      46 => [
         'bg' => '#009999',
         'fg' => '#ffffff',
-      ),
-      47 => 
-      array (
+      ],
+      47 => [
         'bg' => '#009999',
         'fg' => '#ffffff',
-      ),
-      51 => 
-      array (
+      ],
+      51 => [
         'bg' => '#009999',
         'fg' => '#ffffff',
-      ),
-      53 => 
-      array (
+      ],
+      53 => [
         'bg' => '#99CCCC',
         'fg' => '#000000',
-      ),
-      57 => 
-      array (
+      ],
+      57 => [
         'bg' => '#99CCCC',
         'fg' => '#000000',
-      ),
-      61 => 
-      array (
+      ],
+      61 => [
         'bg' => '#FF9999',
         'fg' => '#000000',
-      ),
-      'A' => 
-      array (
+      ],
+      'A' => [
         'bg' => '#FF6600',
         'fg' => '#ffffff',
-      ),
-      'B' => 
-      array (
+      ],
+      'B' => [
         'bg' => '#FF6600',
         'fg' => '#ffffff',
-      ),
-      'C' => 
-      array (
+      ],
+      'C' => [
         'bg' => '#FF6600',
         'fg' => '#ffffff',
-      ),
-      'D' => 
-      array (
+      ],
+      'D' => [
         'bg' => '#FF9999',
         'fg' => '#000000',
-      ),
-      'E' => 
-      array (
+      ],
+      'E' => [
         'bg' => '#FF6600',
         'fg' => '#ffffff',
-      ),
-      'F' => 
-      array (
+      ],
+      'F' => [
         'bg' => '#FF9999',
         'fg' => '#000000',
-      ),
-      'G' => 
-      array (
+      ],
+      'G' => [
         'bg' => '#FF9999',
         'fg' => '#000000',
-      ),
-      'K' => 
-      array (
+      ],
+      'K' => [
         'bg' => '#FF9999',
         'fg' => '#000000',
-      ),
-      'L' => 
-      array (
+      ],
+      'L' => [
         'bg' => '#FF6600',
         'fg' => '#ffffff',
-      ),
-      'M' => 
-      array (
+      ],
+      'M' => [
         'bg' => '#59C3EB',
         'fg' => '#ffffff',
-      ),
-      'O' => 
-      array (
+      ],
+      'O' => [
         'bg' => '#FF9999',
         'fg' => '#000000',
-      ),
-      'S' => 
-      array (
+      ],
+      'S' => [
         'bg' => '#003399',
         'fg' => '#ffffff',
-      ),
-      'U' => 
-      array (
+      ],
+      'U' => [
         'bg' => '',
         'fg' => '',
-      ),
-      'V' => 
-      array (
+      ],
+      'V' => [
         'bg' => '#FF6600',
         'fg' => '#ffffff',
-      ),
-      'X' => 
-      array (
+      ],
+      'X' => [
         'bg' => '#003399',
         'fg' => '#ffffff',
-      ),
-      'Y' => 
-      array (
+      ],
+      'Y' => [
         'bg' => '#FF9999',
         'fg' => '#000000',
-      ),
-      'Z' => 
-      array (
+      ],
+      'Z' => [
         'bg' => '#FF9999',
         'fg' => '#000000',
-      ),
-      'NA' => 
-      array (
+      ],
+      'NA' => [
         'bg' => '#4D2A9B',
         'fg' => '#ffffff',
-      ),
-      'NC' => 
-      array (
+      ],
+      'NC' => [
         'bg' => '#4D2A9B',
         'fg' => '#ffffff',
-      ),
-      'ND' => 
-      array (
+      ],
+      'ND' => [
         'bg' => '#774C2D',
         'fg' => '#ffffff',
-      ),
-      'NE' => 
-      array (
+      ],
+      'NE' => [
         'bg' => '#A13B96',
         'fg' => '#ffffff',
-      ),
-      'NJ' => 
-      array (
+      ],
+      'NJ' => [
         'bg' => '#D6E63A',
         'fg' => '#000000',
-      ),
-      'NK' => 
-      array (
+      ],
+      'NK' => [
         'bg' => '#F0A802',
         'fg' => '#000000',
-      ),
-      'NM' => 
-      array (
+      ],
+      'NM' => [
         'bg' => '#F0A802',
         'fg' => '#000000',
-      ),
-      'NO' => 
-      array (
+      ],
+      'NO' => [
         'bg' => '',
         'fg' => '',
-      ),
-      'NP' => 
-      array (
+      ],
+      'NP' => [
         'bg' => '#009999',
         'fg' => '#ffffff',
-      ),
-      'NS' => 
-      array (
+      ],
+      'NS' => [
         'bg' => '#4392D6',
         'fg' => '#ffffff',
-      ),
-      'NT' => 
-      array (
+      ],
+      'NT' => [
         'bg' => '#00A7E3',
         'fg' => '#ffffff',
-      ),
-    ),
-    'NFO' => 
-    array (
-      2 => 
-      array (
+      ],
+    ],
+    'NFO' => [
+      2 => [
         'bg' => '#D6E63A',
         'fg' => '#000000',
-      ),
-      3 => 
-      array (
+      ],
+      3 => [
         'bg' => '#A13B96',
         'fg' => '#ffffff',
-      ),
-      6 => 
-      array (
+      ],
+      6 => [
         'bg' => '#4392D6',
         'fg' => '#ffffff',
-      ),
-      7 => 
-      array (
+      ],
+      7 => [
         'bg' => '#3BAA1B',
         'fg' => '#ffffff',
-      ),
-      10 => 
-      array (
+      ],
+      10 => [
         'bg' => '#1C753C',
         'fg' => '#ffffff',
-      ),
-      19 => 
-      array (
+      ],
+      19 => [
         'bg' => '#F6ED00',
         'fg' => '#000000',
-      ),
-    ),
-    'NFT' => 
-    array (
-      12 => 
-      array (
+      ],
+    ],
+    'NFT' => [
+      12 => [
         'bg' => '#F0A802',
         'fg' => '#000000',
-      ),
-      14 => 
-      array (
+      ],
+      14 => [
         'bg' => '#4D2A9B',
         'fg' => '#ffffff',
-      ),
-      15 => 
-      array (
+      ],
+      15 => [
         'bg' => '#774C2D',
         'fg' => '#ffffff',
-      ),
-      18 => 
-      array (
+      ],
+      18 => [
         'bg' => '#A84B97',
         'fg' => '#ffffff',
-      ),
-    ),
-  ),
-  'TPL' => 
-  array (
-    'BUS' => 
-    array (
-      11 => 
-      array (
+      ],
+    ],
+  ],
+  'TPL' => [
+    'BUS' => [
+      11 => [
         'bg' => '#0089cf',
         'fg' => '#ffffff',
-      ),
-      12 => 
-      array (
+      ],
+      12 => [
         'bg' => '#0089cf',
         'fg' => '#ffffff',
-      ),
-      16 => 
-      array (
+      ],
+      16 => [
         'bg' => '#ee1b2d',
         'fg' => '#ffffff',
-      ),
-      'FuniBus' => 
-      array (
+      ],
+      'FuniBus' => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-    'KB' => 
-    array (
-      8 => 
-      array (
+      ],
+    ],
+    'KB' => [
+      8 => [
         'bg' => '#c8db5c',
         'fg' => '#000000',
-      ),
-      9 => 
-      array (
+      ],
+      9 => [
         'bg' => '#c8db5c',
         'fg' => '#000000',
-      ),
-      10 => 
-      array (
+      ],
+      10 => [
         'bg' => '#c8db5c',
         'fg' => '#000000',
-      ),
-    ),
-    'NFB' => 
-    array (
-      1 => 
-      array (
+      ],
+    ],
+    'NFB' => [
+      1 => [
         'bg' => '#ef59a1',
         'fg' => '#ffffff',
-      ),
-      2 => 
-      array (
+      ],
+      2 => [
         'bg' => '#a2238e',
         'fg' => '#ffffff',
-      ),
-      3 => 
-      array (
+      ],
+      3 => [
         'bg' => '#f58220',
         'fg' => '#ffffff',
-      ),
-      4 => 
-      array (
+      ],
+      4 => [
         'bg' => '#a5755c',
         'fg' => '#ffffff',
-      ),
-      5 => 
-      array (
+      ],
+      5 => [
         'bg' => '#1768b4',
         'fg' => '#ffffff',
-      ),
-      6 => 
-      array (
+      ],
+      6 => [
         'bg' => '#756fb3',
         'fg' => '#ffffff',
-      ),
-      7 => 
-      array (
+      ],
+      7 => [
         'bg' => '#00ab4d',
         'fg' => '#ffffff',
-      ),
-      16 => 
-      array (
+      ],
+      16 => [
         'bg' => '#ee1b2d',
         'fg' => '#ffffff',
-      ),
-      'F' => 
-      array (
+      ],
+      'F' => [
         'bg' => '#00b5ac',
         'fg' => '#ffffff',
-      ),
-      'FuniBus' => 
-      array (
+      ],
+      'FuniBus' => [
         'bg' => '',
         'fg' => '',
-      ),
-      'S' => 
-      array (
+      ],
+      'S' => [
         'bg' => '#feca0a',
         'fg' => '#ffffff',
-      ),
-    ),
-  ),
-  'TPN' => 
-  array (
-    'BUS' => 
-    array (
-      805 => 
-      array (
+      ],
+    ],
+  ],
+  'TPN' => [
+    'BUS' => [
+      805 => [
         'bg' => '',
         'fg' => '',
-      ),
-      810 => 
-      array (
+      ],
+      810 => [
         'bg' => '',
         'fg' => '',
-      ),
-      811 => 
-      array (
+      ],
+      811 => [
         'bg' => '',
         'fg' => '',
-      ),
-      813 => 
-      array (
+      ],
+      813 => [
         'bg' => '',
         'fg' => '',
-      ),
-      814 => 
-      array (
+      ],
+      814 => [
         'bg' => '',
         'fg' => '',
-      ),
-      815 => 
-      array (
+      ],
+      815 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'TRAVYS-o' => 
-  array (
-    'BUS' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'TRAVYS-o' => [
+    'BUS' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-    'R' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'R' => [
+      'ALL_LINES' => [
         'bg' => '#003399',
         'fg' => '#ffffff',
-      ),
-    ),
-  ),
-  'TRAVYS-p' => 
-  array (
-    'R' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'TRAVYS-p' => [
+    'R' => [
+      'ALL_LINES' => [
         'bg' => '#003399',
         'fg' => '#ffffff',
-      ),
-    ),
-  ),
-  'TRAVYS-y' => 
-  array (
-    'BUS' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'TRAVYS-y' => [
+    'BUS' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-    'R' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'R' => [
+      'ALL_LINES' => [
         'bg' => '#003399',
         'fg' => '#ffffff',
-      ),
-    ),
-  ),
-  'TRAVYS/a' => 
-  array (
-    'BUS' => 
-    array (
-      615 => 
-      array (
+      ],
+    ],
+  ],
+  'TRAVYS/a' => [
+    'BUS' => [
+      615 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'TRAVYS/t' => 
-  array (
-    'BUS' => 
-    array (
-      611 => 
-      array (
+      ],
+    ],
+  ],
+  'TRAVYS/t' => [
+    'BUS' => [
+      611 => [
         'bg' => '',
         'fg' => '',
-      ),
-      613 => 
-      array (
+      ],
+      613 => [
         'bg' => '',
         'fg' => '',
-      ),
-      691 => 
-      array (
+      ],
+      691 => [
         'bg' => '',
         'fg' => '',
-      ),
-      693 => 
-      array (
+      ],
+      693 => [
         'bg' => '',
         'fg' => '',
-      ),
-      694 => 
-      array (
+      ],
+      694 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-    'NFB' => 
-    array (
-      601 => 
-      array (
+      ],
+    ],
+    'NFB' => [
+      601 => [
         'bg' => '',
         'fg' => '',
-      ),
-      602 => 
-      array (
+      ],
+      602 => [
         'bg' => '',
         'fg' => '',
-      ),
-      603 => 
-      array (
+      ],
+      603 => [
         'bg' => '',
         'fg' => '',
-      ),
-      604 => 
-      array (
+      ],
+      604 => [
         'bg' => '',
         'fg' => '',
-      ),
-      605 => 
-      array (
+      ],
+      605 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'TRI' => 
-  array (
-    'BUS' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'TRI' => [
+    'BUS' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'TRN-cmn' => 
-  array (
-    'NFB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'TRN-cmn' => [
+    'NFB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-    'R' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'R' => [
+      'ALL_LINES' => [
         'bg' => '#003399',
         'fg' => '#ffffff',
-      ),
-    ),
-  ),
-  'TRN-tn' => 
-  array (
-    'NFB' => 
-    array (
-      102 => 
-      array (
+      ],
+    ],
+  ],
+  'TRN-tn' => [
+    'NFB' => [
+      102 => [
         'bg' => '#00a5d3',
         'fg' => '#ffffff',
-      ),
-      106 => 
-      array (
+      ],
+      106 => [
         'bg' => '#e2aea7',
         'fg' => '#ffffff',
-      ),
-      109 => 
-      array (
+      ],
+      109 => [
         'bg' => '#834a88',
         'fg' => '#ffffff',
-      ),
-      120 => 
-      array (
+      ],
+      120 => [
         'bg' => '#de6c45',
         'fg' => '#ffffff',
-      ),
-      121 => 
-      array (
+      ],
+      121 => [
         'bg' => '#75b042',
         'fg' => '#ffffff',
-      ),
-      421 => 
-      array (
+      ],
+      421 => [
         'bg' => '#d0a233',
         'fg' => '#ffffff',
-      ),
-      612 => 
-      array (
+      ],
+      612 => [
         'bg' => '#cc9d80',
         'fg' => '#ffffff',
-      ),
-      613 => 
-      array (
+      ],
+      613 => [
         'bg' => '#cfbe7d',
         'fg' => '#ffffff',
-      ),
-    ),
-    'NFO' => 
-    array (
-      101 => 
-      array (
+      ],
+    ],
+    'NFO' => [
+      101 => [
         'bg' => '#004071',
         'fg' => '#ffffff',
-      ),
-      102 => 
-      array (
+      ],
+      102 => [
         'bg' => '#00a5d3',
         'fg' => '#ffffff',
-      ),
-      107 => 
-      array (
+      ],
+      107 => [
         'bg' => '#da2128',
         'fg' => '#ffffff',
-      ),
-    ),
-    'R' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'R' => [
+      'ALL_LINES' => [
         'bg' => '#003399',
         'fg' => '#ffffff',
-      ),
-    ),
-  ),
-  'TRN-tn F' => 
-  array (
-    'FUN' => 
-    array (
-      2011 => 
-      array (
+      ],
+    ],
+  ],
+  'TRN-tn F' => [
+    'FUN' => [
+      2011 => [
         'bg' => '',
         'fg' => '',
-      ),
-      2012 => 
-      array (
+      ],
+      2012 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'TRN/Auto' => 
-  array (
-    'NFB' => 
-    array (
-      422 => 
-      array (
+      ],
+    ],
+  ],
+  'TRN/Auto' => [
+    'NFB' => [
+      422 => [
         'bg' => '',
         'fg' => '',
-      ),
-      423 => 
-      array (
+      ],
+      423 => [
         'bg' => '',
         'fg' => '',
-      ),
-      450 => 
-      array (
+      ],
+      450 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'TRN/Autr' => 
-  array (
-    'NFB' => 
-    array (
-      590 => 
-      array (
+      ],
+    ],
+  ],
+  'TRN/Autr' => [
+    'NFB' => [
+      590 => [
         'bg' => '',
         'fg' => '',
-      ),
-      591 => 
-      array (
+      ],
+      591 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'TRN/tc' => 
-  array (
-    'NFB' => 
-    array (
-      301 => 
-      array (
+      ],
+    ],
+  ],
+  'TRN/tc' => [
+    'NFB' => [
+      301 => [
         'bg' => '#3d4798',
         'fg' => '#ffffff',
-      ),
-      302 => 
-      array (
+      ],
+      302 => [
         'bg' => '#ee1d23',
         'fg' => '#ffffff',
-      ),
-      303 => 
-      array (
+      ],
+      303 => [
         'bg' => '#ffef0e',
         'fg' => '#000000',
-      ),
-      304 => 
-      array (
+      ],
+      304 => [
         'bg' => '#00ac54',
         'fg' => '#ffffff',
-      ),
-      305 => 
-      array (
+      ],
+      305 => [
         'bg' => '#79c142',
         'fg' => '#ffffff',
-      ),
-      310 => 
-      array (
+      ],
+      310 => [
         'bg' => '#cf7fb5',
         'fg' => '#ffffff',
-      ),
-      311 => 
-      array (
+      ],
+      311 => [
         'bg' => '#f68b1f',
         'fg' => '#ffffff',
-      ),
-      312 => 
-      array (
+      ],
+      312 => [
         'bg' => '#b1112b',
         'fg' => '#ffffff',
-      ),
-      341 => 
-      array (
+      ],
+      341 => [
         'bg' => '#3d4798',
         'fg' => '#ffffff',
-      ),
-      342 => 
-      array (
+      ],
+      342 => [
         'bg' => '#ee1d23',
         'fg' => '#ffffff',
-      ),
-      352 => 
-      array (
+      ],
+      352 => [
         'bg' => '#29a350',
         'fg' => '#ffffff',
-      ),
-      353 => 
-      array (
+      ],
+      353 => [
         'bg' => '#fed105',
         'fg' => '#ffffff',
-      ),
-      354 => 
-      array (
+      ],
+      354 => [
         'bg' => '#e51a23',
         'fg' => '#ffffff',
-      ),
-      360 => 
-      array (
+      ],
+      360 => [
         'bg' => '#4793cd',
         'fg' => '#ffffff',
-      ),
-      361 => 
-      array (
+      ],
+      361 => [
         'bg' => '',
         'fg' => '',
-      ),
-      370 => 
-      array (
+      ],
+      370 => [
         'bg' => '#b4a79b',
         'fg' => '#ffffff',
-      ),
-    ),
-    'NFO' => 
-    array (
-      341 => 
-      array (
+      ],
+    ],
+    'NFO' => [
+      341 => [
         'bg' => '#3d4798',
         'fg' => '#ffffff',
-      ),
-    ),
-  ),
-  'TSB' => 
-  array (
-    'FUN' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'TSB' => [
+    'FUN' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'TSD-asdt' => 
-  array (
-    'BUS' => 
-    array (
-      371 => 
-      array (
+      ],
+    ],
+  ],
+  'TSD-asdt' => [
+    'BUS' => [
+      371 => [
         'bg' => '',
         'fg' => '',
-      ),
-      372 => 
-      array (
+      ],
+      372 => [
         'bg' => '',
         'fg' => '',
-      ),
-      373 => 
-      array (
+      ],
+      373 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'TSD-tcld' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'TSD-tcld' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'TTG-tpcj' => 
-  array (
-    'SL' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'TTG-tpcj' => [
+    'SL' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'TTG-tpct' => 
-  array (
-    'SL' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'TTG-tpct' => [
+    'SL' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'TTM-tmpf' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'TTM-tmpf' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-    'FUN' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'FUN' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'TTY-tce' => 
-  array (
-    'SL' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'TTY-tce' => [
+    'SL' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'TV' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'TV' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-    'GB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'GB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-    'SL' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'SL' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'TVCM' => 
-  array (
-    'GB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'TVCM' => [
+    'GB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'TVG' => 
-  array (
-    'GB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'TVG' => [
+    'GB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'TVSA' => 
-  array (
-    'GB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'TVSA' => [
+    'GB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'URh' => 
-  array (
-    'BAT' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'URh' => [
+    'BAT' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'VB' => 
-  array (
-    'BUS' => 
-    array (
-      1 => 
-      array (
+      ],
+    ],
+  ],
+  'VB' => [
+    'BUS' => [
+      1 => [
         'bg' => '#e60005',
         'fg' => '#ffffff',
-      ),
-      2 => 
-      array (
+      ],
+      2 => [
         'bg' => '#008fd7',
         'fg' => '#ffffff',
-      ),
-      4 => 
-      array (
+      ],
+      4 => [
         'bg' => '#006f31',
         'fg' => '#ffffff',
-      ),
-      5 => 
-      array (
+      ],
+      5 => [
         'bg' => '#5eaf21',
         'fg' => '#ffffff',
-      ),
-      6 => 
-      array (
+      ],
+      6 => [
         'bg' => '#d70083',
         'fg' => '#ffffff',
-      ),
-      7 => 
-      array (
+      ],
+      7 => [
         'bg' => '#ee7900',
         'fg' => '#ffffff',
-      ),
-      8 => 
-      array (
+      ],
+      8 => [
         'bg' => '#813b92',
         'fg' => '#ffffff',
-      ),
-      11 => 
-      array (
+      ],
+      11 => [
         'bg' => '#a71818',
         'fg' => '#ffffff',
-      ),
-      70 => 
-      array (
+      ],
+      70 => [
         'bg' => '#97979b',
         'fg' => '#ffffff',
-      ),
-      71 => 
-      array (
+      ],
+      71 => [
         'bg' => '#97979b',
         'fg' => '#ffffff',
-      ),
-    ),
-    'NFB' => 
-    array (
-      75 => 
-      array (
+      ],
+    ],
+    'NFB' => [
+      75 => [
         'bg' => '#97979b',
         'fg' => '#ffffff',
-      ),
-    ),
-    'TRO' => 
-    array (
-      1 => 
-      array (
+      ],
+    ],
+    'TRO' => [
+      1 => [
         'bg' => '#e60005',
         'fg' => '#ffffff',
-      ),
-      4 => 
-      array (
+      ],
+      4 => [
         'bg' => '#006f31',
         'fg' => '#ffffff',
-      ),
-    ),
-    'FUN' => 
-    array (
-      'FUNIC ?v' => 
-      array (
+      ],
+    ],
+    'FUN' => [
+      'FUNIC ?v' => [
         'bg' => '',
         'fg' => '',
-      ),
-      'FUNIC Ma' => 
-      array (
+      ],
+      'FUNIC Ma' => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'VBD' => 
-  array (
-    'NFB' => 
-    array (
-      1 => 
-      array (
+      ],
+    ],
+  ],
+  'VBD' => [
+    'NFB' => [
+      1 => [
         'bg' => '',
         'fg' => '',
-      ),
-      3 => 
-      array (
+      ],
+      3 => [
         'bg' => '',
         'fg' => '',
-      ),
-      4 => 
-      array (
+      ],
+      4 => [
         'bg' => '',
         'fg' => '',
-      ),
-      7 => 
-      array (
+      ],
+      7 => [
         'bg' => '',
         'fg' => '',
-      ),
-      8 => 
-      array (
+      ],
+      8 => [
         'bg' => '',
         'fg' => '',
-      ),
-      10 => 
-      array (
+      ],
+      10 => [
         'bg' => '',
         'fg' => '',
-      ),
-      12 => 
-      array (
+      ],
+      12 => [
         'bg' => '',
         'fg' => '',
-      ),
-      13 => 
-      array (
+      ],
+      13 => [
         'bg' => '',
         'fg' => '',
-      ),
-      'N' => 
-      array (
+      ],
+      'N' => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'VBG' => 
-  array (
-    'NB' => 
-    array (
-      'N45' => 
-      array (
+      ],
+    ],
+  ],
+  'VBG' => [
+    'NB' => [
+      'N45' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N62' => 
-      array (
+      ],
+      'N62' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N72' => 
-      array (
+      ],
+      'N72' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N78' => 
-      array (
+      ],
+      'N78' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-    ),
-    'NFB' => 
-    array (
-      449 => 
-      array (
+      ],
+    ],
+    'NFB' => [
+      449 => [
         'bg' => '',
         'fg' => '',
-      ),
-      450 => 
-      array (
+      ],
+      450 => [
         'bg' => '',
         'fg' => '',
-      ),
-      451 => 
-      array (
+      ],
+      451 => [
         'bg' => '',
         'fg' => '',
-      ),
-      452 => 
-      array (
+      ],
+      452 => [
         'bg' => '',
         'fg' => '',
-      ),
-      453 => 
-      array (
+      ],
+      453 => [
         'bg' => '',
         'fg' => '',
-      ),
-      454 => 
-      array (
+      ],
+      454 => [
         'bg' => '',
         'fg' => '',
-      ),
-      455 => 
-      array (
+      ],
+      455 => [
         'bg' => '',
         'fg' => '',
-      ),
-      456 => 
-      array (
+      ],
+      456 => [
         'bg' => '',
         'fg' => '',
-      ),
-      485 => 
-      array (
+      ],
+      485 => [
         'bg' => '',
         'fg' => '',
-      ),
-      491 => 
-      array (
+      ],
+      491 => [
         'bg' => '',
         'fg' => '',
-      ),
-      593 => 
-      array (
+      ],
+      593 => [
         'bg' => '',
         'fg' => '',
-      ),
-      640 => 
-      array (
+      ],
+      640 => [
         'bg' => '',
         'fg' => '',
-      ),
-      650 => 
-      array (
+      ],
+      650 => [
         'bg' => '',
         'fg' => '',
-      ),
-      652 => 
-      array (
+      ],
+      652 => [
         'bg' => '',
         'fg' => '',
-      ),
-      655 => 
-      array (
+      ],
+      655 => [
         'bg' => '',
         'fg' => '',
-      ),
-      656 => 
-      array (
+      ],
+      656 => [
         'bg' => '',
         'fg' => '',
-      ),
-      658 => 
-      array (
+      ],
+      658 => [
         'bg' => '',
         'fg' => '',
-      ),
-      659 => 
-      array (
+      ],
+      659 => [
         'bg' => '',
         'fg' => '',
-      ),
-      662 => 
-      array (
+      ],
+      662 => [
         'bg' => '',
         'fg' => '',
-      ),
-      720 => 
-      array (
+      ],
+      720 => [
         'bg' => '',
         'fg' => '',
-      ),
-      721 => 
-      array (
+      ],
+      721 => [
         'bg' => '',
         'fg' => '',
-      ),
-      725 => 
-      array (
+      ],
+      725 => [
         'bg' => '',
         'fg' => '',
-      ),
-      726 => 
-      array (
+      ],
+      726 => [
         'bg' => '',
         'fg' => '',
-      ),
-      727 => 
-      array (
+      ],
+      727 => [
         'bg' => '',
         'fg' => '',
-      ),
-      731 => 
-      array (
+      ],
+      731 => [
         'bg' => '',
         'fg' => '',
-      ),
-      732 => 
-      array (
+      ],
+      732 => [
         'bg' => '',
         'fg' => '',
-      ),
-      733 => 
-      array (
+      ],
+      733 => [
         'bg' => '',
         'fg' => '',
-      ),
-      734 => 
-      array (
+      ],
+      734 => [
         'bg' => '',
         'fg' => '',
-      ),
-      735 => 
-      array (
+      ],
+      735 => [
         'bg' => '',
         'fg' => '',
-      ),
-      736 => 
-      array (
+      ],
+      736 => [
         'bg' => '',
         'fg' => '',
-      ),
-      737 => 
-      array (
+      ],
+      737 => [
         'bg' => '',
         'fg' => '',
-      ),
-      742 => 
-      array (
+      ],
+      742 => [
         'bg' => '',
         'fg' => '',
-      ),
-      748 => 
-      array (
+      ],
+      748 => [
         'bg' => '',
         'fg' => '',
-      ),
-      749 => 
-      array (
+      ],
+      749 => [
         'bg' => '',
         'fg' => '',
-      ),
-      752 => 
-      array (
+      ],
+      752 => [
         'bg' => '',
         'fg' => '',
-      ),
-      754 => 
-      array (
+      ],
+      754 => [
         'bg' => '',
         'fg' => '',
-      ),
-      759 => 
-      array (
+      ],
+      759 => [
         'bg' => '',
         'fg' => '',
-      ),
-      760 => 
-      array (
+      ],
+      760 => [
         'bg' => '',
         'fg' => '',
-      ),
-      761 => 
-      array (
+      ],
+      761 => [
         'bg' => '',
         'fg' => '',
-      ),
-      762 => 
-      array (
+      ],
+      762 => [
         'bg' => '',
         'fg' => '',
-      ),
-      764 => 
-      array (
+      ],
+      764 => [
         'bg' => '',
         'fg' => '',
-      ),
-      765 => 
-      array (
+      ],
+      765 => [
         'bg' => '',
         'fg' => '',
-      ),
-      766 => 
-      array (
+      ],
+      766 => [
         'bg' => '',
         'fg' => '',
-      ),
-      768 => 
-      array (
+      ],
+      768 => [
         'bg' => '',
         'fg' => '',
-      ),
-      769 => 
-      array (
+      ],
+      769 => [
         'bg' => '',
         'fg' => '',
-      ),
-      771 => 
-      array (
+      ],
+      771 => [
         'bg' => '',
         'fg' => '',
-      ),
-      772 => 
-      array (
+      ],
+      772 => [
         'bg' => '',
         'fg' => '',
-      ),
-      781 => 
-      array (
+      ],
+      781 => [
         'bg' => '',
         'fg' => '',
-      ),
-      787 => 
-      array (
+      ],
+      787 => [
         'bg' => '',
         'fg' => '',
-      ),
-      795 => 
-      array (
+      ],
+      795 => [
         'bg' => '',
         'fg' => '',
-      ),
-      796 => 
-      array (
+      ],
+      796 => [
         'bg' => '',
         'fg' => '',
-      ),
-      797 => 
-      array (
+      ],
+      797 => [
         'bg' => '',
         'fg' => '',
-      ),
-      'E' => 
-      array (
+      ],
+      'E' => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'VBH' => 
-  array (
-    'NFB' => 
-    array (
-      171 => 
-      array (
+      ],
+    ],
+  ],
+  'VBH' => [
+    'NFB' => [
+      171 => [
         'bg' => '',
         'fg' => '',
-      ),
-      172 => 
-      array (
+      ],
+      172 => [
         'bg' => '',
         'fg' => '',
-      ),
-      173 => 
-      array (
+      ],
+      173 => [
         'bg' => '',
         'fg' => '',
-      ),
-      174 => 
-      array (
+      ],
+      174 => [
         'bg' => '',
         'fg' => '',
-      ),
-      175 => 
-      array (
+      ],
+      175 => [
         'bg' => '',
         'fg' => '',
-      ),
-      176 => 
-      array (
+      ],
+      176 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'VBL' => 
-  array (
-    'NFB' => 
-    array (
-      1 => 
-      array (
+      ],
+    ],
+  ],
+  'VBL' => [
+    'NFB' => [
+      1 => [
         'bg' => '#00a54f',
         'fg' => '#ffffff',
-      ),
-      2 => 
-      array (
+      ],
+      2 => [
         'bg' => '#f7931d',
         'fg' => '#ffffff',
-      ),
-      6 => 
-      array (
+      ],
+      6 => [
         'bg' => '#cb572b',
         'fg' => '#ffffff',
-      ),
-      8 => 
-      array (
+      ],
+      8 => [
         'bg' => '#feca0a',
         'fg' => '#000000',
-      ),
-      9 => 
-      array (
+      ],
+      9 => [
         'bg' => '#00a54f',
         'fg' => '#ffffff',
-      ),
-      10 => 
-      array (
+      ],
+      10 => [
         'bg' => '#cb572b',
         'fg' => '#ffffff',
-      ),
-      11 => 
-      array (
+      ],
+      11 => [
         'bg' => '#feca0a',
         'fg' => '#000000',
-      ),
-      12 => 
-      array (
+      ],
+      12 => [
         'bg' => '#00a54f',
         'fg' => '#ffffff',
-      ),
-      14 => 
-      array (
+      ],
+      14 => [
         'bg' => '#00a54f',
         'fg' => '#ffffff',
-      ),
-      15 => 
-      array (
+      ],
+      15 => [
         'bg' => '#802990',
         'fg' => '#ffffff',
-      ),
-      16 => 
-      array (
+      ],
+      16 => [
         'bg' => '#cb572b',
         'fg' => '#ffffff',
-      ),
-      18 => 
-      array (
+      ],
+      18 => [
         'bg' => '#ee1d23',
         'fg' => '#ffffff',
-      ),
-      19 => 
-      array (
+      ],
+      19 => [
         'bg' => '#802990',
         'fg' => '#ffffff',
-      ),
-      20 => 
-      array (
+      ],
+      20 => [
         'bg' => '#802990',
         'fg' => '#ffffff',
-      ),
-      21 => 
-      array (
+      ],
+      21 => [
         'bg' => '#7b9540',
         'fg' => '#ffffff',
-      ),
-      22 => 
-      array (
+      ],
+      22 => [
         'bg' => '#6b9dd2',
         'fg' => '#ffffff',
-      ),
-      23 => 
-      array (
+      ],
+      23 => [
         'bg' => '#ee1d23',
         'fg' => '#ffffff',
-      ),
-      24 => 
-      array (
+      ],
+      24 => [
         'bg' => '#a153a1',
         'fg' => '#ffffff',
-      ),
-      25 => 
-      array (
+      ],
+      25 => [
         'bg' => '#ee1d23',
         'fg' => '#ffffff',
-      ),
-      26 => 
-      array (
+      ],
+      26 => [
         'bg' => '#a153a1',
         'fg' => '#ffffff',
-      ),
-      'N1' => 
-      array (
+      ],
+      'N1' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N10' => 
-      array (
+      ],
+      'N10' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N2' => 
-      array (
+      ],
+      'N2' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N3' => 
-      array (
+      ],
+      'N3' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N4' => 
-      array (
+      ],
+      'N4' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N5' => 
-      array (
+      ],
+      'N5' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N6' => 
-      array (
+      ],
+      'N6' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-    ),
-    'NFO' => 
-    array (
-      1 => 
-      array (
+      ],
+    ],
+    'NFO' => [
+      1 => [
         'bg' => '#00a54f',
         'fg' => '#ffffff',
-      ),
-      4 => 
-      array (
+      ],
+      4 => [
         'bg' => '#a153a1',
         'fg' => '#ffffff',
-      ),
-      6 => 
-      array (
+      ],
+      6 => [
         'bg' => '#cb572b',
         'fg' => '#ffffff',
-      ),
-      7 => 
-      array (
+      ],
+      7 => [
         'bg' => '#ee1d23',
         'fg' => '#ffffff',
-      ),
-      8 => 
-      array (
+      ],
+      8 => [
         'bg' => '#feca0a',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'VBSG' => 
-  array (
-    'NFB' => 
-    array (
-      2 => 
-      array (
+      ],
+    ],
+  ],
+  'VBSG' => [
+    'NFB' => [
+      2 => [
         'bg' => '#d19360',
         'fg' => '#ffffff',
-      ),
-      4 => 
-      array (
+      ],
+      4 => [
         'bg' => '#ec6ea7',
         'fg' => '#ffffff',
-      ),
-      6 => 
-      array (
+      ],
+      6 => [
         'bg' => '#a74b97',
         'fg' => '#ffffff',
-      ),
-      7 => 
-      array (
+      ],
+      7 => [
         'bg' => '#94c11f',
         'fg' => '#ffffff',
-      ),
-      8 => 
-      array (
+      ],
+      8 => [
         'bg' => '#708fa6',
         'fg' => '#ffffff',
-      ),
-      9 => 
-      array (
+      ],
+      9 => [
         'bg' => '#ef7d25',
         'fg' => '#ffffff',
-      ),
-      10 => 
-      array (
+      ],
+      10 => [
         'bg' => '#00a789',
         'fg' => '#ffffff',
-      ),
-      11 => 
-      array (
+      ],
+      11 => [
         'bg' => '#b19fcd',
         'fg' => '#ffffff',
-      ),
-      251 => 
-      array (
+      ],
+      251 => [
         'bg' => '',
         'fg' => '',
-      ),
-      252 => 
-      array (
+      ],
+      252 => [
         'bg' => '',
         'fg' => '',
-      ),
-      253 => 
-      array (
+      ],
+      253 => [
         'bg' => '',
         'fg' => '',
-      ),
-      'N1' => 
-      array (
+      ],
+      'N1' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N2' => 
-      array (
+      ],
+      'N2' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-    ),
-    'NFO' => 
-    array (
-      1 => 
-      array (
+      ],
+    ],
+    'NFO' => [
+      1 => [
         'bg' => '#ffdd05',
         'fg' => '#000000',
-      ),
-      3 => 
-      array (
+      ],
+      3 => [
         'bg' => '#d00f13',
         'fg' => '#ffffff',
-      ),
-      4 => 
-      array (
+      ],
+      4 => [
         'bg' => '#ec6ea7',
         'fg' => '#ffffff',
-      ),
-      5 => 
-      array (
+      ],
+      5 => [
         'bg' => '#0e92d1',
         'fg' => '#ffffff',
-      ),
-    ),
-  ),
-  'VBSH' => 
-  array (
-    'NFB' => 
-    array (
-      3 => 
-      array (
+      ],
+    ],
+  ],
+  'VBSH' => [
+    'NFB' => [
+      3 => [
         'bg' => '#d9531c',
         'fg' => '#ffffff',
-      ),
-      4 => 
-      array (
+      ],
+      4 => [
         'bg' => '#231f20',
         'fg' => '#ffffff',
-      ),
-      5 => 
-      array (
+      ],
+      5 => [
         'bg' => '#008bb0',
         'fg' => '#ffffff',
-      ),
-      6 => 
-      array (
+      ],
+      6 => [
         'bg' => '#fec221',
         'fg' => '#000000',
-      ),
-      8 => 
-      array (
+      ],
+      8 => [
         'bg' => '#593e99',
         'fg' => '#ffffff',
-      ),
-      'Kino' => 
-      array (
+      ],
+      'Kino' => [
         'bg' => '',
         'fg' => '',
-      ),
-      'N1' => 
-      array (
+      ],
+      'N1' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N2' => 
-      array (
+      ],
+      'N2' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N3' => 
-      array (
+      ],
+      'N3' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N4' => 
-      array (
+      ],
+      'N4' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-    ),
-    'NFO' => 
-    array (
-      1 => 
-      array (
+      ],
+    ],
+    'NFO' => [
+      1 => [
         'bg' => '#006f3c',
         'fg' => '#ffffff',
-      ),
-    ),
-  ),
-  'VBZ' => 
-  array (
-    'BUS' => 
-    array (
-      910 => 
-      array (
+      ],
+    ],
+  ],
+  'VBZ' => [
+    'BUS' => [
+      910 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-    'KB' => 
-    array (
-      35 => 
-      array (
+      ],
+    ],
+    'KB' => [
+      35 => [
         'bg' => '',
         'fg' => '',
-      ),
-      39 => 
-      array (
+      ],
+      39 => [
         'bg' => '',
         'fg' => '',
-      ),
-      66 => 
-      array (
+      ],
+      66 => [
         'bg' => '',
         'fg' => '',
-      ),
-      73 => 
-      array (
+      ],
+      73 => [
         'bg' => '',
         'fg' => '',
-      ),
-      91 => 
-      array (
+      ],
+      91 => [
         'bg' => '',
         'fg' => '',
-      ),
-      307 => 
-      array (
+      ],
+      307 => [
         'bg' => '',
         'fg' => '',
-      ),
-      916 => 
-      array (
+      ],
+      916 => [
         'bg' => '',
         'fg' => '',
-      ),
-      917 => 
-      array (
+      ],
+      917 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-    'NB' => 
-    array (
-      'N1' => 
-      array (
+      ],
+    ],
+    'NB' => [
+      'N1' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N11' => 
-      array (
+      ],
+      'N11' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N12' => 
-      array (
+      ],
+      'N12' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N13' => 
-      array (
+      ],
+      'N13' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N14' => 
-      array (
+      ],
+      'N14' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N15' => 
-      array (
+      ],
+      'N15' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N16' => 
-      array (
+      ],
+      'N16' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N17' => 
-      array (
+      ],
+      'N17' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N18' => 
-      array (
+      ],
+      'N18' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N19' => 
-      array (
+      ],
+      'N19' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N2' => 
-      array (
+      ],
+      'N2' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N30' => 
-      array (
+      ],
+      'N30' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N4' => 
-      array (
+      ],
+      'N4' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N5' => 
-      array (
+      ],
+      'N5' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N6' => 
-      array (
+      ],
+      'N6' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N7' => 
-      array (
+      ],
+      'N7' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N8' => 
-      array (
+      ],
+      'N8' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-    ),
-    'NFB' => 
-    array (
-      31 => 
-      array (
+      ],
+    ],
+    'NFB' => [
+      31 => [
         'bg' => '#a5a4cb',
         'fg' => '#ffffff',
-      ),
-      32 => 
-      array (
+      ],
+      32 => [
         'bg' => '#d3b6ce',
         'fg' => '#000000',
-      ),
-      33 => 
-      array (
+      ],
+      33 => [
         'bg' => '#e9e8ad',
         'fg' => '#000000',
-      ),
-      34 => 
-      array (
+      ],
+      34 => [
         'bg' => '',
         'fg' => '',
-      ),
-      35 => 
-      array (
+      ],
+      35 => [
         'bg' => '',
         'fg' => '',
-      ),
-      37 => 
-      array (
+      ],
+      37 => [
         'bg' => '',
         'fg' => '',
-      ),
-      38 => 
-      array (
+      ],
+      38 => [
         'bg' => '',
         'fg' => '',
-      ),
-      40 => 
-      array (
+      ],
+      40 => [
         'bg' => '',
         'fg' => '',
-      ),
-      46 => 
-      array (
+      ],
+      46 => [
         'bg' => '#cfdfad',
         'fg' => '#000000',
-      ),
-      61 => 
-      array (
+      ],
+      61 => [
         'bg' => '',
         'fg' => '',
-      ),
-      62 => 
-      array (
+      ],
+      62 => [
         'bg' => '#d4ccbb',
         'fg' => '#000000',
-      ),
-      64 => 
-      array (
+      ],
+      64 => [
         'bg' => '',
         'fg' => '',
-      ),
-      66 => 
-      array (
+      ],
+      66 => [
         'bg' => '',
         'fg' => '',
-      ),
-      67 => 
-      array (
+      ],
+      67 => [
         'bg' => '',
         'fg' => '',
-      ),
-      69 => 
-      array (
+      ],
+      69 => [
         'bg' => '',
         'fg' => '',
-      ),
-      70 => 
-      array (
+      ],
+      70 => [
         'bg' => '',
         'fg' => '',
-      ),
-      72 => 
-      array (
+      ],
+      72 => [
         'bg' => '#ceaf99',
         'fg' => '#000000',
-      ),
-      75 => 
-      array (
+      ],
+      75 => [
         'bg' => '',
         'fg' => '',
-      ),
-      76 => 
-      array (
+      ],
+      76 => [
         'bg' => '',
         'fg' => '',
-      ),
-      77 => 
-      array (
+      ],
+      77 => [
         'bg' => '',
         'fg' => '',
-      ),
-      78 => 
-      array (
+      ],
+      78 => [
         'bg' => '',
         'fg' => '',
-      ),
-      79 => 
-      array (
+      ],
+      79 => [
         'bg' => '',
         'fg' => '',
-      ),
-      80 => 
-      array (
+      ],
+      80 => [
         'bg' => '#d8dcc1',
         'fg' => '#000000',
-      ),
-      83 => 
-      array (
+      ],
+      83 => [
         'bg' => '',
         'fg' => '',
-      ),
-      89 => 
-      array (
+      ],
+      89 => [
         'bg' => '',
         'fg' => '',
-      ),
-      94 => 
-      array (
+      ],
+      94 => [
         'bg' => '#9d958b',
         'fg' => '#000000',
-      ),
-      161 => 
-      array (
+      ],
+      161 => [
         'bg' => '',
         'fg' => '',
-      ),
-      162 => 
-      array (
+      ],
+      162 => [
         'bg' => '',
         'fg' => '',
-      ),
-      163 => 
-      array (
+      ],
+      163 => [
         'bg' => '',
         'fg' => '',
-      ),
-      165 => 
-      array (
+      ],
+      165 => [
         'bg' => '',
         'fg' => '',
-      ),
-      184 => 
-      array (
+      ],
+      184 => [
         'bg' => '',
         'fg' => '',
-      ),
-      185 => 
-      array (
+      ],
+      185 => [
         'bg' => '',
         'fg' => '',
-      ),
-      301 => 
-      array (
+      ],
+      301 => [
         'bg' => '',
         'fg' => '',
-      ),
-      302 => 
-      array (
+      ],
+      302 => [
         'bg' => '',
         'fg' => '',
-      ),
-      303 => 
-      array (
+      ],
+      303 => [
         'bg' => '',
         'fg' => '',
-      ),
-      304 => 
-      array (
+      ],
+      304 => [
         'bg' => '',
         'fg' => '',
-      ),
-      305 => 
-      array (
+      ],
+      305 => [
         'bg' => '',
         'fg' => '',
-      ),
-      306 => 
-      array (
+      ],
+      306 => [
         'bg' => '',
         'fg' => '',
-      ),
-      308 => 
-      array (
+      ],
+      308 => [
         'bg' => '',
         'fg' => '',
-      ),
-      309 => 
-      array (
+      ],
+      309 => [
         'bg' => '',
         'fg' => '',
-      ),
-      311 => 
-      array (
+      ],
+      311 => [
         'bg' => '',
         'fg' => '',
-      ),
-      314 => 
-      array (
+      ],
+      314 => [
         'bg' => '',
         'fg' => '',
-      ),
-      315 => 
-      array (
+      ],
+      315 => [
         'bg' => '',
         'fg' => '',
-      ),
-      325 => 
-      array (
+      ],
+      325 => [
         'bg' => '',
         'fg' => '',
-      ),
-      701 => 
-      array (
+      ],
+      701 => [
         'bg' => '',
         'fg' => '',
-      ),
-      703 => 
-      array (
+      ],
+      703 => [
         'bg' => '',
         'fg' => '',
-      ),
-      704 => 
-      array (
+      ],
+      704 => [
         'bg' => '',
         'fg' => '',
-      ),
-      705 => 
-      array (
+      ],
+      705 => [
         'bg' => '',
         'fg' => '',
-      ),
-      743 => 
-      array (
+      ],
+      743 => [
         'bg' => '',
         'fg' => '',
-      ),
-      744 => 
-      array (
+      ],
+      744 => [
         'bg' => '',
         'fg' => '',
-      ),
-      745 => 
-      array (
+      ],
+      745 => [
         'bg' => '',
         'fg' => '',
-      ),
-      751 => 
-      array (
+      ],
+      751 => [
         'bg' => '#4b3889',
         'fg' => '#ffffff',
-      ),
-      910 => 
-      array (
+      ],
+      910 => [
         'bg' => '',
         'fg' => '',
-      ),
-      912 => 
-      array (
+      ],
+      912 => [
         'bg' => '',
         'fg' => '',
-      ),
-      916 => 
-      array (
+      ],
+      916 => [
         'bg' => '',
         'fg' => '',
-      ),
-      918 => 
-      array (
+      ],
+      918 => [
         'bg' => '',
         'fg' => '',
-      ),
-      919 => 
-      array (
+      ],
+      919 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-    'FUN' => 
-    array (
-      23 => 
-      array (
+      ],
+    ],
+    'FUN' => [
+      23 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'VBZ    F' => 
-  array (
-    'NFT' => 
-    array (
-      2 => 
-      array (
+      ],
+    ],
+  ],
+  'VBZ    F' => [
+    'NFT' => [
+      2 => [
         'bg' => '#c0322a',
         'fg' => '#ffffff',
-      ),
-      3 => 
-      array (
+      ],
+      3 => [
         'bg' => '#5ca040',
         'fg' => '#ffffff',
-      ),
-      4 => 
-      array (
+      ],
+      4 => [
         'bg' => '#4b3889',
         'fg' => '#ffffff',
-      ),
-      5 => 
-      array (
+      ],
+      5 => [
         'bg' => '#826231',
         'fg' => '#ffffff',
-      ),
-      6 => 
-      array (
+      ],
+      6 => [
         'bg' => '#caa84f',
         'fg' => '#ffffff',
-      ),
-      7 => 
-      array (
+      ],
+      7 => [
         'bg' => '#000000',
         'fg' => '#ffffff',
-      ),
-      9 => 
-      array (
+      ],
+      9 => [
         'bg' => '#4b3889',
         'fg' => '#ffffff',
-      ),
-      10 => 
-      array (
+      ],
+      10 => [
         'bg' => '#c74486',
         'fg' => '#ffffff',
-      ),
-      11 => 
-      array (
+      ],
+      11 => [
         'bg' => '#5ca040',
         'fg' => '#ffffff',
-      ),
-      12 => 
-      array (
+      ],
+      12 => [
         'bg' => '#b6d6e5',
         'fg' => '#000000',
-      ),
-      13 => 
-      array (
+      ],
+      13 => [
         'bg' => '#efdb2c',
         'fg' => '#000000',
-      ),
-      14 => 
-      array (
+      ],
+      14 => [
         'bg' => '#61aadb',
         'fg' => '#ffffff',
-      ),
-      17 => 
-      array (
+      ],
+      17 => [
         'bg' => '#872563',
         'fg' => '#ffffff',
-      ),
-    ),
-    'T' => 
-    array (
-      2 => 
-      array (
+      ],
+    ],
+    'T' => [
+      2 => [
         'bg' => '#c0322a',
         'fg' => '#ffffff',
-      ),
-      3 => 
-      array (
+      ],
+      3 => [
         'bg' => '#5ca040',
         'fg' => '#ffffff',
-      ),
-      4 => 
-      array (
+      ],
+      4 => [
         'bg' => '#4b3889',
         'fg' => '#ffffff',
-      ),
-      5 => 
-      array (
+      ],
+      5 => [
         'bg' => '#826231',
         'fg' => '#ffffff',
-      ),
-      8 => 
-      array (
+      ],
+      8 => [
         'bg' => '#accc2d',
         'fg' => '#000000',
-      ),
-      9 => 
-      array (
+      ],
+      9 => [
         'bg' => '#4b3889',
         'fg' => '#ffffff',
-      ),
-      11 => 
-      array (
+      ],
+      11 => [
         'bg' => '#5ca040',
         'fg' => '#ffffff',
-      ),
-      13 => 
-      array (
+      ],
+      13 => [
         'bg' => '#efdb2c',
         'fg' => '#000000',
-      ),
-      14 => 
-      array (
+      ],
+      14 => [
         'bg' => '#61aadb',
         'fg' => '#ffffff',
-      ),
-      15 => 
-      array (
+      ],
+      15 => [
         'bg' => '#c0322a',
         'fg' => '#ffffff',
-      ),
-      17 => 
-      array (
+      ],
+      17 => [
         'bg' => '#872563',
         'fg' => '#ffffff',
-      ),
-    ),
-  ),
-  'VMCV' => 
-  array (
-    'BUS' => 
-    array (
-      201 => 
-      array (
+      ],
+    ],
+  ],
+  'VMCV' => [
+    'BUS' => [
+      201 => [
         'bg' => '',
         'fg' => '',
-      ),
-      202 => 
-      array (
+      ],
+      202 => [
         'bg' => '',
         'fg' => '',
-      ),
-      203 => 
-      array (
+      ],
+      203 => [
         'bg' => '',
         'fg' => '',
-      ),
-      204 => 
-      array (
+      ],
+      204 => [
         'bg' => '',
         'fg' => '',
-      ),
-      205 => 
-      array (
+      ],
+      205 => [
         'bg' => '',
         'fg' => '',
-      ),
-      206 => 
-      array (
+      ],
+      206 => [
         'bg' => '',
         'fg' => '',
-      ),
-      207 => 
-      array (
+      ],
+      207 => [
         'bg' => '',
         'fg' => '',
-      ),
-      210 => 
-      array (
+      ],
+      210 => [
         'bg' => '',
         'fg' => '',
-      ),
-      211 => 
-      array (
+      ],
+      211 => [
         'bg' => '',
         'fg' => '',
-      ),
-      212 => 
-      array (
+      ],
+      212 => [
         'bg' => '',
         'fg' => '',
-      ),
-      213 => 
-      array (
+      ],
+      213 => [
         'bg' => '',
         'fg' => '',
-      ),
-      214 => 
-      array (
+      ],
+      214 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'VNB' => 
-  array (
-    'KB' => 
-    array (
-      494 => 
-      array (
+      ],
+    ],
+  ],
+  'VNB' => [
+    'KB' => [
+      494 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'VSK-bkk' => 
-  array (
-    'NFB' => 
-    array (
-      901 => 
-      array (
+      ],
+    ],
+  ],
+  'VSK-bkk' => [
+    'NFB' => [
+      901 => [
         'bg' => '',
         'fg' => '',
-      ),
-      902 => 
-      array (
+      ],
+      902 => [
         'bg' => '',
         'fg' => '',
-      ),
-      903 => 
-      array (
+      ],
+      903 => [
         'bg' => '',
         'fg' => '',
-      ),
-      905 => 
-      array (
+      ],
+      905 => [
         'bg' => '',
         'fg' => '',
-      ),
-      906 => 
-      array (
+      ],
+      906 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'VZO' => 
-  array (
-    'BUS' => 
-    array (
-      883 => 
-      array (
+      ],
+    ],
+  ],
+  'VZO' => [
+    'BUS' => [
+      883 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-    'KB' => 
-    array (
-      961 => 
-      array (
+      ],
+    ],
+    'KB' => [
+      961 => [
         'bg' => '',
         'fg' => '',
-      ),
-      962 => 
-      array (
+      ],
+      962 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-    'NB' => 
-    array (
-      'N81' => 
-      array (
+      ],
+    ],
+    'NB' => [
+      'N81' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N84' => 
-      array (
+      ],
+      'N84' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N86' => 
-      array (
+      ],
+      'N86' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N87' => 
-      array (
+      ],
+      'N87' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N88' => 
-      array (
+      ],
+      'N88' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N92' => 
-      array (
+      ],
+      'N92' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N95' => 
-      array (
+      ],
+      'N95' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-    ),
-    'NFB' => 
-    array (
-      811 => 
-      array (
+      ],
+    ],
+    'NFB' => [
+      811 => [
         'bg' => '',
         'fg' => '',
-      ),
-      812 => 
-      array (
+      ],
+      812 => [
         'bg' => '',
         'fg' => '',
-      ),
-      813 => 
-      array (
+      ],
+      813 => [
         'bg' => '',
         'fg' => '',
-      ),
-      816 => 
-      array (
+      ],
+      816 => [
         'bg' => '',
         'fg' => '',
-      ),
-      817 => 
-      array (
+      ],
+      817 => [
         'bg' => '',
         'fg' => '',
-      ),
-      842 => 
-      array (
+      ],
+      842 => [
         'bg' => '',
         'fg' => '',
-      ),
-      845 => 
-      array (
+      ],
+      845 => [
         'bg' => '',
         'fg' => '',
-      ),
-      850 => 
-      array (
+      ],
+      850 => [
         'bg' => '',
         'fg' => '',
-      ),
-      851 => 
-      array (
+      ],
+      851 => [
         'bg' => '',
         'fg' => '',
-      ),
-      852 => 
-      array (
+      ],
+      852 => [
         'bg' => '',
         'fg' => '',
-      ),
-      853 => 
-      array (
+      ],
+      853 => [
         'bg' => '',
         'fg' => '',
-      ),
-      854 => 
-      array (
+      ],
+      854 => [
         'bg' => '',
         'fg' => '',
-      ),
-      856 => 
-      array (
+      ],
+      856 => [
         'bg' => '',
         'fg' => '',
-      ),
-      857 => 
-      array (
+      ],
+      857 => [
         'bg' => '',
         'fg' => '',
-      ),
-      858 => 
-      array (
+      ],
+      858 => [
         'bg' => '',
         'fg' => '',
-      ),
-      862 => 
-      array (
+      ],
+      862 => [
         'bg' => '',
         'fg' => '',
-      ),
-      867 => 
-      array (
+      ],
+      867 => [
         'bg' => '',
         'fg' => '',
-      ),
-      869 => 
-      array (
+      ],
+      869 => [
         'bg' => '',
         'fg' => '',
-      ),
-      870 => 
-      array (
+      ],
+      870 => [
         'bg' => '',
         'fg' => '',
-      ),
-      875 => 
-      array (
+      ],
+      875 => [
         'bg' => '',
         'fg' => '',
-      ),
-      880 => 
-      array (
+      ],
+      880 => [
         'bg' => '',
         'fg' => '',
-      ),
-      882 => 
-      array (
+      ],
+      882 => [
         'bg' => '',
         'fg' => '',
-      ),
-      884 => 
-      array (
+      ],
+      884 => [
         'bg' => '',
         'fg' => '',
-      ),
-      885 => 
-      array (
+      ],
+      885 => [
         'bg' => '',
         'fg' => '',
-      ),
-      888 => 
-      array (
+      ],
+      888 => [
         'bg' => '',
         'fg' => '',
-      ),
-      893 => 
-      array (
+      ],
+      893 => [
         'bg' => '',
         'fg' => '',
-      ),
-      921 => 
-      array (
+      ],
+      921 => [
         'bg' => '',
         'fg' => '',
-      ),
-      922 => 
-      array (
+      ],
+      922 => [
         'bg' => '',
         'fg' => '',
-      ),
-      923 => 
-      array (
+      ],
+      923 => [
         'bg' => '',
         'fg' => '',
-      ),
-      925 => 
-      array (
+      ],
+      925 => [
         'bg' => '',
         'fg' => '',
-      ),
-      931 => 
-      array (
+      ],
+      931 => [
         'bg' => '',
         'fg' => '',
-      ),
-      932 => 
-      array (
+      ],
+      932 => [
         'bg' => '',
         'fg' => '',
-      ),
-      940 => 
-      array (
+      ],
+      940 => [
         'bg' => '',
         'fg' => '',
-      ),
-      941 => 
-      array (
+      ],
+      941 => [
         'bg' => '',
         'fg' => '',
-      ),
-      950 => 
-      array (
+      ],
+      950 => [
         'bg' => '',
         'fg' => '',
-      ),
-      951 => 
-      array (
+      ],
+      951 => [
         'bg' => '',
         'fg' => '',
-      ),
-      952 => 
-      array (
+      ],
+      952 => [
         'bg' => '',
         'fg' => '',
-      ),
-      955 => 
-      array (
+      ],
+      955 => [
         'bg' => '',
         'fg' => '',
-      ),
-      961 => 
-      array (
+      ],
+      961 => [
         'bg' => '',
         'fg' => '',
-      ),
-      962 => 
-      array (
+      ],
+      962 => [
         'bg' => '',
         'fg' => '',
-      ),
-      970 => 
-      array (
+      ],
+      970 => [
         'bg' => '',
         'fg' => '',
-      ),
-      972 => 
-      array (
+      ],
+      972 => [
         'bg' => '',
         'fg' => '',
-      ),
-      973 => 
-      array (
+      ],
+      973 => [
         'bg' => '',
         'fg' => '',
-      ),
-      974 => 
-      array (
+      ],
+      974 => [
         'bg' => '',
         'fg' => '',
-      ),
-      991 => 
-      array (
+      ],
+      991 => [
         'bg' => '',
         'fg' => '',
-      ),
-      992 => 
-      array (
+      ],
+      992 => [
         'bg' => '',
         'fg' => '',
-      ),
-      993 => 
-      array (
+      ],
+      993 => [
         'bg' => '',
         'fg' => '',
-      ),
-      994 => 
-      array (
+      ],
+      994 => [
         'bg' => '',
         'fg' => '',
-      ),
-      995 => 
-      array (
+      ],
+      995 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-    'TX' => 
-    array (
-      871 => 
-      array (
+      ],
+    ],
+    'TX' => [
+      871 => [
         'bg' => '',
         'fg' => '',
-      ),
-      879 => 
-      array (
+      ],
+      879 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'WAB' => 
-  array (
-    'R' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'WAB' => [
+    'R' => [
+      'ALL_LINES' => [
         'bg' => '#003399',
         'fg' => '#ffffff',
-      ),
-    ),
-  ),
-  'WB' => 
-  array (
-    'BUS' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'WB' => [
+    'BUS' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-    'R' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'R' => [
+      'ALL_LINES' => [
         'bg' => '#003399',
         'fg' => '#ffffff',
-      ),
-    ),
-  ),
-  'WETA' => 
-  array (
-    'KB' => 
-    array (
-      366 => 
-      array (
+      ],
+    ],
+  ],
+  'WETA' => [
+    'KB' => [
+      366 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'WSB' => 
-  array (
-    'S' => 
-    array (
-      14 => 
-      array (
+      ],
+    ],
+  ],
+  'WSB' => [
+    'S' => [
+      14 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'WSU' => 
-  array (
-    'KB' => 
-    array (
-      551 => 
-      array (
+      ],
+    ],
+  ],
+  'WSU' => [
+    'KB' => [
+      551 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'WTZ' => 
-  array (
-    'BUS' => 
-    array (
-      631 => 
-      array (
+      ],
+    ],
+  ],
+  'WTZ' => [
+    'BUS' => [
+      631 => [
         'bg' => '',
         'fg' => '',
-      ),
-      632 => 
-      array (
+      ],
+      632 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'ZB' => 
-  array (
-    'EXT' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'ZB' => [
+    'EXT' => [
+      'ALL_LINES' => [
         'bg' => '#ed232a',
         'fg' => '#ffffff',
-      ),
-    ),
-    'IR' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'IR' => [
+      'ALL_LINES' => [
         'bg' => '#ed232a',
         'fg' => '#ffffff',
-      ),
-    ),
-    'R' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'R' => [
+      'ALL_LINES' => [
         'bg' => '#003399',
         'fg' => '#ffffff',
-      ),
-    ),
-    'S' => 
-    array (
-      4 => 
-      array (
+      ],
+    ],
+    'S' => [
+      4 => [
         'bg' => '',
         'fg' => '',
-      ),
-      5 => 
-      array (
+      ],
+      5 => [
         'bg' => '',
         'fg' => '',
-      ),
-      44 => 
-      array (
+      ],
+      44 => [
         'bg' => '',
         'fg' => '',
-      ),
-      55 => 
-      array (
+      ],
+      55 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'ZB Bus F' => 
-  array (
-    'BUS' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'ZB Bus F' => [
+    'BUS' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-      2 => 
-      array (
+      ],
+      2 => [
         'bg' => '',
         'fg' => '',
-      ),
-      3 => 
-      array (
+      ],
+      3 => [
         'bg' => '',
         'fg' => '',
-      ),
-      4 => 
-      array (
+      ],
+      4 => [
         'bg' => '',
         'fg' => '',
-      ),
-      5 => 
-      array (
+      ],
+      5 => [
         'bg' => '',
         'fg' => '',
-      ),
-      6 => 
-      array (
+      ],
+      6 => [
         'bg' => '',
         'fg' => '',
-      ),
-      7 => 
-      array (
+      ],
+      7 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'ZBAG' => 
-  array (
-    'LB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'ZBAG' => [
+    'LB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-    'FUN' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'FUN' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-    'GB' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+    'GB' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'ZBB' => 
-  array (
-    'FUN' => 
-    array (
-      'ALL_LINES' => 
-      array (
+      ],
+    ],
+  ],
+  'ZBB' => [
+    'FUN' => [
+      'ALL_LINES' => [
         'bg' => '#91c1e6',
         'fg' => '#000000',
-      ),
-    ),
-  ),
-  'ZSG' => 
-  array (
-    'BAT' => 
-    array (
-      3730 => 
-      array (
+      ],
+    ],
+  ],
+  'ZSG' => [
+    'BAT' => [
+      3730 => [
         'bg' => '',
         'fg' => '',
-      ),
-      3732 => 
-      array (
+      ],
+      3732 => [
         'bg' => '',
         'fg' => '',
-      ),
-      3733 => 
-      array (
+      ],
+      3733 => [
         'bg' => '',
         'fg' => '',
-      ),
-      3734 => 
-      array (
+      ],
+      3734 => [
         'bg' => '',
         'fg' => '',
-      ),
-    ),
-  ),
-  'ZVB' => 
-  array (
-    'NFB' => 
-    array (
-      1 => 
-      array (
+      ],
+    ],
+  ],
+  'ZVB' => [
+    'NFB' => [
+      1 => [
         'bg' => '#8dc047',
         'fg' => '#000000',
-      ),
-      2 => 
-      array (
+      ],
+      2 => [
         'bg' => '#40b1da',
         'fg' => '#000000',
-      ),
-      3 => 
-      array (
+      ],
+      3 => [
         'bg' => '#b50e20',
         'fg' => '#ffffff',
-      ),
-      4 => 
-      array (
+      ],
+      4 => [
         'bg' => '#e47823',
         'fg' => '#000000',
-      ),
-      5 => 
-      array (
+      ],
+      5 => [
         'bg' => '#007133',
         'fg' => '#ffffff',
-      ),
-      6 => 
-      array (
+      ],
+      6 => [
         'bg' => '#1b2462',
         'fg' => '#ffffff',
-      ),
-      7 => 
-      array (
+      ],
+      7 => [
         'bg' => '#497747',
         'fg' => '#ffffff',
-      ),
-      8 => 
-      array (
+      ],
+      8 => [
         'bg' => '#00855d',
         'fg' => '#ffffff',
-      ),
-      9 => 
-      array (
+      ],
+      9 => [
         'bg' => '#50191b',
         'fg' => '#ffffff',
-      ),
-      10 => 
-      array (
+      ],
+      10 => [
         'bg' => '#ae6f9f',
         'fg' => '#000000',
-      ),
-      11 => 
-      array (
+      ],
+      11 => [
         'bg' => '#632a69',
         'fg' => '#ffffff',
-      ),
-      12 => 
-      array (
+      ],
+      12 => [
         'bg' => '#30a68e',
         'fg' => '#ffffff',
-      ),
-      13 => 
-      array (
+      ],
+      13 => [
         'bg' => '#0067a6',
         'fg' => '#ffffff',
-      ),
-      14 => 
-      array (
+      ],
+      14 => [
         'bg' => '#7f0b39',
         'fg' => '#ffffff',
-      ),
-      16 => 
-      array (
+      ],
+      16 => [
         'bg' => '#da5335',
         'fg' => '#ffffff',
-      ),
-      19 => 
-      array (
+      ],
+      19 => [
         'bg' => '',
         'fg' => '',
-      ),
-      21 => 
-      array (
+      ],
+      21 => [
         'bg' => '#745042',
         'fg' => '#ffffff',
-      ),
-      22 => 
-      array (
+      ],
+      22 => [
         'bg' => '#cd0a20',
         'fg' => '#ffffff',
-      ),
-      23 => 
-      array (
+      ],
+      23 => [
         'bg' => '#00855d',
         'fg' => '#ffffff',
-      ),
-      26 => 
-      array (
+      ],
+      26 => [
         'bg' => '',
         'fg' => '',
-      ),
-      31 => 
-      array (
+      ],
+      31 => [
         'bg' => '#d22d7a',
         'fg' => '#ffffff',
-      ),
-      32 => 
-      array (
+      ],
+      32 => [
         'bg' => '#004362',
         'fg' => '#ffffff',
-      ),
-      34 => 
-      array (
+      ],
+      34 => [
         'bg' => '#004b22',
         'fg' => '#ffffff',
-      ),
-      41 => 
-      array (
+      ],
+      41 => [
         'bg' => '#0088bc',
         'fg' => '#ffffff',
-      ),
-      42 => 
-      array (
+      ],
+      42 => [
         'bg' => '#3e1350',
         'fg' => '#ffffff',
-      ),
-      43 => 
-      array (
+      ],
+      43 => [
         'bg' => '#a08252',
         'fg' => '#ffffff',
-      ),
-      51 => 
-      array (
+      ],
+      51 => [
         'bg' => '#fed417',
         'fg' => '#000000',
-      ),
-      52 => 
-      array (
+      ],
+      52 => [
         'bg' => '#6e7c39',
         'fg' => '#ffffff',
-      ),
-      53 => 
-      array (
+      ],
+      53 => [
         'bg' => '#6d909e',
         'fg' => '#ffffff',
-      ),
-      101 => 
-      array (
+      ],
+      101 => [
         'bg' => '',
         'fg' => '',
-      ),
-      105 => 
-      array (
+      ],
+      105 => [
         'bg' => '',
         'fg' => '',
-      ),
-      106 => 
-      array (
+      ],
+      106 => [
         'bg' => '',
         'fg' => '',
-      ),
-      107 => 
-      array (
+      ],
+      107 => [
         'bg' => '',
         'fg' => '',
-      ),
-      347 => 
-      array (
+      ],
+      347 => [
         'bg' => '#0073aa',
         'fg' => '#ffffff',
-      ),
-      348 => 
-      array (
+      ],
+      348 => [
         'bg' => '#730d1a',
         'fg' => '#ffffff',
-      ),
-      'N1' => 
-      array (
+      ],
+      'N1' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N2' => 
-      array (
+      ],
+      'N2' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N3' => 
-      array (
+      ],
+      'N3' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N4' => 
-      array (
+      ],
+      'N4' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N5' => 
-      array (
+      ],
+      'N5' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N6' => 
-      array (
+      ],
+      'N6' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-      'N9' => 
-      array (
+      ],
+      'N9' => [
         'bg' => '#000000',
         'fg' => '#fff100',
-      ),
-    ),
-  ),
-);
+      ],
+    ],
+  ],
+];
