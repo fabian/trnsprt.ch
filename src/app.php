@@ -31,7 +31,6 @@ $app['agency_colors'] = $app->share(function () {
 });
 
 $app['get_agency_color'] = $app->protect(function ($operator, $category, $number) use ($app) {
-
     $agencyColors = $app['agency_colors'];
 
     if (isset($agencyColors[$operator][$category][$number]) && $agencyColors[$operator][$category][$number]['bg']) {
@@ -44,7 +43,6 @@ $app['get_agency_color'] = $app->protect(function ($operator, $category, $number
 });
 
 $app->error(function (\GuzzleHttp\Exception\ServerException $e, $code) use ($app) {
-
     return $app['twig']->render('error_api.html.twig', [
         'exception' => $e,
         'response'  => $e->getResponse(),
@@ -52,7 +50,6 @@ $app->error(function (\GuzzleHttp\Exception\ServerException $e, $code) use ($app
 });
 
 $app->error(function (\Exception $e, $code) use ($app) {
-
     if ($app['debug']) {
         return;
     }
@@ -136,7 +133,6 @@ $app->get('/from/{from}', function ($from, Request $request) use ($gotoConnectio
 ->assert('from', '.+');
 
 $app->get('/c', function (Request $request) use ($app) {
-
     $query = $request->query->all();
 
     $url = 'https://transport.opendata.ch/v1/connections?'.http_build_query($query);
@@ -185,8 +181,8 @@ $app->get('/c', function (Request $request) use ($app) {
             $datetime = date('Y-m-d H:i');
         }
 
-        foreach($connections as $connection) {
-            foreach($connection->sections as $section) {
+        foreach ($connections as $connection) {
+            foreach ($connection->sections as $section) {
                 if (is_object($section->journey)) {
                     $journey = $section->journey;
                     $color = $app['get_agency_color']($journey->operator, $journey->category, $journey->number);
@@ -213,7 +209,6 @@ $app->get('/c', function (Request $request) use ($app) {
 ->bind('_connections');
 
 $app->get('/s', function (Request $request) use ($app) {
-
     $query = $request->query->all();
 
     $url = 'https://transport.opendata.ch/v1/stationboard?'.http_build_query($query);
