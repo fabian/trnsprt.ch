@@ -135,7 +135,7 @@ $app->get('/from/{from}', function ($from, Request $request) use ($gotoConnectio
 $app->get('/c', function (Request $request) use ($app) {
     $query = $request->query->all();
 
-    $url = 'https://transport.opendata.ch/v1/connections?'.http_build_query($query);
+    $url = 'https://transport-beta.opendata.ch/v1/connections?'.http_build_query($query);
     $response = $app['client']->request('GET', $url);
     $response = json_decode($response->getBody());
 
@@ -211,7 +211,7 @@ $app->get('/c', function (Request $request) use ($app) {
 $app->get('/s', function (Request $request) use ($app) {
     $query = $request->query->all();
 
-    $url = 'https://transport.opendata.ch/v1/stationboard?'.http_build_query($query);
+    $url = 'https://transport-beta.opendata.ch/v1/stationboard?'.http_build_query($query);
     $response = $app['client']->request('GET', $url);
     $response = json_decode($response->getBody());
 
