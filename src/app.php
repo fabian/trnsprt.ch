@@ -71,11 +71,11 @@ $gotoConnections = function ($from, $to, $at, Request $request) use ($app) {
         Request::create($app['url_generator']->generate(
             '_connections',
             [
-                'from'     => $from,
-                'to'       => $to,
-                'datetime' => $at,
-                'c'        => $request->query->get('c'),
-                'page'     => $request->query->get('page'),
+                'from'          => $from,
+                'to'            => $to,
+                'datetime'      => $at,
+                'c'             => $request->query->get('c'),
+                'page'          => $request->query->get('page'),
                 'isArrivalTime' => $request->query->get('isArrivalTime'),
             ]
         )),
