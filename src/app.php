@@ -76,6 +76,7 @@ $gotoConnections = function ($from, $to, $at, Request $request) use ($app) {
                 'datetime' => $at,
                 'c'        => $request->query->get('c'),
                 'page'     => $request->query->get('page'),
+                'isArrivalTime' => $request->query->get('isArrivalTime'),
             ]
         )),
         HttpKernelInterface::SUB_REQUEST
