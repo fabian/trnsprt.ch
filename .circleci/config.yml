@@ -24,7 +24,8 @@ jobs:
       - checkout
       - add_ssh_keys
       - run: ssh-keyscan farnsworth.ch >> ~/.ssh/known_hosts
-      - deploy: ssh farnswor@farnsworth.ch 'cd /home/farnswor/public_html/trnsprt.ch && git pull --rebase --stat && php -d allow_url_fopen=on -d disable_functions=exec composer.phar install --no-dev --no-interaction && chmod -R u+rwX,go+rX,go-w .'
+      - deploy:
+          command: ssh farnswor@farnsworth.ch 'cd /home/farnswor/public_html/trnsprt.ch && git pull --rebase --stat && php -d allow_url_fopen=on -d disable_functions=exec composer.phar install --no-dev --no-interaction && chmod -R u+rwX,go+rX,go-w .'
 
 workflows:
   version: 2
