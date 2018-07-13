@@ -14,6 +14,7 @@ jobs:
           key: v1-{{ checksum "composer.lock" }}
           paths:
             - vendor
+      - run: mkdir -p /tmp/test-results
       - run: vendor/bin/phpunit --log-junit /tmp/test-results/phpunit/junit.xml
       - store_test_results:
           path: /tmp/circleci-test-results
