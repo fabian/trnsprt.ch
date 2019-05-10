@@ -21,7 +21,8 @@
        'from': from,
        'to': to,
        'at': datetime,
-       'page': page
+       'page': page,
+       'isArrivalTime': isArrivalTime
     })}}{% endif %}';
     </script>
 {% endblock %}
@@ -234,15 +235,15 @@
 
                 <div class="row">
                     <div class="col-xs-3">
-                        <a href="{{ path('connections', {'from': from, 'to': to, 'at': datetime, 'page': page - 1}) }}" tabindex="8">Earlier</a>
+                        <a href="{{ path('connections', {'from': from, 'to': to, 'at': datetime, 'page': page - 1, 'isArrivalTime': isArrivalTime}) }}" tabindex="8">Earlier</a>
                     </div>
                     <div class="col-xs-6 text-center">
                         <a href="{{ path('connections', {'from': to, 'to': from, 'at': datetime}) }}" tabindex="7">Opposite direction</a>
                         <br>
-                        <a href="sbbmobile://timetable?from={{ from|url_encode }}&amp;to={{ to|url_encode }}&amp;time={{ datetime|date('U') }}" tabindex="10">Open in SBB app</a>
+                        <a href="sbbmobile://timetable?from={{ from|url_encode }}&amp;to={{ to|url_encode }}&amp;time={{ datetime|date('U') }}&amp;timemode={{ isArrivalTime ? 'arrival' : 'departure' }}" tabindex="10">Open in SBB app</a>
                     </div>
                     <div class="col-xs-3 text-right">
-                        <a href="{{ path('connections', {'from': from, 'to': to, 'at': datetime, 'page': page + 1}) }}" tabindex="9">Later</a>
+                        <a href="{{ path('connections', {'from': from, 'to': to, 'at': datetime, 'page': page + 1, 'isArrivalTime': isArrivalTime}) }}" tabindex="9">Later</a>
                     </div>
                 </div>
             {% else %}

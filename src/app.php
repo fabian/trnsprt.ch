@@ -175,6 +175,7 @@ $app->get('/c', function (Request $request) use ($app) {
     $datetime = $request->query->get('datetime');
     $page = $request->query->get('page') ?: 0;
     $c = $request->query->get('c');
+    $isArrivalTime = $request->query->get('isArrivalTime');
     $connections = $response->connections;
 
     if ($connections) {
@@ -202,6 +203,7 @@ $app->get('/c', function (Request $request) use ($app) {
         'datetime'     => $datetime,
         'page'         => $page,
         'c'            => $c,
+        'isArrivalTime'=> $isArrivalTime,
         'stationsFrom' => $stationsFrom,
         'stationsTo'   => $stationsTo,
         'connections'  => $connections,
