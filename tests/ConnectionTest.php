@@ -2,7 +2,7 @@
 
 use Silex\WebTestCase;
 
-class ConntextionTest extends WebTestCase
+class ConnectionTest extends WebTestCase
 {
     public function createApplication()
     {
