@@ -4,6 +4,9 @@ on:
   push:
     branches: [ master ]
 
+env:
+  SSH_HOST_KEY: farnsworth.ch ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMj9AA28RF+rjoDPchzs5etxDkwe7Bocn5f4NJRVC0DU
+
 jobs:
   build:
 
@@ -17,3 +20,17 @@ jobs:
 
     - name: Run tests
       run: vendor/bin/phpunit
+
+    - name: Deploy via SSH
+      run: |
+        eval $(ssh-agent -s)
+        mkdir -p ~/.ssh
+        echo "${{ env.SSH_HOST_KEY }}" >> ~/.ssh/known_hosts
+        echo "${{ secrets.SSH_PRIVATE_KEY }}" | ssh-add -
+        ssh -o ForwardAgent=yes farnswor@farnsworth.ch <<END
+          sudo -s
+          cd /home/farnswor/public_html/trnsprt.ch &&
+          git pull --rebase --stat &&
+          php -d allow_url_fopen=on -d disable_functions=exec composer.phar install --no-dev --no-interaction &&
+          chmod -R u+rwX,go+rX,go-w .
+        END
