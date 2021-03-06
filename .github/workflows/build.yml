@@ -2,7 +2,7 @@ name: Build
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
 
 env:
   SSH_HOST_KEY: farnsworth.ch ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMj9AA28RF+rjoDPchzs5etxDkwe7Bocn5f4NJRVC0DU
