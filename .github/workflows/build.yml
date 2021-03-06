@@ -34,7 +34,6 @@ jobs:
         echo "${{ env.SSH_HOST_KEY }}" >> ~/.ssh/known_hosts
         echo "${{ secrets.SSH_PRIVATE_KEY }}" | ssh-add -
         ssh -o ForwardAgent=yes farnswor@farnsworth.ch <<END
-          sudo -s
           cd /home/farnswor/public_html/trnsprt.ch &&
           git pull --rebase --stat &&
           php -d allow_url_fopen=on -d disable_functions=exec composer.phar install --no-dev --no-interaction &&
