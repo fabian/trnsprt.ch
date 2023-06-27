@@ -9,8 +9,8 @@
 {% endblock %}
 
 {% block head %}
-<script src='https://api.mapbox.com/mapbox.js/v2.2.3/mapbox.js'></script>
-<link href='https://api.mapbox.com/mapbox.js/v2.2.3/mapbox.css' rel='stylesheet' />
+<script src="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.js"></script>
+<link href="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.css" rel="stylesheet" />
 {% endblock %}
 
 {% block content %}
@@ -36,22 +36,18 @@
             {% if coordinates %}
                 <div id="stationboard-map"></div>
                 <script type='text/javascript'>
-                    L.mapbox.accessToken = 'pk.eyJ1IjoiZXF1aXZhbGVuY2UiLCJhIjoiMFBRTUluVSJ9.7uRExGiymnKgvKfN9LvaMw';
-                    var map = L.mapbox.map('stationboard-map', 'mapbox://styles/equivalence/cljerus1u006t01qs2x0ce0mr')
-                        .setView([{{ coordinates.x }}, {{ coordinates.y }}], 14);
+                    mapboxgl.accessToken = 'pk.eyJ1IjoiZXF1aXZhbGVuY2UiLCJhIjoiMFBRTUluVSJ9.7uRExGiymnKgvKfN9LvaMw';
+                    const map = new mapboxgl.Map({
+                        container: 'stationboard-map',
+                        style: 'mapbox://styles/mapbox/streets-v12',
+                        center: [{{ coordinates.y }}, {{ coordinates.x }}],
+                        zoom: 14
+                    });
+                    map.addControl(new mapboxgl.NavigationControl({showCompass: false}));
 
-                    var geoJson = [{
-                        type: 'Feature',
-                        geometry: {
-                            type: 'Point',
-                            coordinates: [{{ coordinates.y }}, {{ coordinates.x }}]
-                        },
-                        properties: {
-                            'title': '{{ station }}',
-                            'marker-color': '#AF1E3A'
-                        }
-                    }];
-                    map.featureLayer.setGeoJSON(geoJson);
+                    const marker = new mapboxgl.Marker({ color: '#AF1E3A' })
+                        .setLngLat([{{ coordinates.y }}, {{ coordinates.x }}])
+                        .addTo(map);
                 </script>
               {% endif %}
 
