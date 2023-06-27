@@ -37,7 +37,7 @@
                 <div id="stationboard-map"></div>
                 <script type='text/javascript'>
                     L.mapbox.accessToken = 'pk.eyJ1IjoiZXF1aXZhbGVuY2UiLCJhIjoiMFBRTUluVSJ9.7uRExGiymnKgvKfN9LvaMw';
-                    var map = L.mapbox.map('stationboard-map', 'mapbox.streets')
+                    var map = L.mapbox.map('stationboard-map', 'mapbox://styles/equivalence/cljerus1u006t01qs2x0ce0mr')
                         .setView([{{ coordinates.x }}, {{ coordinates.y }}], 14);
 
                     var geoJson = [{
