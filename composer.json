@@ -16,6 +16,9 @@
         "symfony/css-selector": "~3.0"
     },
     "config": {
-        "component-dir": "web/components"
+        "component-dir": "web/components",
+		"platform": {
+			"php": "7.4"
+		}
     }
 }
