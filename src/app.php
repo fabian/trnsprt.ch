@@ -25,9 +25,9 @@ $app->register(new Silex\Provider\RoutingServiceProvider());
 
 $app['client'] = new GuzzleHttp\Client();
 
-$app['agency_colors'] = $app->share(function () {
+$app['agency_colors'] = function () {
     return require __DIR__.'/agency-colors.php';
-});
+};
 
 $app['get_agency_color'] = $app->protect(function ($operator, $category, $number) use ($app) {
     $agencyColors = $app['agency_colors'];
