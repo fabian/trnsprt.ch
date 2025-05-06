@@ -21,7 +21,7 @@ $app->register(new TwigServiceProvider(), [
     'twig.options' => ['cache' => __DIR__.'/../cache/twig', 'debug' => true],
 ]);
 
-$app->register(new Silex\Provider\UrlGeneratorServiceProvider());
+$app->register(new Silex\Provider\RoutingServiceProvider());
 
 $app['client'] = new GuzzleHttp\Client();
 
