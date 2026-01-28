@@ -10,3 +10,9 @@ Switzerland's important public transport websites do a lot of things, selling ti
 * `cd trnsprt.ch; composer install`
 * Create a VirtualHost serving up `./trnsprt.ch/web`
 * Done.
+
+## Run tests
+
+```
+docker compose run --rm web vendor/bin/phpunit
+```
