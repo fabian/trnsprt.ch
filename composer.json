@@ -1,7 +1,7 @@
 {
     "require": {
         "silex/silex": "~2.0",
-        "guzzlehttp/guzzle": "~6.0",
+        "guzzlehttp/guzzle": "~7.15",
         "twig/twig": "~2.0",
         "symfony/twig-bridge": "~3.0",
         "symfony/yaml": "~3.0"
