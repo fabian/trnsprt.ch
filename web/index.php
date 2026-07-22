@@ -1,4 +1,6 @@
 <?php
 
+use Symfony\Component\HttpFoundation\Request;
+
 $app = require __DIR__.'/../src/app.php';
-$app->run();
+$app->handle(Request::createFromGlobals())->send();
