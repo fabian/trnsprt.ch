@@ -36,6 +36,6 @@ jobs:
         ssh -o ForwardAgent=yes farnswor@farnsworth.ch <<END
           cd /home/farnswor/public_html/trnsprt.ch &&
           git pull --rebase --stat &&
-          php -d allow_url_fopen=on -d disable_functions=exec composer.phar install --no-dev --no-interaction &&
+          composer install --no-dev --no-interaction &&
           chmod -R u+rwX,go+rX,go-w .
         END
