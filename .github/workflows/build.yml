@@ -7,13 +7,13 @@ on:
 env:
   SSH_HOST_KEY: farnsworth.ch ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMj9AA28RF+rjoDPchzs5etxDkwe7Bocn5f4NJRVC0DU
 
+permissions:
+  contents: read
+
 jobs:
   build:
 
     runs-on: ubuntu-latest
-
-    permissions:
-      contents: read
 
     steps:
     - uses: actions/checkout@v2
