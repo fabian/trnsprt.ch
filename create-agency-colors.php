@@ -1,10 +1,11 @@
 <?php
 
-require_once __DIR__.'/vendor/autoload.php';
+require_once __DIR__ . '/vendor/autoload.php';
 
 use Symfony\Component\Yaml\Yaml;
+use Symfony\Component\VarExporter\VarExporter;
 
-$yaml = Yaml::parse(file_get_contents('https://raw.githubusercontent.com/vasile/swiss-transit-colors/master/agency_colors.yml'));
+$yaml = Yaml::parse(file_get_contents('https://raw.githubusercontent.com/vasile/swiss-transit-colors/master/agency_colors.yml'), 0, 128, 1000);
 
 $agencies = [];
 foreach ($yaml['agency'] as $agency) {
@@ -15,6 +16,6 @@ foreach ($yaml['agency'] as $agency) {
     }
 }
 
-$export = var_export($agencies, true);
+$export = VarExporter::export($agencies);
 
-file_put_contents(__DIR__.'/src/agency-colors.php', "<?php\nreturn $export;\n");
+file_put_contents(__DIR__ . '/src/agency-colors.php', "<?php\nreturn $export;\n");
