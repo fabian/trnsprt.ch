@@ -4,6 +4,7 @@
         "guzzlehttp/guzzle": "^8.0",
         "symfony/http-foundation": "^7.4",
         "symfony/http-kernel": "^7.4",
+        "symfony/config": "^7.4",
         "symfony/routing": "^7.4",
         "twig/twig": "^3.0"
     },

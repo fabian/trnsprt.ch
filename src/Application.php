@@ -1,7 +1,5 @@
 <?php
 
-declare(strict_types=1);
-
 namespace Trnsprt;
 
 use GuzzleHttp\Client;
@@ -10,18 +8,17 @@ use GuzzleHttp\Exception\ServerException;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpKernel\HttpKernelInterface;
+use Symfony\Component\Routing\Attribute\Route;
 use Symfony\Component\Routing\Exception\ResourceNotFoundException;
 use Symfony\Component\Routing\Generator\UrlGenerator;
 use Symfony\Component\Routing\Matcher\UrlMatcher;
 use Symfony\Component\Routing\RequestContext;
-use Symfony\Component\Routing\Route;
-use Symfony\Component\Routing\RouteCollection;
 use Twig\Environment;
 use Twig\Extension\DebugExtension;
 use Twig\Loader\FilesystemLoader;
 use Twig\TwigFunction;
 
-final class Application implements HttpKernelInterface
+class Application implements HttpKernelInterface
 {
     private array $agencyColors;
     private ClientInterface $client;
@@ -37,7 +34,9 @@ final class Application implements HttpKernelInterface
         $this->client = $client ?? new Client();
         $this->debug = $debug;
 
-        $routes = $this->createRoutes();
+        $routesLoader = new AttributeRouteLoader();
+        $routes = $routesLoader->load(self::class);
+
         $this->requestContext = new RequestContext();
         $this->urlGenerator = new UrlGenerator($routes, $this->requestContext);
         $this->urlMatcher = new UrlMatcher($routes, $this->requestContext);
@@ -62,16 +61,8 @@ final class Application implements HttpKernelInterface
             $this->requestContext->fromRequest($request);
             $route = $this->urlMatcher->match($request->getPathInfo());
 
-            return match ($route['_handler']) {
-                'connections' => $this->connections(
-                    $request,
-                    $route['from'] ?? '',
-                    $route['to'] ?? '',
-                    $route['at'] ?? ''
-                ),
-                'connections_api' => $this->renderConnections($request->query->all()),
-                'stationboard' => $this->stationboard($request),
-            };
+            $controller = $route['_controller'];
+            return $this->{$controller}($request, $route);
         } catch (ResourceNotFoundException) {
             return $this->render('404.html.twig', [], Response::HTTP_NOT_FOUND);
         } catch (ServerException $exception) {
@@ -94,39 +85,23 @@ final class Application implements HttpKernelInterface
         }
     }
 
-    private function createRoutes(): RouteCollection
+    #[Route('/', name: 'home', defaults: ['from' => '', 'to' => '', 'at' => ''], methods: ['GET'])]
+    #[Route('/to/{to}/from/{from}/at/{at}', name: 'connections', methods: ['GET'])]
+    #[Route('/to/{to}/from/{from}', name: 'connections_to_from', defaults: ['at' => ''], methods: ['GET'])]
+    #[Route('/from/{from}/to/{to}/at/{at}', name: 'connections_from_to_at', methods: ['GET'])]
+    #[Route('/from/{from}/to/{to}', name: 'connections_from_to', defaults: ['at' => ''], methods: ['GET'])]
+    #[Route('/to/{to}/at/{at}', name: 'connections_to_at', defaults: ['from' => ''], methods: ['GET'])]
+    #[Route('/to/{to}', name: 'connections_to', defaults: ['from' => '', 'at' => ''], methods: ['GET'])]
+    #[Route('/from/{from}/at/{at}', name: 'connections_from_at', defaults: ['to' => ''], methods: ['GET'])]
+    #[Route('/from/{from}', name: 'connections_from', defaults: ['to' => '', 'at' => ''], methods: ['GET'])]
+    #[Route('/c', name: 'connections_api', methods: ['GET'])]
+    public function connections(Request $request, array $route): Response
     {
-        $routes = new RouteCollection();
-        foreach ([
-            'home' => ['/', ['_handler' => 'connections', 'from' => '', 'to' => '', 'at' => '']],
-            'connections' => ['/to/{to}/from/{from}/at/{at}', ['_handler' => 'connections']],
-            'connections_to_from' => ['/to/{to}/from/{from}', ['_handler' => 'connections', 'at' => '']],
-            'connections_from_to_at' => ['/from/{from}/to/{to}/at/{at}', ['_handler' => 'connections']],
-            'connections_from_to' => ['/from/{from}/to/{to}', ['_handler' => 'connections', 'at' => '']],
-            'connections_to_at' => ['/to/{to}/at/{at}', ['_handler' => 'connections', 'from' => '']],
-            'connections_to' => ['/to/{to}', ['_handler' => 'connections', 'from' => '', 'at' => '']],
-            'connections_from_at' => ['/from/{from}/at/{at}', ['_handler' => 'connections', 'to' => '']],
-            'connections_from' => ['/from/{from}', ['_handler' => 'connections', 'to' => '', 'at' => '']],
-            'connections_api' => ['/c', ['_handler' => 'connections_api']],
-            'stationboard' => ['/s', ['_handler' => 'stationboard']],
-        ] as $name => [$path, $defaults]) {
-            $routes->add($name, new Route($path, $defaults, methods: ['GET']));
-        }
-
-        return $routes;
-    }
-
-    private function connections(Request $request, string $from, string $to, string $at): Response
-    {
-        return $this->renderConnections(array_merge($request->query->all(), [
-            'from' => $from,
-            'to' => $to,
-            'datetime' => $at,
-        ]));
-    }
-
-    private function renderConnections(array $query): Response
-    {
+        $query = array_merge($request->query->all(), [
+            'from' => $route['from'] ?? '',
+            'to' => $route['to'] ?? '',
+            'datetime' => $route['at'] ?? '',
+        ]);
         $response = $this->fetch('connections', $query);
 
         $from = $query['from'] ?? null;
@@ -175,7 +150,8 @@ final class Application implements HttpKernelInterface
         ]);
     }
 
-    private function stationboard(Request $request): Response
+    #[Route('/s', name: 'stationboard', methods: ['GET'])]
+    public function stationboard(Request $request, array $route): Response
     {
         $query = $request->query->all();
         $response = $this->fetch('stationboard', $query);

@@ -5,26 +5,77 @@ use GuzzleHttp\Client;
 use GuzzleHttp\Handler\MockHandler;
 use GuzzleHttp\HandlerStack;
 use GuzzleHttp\Psr7\Response;
+use PHPUnit\Framework\Attributes\DataProvider;
 use Symfony\Component\HttpFoundation\Request;
 use Trnsprt\Application;
 
 class ConnectionTest extends TestCase
 {
-    public function testHome()
+    public static function routes(): array
+    {
+        return [
+            'home' => ['/', 200, 'name="from"'],
+            'connections' => ['/from/Zürich/to/Bern', 200, 'name="from"'],
+            'destination' => ['/to/Bern', 200, 'name="from"'],
+            'origin' => ['/from/Zürich', 200, 'name="from"'],
+            'connections API' => ['/c?from=Zürich&to=Bern', 200, 'name="from"'],
+            'stationboard' => ['/s?station=Zürich', 200, 'name="station"'],
+            'not found' => ['/not-found', 404, '404 Not Found'],
+        ];
+    }
+
+    #[DataProvider('routes')]
+    public function testRoutes(string $path, int $status, string $content): void
+    {
+        $response = $this->application()->handle(Request::create($path));
+
+        self::assertSame($status, $response->getStatusCode());
+        self::assertStringContainsString($content, $response->getContent());
+    }
+
+    public function testConnectionRouteParameters(): void
+    {
+        $mock = new MockHandler([$this->apiResponse()]);
+        $app = new Application(false, new Client(['handler' => HandlerStack::create($mock)]));
+
+        $app->handle(Request::create('/from/Zürich/to/Bern/at/08:00'));
+
+        parse_str($mock->getLastRequest()?->getUri()->getQuery(), $query);
+        self::assertSame([
+            'from' => 'Zürich',
+            'to' => 'Bern',
+            'datetime' => '08:00',
+        ], $query);
+    }
+
+    public function testApiErrorPage(): void
+    {
+        $response = $this->application(new Response(500, [], 'Unavailable'))->handle(Request::create('/'));
+
+        self::assertSame(500, $response->getStatusCode());
+        self::assertStringContainsString('There was an error connecting to the Transport API', $response->getContent());
+    }
+
+    private function application(?Response $response = null): Application
+    {
+        $mock = new MockHandler([$response ?? $this->apiResponse()]);
+
+        return new Application(false, new Client([
+            'handler' => HandlerStack::create($mock),
+        ]));
+    }
+
+    private function apiResponse(): Response
     {
         $apiResponse = json_encode([
             'from' => null,
             'to' => null,
             'stations' => ['from' => [], 'to' => []],
             'connections' => [],
+            'station' => null,
+            'stationboard' => [],
         ], JSON_THROW_ON_ERROR);
-        $mock = new MockHandler([new Response(200, [], $apiResponse)]);
-        $app = new Application(false, new Client([
-            'handler' => HandlerStack::create($mock),
-        ]));
-        $response = $app->handle(Request::create('/'));
 
-        self::assertTrue($response->isOk());
-        self::assertStringContainsString('Swiss Public Transport', $response->getContent());
+        return new Response(200, [], $apiResponse);
     }
 }
