@@ -9,7 +9,7 @@ use PHPUnit\Framework\Attributes\DataProvider;
 use Symfony\Component\HttpFoundation\Request;
 use Trnsprt\Application;
 
-class ConnectionTest extends TestCase
+class ApplicationTest extends TestCase
 {
     public static function routes(): array
     {
