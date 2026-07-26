@@ -124,9 +124,9 @@ $(function () {
         var to = $('input[name=to]').val(),
             datetime = $('input[name=datetime]').val(),
             url =
-                '/to/' +  to +
-                (from ? '/from/' + from : '') +
-                (datetime ? '/at/' + datetime : '');
+                '/to/' +  encodeURIComponent(to) +
+                (from ? '/from/' + encodeURIComponent(from) : '') +
+                (datetime ? '/at/' + encodeURIComponent(datetime) : '');
 
         e.preventDefault();
         location.replace(url);
