@@ -13,7 +13,7 @@ class Controller
     ) {
     }
 
-    #[Route('/', name: 'home', defaults: ['from' => '', 'to' => '', 'at' => ''], methods: ['GET'])]
+    #[Route('/', name: 'home', methods: ['GET'])]
     #[Route('/to/{to}/from/{from}/at/{at}', name: 'connections', methods: ['GET'])]
     #[Route('/to/{to}/from/{from}', name: 'connections_to_from', defaults: ['at' => ''], methods: ['GET'])]
     #[Route('/from/{from}/to/{to}/at/{at}', name: 'connections_from_to_at', methods: ['GET'])]
