@@ -9,6 +9,6 @@ class AttributeRouteLoader extends AttributeClassLoader
 {
     protected function configureRoute(Route $route, \ReflectionClass $class, \ReflectionMethod $method, object $attr): void
     {
-        $route->setDefault('_controller', $method->getName());
+        $route->setDefault(name: '_method', default: $method->getName());
     }
 }
