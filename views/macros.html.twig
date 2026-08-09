@@ -1,0 +1,13 @@
+{% macro occupancy(level) %}
+    {% if level > 0 %}
+        <small title="Expected occupancy 2nd class">
+            {%- for i in [0, 1, 2] -%}
+                {%- if i < level -%}
+                    <span class="glyphicon glyphicon-user text-muted"></span>
+                {%- else -%}
+                    <span class="glyphicon glyphicon-user text-disabled"></span>
+                {%- endif -%}
+            {%- endfor -%}
+        </small>
+    {% endif %}
+{% endmacro %}

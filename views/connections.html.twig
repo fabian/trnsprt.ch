@@ -1,5 +1,7 @@
 {% extends "base.html.twig" %}
 
+{% import "macros.html.twig" as macros %}
+
 {% block title %}
 {% if connections %}
     {{ from }} – {{ to }}
@@ -131,17 +133,7 @@
                                         {{ connection.from.platform }}
                                     {% endif %}
                                     <br/>
-                                    {% if connection.capacity2nd > 0 %}
-                                        <small title="Expected occupancy 2nd class">
-                                            {%- for i in [0, 1, 2] -%}
-                                                {%- if i < connection.capacity2nd -%}
-                                                    <span class="glyphicon glyphicon-user text-muted"></span>
-                                                {%- else -%}
-                                                    <span class="glyphicon glyphicon-user text-disabled"></span>
-                                                {%- endif -%}
-                                            {%- endfor -%}
-                                        </small>
-                                    {% endif %}
+                                    {{ macros.occupancy(connection.capacity2nd) }}
                                 </td>
                             </tr>
                             {% for section in connection.sections %}
@@ -181,17 +173,9 @@
                                         </span>
                                     </td>
                                     <td style="border-top: 0; padding: 4px 8px;">
-                                        <small title="Expected occupancy 2nd class">
-                                            {% if section.journey and section.journey.capacity2nd > 0 %}
-                                                {%- for i in [0, 1, 2] -%}
-                                                    {%- if i < section.journey.capacity2nd -%}
-                                                        <span class="glyphicon glyphicon-user text-muted"></span>
-                                                    {%- else -%}
-                                                        <span class="glyphicon glyphicon-user text-disabled"></span>
-                                                    {%- endif -%}
-                                                {%- endfor -%}
-                                            {% endif %}
-                                        </small>
+                                        {% if section.journey %}
+                                            {{ macros.occupancy(section.journey.capacity2nd) }}
+                                        {% endif %}
                                     </td>
                                 </tr>
                                 <tr class="section"{% if loop.parent.loop.index != c %} style="display: none;"{% endif %}>

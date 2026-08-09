@@ -1,5 +1,7 @@
 {% extends "base.html.twig" %}
 
+{% import "macros.html.twig" as macros %}
+
 {% block title %}
 {% if stationboard %}
     {{ station }}
@@ -95,17 +97,7 @@
                                     {{ journey.stop.platform }}
                                 {% endif %}
                                 <br/>
-                                {% if journey.stop.prognosis.capacity2nd > 0 %}
-                                    <small title="Expected occupancy 2nd class">
-                                        {%- for i in [0, 1, 2] -%}
-                                            {%- if i < journey.stop.prognosis.capacity2nd -%}
-                                                <span class="glyphicon glyphicon-user text-muted"></span>
-                                            {%- else -%}
-                                                <span class="glyphicon glyphicon-user text-disabled"></span>
-                                            {%- endif -%}
-                                        {%- endfor -%}
-                                    </small>
-                                {% endif %}
+                                {{ macros.occupancy(journey.stop.prognosis.capacity2nd) }}
                             </td>
                         </tr>
                     </tbody>
