@@ -8,7 +8,7 @@ Switzerland's important public transport websites do a lot of things, selling ti
 
 PHP 8.4 or newer is required.
 
-* `git clone git://github.com/fabian/trnsprt.ch.git`
+* `git clone https://github.com/fabian/trnsprt.ch.git`
 * `cd trnsprt.ch; composer install`
 * Create a VirtualHost serving up `./trnsprt.ch/web`
 * Done.

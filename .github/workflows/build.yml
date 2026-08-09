@@ -3,6 +3,7 @@ name: Build
 on:
   push:
     branches: [ main ]
+  pull_request:
 
 env:
   SSH_HOST_KEY: farnsworth.ch ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMj9AA28RF+rjoDPchzs5etxDkwe7Bocn5f4NJRVC0DU
@@ -16,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v4
 
     - name: Install PHP
       uses: shivammathur/setup-php@v2
@@ -31,6 +32,7 @@ jobs:
       run: vendor/bin/phpunit
 
     - name: Deploy via SSH
+      if: github.event_name == 'push'
       run: |
         eval $(ssh-agent -s)
         mkdir -p ~/.ssh

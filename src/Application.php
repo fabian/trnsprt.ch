@@ -13,6 +13,7 @@ use Symfony\Component\HttpKernel\Controller\ArgumentResolver\QueryParameterValue
 use Symfony\Component\HttpKernel\Controller\ArgumentResolverInterface;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 use Symfony\Component\HttpKernel\HttpKernelInterface;
+use Symfony\Component\Routing\Exception\MethodNotAllowedException;
 use Symfony\Component\Routing\Exception\ResourceNotFoundException;
 use Symfony\Component\Routing\Generator\UrlGenerator;
 use Symfony\Component\Routing\Matcher\UrlMatcher;
@@ -37,7 +38,7 @@ class Application implements HttpKernelInterface
     public function __construct(bool $debug = false, ?ClientInterface $client = null)
     {
         $this->agencyColors = require __DIR__.'/agency-colors.php';
-        $this->client = $client ?? new Client();
+        $this->client = $client ?? new Client(['timeout' => 10, 'connect_timeout' => 5]);
         $this->debug = $debug;
 
         $routes = new AttributeRouteLoader()->load(Controller::class);
@@ -77,23 +78,20 @@ class Application implements HttpKernelInterface
             $arguments = $this->argumentResolver->getArguments($request, $controller);
 
             return $controller(...$arguments);
-        } catch (ResourceNotFoundException|NotFoundHttpException) {
+        } catch (ResourceNotFoundException|MethodNotAllowedException|NotFoundHttpException) {
             return $this->render('404.html.twig', [], Response::HTTP_NOT_FOUND);
         } catch (RequestExceptionInterface $exception) {
             if ($this->debug || !$catch) {
                 throw $exception;
             }
 
-            return $this->render('error.html.twig', [
-                'exception' => $exception,
-            ], Response::HTTP_BAD_REQUEST);
+            return $this->render('error.html.twig', [], Response::HTTP_BAD_REQUEST);
         } catch (ServerException $exception) {
             if ($this->debug || !$catch) {
                 throw $exception;
             }
 
             return $this->render('error_api.html.twig', [
-                'exception' => $exception,
                 'response' => $exception->getResponse(),
             ], Response::HTTP_INTERNAL_SERVER_ERROR);
         } catch (\Throwable $exception) {
@@ -101,9 +99,7 @@ class Application implements HttpKernelInterface
                 throw $exception;
             }
 
-            return $this->render('error.html.twig', [
-                'exception' => $exception,
-            ], Response::HTTP_INTERNAL_SERVER_ERROR);
+            return $this->render('error.html.twig', [], Response::HTTP_INTERNAL_SERVER_ERROR);
         }
     }
 
@@ -120,7 +116,7 @@ class Application implements HttpKernelInterface
     {
         $url = "https://transport.opendata.ch/v1/$endpoint?".http_build_query($query);
 
-        return json_decode((string) $this->client->request('GET', $url)->getBody());
+        return json_decode((string) $this->client->request('GET', $url)->getBody(), flags: JSON_THROW_ON_ERROR);
     }
 
     public function render(string $template, array $context, int $status = Response::HTTP_OK): Response
