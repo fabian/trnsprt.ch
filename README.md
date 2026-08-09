@@ -6,12 +6,10 @@ Switzerland's important public transport websites do a lot of things, selling ti
 
 ## Installation
 
-PHP 8.4 or newer is required.
-
 * `git clone https://github.com/fabian/trnsprt.ch.git`
 * `cd trnsprt.ch; composer install`
-* Create a VirtualHost serving up `./trnsprt.ch/web`
-* Done.
+* `docker compose up -d`
+* Open http://localhost:8000
 
 ## Run tests
 
