@@ -55,6 +55,7 @@ class Application implements HttpKernelInterface
 
         $this->twig = new Environment(new FilesystemLoader(__DIR__.'/../views'), [
             'cache' => __DIR__.'/../cache/twig',
+            'auto_reload' => true,
             'debug' => $this->debug,
         ]);
         $this->twig->addFunction(new TwigFunction(
