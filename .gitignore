@@ -1,4 +1,5 @@
 /cache/
 /vendor/
+.phpunit.result.cache
 /web/components/
 /keys/

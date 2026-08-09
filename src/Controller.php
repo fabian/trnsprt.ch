@@ -4,6 +4,7 @@ namespace Trnsprt;
 
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
+use Symfony\Component\HttpKernel\Attribute\MapQueryParameter;
 use Symfony\Component\Routing\Attribute\Route;
 
 class Controller
@@ -15,40 +16,38 @@ class Controller
 
     #[Route('/', name: 'home', methods: ['GET'])]
     #[Route('/to/{to}/from/{from}/at/{at}', name: 'connections', methods: ['GET'])]
-    #[Route('/to/{to}/from/{from}', name: 'connections_to_from', defaults: ['at' => ''], methods: ['GET'])]
+    #[Route('/to/{to}/from/{from}', name: 'connections_to_from', methods: ['GET'])]
     #[Route('/from/{from}/to/{to}/at/{at}', name: 'connections_from_to_at', methods: ['GET'])]
-    #[Route('/from/{from}/to/{to}', name: 'connections_from_to', defaults: ['at' => ''], methods: ['GET'])]
-    #[Route('/to/{to}/at/{at}', name: 'connections_to_at', defaults: ['from' => ''], methods: ['GET'])]
-    #[Route('/to/{to}', name: 'connections_to', defaults: ['from' => '', 'at' => ''], methods: ['GET'])]
-    #[Route('/from/{from}/at/{at}', name: 'connections_from_at', defaults: ['to' => ''], methods: ['GET'])]
-    #[Route('/from/{from}', name: 'connections_from', defaults: ['to' => '', 'at' => ''], methods: ['GET'])]
+    #[Route('/from/{from}/to/{to}', name: 'connections_from_to', methods: ['GET'])]
+    #[Route('/to/{to}/at/{at}', name: 'connections_to_at', methods: ['GET'])]
+    #[Route('/to/{to}', name: 'connections_to', methods: ['GET'])]
+    #[Route('/from/{from}/at/{at}', name: 'connections_from_at', methods: ['GET'])]
+    #[Route('/from/{from}', name: 'connections_from', methods: ['GET'])]
     #[Route('/c', name: 'connections_api', methods: ['GET'])]
-    public function connections(Request $request, array $route): Response
-    {
-        $query = array_merge($request->query->all(), [
-            'from' => $route['from'] ?? '',
-            'to' => $route['to'] ?? '',
-            'datetime' => $route['at'] ?? '',
-        ]);
+    public function connections(
+        Request $request,
+        string $from = '',
+        string $to = '',
+        string $at = '',
+        #[MapQueryParameter] int $page = 0,
+        #[MapQueryParameter] ?int $c = null,
+        #[MapQueryParameter] ?string $isArrivalTime = null,
+    ): Response {
+        $query = [
+            ...$request->query->all(),
+            'from' => $from ?: $request->query->getString('from'),
+            'to' => $to ?: $request->query->getString('to'),
+            'datetime' => $at ?: $request->query->getString('datetime'),
+        ];
         $response = $this->app->fetch('connections', $query);
 
-        $from = $query['from'] ?? null;
-        if ($response->from) {
-            $from = $response->from->name;
-        }
-
-        $to = $query['to'] ?? null;
-        if ($response->to) {
-            $to = $response->to->name;
-        }
+        $from = $response->from ? $response->from->name : $query['from'];
+        $to = $response->to ? $response->to->name : $query['to'];
 
         $stationsFrom = $this->stationSuggestions($response->stations->from);
         $stationsTo = $this->stationSuggestions($response->stations->to);
 
-        $datetime = $query['datetime'] ?? null;
-        $page = $query['page'] ?? 0;
-        $c = $query['c'] ?? null;
-        $isArrivalTime = $query['isArrivalTime'] ?? null;
+        $datetime = $query['datetime'];
         $connections = $response->connections;
 
         if ($connections) {
@@ -79,19 +78,19 @@ class Controller
     }
 
     #[Route('/s', name: 'stationboard', methods: ['GET'])]
-    public function stationboard(Request $request, array $route): Response
-    {
-        $query = $request->query->all();
-        $response = $this->app->fetch('stationboard', $query);
+    public function stationboard(
+        Request $request,
+        #[MapQueryParameter] ?string $station = null,
+        #[MapQueryParameter] ?string $datetime = null,
+    ): Response {
+        $response = $this->app->fetch('stationboard', $request->query->all());
 
-        $station = $query['station'] ?? null;
         $coordinates = null;
         if ($response->station) {
             $station = $response->station->name;
             $coordinates = $response->station->coordinate;
         }
 
-        $datetime = $query['datetime'] ?? null;
         $stationboard = $response->stationboard;
 
         foreach ($stationboard as $journey) {

@@ -48,6 +48,45 @@ class ApplicationTest extends TestCase
         ], $query);
     }
 
+    public function testConnectionQueryParameters(): void
+    {
+        $mock = new MockHandler([$this->apiResponse()]);
+        $app = new Application(false, new Client(['handler' => HandlerStack::create($mock)]));
+
+        $app->handle(Request::create('/c?from=Zürich&to=Bern&page=1'));
+
+        parse_str($mock->getLastRequest()?->getUri()->getQuery(), $query);
+        self::assertSame([
+            'from' => 'Zürich',
+            'to' => 'Bern',
+            'page' => '1',
+            'datetime' => '',
+        ], $query);
+    }
+
+    public function testRouteParametersTakePrecedenceOverQuery(): void
+    {
+        $mock = new MockHandler([$this->apiResponse()]);
+        $app = new Application(false, new Client(['handler' => HandlerStack::create($mock)]));
+
+        $app->handle(Request::create('/from/Basel/to/Genf?from=Zürich&to=Bern'));
+
+        parse_str($mock->getLastRequest()?->getUri()->getQuery(), $query);
+        self::assertSame([
+            'from' => 'Basel',
+            'to' => 'Genf',
+            'datetime' => '',
+        ], $query);
+    }
+
+    public function testInvalidQueryParameterNotFound(): void
+    {
+        $response = $this->application()->handle(Request::create('/?page=invalid'));
+
+        self::assertSame(404, $response->getStatusCode());
+        self::assertStringContainsString('404 Not Found', $response->getContent());
+    }
+
     public function testApiErrorPage(): void
     {
         $response = $this->application(new Response(500, [], 'Unavailable'))->handle(Request::create('/'));

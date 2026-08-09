@@ -7,8 +7,11 @@ use GuzzleHttp\ClientInterface;
 use GuzzleHttp\Exception\ServerException;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
+use Symfony\Component\HttpKernel\Controller\ArgumentResolver;
+use Symfony\Component\HttpKernel\Controller\ArgumentResolver\QueryParameterValueResolver;
+use Symfony\Component\HttpKernel\Controller\ArgumentResolverInterface;
+use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 use Symfony\Component\HttpKernel\HttpKernelInterface;
-use Symfony\Component\Routing\Attribute\Route;
 use Symfony\Component\Routing\Exception\ResourceNotFoundException;
 use Symfony\Component\Routing\Generator\UrlGenerator;
 use Symfony\Component\Routing\Matcher\UrlMatcher;
@@ -27,6 +30,7 @@ class Application implements HttpKernelInterface
     private UrlMatcher $urlMatcher;
     private RequestContext $requestContext;
     private Controller $controller;
+    private ArgumentResolverInterface $argumentResolver;
     private Environment $twig;
 
     public function __construct(bool $debug = false, ?ClientInterface $client = null)
@@ -35,14 +39,17 @@ class Application implements HttpKernelInterface
         $this->client = $client ?? new Client();
         $this->debug = $debug;
 
-        $routesLoader = new AttributeRouteLoader();
-        $routes = $routesLoader->load(Controller::class);
+        $routes = new AttributeRouteLoader()->load(Controller::class);
 
         $this->requestContext = new RequestContext();
         $this->urlGenerator = new UrlGenerator($routes, $this->requestContext);
         $this->urlMatcher = new UrlMatcher($routes, $this->requestContext);
 
         $this->controller = new Controller(app: $this);
+        $this->argumentResolver = new ArgumentResolver(argumentValueResolvers: [
+            new QueryParameterValueResolver(),
+            ...ArgumentResolver::getDefaultArgumentValueResolvers(),
+        ]);
 
         $this->twig = new Environment(new FilesystemLoader(__DIR__.'/../views'), [
             'cache' => __DIR__.'/../cache/twig',
@@ -63,11 +70,13 @@ class Application implements HttpKernelInterface
         try {
             $this->requestContext->fromRequest($request);
 
-            $route = $this->urlMatcher->match($request->getPathInfo());
-            $method = $route['_method'];
+            $request->attributes->add($this->urlMatcher->match($request->getPathInfo()));
 
-            return $this->controller->{$method}($request, $route);
-        } catch (ResourceNotFoundException) {
+            $controller = $this->controller->{$request->attributes->get('_method')}(...);
+            $arguments = $this->argumentResolver->getArguments($request, $controller);
+
+            return $controller(...$arguments);
+        } catch (ResourceNotFoundException|NotFoundHttpException) {
             return $this->render('404.html.twig', [], Response::HTTP_NOT_FOUND);
         } catch (ServerException $exception) {
             if ($this->debug || !$catch) {
