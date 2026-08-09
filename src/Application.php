@@ -5,6 +5,7 @@ namespace Trnsprt;
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
 use GuzzleHttp\Exception\ServerException;
+use Symfony\Component\HttpFoundation\Exception\RequestExceptionInterface;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpKernel\Controller\ArgumentResolver;
@@ -78,6 +79,14 @@ class Application implements HttpKernelInterface
             return $controller(...$arguments);
         } catch (ResourceNotFoundException|NotFoundHttpException) {
             return $this->render('404.html.twig', [], Response::HTTP_NOT_FOUND);
+        } catch (RequestExceptionInterface $exception) {
+            if ($this->debug || !$catch) {
+                throw $exception;
+            }
+
+            return $this->render('error.html.twig', [
+                'exception' => $exception,
+            ], Response::HTTP_BAD_REQUEST);
         } catch (ServerException $exception) {
             if ($this->debug || !$catch) {
                 throw $exception;

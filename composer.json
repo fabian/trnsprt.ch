@@ -6,7 +6,8 @@
         "symfony/http-kernel": "^8.1",
         "symfony/config": "^8.1",
         "symfony/routing": "^8.1",
-        "twig/twig": "^3.0"
+        "twig/twig": "^3.0",
+        "symfony/error-handler": "^8.1"
     },
     "require-dev": {
         "phpunit/phpunit": "^13.0",

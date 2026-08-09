@@ -87,6 +87,14 @@ class ApplicationTest extends TestCase
         self::assertStringContainsString('404 Not Found', $response->getContent());
     }
 
+    public function testMalformedQueryParameterBadRequest(): void
+    {
+        $response = $this->application()->handle(Request::create('/?from[]=1'));
+
+        self::assertSame(400, $response->getStatusCode());
+        self::assertStringContainsString('An error occured', $response->getContent());
+    }
+
     public function testApiErrorPage(): void
     {
         $response = $this->application(new Response(500, [], 'Unavailable'))->handle(Request::create('/'));

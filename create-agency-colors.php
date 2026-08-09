@@ -5,7 +5,7 @@ require_once __DIR__ . '/vendor/autoload.php';
 use Symfony\Component\Yaml\Yaml;
 use Symfony\Component\VarExporter\VarExporter;
 
-$yaml = Yaml::parse(file_get_contents('https://raw.githubusercontent.com/vasile/swiss-transit-colors/master/agency_colors.yml'), 0, 128, 1000);
+$yaml = Yaml::parse(file_get_contents('https://raw.githubusercontent.com/vasile/swiss-transit-colors/master/agency_colors.yml'), maxAliasesForCollections: 1000);
 
 $agencies = [];
 foreach ($yaml['agency'] as $agency) {
