@@ -86,7 +86,9 @@ class Application implements HttpKernelInterface
                 throw $exception;
             }
 
-            return $this->render('error.html.twig', [], Response::HTTP_BAD_REQUEST);
+            return $this->render('error.html.twig', [
+                'exception' => $exception,
+            ], Response::HTTP_BAD_REQUEST);
         } catch (ServerException $exception) {
             if ($this->debug || !$catch) {
                 throw $exception;
@@ -100,7 +102,9 @@ class Application implements HttpKernelInterface
                 throw $exception;
             }
 
-            return $this->render('error.html.twig', [], Response::HTTP_INTERNAL_SERVER_ERROR);
+            return $this->render('error.html.twig', [
+                'exception' => $exception,
+            ], Response::HTTP_INTERNAL_SERVER_ERROR);
         }
     }
 
